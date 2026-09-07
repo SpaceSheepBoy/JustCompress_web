@@ -55,8 +55,17 @@ const apps = [
     fileTypes: "Audio files and selected media files",
     permissions: ["Files access is limited to files you choose.", "Photo or media picker access is limited to selected videos when extracting audio."],
     localData: ["Recent local workflow state, output choices, and app preferences may be stored on your device.", "Processed audio is saved only when you choose to export or share it."],
-    purchases: "Some advanced features may be offered through Apple in-app purchases. Apple processes payment and purchase history.",
-    effective: "May 14, 2026"
+    purchases: "Advanced features are offered through Apple in-app purchases as Just Audio Compressor Pro, available either as a one-time Lifetime Unlock or as an auto-renewable monthly subscription. Both give access to the same Pro features. Apple processes payment and purchase history.",
+    subscription: {
+      plans: [
+        ["Lifetime Unlock", "a single payment that does not expire and does not renew."],
+        ["Pro Monthly", "an auto-renewable subscription billed once a month."]
+      ],
+      renewal: "The monthly subscription renews automatically for another month at the price shown on the purchase screen, unless it is cancelled at least 24 hours before the end of the current period. Payment is charged to your Apple Account when you confirm the purchase, and again at the start of each renewal period.",
+      cancel: "You can manage or cancel the subscription at any time in your Apple Account settings, or from Manage Subscription inside the app. Cancelling stops future renewals; access continues until the end of the period you have already paid for.",
+      prices: "Current prices are shown in the app before you buy and on the App Store listing. Prices vary by country or region and may change; Apple will notify you of a price increase and ask for your consent where required."
+    },
+    effective: "September 7, 2026"
   },
   {
     slug: "vidkit",
@@ -458,12 +467,28 @@ function writeAppPrivacy(app) {
   }));
 }
 
+// Apple's App Review Guideline 3.1.2 expects the terms an app links to from its App Store
+// metadata to spell out the subscription itself: what the plans are, how renewal and
+// cancellation work, and where the price is shown. Only apps with a subscription get this.
+function subscriptionSection(app) {
+  const { plans, renewal, cancel, prices } = app.subscription;
+  // These prose articles use a flat h2 + ul structure with no h3 anywhere, so keep to that.
+  return `<h2>Subscription terms</h2>
+    <p>${app.shortName} Pro is sold as two plans:</p>
+    <ul>
+      ${plans.map(([name, detail]) => `<li><strong>${name}</strong> &mdash; ${detail}</li>`).join("\n      ")}
+    </ul>
+    <p>${renewal}</p>
+    <p>${cancel}</p>
+    <p>${prices}</p>`;
+}
+
 function writeAppTerms(app) {
   const main = `${legalHero("APP TERMS", `${app.shortName}<br><span class="thin">Terms of Use.</span>`, `Terms for using ${app.name}, including selected files, exports, purchases, availability, and support.`)}
 <main class="measure">
   ${appHero(app, "App terms overview")}
   <article class="prose">
-    <div class="tldr"><b>Summary</b>Use ${app.shortName} responsibly, keep your original files until outputs are checked, and follow Apple's App Store purchase and refund rules for app transactions.</div>
+    <div class="tldr"><b>Summary</b>Use ${app.shortName} responsibly, keep your original files until outputs are checked, and follow Apple's App Store purchase and refund rules${app.subscription ? ". Pro is available as a one-time Lifetime Unlock or an auto-renewable monthly subscription you can cancel any time" : " for app transactions"}.</div>
     <p><strong>Effective date:</strong> ${app.effective}</p>
     <h2>License to use the app</h2>
     <p>Subject to these terms and Apple's App Store terms, you may use ${app.name} for personal or business file workflows on supported Apple devices.</p>
@@ -473,6 +498,7 @@ function writeAppTerms(app) {
     <p>Do not use the app to violate laws, infringe rights, bypass security controls, distribute harmful content, or process files you do not have permission to use.</p>
     <h2>Purchases and refunds</h2>
     <p>${app.purchases} Refunds, billing, family sharing, and purchase history are handled by Apple according to Apple's App Store rules.</p>
+    ${app.subscription ? subscriptionSection(app) : ""}
     <h2>Availability and changes</h2>
     <p>Features may change, be limited, or be removed as the app is improved. Processing speed and output quality depend on your device, file size, file type, and selected settings.</p>
     <h2>No professional advice</h2>
