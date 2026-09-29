@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://justcompress.online/</loc>
@@ -269,6 +269,7 @@
     <loc>https://justcompress.online/apps/pdf-compressor/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <lastmod>2026-09-29</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/pdf-compressor/privacy/</loc>
@@ -289,6 +290,7 @@
     <loc>https://justcompress.online/apps/pdf-watermarker/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <lastmod>2026-09-29</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/pdf-watermarker/privacy/</loc>
@@ -309,6 +311,7 @@
     <loc>https://justcompress.online/apps/audio-compressor/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <lastmod>2026-09-29</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/audio-compressor/privacy/</loc>
@@ -329,6 +332,7 @@
     <loc>https://justcompress.online/apps/vidkit/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <lastmod>2026-09-29</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/vidkit/privacy/</loc>
@@ -369,6 +373,7 @@
     <loc>https://justcompress.online/apps/photofix/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <lastmod>2026-09-29</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/photofix/privacy/</loc>
@@ -379,5 +384,33 @@
     <loc>https://justcompress.online/apps/photofix/support/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/glowpop/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/retrophone/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/brew-day/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/dying-soon/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/collage-maker/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/videofix/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/</loc>
+    <lastmod>2026-09-29</lastmod>
   </url>
 </urlset>
