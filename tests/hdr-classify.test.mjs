@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {classify} from '../assets/hdr-classify.mjs';
+assert.equal(classify({HDR_Format:'Dolby Vision',transfer_characteristics:'HLG'}).state,'hdr');
+assert.equal(classify({transfer_characteristics:'SMPTE ST 2084'}).state,'hdr');
+assert.equal(classify({transfer_characteristics:'BT.709'}).state,'sdr');
+assert.equal(classify({Format:'HEVC',BitDepth:10,colour_primaries:'BT.2020'}).state,'unknown');
+assert.equal(classify({transfer_characteristics:'HLG / BT.709'}).state,'uncertain');
+assert.equal(classify({HDR_Format:'Unknown HDR format'}).state,'uncertain');
+assert.equal(classify({}).state,'unknown');
+console.log('HDR, SDR, PQ, missing and conflicting metadata tests passed');
