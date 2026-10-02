@@ -1,22 +1,23 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Wort dilution calculator on iPhone: fix high original gravity | Brew Day</title>
-<meta name="description" content="Calculate how much water to add when original gravity is too high. Worked 18 L, 1.060 to 1.050 example, plus the offline Brew Day workflow for iPhone.">
-<link rel="canonical" href="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/">
-<link rel="stylesheet" href="/assets/portfolio.css">
-<meta property="og:title" content="Fix high original gravity before fermentation"><meta property="og:type" content="article">
-<meta property="og:url" content="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/">
+<meta content="Calculate how much water to add when original gravity is too high. Worked 18 L, 1.060 to 1.050 example, plus the offline Brew Day workflow for iPhone." name="description"/>
+<link href="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/" rel="canonical"/>
+<link href="/assets/portfolio.css" rel="stylesheet"/>
+<meta content="Fix high original gravity before fermentation" property="og:title"/><meta content="article" property="og:type"/>
+<meta content="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/" property="og:url"/>
 <style>label{display:block;margin:16px 0}input{display:block;width:100%;max-width:320px;padding:12px;font:inherit;border:1px solid #7b817b;border-radius:8px}output{display:block;font-size:24px;font-weight:700;margin:22px 0}code{overflow-wrap:anywhere}</style>
-</head><body><main>
+<link href="/assets/compact.css" rel="stylesheet"/></head><body class="compact-page"><main>
 <nav><a href="/apps/brew-day/">Brew Day</a><a href="/apps/">All iPhone apps</a></nav>
 <header class="hero"><p class="eyebrow">Original gravity · brew-day guide</p><h1>Original gravity too high? Work out the dilution.</h1>
 <p class="lede">Before fermentation, use your measured wort volume and temperature-corrected specific gravity to estimate the water needed to reach your target.</p></header>
 <section class="card"><h2>Try the wort dilution calculator</h2>
-<form id="dilution"><label>Current volume in liters<input id="volume" type="number" min="0.01" max="1000" step="any" value="18" required></label>
-<label>Current specific gravity<input id="current" type="number" min="1.001" max="1.2" step="any" value="1.060" required></label>
-<label>Target specific gravity<input id="target" type="number" min="1.001" max="1.2" step="any" value="1.050" required></label>
+<form id="dilution"><label>Current volume in liters<input id="volume" max="1000" min="0.01" required="" step="any" type="number" value="18"/></label>
+<label>Current specific gravity<input id="current" max="1.2" min="1.001" required="" step="any" type="number" value="1.060"/></label>
+<label>Target specific gravity<input id="target" max="1.2" min="1.001" required="" step="any" type="number" value="1.050"/></label>
 <button class="button" type="submit">Calculate water to add</button></form>
-<output id="result" aria-live="polite"></output>
+<output aria-live="polite" id="result"></output>
 <p>This estimates volume from conserved gravity points. It assumes water contributes no extract and volumes add together. Use temperature-corrected readings from the same sample conditions.</p></section>
 <h2>Worked example: 18 L at 1.060, target 1.050</h2>
 <p>Current wort holds 18 × 60 = 1,080 point-liters. At 50 gravity points, the final volume is 1,080 ÷ 50 = <b>21.6 L</b>. The estimated addition is <b>3.6 L of water</b>.</p>
