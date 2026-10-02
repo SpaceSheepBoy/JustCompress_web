@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wort dilution calculator on iPhone: fix high original gravity | Brew Day</title>
+<meta name="description" content="Calculate how much water to add when original gravity is too high. Worked 18 L, 1.060 to 1.050 example, plus the offline Brew Day workflow for iPhone.">
+<link rel="canonical" href="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/">
+<link rel="stylesheet" href="/assets/portfolio.css">
+<meta property="og:title" content="Fix high original gravity before fermentation"><meta property="og:type" content="article">
+<meta property="og:url" content="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/">
+<style>label{display:block;margin:16px 0}input{display:block;width:100%;max-width:320px;padding:12px;font:inherit;border:1px solid #7b817b;border-radius:8px}output{display:block;font-size:24px;font-weight:700;margin:22px 0}code{overflow-wrap:anywhere}</style>
+</head><body><main>
+<nav><a href="/apps/brew-day/">Brew Day</a><a href="/apps/">All iPhone apps</a></nav>
+<header class="hero"><p class="eyebrow">Original gravity · brew-day guide</p><h1>Original gravity too high? Work out the dilution.</h1>
+<p class="lede">Before fermentation, use your measured wort volume and temperature-corrected specific gravity to estimate the water needed to reach your target.</p></header>
+<section class="card"><h2>Try the wort dilution calculator</h2>
+<form id="dilution"><label>Current volume in liters<input id="volume" type="number" min="0.01" max="1000" step="any" value="18" required></label>
+<label>Current specific gravity<input id="current" type="number" min="1.001" max="1.2" step="any" value="1.060" required></label>
+<label>Target specific gravity<input id="target" type="number" min="1.001" max="1.2" step="any" value="1.050" required></label>
+<button class="button" type="submit">Calculate water to add</button></form>
+<output id="result" aria-live="polite"></output>
+<p>This estimates volume from conserved gravity points. It assumes water contributes no extract and volumes add together. Use temperature-corrected readings from the same sample conditions.</p></section>
+<h2>Worked example: 18 L at 1.060, target 1.050</h2>
+<p>Current wort holds 18 × 60 = 1,080 point-liters. At 50 gravity points, the final volume is 1,080 ÷ 50 = <b>21.6 L</b>. The estimated addition is <b>3.6 L of water</b>.</p>
+<p><code>Final volume = current volume × (current SG − 1) ÷ (target SG − 1)</code></p>
+<p><code>Water to add = final volume − current volume</code></p>
+<h2>Use the same calculation offline on iPhone</h2>
+<ol><li>Open <a href="/apps/brew-day/">Homebrew Calculator: Brew Day</a> and choose Tools → Gravity fix.</li>
+<li>Enter your current wort volume, current SG and target SG. Keep your units consistent.</li>
+<li>Read the suggested water addition. Add carefully, mix, and measure again rather than treating an estimate as an exact result.</li>
+<li>Save the measurement and calculation with your tracked batch so the next brew has a useful reference.</li></ol>
+<section class="note"><h2>What if gravity is too low?</h2><p>Dilution only lowers gravity. A lower current SG needs a different adjustment; the app also reports evaporation volume and missing point-liters. This calculator does not recommend a fermentation or packaging decision.</p></section>
+<h2>Can I use a refractometer after fermentation?</h2>
+<p>Alcohol changes the reading. Use the app’s fermented refractometer correction with the original Brix and current Brix instead of entering an uncorrected post-fermentation reading here.</p>
+<h2>What does the app cost?</h2><p>Recipes are unlimited. The first tracked brew is free. Lifetime or Monthly Pro unlocks unlimited tracked sessions; the purchase screen shows the current local price. Monthly renews until cancelled.</p>
+<p><a class="button" href="https://apps.apple.com/app/id6811067941">Find Brew Day on the App Store</a></p>
+<footer><a href="/apps/brew-day/">App details</a><a href="/apps/brew-day/support/">Support</a><a href="/apps/brew-day/privacy/">Privacy</a></footer>
+</main><script>
+const form=document.querySelector('#dilution'), result=document.querySelector('#result');
+form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;
+const v=Number(document.querySelector('#volume').value), c=Number(document.querySelector('#current').value), t=Number(document.querySelector('#target').value);
+if(t>c){result.textContent='Target gravity is higher. Adding water cannot reach this target.';return;}
+const final=v*(c-1)/(t-1), water=Math.max(0,final-v);
+result.textContent=`Add approximately ${water.toFixed(2)} L of water. Final volume: ${final.toFixed(2)} L.`;});
+form.requestSubmit();
+</script></body></html>
