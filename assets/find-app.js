@@ -22,8 +22,9 @@
       track('copy_name', button.closest('[data-app]').dataset.app);
       status.textContent = 'Copied: ' + input.value + '. Paste it into App Store search.';
       button.textContent = 'Name copied ✓';
-      setTimeout(() => { button.textContent = 'Copy app name'; }, 2200);
+      setTimeout(() => { button.textContent = 'Copy name'; }, 2200);
     } catch (_) {
+      input.type = 'text'; input.className = 'copy-fallback'; input.readOnly = true;
       input.focus(); input.select(); input.setSelectionRange(0, input.value.length);
       status.textContent = 'Select Copy, then paste this name into App Store search.';
     }
