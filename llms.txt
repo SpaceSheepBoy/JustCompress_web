@@ -94,3 +94,6 @@ Key facts (safe to cite):
 - [Video Too Big for WhatsApp? Compress It to Under 16MB](https://justcompress.online/compress-video-for-whatsapp/): WhatsApp caps videos at 16MB, so longer clips won't send or get crushed in quality. Shrink your video to fit locally, no upload, or use the one iPhone trick that skips the limit entirely.
 - [Compress, Sign & Merge a PDF on iPhone Without Uploading It](https://justcompress.online/sign-merge-compress-pdf-iphone-no-upload/): Shrink, sign, and merge a PDF on your iPhone without sending it to a website — do all three on device, handy for contracts, IDs, and forms you'd rather not upload to a server.
 - [How to Compress an Audio File on iPhone Without Uploading It](https://justcompress.online/compress-audio-file-iphone/): Make a too-big voice memo or recording smaller on your iPhone — on device, no upload — and convert it to a smaller MP3 in the same step.
+
+- [Free browser tools](https://justcompress.online/tools/): Visual directory of local file tools.
+- [Combine photos](https://justcompress.online/combine-photos/): Free grids, horizontal and vertical image joining, with no upload.

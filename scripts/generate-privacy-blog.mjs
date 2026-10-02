@@ -1,3 +1,4 @@
+import { visualPage } from './visual-page.mjs';
 import fs from "node:fs";
 import path from "node:path";
 
@@ -530,7 +531,7 @@ fs.mkdirSync(blogRoot, { recursive: true });
 for (const article of articles) {
   const dir = path.join(blogRoot, article.slug);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "index.html"), articlePage(article));
+  fs.writeFileSync(path.join(dir, "index.html"), visualPage(articlePage(article), article.slug));
 }
 fs.writeFileSync(path.join(blogRoot, "index.html"), indexPage());
 

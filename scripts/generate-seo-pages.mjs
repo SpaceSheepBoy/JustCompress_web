@@ -1,3 +1,4 @@
+import { visualPage } from './visual-page.mjs';
 // Generates top-level SEO guide pages from scripts/seo-content.json.
 // Mirrors the look/structure of generate-privacy-blog.mjs (nav, footer, JSON-LD).
 // Pages are written to <slug>/index.html at the repo root, and sitemap.xml +
@@ -180,7 +181,7 @@ ${footer()}
 for (const page of pages) {
   const dir = path.join(root, page.slug);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "index.html"), render(page));
+  fs.writeFileSync(path.join(dir, "index.html"), visualPage(render(page), page.slug));
 }
 
 // --- update sitemap.xml (idempotent) ---
