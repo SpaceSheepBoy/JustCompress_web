@@ -33,13 +33,11 @@
   const cards = [...document.querySelectorAll('.app-card')];
   search.addEventListener('input', () => {
     const q = search.value.toLowerCase().trim();
-    if (q) document.querySelector('.more').open = true;
     cards.forEach(card => { card.hidden = !(card.textContent + card.querySelector('input').value).toLowerCase().includes(q); });
     document.getElementById('no-results').hidden = cards.some(card => !card.hidden);
   });
   if (location.hash) {
     const card = document.getElementById(location.hash.slice(1));
-    if (card?.closest('.more')) card.closest('.more').open = true;
     card?.scrollIntoView();
   }
 })();
