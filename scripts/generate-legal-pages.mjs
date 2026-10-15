@@ -607,6 +607,18 @@ function updateLlms() {
   fs.writeFileSync(file, text);
 }
 
+// Keep Mac privacy and universal-purchase disclosures when regenerating Audio pages.
+function updateAudioMacDisclosures() {
+  const disclosure = "<section class=\"measure prose\" id=\"mac-platform-disclosure\">\n<h2>Mac version and publisher</h2>\n<p>Audio Compressor is provided by Space Sheep Studio for iPhone, iPad and Mac. Audio and video processing happens locally; selected media and recordings are not uploaded to a developer server or a third-party AI service.</p>\n<p>On Mac, microphone access is used only when you record audio. Imported files, recordings, processed copies and preferences may be stored in the app\u2019s local sandbox. A folder you select for saving can be remembered with a security-scoped bookmark. These files are not automatically synchronized between devices. You can remove local files through the app or Finder, and manage microphone access in System Settings.</p>\n<p>The iOS and native macOS versions are being consolidated into one universal-purchase app record. Once available, the same approved Lifetime purchase or active Monthly subscription provides the corresponding Pro access on both platforms through the same Apple Account; use Restore Purchases when needed. Lifetime is a one-time purchase. Monthly renews automatically until cancelled in Apple Account settings. Apple processes payments. Local files and preferences do not transfer through Restore Purchases.</p>\n<p>Updated October 15, 2026. <a href=\"/apps/audio-compressor/privacy/\">Privacy Policy</a> \u00b7 <a href=\"/apps/audio-compressor/terms/\">Terms of Use</a> \u00b7 <a href=\"/apps/audio-compressor/support/\">Support</a></p>\n</section>\n";
+  for (const suffix of ["", "privacy/", "terms/", "support/"]) {
+    const file = path.join(root, "apps/audio-compressor", suffix, "index.html");
+    const html = fs.readFileSync(file, "utf8");
+    if (!html.includes('id="mac-platform-disclosure"')) {
+      fs.writeFileSync(file, html.replace("</main>", disclosure + "</main>"));
+    }
+  }
+}
+
 function main() {
   ensureDir("legal");
   ensureDir("privacy");
@@ -622,6 +634,7 @@ function main() {
     writeAppTerms(app);
     writeAppSupport(app);
   }
+  updateAudioMacDisclosures();
   updateFooters();
   updateSitemap();
   updateLlms();
