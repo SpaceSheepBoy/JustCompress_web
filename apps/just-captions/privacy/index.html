@@ -80,12 +80,12 @@
 
       <h2>Optional Cloud Recognition</h2>
       <p>Cloud Recognition is an optional feature that transcribes speech in the cloud for faster, more accurate captions. Pro uses it within its monthly AI minutes; free accounts get up to 5 minutes per video and 60 minutes per month, after which captions are made on your device. It does not start until you agree in the in-app prompt, which names the providers, and you can turn it off at any time in Settings. When it is off, speech recognition runs entirely on your device.</p>
-      <p>When it is on, the app extracts the audio track of the video you are captioning, compresses it, and sends it with the spoken language (when known) and any glossary terms you entered through the Just Captions AI backend to a third-party speech recognition provider, which returns the transcript and word timings. Today that provider is ElevenLabs, with OpenAI or Groq used as a backup when ElevenLabs is unavailable. Video frames are never sent. Cloud Recognition is not offered in mainland China.</p>
+      <p>For app versions with the updated Cloud Recognition consent, extracted audio, its duration, glossary terms and language choices are sent through our backend to DeepInfra, with Groq as a backup, to return a transcript and timings. Your video file and video frames stay on your device. Cloud Recognition is optional, can be disabled in Settings, and is not offered in mainland China. If cloud processing fails, the app can use on-device recognition.</p>
       <p>We do not keep the audio on our servers after the request completes.</p>
 
       <h2>Optional AI Correct and AI Translate</h2>
       <p>AI Correct and AI Translate are optional internet features. They do not start until you confirm the in-app network prompt — which names the third-party AI service used and the data sent — and tap the Start AI button.</p>
-      <p>When you use these features, the app sends caption text, nearby read-only caption context, glossary terms you entered, and the target language when translating to a third-party AI service (today: OpenAI for the non-China service path and DeepSeek for the China service path, with either provider used as a backup for the other when the primary one is unavailable; see "Third-Party AI Providers and Sharing" below) so it can return corrected or translated caption text. Your source video, video frames, and audio recordings stay on your device for these text-editing features.</p>
+      <p>For app versions with the updated AI consent, AI Correct, AI Translate, Auto Edit and Emoji send caption text, nearby context, glossary terms and language choices through our backend to DeepInfra, with Groq as a backup. Video files, video frames and audio are not sent for these text features. Processing starts only after you agree to the in-app disclosure.</p>
       <p>Do not use AI Correct or AI Translate on confidential transcript text that you do not want processed by a third-party AI service or its model provider.</p>
 
       <h2>Face Data</h2>
@@ -107,9 +107,9 @@
       </ul>
 
       <h2>Third-Party AI Providers and Sharing</h2>
-      <p>For AI Correct and AI Translate, the text you choose to process is sent through the Just Captions AI backend to third-party AI providers. Today that provider path is OpenAI for the non-China service path and DeepSeek for the China service path. For service continuity, either provider may act as a backup for the other when the primary provider is unavailable, so text on the non-China path can reach DeepSeek and text on the China path can reach OpenAI. Each backup direction is used only when explicitly enabled.</p>
-      <p>For Cloud Recognition, audio is sent to ElevenLabs as described above, with OpenAI or Groq as a backup.</p>
-      <p>For the Emoji caption style, once you have agreed to AI network use, caption text is sent through the same backend to Groq, or to OpenAI when Groq is unavailable, which returns one emoji per caption. Without that agreement, emojis are picked on your device, using Apple's on-device model where available.</p>
+      <p>For app versions with the updated AI consent, AI Correct, AI Translate, Auto Edit and Emoji send caption text, nearby context, glossary terms and language choices through our backend to DeepInfra, with Groq as a backup. Video files, video frames and audio are not sent for these text features. Processing starts only after you agree to the in-app disclosure.</p><p>Older installed versions continue using the providers named in their own consent screens. These may include OpenAI, Groq and ElevenLabs, and DeepSeek or Alibaba Cloud on previously supported regional paths. An older agreement does not enable DeepInfra: updated versions ask again before sending data to the new providers. This transition does not change paid subscriptions or purchased usage allowances.</p>
+      <p>For app versions with the updated Cloud Recognition consent, extracted audio, its duration, glossary terms and language choices are sent through our backend to DeepInfra, with Groq as a backup, to return a transcript and timings. Your video file and video frames stay on your device. Cloud Recognition is optional, can be disabled in Settings, and is not offered in mainland China. If cloud processing fails, the app can use on-device recognition.</p>
+      <p>Emoji suggestions use the text providers disclosed above. Without AI network consent, emojis are selected on your device.</p>
       <p>We do not sell your audio or transcript text. We share them only with the providers needed to return the transcription, correction, translation, or emoji result you requested.</p>
 
       <h2>Storage and Retention</h2>
@@ -127,6 +127,7 @@
       <p>For privacy questions, email <a href="mailto:abel0911@icloud.com">abel0911@icloud.com</a>.</p>
     <p>Published by Space Sheep Studio.</p>
     </article>
-  </main>
+  <p>AI provider transition updated October 16, 2026. Publisher: Space Sheep Studio.</p>
+</main>
 </body>
 </html>
