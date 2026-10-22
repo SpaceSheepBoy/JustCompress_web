@@ -35,10 +35,10 @@ def page(path,title,description,body,schema=''):
  return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)} | {BRAND}</title><meta name="description" content="{E(description)}"><link rel="canonical" href="{url}">
-<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url}"><meta property="og:type" content="{'website' if path=='/guides/' else 'article'}"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url}"><meta property="og:type" content="{'website' if path in ('/guides/','/videos/') else 'article'}"><meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="{css}"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261022">{schema}</head>
-<body class="guide-page {'guide-captions' if CAPTIONS else ''}"><div class="guide-shell"><nav class="guide-nav" aria-label="Main navigation"><a class="guide-brand" href="/">{BRAND}</a><div><a href="/guides/">Guides</a><a href="{'/mac/' if CAPTIONS else '/apps/'}">{'Download' if CAPTIONS else 'Apps'}</a><a href="{'/blog/' if CAPTIONS else '/tools/'}">{'Blog' if CAPTIONS else 'Free tools'}</a></div></nav>
-<main>{body}</main><footer class="guide-footer"><span>© 2026 Space Sheep Studio</span><a href="/guides/">Guides</a><a href="/privacy/">Privacy</a><a href="{'/mac/terms/' if CAPTIONS else '/terms/'}">Terms</a><a href="{'https://spacesheepboy.github.io/JustCaptions-legal/support/' if CAPTIONS else '/support/'}">Support</a></footer></div></body></html>'''
+<body class="guide-page {'guide-captions' if CAPTIONS else ''}"><div class="guide-shell"><nav class="guide-nav" aria-label="Main navigation"><a class="guide-brand" href="/">{BRAND}</a><div><a href="/guides/">Guides</a><a href="/videos/">Videos</a><a href="{'/mac/' if CAPTIONS else '/apps/'}">{'Download' if CAPTIONS else 'Apps'}</a><a href="{'/blog/' if CAPTIONS else '/tools/'}">{'Blog' if CAPTIONS else 'Free tools'}</a></div></nav>
+<main>{body}</main><footer class="guide-footer"><span>© 2026 Space Sheep Studio</span><a href="/guides/">Guides</a><a href="/videos/">Videos</a><a href="/privacy/">Privacy</a><a href="{'/mac/terms/' if CAPTIONS else '/terms/'}">Terms</a><a href="{'https://spacesheepboy.github.io/JustCaptions-legal/support/' if CAPTIONS else '/support/'}">Support</a></footer></div></body></html>'''
 
 for g in GUIDES:
  path='/guides/'+g['slug']+'/'
@@ -62,9 +62,20 @@ if CAPTIONS:
  links=[('/how-to-batch-add-captions-to-videos/','Batch add captions on iPhone'),('/how-to-translate-captions-to-multiple-languages/','Translate one video into several languages'),('/guides/batch-translate-captions-iphone/','Batch translate captions on iPhone'),('/create-srt-file-on-iphone/','Export an SRT subtitle file'),('/add-captions-to-tiktok/','Captions for TikTok'),('/add-captions-to-instagram-reels/','Captions for Reels'),('/add-captions-to-youtube-shorts/','Captions for Shorts')]
  body+='<section class="guide-article"><h2>iPhone captioning guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in links)+'</ul></section><section><h2>Mac walkthroughs</h2>'
 else:body+='<section><h2>Video and photo walkthroughs</h2>'
-body+='<div class="guide-grid">'+''.join(card(g) for g in GUIDES if not CAPTIONS or g['app']=='mac')+'</div></section>'
+body+='<p><a class="guide-button" href="/videos/">Browse all video walkthroughs →</a></p><div class="guide-grid">'+''.join(card(g) for g in GUIDES if not CAPTIONS or g['app']=='mac')+'</div></section>'
 if not CAPTIONS:body+='<section class="guide-article"><h2>Audio and PDF tutorials</h2><p>Convert M4A to MP3, trim audio, compress a voice memo, make PDFs smaller, sign documents and more.</p><a class="guide-button" href="/iphone-video-tutorials/">Watch audio and PDF tutorials →</a><p><a href="/tutorials/">Browse browser-tool help</a> · <a href="/apps/">Find your iPhone app</a></p></section>'
 else:body+=cta('mac')
 schema=ld({'@type':'CollectionPage','name':'Tutorial guides','url':HOST+'/guides/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':g['title'],'url':HOST+'/guides/'+g['slug']+'/'} for i,g in enumerate(GUIDES)]}})
 (ROOT/'guides').mkdir(exist_ok=True);(ROOT/'guides/index.html').write_text(page('/guides/','Tutorial guides', 'Practical tutorials with real app videos, written steps, export checks and download links.',body,schema))
+
+# Every verified published walkthrough remains findable without creating a thin article for each duplicate.
+site='justcaptions' if CAPTIONS else 'justcompress'
+items=sorted([(i,v) for i,v in VIDEOS.items() if v.get('site')==site],key=lambda pair:pair[1].get('published') or '',reverse=True)
+body='<header class="guide-heading"><p class="guide-eyebrow">OUR PUBLISHED WALKTHROUGHS</p><h1>'+('Captioning video tutorials for Mac and iPhone' if CAPTIONS else 'iPhone video tutorials')+'</h1><p class="guide-lede">Watch the app in use, then open the matching written guide. Includes earlier and localized walkthroughs.</p></header><section><div class="guide-grid">'
+for i,v in items:
+ body+=f'<article class="guide-card"><a href="https://www.youtube.com/watch?v={i}"><img src="{E(v["thumbnail"])}" width="480" height="360" alt="" loading="lazy" style="width:100%;height:auto;aspect-ratio:16/9;object-fit:cover"></a><div><h2 style="font-size:20px">{E(v["title"])}</h2><p><a href="https://www.youtube.com/watch?v={i}">Watch on YouTube ↗</a></p><p><a href="{v["guide"]}">Written guide and app →</a></p></div></article>'
+body+='</div><p><a class="guide-button" href="/guides/">Browse written guides →</a></p></section>'
+(ROOT/'videos').mkdir(exist_ok=True)
+(ROOT/'videos/index.html').write_text(page('/videos/','Video tutorials', 'Our published app tutorials, with YouTube videos, written guides and app links.',body,ld({'@type':'CollectionPage','name':'Video tutorial library','url':HOST+'/videos/'})))
+
 print(HOST,len(GUIDES),'guides generated')

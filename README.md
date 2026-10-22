@@ -23,3 +23,18 @@ Static site, hosted on GitHub Pages. No build step.
 The self-hosted PostHog JS SDK is pinned to 1.438.15 in `assets/vendor/`. `assets/posthog-init.js` loads it only after explicit consent, respects DNT/GPC, and captures page visits, App Store clicks and DMG/ZIP download clicks. The `site` event property separates JustCompress and JustCaptions in the connected PostHog project. Session replay, autocapture, person profiles, exception capture and form capture are disabled. URLs are stripped of queries/fragments. Account, billing, activation and app-specific legal screens are excluded.
 
 After generating or adding HTML pages, run `python3 scripts/install-posthog.py` (idempotent). The browser token is intentionally public; never put a personal API key or secret in static files. The website privacy disclosure is maintained at https://justcompress.online/privacy/#website-analytics.
+
+
+## Tutorial content maintenance (2026-10-22)
+
+Maintain `scripts/tutorial-guides.json`, `scripts/tutorial-products.json` and `scripts/tutorial-videos.json`. Product names and screenshots are verified against the public US App Store; unavailable new products have information pages with no broken download CTA. The video registry retains verified YouTube titles and the matching written guide, including localized and earlier walkthroughs.
+
+After content changes, run:
+
+```sh
+python3 scripts/enhance-tutorials.py
+python3 scripts/install-posthog.py
+node scripts/test-posthog.cjs
+```
+
+Review generated pages at desktop and 390px width. Update sitemap entries only for genuinely changed or added pages. Check internal links, canonical URLs, JSON-LD, product availability and prohibited personal names before deploying. Keep deployment, search indexing and analytics ingestion evidence separate.

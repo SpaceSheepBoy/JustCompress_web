@@ -107,7 +107,7 @@ else:
   if not cb.find('a',href=f'/apps/{slug}/'):cb.append(fragment(f'<p><a href="/apps/{slug}/" style="text-decoration:underline">App details &amp; guides →</a></p>'))
  summary=s.select_one('.more summary, .more-title')
  if summary:summary.clear();summary.append('More apps ');summary.append(str(len(s.select('.more .app-card'))))
- catalog='<h2>New app information</h2><p>Product and support pages for our newest apps. Download availability is being confirmed.</p><ul>'+''.join(f'<li><a href="/apps/{slug}/">{E(name)}</a></li>' for slug,name in [('dpi','DPI Changer: 300 DPI Photo'),('livephoto','Live Photo to Video: 4K'),('talknice','TalkNice: AI Voice Keyboard'),('camrecorder','CamRecorder: Camera Recorder')])+'</ul><p><a class="guide-button" href="/guides/">Watch tutorials and follow the steps →</a></p>'
+ catalog='<h2>New app information</h2><p>Product and support pages for our newest apps. Download availability is being confirmed.</p><ul>'+''.join(f'<li><a href="/apps/{slug}/">{E(name)}</a></li>' for slug,name in [('audiofix','Audio Fix (in development)'),('dpi','DPI Changer: 300 DPI Photo'),('livephoto','Live Photo to Video: 4K'),('talknice','TalkNice: AI Voice Keyboard'),('camrecorder','CamRecorder: Camera Recorder')])+'</ul><p><a class="guide-button" href="/guides/">Watch tutorials and follow the steps →</a></p>'
  s.find('main').append(fragment('<section class="guide-enhancement" data-tutorial-library>'+catalog+'</section>'))
  save('apps/index.html',s)
  # Source inputs must retain the verified names after the old generator is run.
