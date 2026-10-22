@@ -17,3 +17,9 @@ Static site, hosted on GitHub Pages. No build step.
 
 - [Just PDF Compressor on the App Store](https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323)
 - [Just Audio Compressor on the App Store](https://apps.apple.com/us/app/audio-compressor-reduce-size/id6769563659)
+
+## Optional PostHog website analytics (2026-10-22)
+
+The self-hosted PostHog JS SDK is pinned to 1.438.15 in `assets/vendor/`. `assets/posthog-init.js` loads it only after explicit consent, respects DNT/GPC, and captures page visits, App Store clicks and DMG/ZIP download clicks. The `site` event property separates JustCompress and JustCaptions in the connected PostHog project. Session replay, autocapture, person profiles, exception capture and form capture are disabled. URLs are stripped of queries/fragments. Account, billing, activation and app-specific legal screens are excluded.
+
+After generating or adding HTML pages, run `python3 scripts/install-posthog.py` (idempotent). The browser token is intentionally public; never put a personal API key or secret in static files. The website privacy disclosure is maintained at https://justcompress.online/privacy/#website-analytics.

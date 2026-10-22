@@ -311,6 +311,9 @@ function writeGlobalPrivacy() {
     <div class="article-index compact-legal-list">
       ${apps.map((app) => linkCard("App", `/apps/${app.slug}/privacy/`, `${app.name} Privacy Policy`, app.summary)).join("\n      ")}
     </div>
+    <h2 id="website-analytics">Optional website analytics</h2>
+    <p>On justcompress.online and justcaptions.com, Space Sheep Studio uses PostHog only after you choose Allow analytics. We measure page visits, App Store link clicks and software download clicks, with browser/device details and a random browser identifier stored in local storage. PostHog receives requests, including your IP address, through its US-hosted service. We remove URL query strings and fragments from events. We do not enable session recordings, automatic interaction capture, form-content capture or account identification, and do not send selected files, captions or activation codes through this analytics integration.</p>
+    <p>You can reject analytics or withdraw consent using Privacy choices on website pages. Global Privacy Control and Do Not Track disable this integration. Withdrawing consent stops future analytics; it does not erase events already sent. For deletion requests, contact the support address below. See <a href="https://posthog.com/privacy">PostHog privacy information</a>.</p>
     <h2>Diagnostics and analytics</h2>
     <p>Apple may provide aggregated crash reports, performance information, and App Store analytics to developers. These reports are controlled by Apple and depend on user device settings. Just Compress uses them to improve reliability.</p>
     <h2>Privacy choices</h2>

@@ -1,0 +1,416 @@
+[
+  {
+    "slug": "hdr-to-sdr-iphone",
+    "title": "How to convert HDR video to SDR on iPhone",
+    "summary": "Make a standard-color copy of an iPhone HDR video before sharing it with a device, editor or upload form that does not handle HDR well.",
+    "app": "6812821310",
+    "video": "LOVAaPCPssQ",
+    "steps": [
+      "Open VideoFix and select the HDR video. Keep the original in Photos.",
+      "Choose Convert HDR to SDR. This creates an H.264 MP4 with Rec.709 SDR color.",
+      "Choose your output resolution and any size limit you need, then start conversion.",
+      "Save the exported copy and check it in the app or device where you plan to use it."
+    ],
+    "sections": [
+      [
+        "When an SDR copy helps",
+        "HDR footage can look washed out, too bright or different after it moves between apps and displays. That does not prove the original is broken. First compare the original in Photos with the shared copy. If the destination expects standard dynamic range, make an SDR copy for that destination and retain the HDR original for future edits."
+      ],
+      [
+        "Color conversion and file format solve different problems",
+        "HDR describes the color and brightness range. HEVC and H.264 are video codecs, while MOV and MP4 are containers. Renaming a MOV file to MP4 does not map HDR highlights to SDR. VideoFix re-encodes the footage and maps the color to Rec.709. Use the HDR checker linked below if you need to inspect a file before choosing a workflow."
+      ],
+      [
+        "Check the result before sending the whole batch",
+        "Preview skin tones, bright windows and shadows in the exported file. Compare both copies on the same display at the same brightness. Then try the actual destination. Display settings and the receiving app still affect appearance, so a successful conversion is not a promise that every screen will look identical."
+      ],
+      [
+        "What is free",
+        "The first three VideoFix conversions are free. Further conversions require a lifetime purchase or an auto-renewing monthly plan. Processing runs on your iPhone, and the original stays untouched."
+      ]
+    ],
+    "faq": [
+      [
+        "Does changing the file extension fix HDR?",
+        "No. A different filename does not change the codec or perform color mapping. Export a converted copy."
+      ],
+      [
+        "Will my HDR original disappear?",
+        "VideoFix keeps the original untouched. Check your exported SDR copy before manually deleting any original."
+      ]
+    ],
+    "related": [
+      "/guides/hevc-to-mp4-iphone/",
+      "/guides/batch-convert-hdr-videos-iphone/",
+      "/hdr-video-checker/"
+    ]
+  },
+  {
+    "slug": "hevc-to-mp4-iphone",
+    "title": "How to convert HEVC to H.264 MP4 on iPhone",
+    "summary": "Create an H.264 MP4 copy when an upload form or editor cannot use your iPhone HEVC video. Check the actual error before converting.",
+    "app": "6812821310",
+    "video": "hPSxqqYMlK4",
+    "steps": [
+      "Check the destination requirements and confirm that it needs H.264 video in an MP4 file.",
+      "Open VideoFix, select the clip, and choose Convert HDR to SDR. This option also converts SDR HEVC input to H.264 MP4.",
+      "Set an output resolution and optional maximum file size appropriate for the destination.",
+      "Convert, save the MP4, and test that exported file in the destination."
+    ],
+    "sections": [
+      [
+        "MP4 is not the same thing as H.264",
+        "MP4 is a container. It can hold different video codecs, including HEVC, so a file ending in .mp4 is not automatically compatible with an H.264-only service. HEVC is also called H.265. For this workflow you need an actual re-encode to H.264, not a renamed file or a container-only change."
+      ],
+      [
+        "Read the upload error first",
+        "An upload may fail because of file size, duration, dimensions, connection problems, permissions or an unsupported codec. Do not assume every failure is caused by HEVC. Follow the service’s stated requirements. If it needs a smaller file as well as H.264, adjust resolution and the optional size limit before exporting."
+      ],
+      [
+        "What happens to HDR footage",
+        "If the input is HDR, VideoFix also maps it to Rec.709 SDR color. If the input is already SDR HEVC, the same option produces an H.264 MP4 compatibility copy. This process re-encodes the video, so keep the original when you need maximum editing quality."
+      ],
+      [
+        "Verify one file before converting more",
+        "Play the exported file, check the sound and duration, then try the real upload. A converted codec cannot resolve a login error or a file-size rule by itself. VideoFix includes three free conversions; later conversions require a paid plan."
+      ]
+    ],
+    "faq": [
+      [
+        "Can I just rename .mov to .mp4?",
+        "No. Renaming changes neither the container structure nor the encoded video."
+      ],
+      [
+        "Can HEVC footage already be SDR?",
+        "Yes. Codec and dynamic range are separate properties. VideoFix supports the HEVC-to-H.264 workflow for SDR input too."
+      ]
+    ],
+    "related": [
+      "/guides/hdr-to-sdr-iphone/",
+      "/guides/compress-video-iphone/",
+      "/hdr-video-checker/"
+    ]
+  },
+  {
+    "slug": "batch-convert-hdr-videos-iphone",
+    "title": "How to batch convert HDR videos on iPhone",
+    "summary": "Apply the same HDR-to-SDR export settings to several clips, then check each result before sharing or replacing anything.",
+    "app": "6812821310",
+    "video": "qquq1bcRf4U",
+    "steps": [
+      "Open VideoFix and select the videos you want to convert together.",
+      "Choose Convert HDR to SDR and set the resolution or size limit for this batch.",
+      "Start the conversion and keep the app available while it processes the clips.",
+      "Review the completed exports, then save or share the converted copies."
+    ],
+    "sections": [
+      [
+        "Choose a batch with the same destination",
+        "Batch processing is useful when several clips need the same output settings. For example, a set of iPhone HDR clips may all need standard SDR MP4 copies for one editor. Split clips into different batches when their destinations need different resolutions or frame rates. One preset is not necessarily the right choice for every project."
+      ],
+      [
+        "Try a representative clip first",
+        "Before starting a large batch, convert a short clip containing both bright and dark areas. Inspect its color and sound in the destination app. This is especially helpful when you are unsure whether the problem is HDR handling or something else, such as an upload-size limit."
+      ],
+      [
+        "Allow space for the exported copies",
+        "Conversion makes new files and leaves originals untouched. Leave room for those copies, particularly with long 4K footage. The final size depends on the footage and settings. Keep important originals backed up, and do not delete them based only on the completion message."
+      ],
+      [
+        "Check every result",
+        "Open each exported clip, confirm its duration and sound, and check that all selected clips produced output. Test at least one in the destination before sharing the rest. The first three conversions are free; unlimited conversions require a lifetime purchase or monthly plan."
+      ]
+    ],
+    "faq": [
+      [
+        "Does batch conversion change my originals?",
+        "No. The app exports converted copies and keeps the source videos untouched."
+      ],
+      [
+        "Will every clip shrink by the same percentage?",
+        "No. Size depends on source encoding, duration, resolution, content and export settings."
+      ]
+    ],
+    "related": [
+      "/guides/hdr-to-sdr-iphone/",
+      "/guides/batch-resize-videos-iphone/",
+      "/apps/videofix/"
+    ]
+  },
+  {
+    "slug": "apple-log-to-rec709-iphone",
+    "title": "How to convert Apple Log video to Rec.709 on iPhone",
+    "summary": "Turn flat-looking Apple ProRes Log footage into an H.264 MP4 with standard Rec.709 SDR color using VideoFix.",
+    "app": "6812821310",
+    "video": "5P5RlwsKG18",
+    "steps": [
+      "Select your Apple ProRes Log footage in VideoFix.",
+      "Choose the conversion to standard SDR color and review the output settings.",
+      "Pick the resolution you need and run the conversion.",
+      "Save the MP4 and compare its color with the Log original on the same display."
+    ],
+    "sections": [
+      [
+        "Why Apple Log looks flat",
+        "Log footage is intended for a color-managed editing workflow. Low contrast in an ungraded Log preview does not by itself mean that the recording failed. If you want a standard-color copy for sharing rather than a full grading session, VideoFix supports converting Apple ProRes Log to Rec.709 SDR."
+      ],
+      [
+        "Keep a grading original",
+        "Converting to H.264 MP4 gives you a practical sharing copy. Keep the original ProRes Log footage for later color work. A standard SDR export is not a replacement for the original’s editing flexibility, and this workflow is not a claim that an automatic conversion can reproduce a particular cinematic grade."
+      ],
+      [
+        "Avoid applying the transform twice",
+        "Check how the destination editor treats the exported copy. A file already converted to standard Rec.709 should not receive the same Log-to-Rec.709 conversion again. If the output looks unusually contrasty, inspect the editor’s input-color settings and any applied LUTs before exporting again."
+      ],
+      [
+        "Check bright areas and skin tones",
+        "Review a section containing faces, bright light and shadow. Compare on the same display, then test the destination where you will share it. VideoFix processes locally, retains the original and offers three free conversions before a paid plan is required."
+      ]
+    ],
+    "faq": [
+      [
+        "Is Apple Log the same as HDR?",
+        "No. Log encoding and HDR delivery are different concepts. Confirm the source and desired output color space."
+      ],
+      [
+        "Does this export keep the ProRes codec?",
+        "This workflow creates an H.264 MP4 sharing copy. Keep the original for ProRes editing."
+      ]
+    ],
+    "related": [
+      "/guides/hdr-to-sdr-iphone/",
+      "/guides/hevc-to-mp4-iphone/",
+      "/hdr-video-checker/"
+    ]
+  },
+  {
+    "slug": "change-video-frame-rate-iphone",
+    "title": "How to change video frame rate on iPhone",
+    "summary": "Set a steady 24, 25, 30 or 60 FPS target for exported iPhone videos. A frame-rate conversion does not automatically create slow motion.",
+    "app": "6812821310",
+    "video": "ukgSZMpLbcg",
+    "steps": [
+      "Add one video or a group of clips to VideoFix.",
+      "Choose a steady output frame-rate target: 24, 25, 30 or 60 FPS.",
+      "Review the resolution and other export settings, then convert.",
+      "Check motion, audio synchronization and duration in the exported file before using it in your edit."
+    ],
+    "sections": [
+      [
+        "Start with the editing requirement",
+        "Choose a frame rate because your project or destination needs it. Matching an editing timeline can simplify working with mixed sources. It does not guarantee that all motion will look identical. A source with a different capture rate may need frames repeated or discarded to meet the selected output rate."
+      ],
+      [
+        "Frame rate is different from playback speed",
+        "A 24 FPS target describes how many frames the output presents per second. It does not by itself ask the app to play the action more slowly. If you want slow motion, use a workflow that explicitly changes playback speed and review the resulting duration and sound."
+      ],
+      [
+        "Higher output FPS cannot restore missing moments",
+        "Exporting a low-frame-rate source at 60 FPS does not recreate detail that was never captured. Pick the rate required by the project, and test a section with fast movement. For ordinary sharing, unnecessary changes can add work without helping the viewer."
+      ],
+      [
+        "Verify the actual output",
+        "Check the exported file in the editor where you will use it. Watch for stutter, listen for audio drift and compare duration. VideoFix retains originals and includes three free conversions before requiring a paid plan."
+      ]
+    ],
+    "faq": [
+      [
+        "Does 60 FPS export make any video smoother?",
+        "It cannot guarantee that. The source capture and conversion method limit what an export can contain."
+      ],
+      [
+        "Can I apply a frame-rate target to several clips?",
+        "Yes. VideoFix supports processing several videos with shared settings. Review the exported clips individually."
+      ]
+    ],
+    "related": [
+      "/guides/batch-resize-videos-iphone/",
+      "/guides/batch-convert-hdr-videos-iphone/",
+      "/apps/videofix/"
+    ]
+  },
+  {
+    "slug": "batch-resize-videos-iphone",
+    "title": "How to batch resize videos on iPhone",
+    "summary": "Export several videos at a shared resolution, such as 1080p or 720p, while keeping the original recordings.",
+    "app": "6812821310",
+    "video": "YoReJZuoWR8",
+    "steps": [
+      "Open VideoFix and choose the videos for this batch.",
+      "Choose an output resolution: 4K, 1080p, 720p or 480p.",
+      "Review the color conversion, frame-rate target and any optional maximum-size setting.",
+      "Convert the batch, then open the exported clips and check quality before sharing them."
+    ],
+    "sections": [
+      [
+        "Choose resolution for the destination",
+        "Resolution is the number of pixels in each frame. A 4K source may not need a 4K sharing copy when the destination is a small preview or a size-limited upload. Start with the destination requirements rather than selecting the lowest resolution just to get a smaller number."
+      ],
+      [
+        "Resizing and compression are related, but different",
+        "Reducing resolution often helps reduce file size, but the result also depends on duration, codec and encoding settings. Two clips exported at 1080p can have very different sizes. Check the resulting files instead of promising a fixed reduction percentage."
+      ],
+      [
+        "Keep important detail readable",
+        "Test footage containing text, a screen recording or fine detail before converting the whole batch. Downscaling can make small lettering hard to read. A higher output resolution cannot recover detail that is absent from the source, so keep original recordings for future edits."
+      ],
+      [
+        "Review each exported copy",
+        "Compare frame shape, duration, sound and file size. Confirm whether the chosen workflow also converted HDR to SDR, because resolution and color are independent settings. VideoFix runs on-device and leaves originals untouched. The first three conversions are free; further use requires a paid plan."
+      ]
+    ],
+    "faq": [
+      [
+        "Is 1080p always small enough to upload?",
+        "No. Duration and encoding also affect size. Check the service limit and the exported file size."
+      ],
+      [
+        "Does resizing convert portrait footage into landscape?",
+        "Resolution and aspect ratio are different. Check the preview and output shape rather than assuming a resolution change reframes the shot."
+      ]
+    ],
+    "related": [
+      "/guides/compress-video-iphone/",
+      "/guides/change-video-frame-rate-iphone/",
+      "/guides/batch-convert-hdr-videos-iphone/"
+    ]
+  },
+  {
+    "slug": "combine-photos-iphone",
+    "title": "How to combine photos into one image on iPhone",
+    "summary": "Put several photos in a single grid or stitched image, then export one file to share or upload.",
+    "app": "6810266264",
+    "video": "nqSEzQ1BOcc",
+    "steps": [
+      "Open Combine Photos and select the pictures you want to include.",
+      "Choose a grid or stitching layout that suits the photos.",
+      "Adjust the arrangement and inspect the preview, especially faces and text near the edges.",
+      "Export the finished image, open the saved file and share that copy."
+    ],
+    "sections": [
+      [
+        "Choose a layout for the job",
+        "A side-by-side grid works well for a before-and-after comparison. A longer stitched image can be better for a sequence of screenshots. Decide what the viewer needs to compare before choosing the layout. Keep each source image large enough to understand at the final viewing size."
+      ],
+      [
+        "One image can still be too large",
+        "Combining pictures solves a one-file requirement, but it does not guarantee that the resulting file meets an upload-size or dimension limit. Check those limits separately. If the destination displays only a small preview, a very long stitched image may make the individual pictures difficult to read."
+      ],
+      [
+        "Check the saved image, not only the preview",
+        "Open the exported file from Photos or Files before sending it. Check that the order is right and no important content was cropped. For before-and-after work, use comparable angles and lighting and label the comparison accurately. A collage should not imply a result that the original photos do not show."
+      ],
+      [
+        "Try the browser option for a quick task",
+        "Just Compress also has a free browser photo combiner. Use the linked tool if you want to combine supported images without installing an app. The iPhone app has its own purchase options; check its current App Store listing before choosing a plan."
+      ]
+    ],
+    "faq": [
+      [
+        "Can I combine screenshots as well as photos?",
+        "Use supported image inputs and inspect the exported result, particularly small text."
+      ],
+      [
+        "Does the collage replace my source photos?",
+        "Keep the source photos. Share the newly exported combined image as a separate file."
+      ]
+    ],
+    "related": [
+      "/combine-photos/",
+      "/apps/collage-maker/",
+      "/guides/hdr-photos-to-sdr-iphone/"
+    ]
+  },
+  {
+    "slug": "compress-video-iphone",
+    "title": "How to make a video smaller on iPhone before sharing",
+    "summary": "Create a smaller sharing copy, compare it with the original, and check that it meets the receiving app’s requirements.",
+    "app": "6769563339",
+    "video": "58vkRfxA3lQ",
+    "steps": [
+      "Open Video Compressor and select the video you want to make smaller.",
+      "Choose compression settings appropriate for the destination and preview where available.",
+      "Export the compressed copy without deleting the original.",
+      "Check file size, image quality, sound and duration, then share the exported file."
+    ],
+    "sections": [
+      [
+        "Find out what the destination accepts",
+        "A smaller video is useful only if the receiving app can use it. Read the destination’s current file-size, format and duration rules. If it requires H.264 MP4, lowering the file size alone may not solve a codec issue. Use the HEVC conversion guide for that specific problem."
+      ],
+      [
+        "Start with a moderate setting",
+        "Compression trades file size against visual detail. Fast motion, foliage, screen text and low-light scenes are useful places to inspect the result. Make one test export before compressing a collection. Do not assume every video will achieve the reduction shown in a tutorial example."
+      ],
+      [
+        "Keep originals until you have checked the copy",
+        "Compression produces a sharing copy. Preserve the original for future editing and compare both at a useful viewing size. If the compressed version is hard to read or shows distracting artifacts, use a higher-quality setting and check the new result."
+      ],
+      [
+        "Prefer a browser tool for a short one-off job",
+        "The free Just Compress video tool processes supported clips in your browser. Large or long clips can exceed the memory available to a browser tab, especially on a phone. For an iPhone workflow, use the native app and review its current purchase options on the App Store."
+      ]
+    ],
+    "faq": [
+      [
+        "Will ZIP make my video much smaller?",
+        "Already compressed video often gains little from ZIP. Re-encoding or a lower-resolution sharing copy is usually a more relevant workflow."
+      ],
+      [
+        "Does compression fix washed-out HDR color?",
+        "Not necessarily. If the destination mishandles HDR, use an explicit HDR-to-SDR conversion and inspect the output."
+      ]
+    ],
+    "related": [
+      "/compress-video/",
+      "/guides/hevc-to-mp4-iphone/",
+      "/guides/hdr-to-sdr-iphone/"
+    ]
+  },
+  {
+    "slug": "hdr-photos-to-sdr-iphone",
+    "title": "How to convert HDR photos to normal SDR on iPhone",
+    "summary": "Make an SDR copy of an HDR photo for more predictable sharing, with PhotoFix. Keep the original for future use.",
+    "app": "6816526877",
+    "video": null,
+    "steps": [
+      "Open PhotoFix and choose the photos you want to convert.",
+      "Choose HDR to normal photo and select an appropriate output format.",
+      "Review whether you need a still image or a supported SDR Live Photo export.",
+      "Save the converted copies and check them in the destination where you plan to use them."
+    ],
+    "sections": [
+      [
+        "Why an HDR photo can look different elsewhere",
+        "An HDR photo can contain highlight information that a standard display or destination handles differently. A normal SDR copy maps that range for SDR viewing. Different screens still have different brightness and color settings, so compare on the same display before deciding whether a result is suitable."
+      ],
+      [
+        "Choose JPEG or PNG for the actual task",
+        "JPEG uses lossy compression and replaces transparency with white. PNG preserves transparency. PhotoFix also supports HEIC and device-compatible RAW input up to 60 megapixels. Choose according to the destination requirements rather than assuming that a file extension alone controls HDR appearance."
+      ],
+      [
+        "Live Photo motion has a separate choice",
+        "PhotoFix can retain Live Photo motion and sound for normal SDR exports, or export a still image. Its HDR export creates a still photo. Check which output you selected before sharing, especially when the motion is part of what you want to preserve."
+      ],
+      [
+        "Keep expectations and originals clear",
+        "Normal-to-HDR is a separate creative brightness effect. It cannot recover lost source detail. Your originals stay untouched. The first three successful photo conversions are free, with each photo in a batch counting separately; further conversions require Pro. Verify the current purchase terms on the App Store."
+      ]
+    ],
+    "faq": [
+      [
+        "Is this the same as converting an HDR video?",
+        "No. PhotoFix handles photos. Use VideoFix for the video workflow linked below."
+      ],
+      [
+        "Will all devices show identical brightness after conversion?",
+        "No. SDR output helps compatibility, but displays and viewing apps still affect appearance."
+      ]
+    ],
+    "related": [
+      "/guides/hdr-to-sdr-iphone/",
+      "/guides/combine-photos-iphone/",
+      "/apps/photofix/"
+    ]
+  }
+]
