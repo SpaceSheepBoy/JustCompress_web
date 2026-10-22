@@ -17,7 +17,7 @@
     if (blocked || client || loading || preference() !== 'allow') return;
     loading = true;
     var script = document.createElement('script');
-    script.src = '/assets/vendor/posthog-1.438.15.js';
+    script.src = '/assets/vendor/posthog-1.438.15.js?v=20261022';
     script.onload = function () {
       loading = false;
       if (preference() !== 'allow') return;

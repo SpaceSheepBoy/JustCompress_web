@@ -2,7 +2,7 @@
 """Run after page generation to attach optional website analytics."""
 from pathlib import Path
 root = Path(__file__).resolve().parents[1]
-tag = '<script defer src="/assets/posthog-init.js"></script>'
+tag = '<script defer src="/assets/posthog-init.js?v=20261022-2"></script>'
 count = 0
 for page in root.rglob('*.html'):
     relative = page.relative_to(root)
@@ -14,6 +14,12 @@ for page in root.rglob('*.html'):
     if relative.parts[0] == 'apps' and any(part in ('privacy', 'terms', 'support') for part in relative.parts[1:-1]):
         continue
     text = page.read_text()
+    if 'src="/assets/posthog-init.js?v=20261022"' in text:
+        text = text.replace('src="/assets/posthog-init.js?v=20261022"', 'src="/assets/posthog-init.js?v=20261022-2"')
+        page.write_text(text)
+    if 'src="/assets/posthog-init.js"' in text:
+        text = text.replace('src="/assets/posthog-init.js"', 'src="/assets/posthog-init.js?v=20261022-2"')
+        page.write_text(text)
     if '/assets/posthog-init.js' not in text and '</head>' in text:
         page.write_text(text.replace('</head>', tag + '\n</head>', 1))
         count += 1
