@@ -42,8 +42,10 @@
     "related": [
       "/guides/hevc-to-mp4-iphone/",
       "/guides/batch-convert-hdr-videos-iphone/",
-      "/hdr-video-checker/"
-    ]
+      "/hdr-video-checker/",
+      "/guides/hdr-vs-sdr-video/"
+    ],
+    "modified": "2026-10-23"
   },
   {
     "slug": "hevc-to-mp4-iphone",
@@ -411,6 +413,87 @@
       "/guides/hdr-to-sdr-iphone/",
       "/guides/combine-photos-iphone/",
       "/apps/photofix/"
+    ]
+  },
+  {
+    "slug": "hdr-vs-sdr-video",
+    "kind": "knowledge",
+    "title": "HDR vs SDR video: what changes and when should you convert?",
+    "summary": "HDR can preserve brighter highlights on a compatible screen. SDR is often the practical sharing copy when an app or display handles HDR poorly. Here is how to choose without throwing away your original.",
+    "app": "6812821310",
+    "published": "2026-10-23",
+    "modified": "2026-10-23",
+    "steps": [],
+    "sections": [
+      [
+        "What is HDR video?",
+        "HDR means high dynamic range. It can represent a wider brightness range than standard dynamic range, including highlights that look brighter than an ordinary white surface on a compatible display. Think of sunlight reflected on water in a scene that also contains a shaded face. HDR gives a capable playback system more room to show that contrast. It does not mean every shot is brighter, sharper or better composed. The recording, the display and the playback app all matter. Apple describes the display behavior in its HDR presentation linked below."
+      ],
+      [
+        "What is SDR video?",
+        "SDR means standard dynamic range. Rec.709 is a common color standard used for SDR video. SDR is a useful delivery choice when you want a conventional sharing copy for a workflow that expects it. A good SDR export can still look natural and detailed. It has a smaller range available for the brightest parts of an HDR scene, so conversion has to decide how those highlights fit. Apple compares SDR and HDR delivery in the Final Cut Camera guide below."
+      ],
+      [
+        "When should you keep HDR?",
+        "Keep the HDR original if it already plays correctly and your intended editing and viewing workflow supports it. You do not need to convert a clip merely because someone calls it HDR. For example, a family video that looks right in your usual Photos workflow has no demonstrated problem to solve. Preserve the original even when you make an SDR delivery copy. That leaves you a source for later edits rather than making the sharing export your only version."
+      ],
+      [
+        "When is an SDR copy worth trying?",
+        "An SDR copy is a sensible test when the original looks right on your iPhone but looks unexpectedly pale or bright in a particular destination. First compare the same moments in the original and received file. Then try an SDR copy in that exact destination. If the destination refuses the upload altogether, check its stated codec, container, duration and file-size requirements too. An upload rejection alone does not establish an HDR problem. If every copy is broken, investigate the file or transfer before repeatedly converting it."
+      ],
+      [
+        "HDR, HEVC and MP4 answer different questions",
+        "HDR describes the image brightness and color representation. HEVC and H.264 are video codecs. MOV and MP4 are file containers. These labels are not interchangeable: an MP4 can contain HDR video, and an HEVC video can be SDR. Renaming a file does not perform color conversion or change its video codec. Choose an export that meets both the color and format requirements of your destination. Our separate HEVC to H.264 guide covers the compatibility conversion rather than treating every playback failure as a color issue."
+      ],
+      [
+        "Two ways to make an SDR delivery copy on iPhone",
+        "If you are already editing in iMovie, Apple documents an SDR export path: when sharing the movie, open Options and turn HDR off. If you want a dedicated conversion workflow, our app VideoFix: HDR Video Converter offers Convert HDR to SDR, with H.264 MP4 and Rec.709 SDR output described in its current App Store listing. The linked conversion guide gives the app steps. Pick one short clip first instead of processing an entire library before checking the result. See the App Store for current access and purchase options."
+      ],
+      [
+        "What should the converted copy look like?",
+        "Choose one frame with a bright window or reflection, one with a face, and one with darker detail. Compare the original and exported copy on the same display at the same brightness, then open the export in the receiving app or device. Look for usable highlight detail and natural skin tones, and listen to confirm that audio remains in sync. This is a practical acceptance check, not a claim that the SDR version will reproduce every HDR highlight or look identical on every screen. Keep the original until you have checked the saved and shared output."
+      ],
+      [
+        "A quick decision before you export",
+        "If the clip already works for your audience, keep it. If only color rendering is wrong in the destination, test an SDR export. If the file will not open, check codec and container support. If an upload exceeds a size limit, address size separately. If you are unsure whether the file is HDR, use the HDR checker linked below before choosing a conversion. One clear diagnosis is more useful than changing every export setting at once."
+      ]
+    ],
+    "faq": [
+      [
+        "Does converting HDR to SDR reduce resolution?",
+        "Dynamic range and resolution are separate settings. Check the output resolution you select. Making an SDR copy does not inherently require choosing fewer pixels, although a particular export preset may change both."
+      ],
+      [
+        "Will an SDR conversion repair a damaged video?",
+        "It is not a general damaged-file repair. This workflow addresses color delivery and, with the appropriate export, codec compatibility. A file that cannot be read needs its own diagnosis."
+      ],
+      [
+        "Is turning off HDR recording the same as converting an old video?",
+        "No. A recording setting affects future recordings. To change a clip you already have, export a separate SDR copy and keep the original."
+      ]
+    ],
+    "sources": [
+      [
+        "Apple: HDR display behavior and brighter highlights",
+        "https://developer.apple.com/videos/play/wwdc2024/10177/"
+      ],
+      [
+        "Apple: SDR, HDR and log video compared",
+        "https://support.apple.com/en-us/guide/final-cut-camera/dev8637f6692/ios"
+      ],
+      [
+        "Apple: export an SDR movie from iMovie",
+        "https://support.apple.com/en-us/102241"
+      ],
+      [
+        "VideoFix: current official app capabilities and purchase options",
+        "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310"
+      ]
+    ],
+    "related": [
+      "/guides/hdr-to-sdr-iphone/",
+      "/guides/hevc-to-mp4-iphone/",
+      "/hdr-video-checker/"
     ]
   }
 ]

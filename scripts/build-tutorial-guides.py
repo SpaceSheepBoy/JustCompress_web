@@ -42,7 +42,7 @@ def page(path,title,description,body,schema=''):
 
 for g in GUIDES:
  path='/guides/'+g['slug']+'/'
- schema=ld({'@type':'Article','headline':g['title'],'description':g['summary'],'datePublished':DATE,'dateModified':DATE,'mainEntityOfPage':HOST+path,'author':{'@type':'Organization','name':'Space Sheep Studio'},'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})
+ schema=ld({'@type':'Article','headline':g['title'],'description':g['summary'],'datePublished':g.get('published',DATE),'dateModified':g.get('modified',g.get('published',DATE)),'mainEntityOfPage':HOST+path,'author':{'@type':'Organization','name':'Space Sheep Studio'},'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})
  schema+=ld({'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':BRAND,'item':HOST+'/'},{'@type':'ListItem','position':2,'name':'Guides','item':HOST+'/guides/'},{'@type':'ListItem','position':3,'name':g['title'],'item':HOST+path}]})
  if g.get('video') and VIDEOS[g['video']].get('published'):
   v=VIDEOS[g['video']]
@@ -54,8 +54,12 @@ for g in GUIDES:
  names={('/guides/'+x['slug']+'/'):x['title'] for x in GUIDES}
  labels={'/hdr-video-checker/':'Check whether a video is HDR or SDR','/combine-photos/':'Try the free photo combiner','/compress-video/':'Try the free video compressor','/mac/':'Get Just Captions for Mac','/privacy/':'Read the privacy information'}
  related=''.join(f'<li><a href="{E(u)}">{E(names.get(u,labels.get(u,u.strip("/").split("/")[-1].replace("-"," ").capitalize())))}</a></li>' for u in g['related'])
- body=f'''<header class="guide-heading"><p class="guide-eyebrow">{'MAC' if g['app']=='mac' else 'IPHONE'} GUIDE · UPDATED OCTOBER 22, 2026</p><h1>{E(g['title'])}</h1><p class="guide-lede">{E(g['summary'])}</p>{cta(g['app'])}</header>
-<article class="guide-article">{video(g['video']) if g.get('video') else ''}<section><h2>Follow these steps</h2><ol>{''.join('<li>'+E(t)+'</li>' for t in g['steps'])}</ol></section>{sections}<section class="guide-faq"><h2>Common questions</h2>{faqs}</section>{cta(g['app'])}<section><h2>Related guides and tools</h2><ul>{related}</ul><p><a href="/guides/">Browse all guides →</a></p></section></article>'''
+ updated=g.get('modified',g.get('published','OCTOBER 22, 2026'))
+ sources=''.join(f'<li><a href="{E(u)}">{E(label)}</a></li>' for label,u in g.get('sources',[]))
+ sources=('<section><h2>Sources and further reading</h2><ul>'+sources+'</ul></section>') if sources else ''
+ steps=('<section><h2>Follow these steps</h2><ol>'+''.join('<li>'+E(t)+'</li>' for t in g['steps'])+'</ol></section>') if g.get('steps') else ''
+ body=f'''<header class="guide-heading"><p class="guide-eyebrow">{'MAC' if g['app']=='mac' else 'IPHONE'} GUIDE · UPDATED {E(updated)}</p><h1>{E(g['title'])}</h1><p class="guide-lede">{E(g['summary'])}</p>{cta(g['app'])}</header>
+<article class="guide-article">{video(g['video']) if g.get('video') else ''}{steps}{sections}{sources}<section class="guide-faq"><h2>Common questions</h2>{faqs}</section>{cta(g['app'])}<section><h2>Related guides and tools</h2><ul>{related}</ul><p><a href="/guides/">Browse all guides →</a></p></section></article>'''
  dest=ROOT/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(page(path,g['title'],g['summary'],body,schema))
 body=f'<header class="guide-heading"><p class="guide-eyebrow">REAL APP WALKTHROUGHS</p><h1>{"Video caption guides for Mac and iPhone" if CAPTIONS else "iPhone video, audio and photo guides"}</h1><p class="guide-lede">Watch the tutorial, follow the written steps and open the app for the task.</p></header>'
 if CAPTIONS:
