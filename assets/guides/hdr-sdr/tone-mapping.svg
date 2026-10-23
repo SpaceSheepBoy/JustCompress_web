@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="title desc">
+<title id="title">Tone mapping fits an HDR scene into SDR</title><desc id="desc">An HDR brightness band is remapped to a shorter SDR band. The original HDR video is kept and a separate SDR sharing copy is exported. The bands illustrate a concept, not measured brightness values.</desc>
+<defs><linearGradient id="hdr"><stop stop-color="#25283e"/><stop offset=".65" stop-color="#eee9ee"/><stop offset="1" stop-color="#ffd665"/></linearGradient><linearGradient id="sdr"><stop stop-color="#25283e"/><stop offset="1" stop-color="#f8f6f2"/></linearGradient></defs>
+<rect width="640" height="350" rx="24" fill="#edf3ee"/>
+<g font-family="system-ui,-apple-system,sans-serif" fill="#243d30"><text x="32" y="48" font-size="25" font-weight="750">HDR original</text><rect x="32" y="69" width="576" height="43" rx="12" fill="url(#hdr)"/>
+<g stroke="#a9bcae" stroke-width="2"><path d="M54 126L154 205M190 126L237 205M326 126L320 205M462 126L403 205M590 126L486 205"/></g>
+<rect x="205" y="147" width="230" height="43" rx="21" fill="#fff"/><text x="320" y="176" font-size="25" text-anchor="middle" font-weight="700">Tone mapping</text>
+<rect x="140" y="217" width="360" height="43" rx="12" fill="url(#sdr)" stroke="#a9bcae"/><text x="320" y="302" font-size="25" text-anchor="middle" font-weight="750">A separate SDR sharing copy</text></g></svg>

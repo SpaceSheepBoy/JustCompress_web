@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 510" role="img" aria-labelledby="title desc">
+<title id="title">HDR makes room for brighter highlights</title><desc id="desc">A drawing of a room with a shaded chair and a sunlit window. Below it, an SDR brightness band ends at ordinary white; an HDR band extends to brighter highlights. This is a conceptual diagram, not an actual HDR display comparison.</desc>
+<defs><linearGradient id="room" x2="1" y2="1"><stop stop-color="#e9e1d9"/><stop offset="1" stop-color="#f7f0df"/></linearGradient><linearGradient id="range"><stop stop-color="#25283e"/><stop offset=".6" stop-color="#8b8ea8"/><stop offset="1" stop-color="#faf8f3"/></linearGradient><linearGradient id="highlight"><stop stop-color="#fff1bc"/><stop offset="1" stop-color="#ffd665"/></linearGradient></defs>
+<rect width="640" height="510" rx="24" fill="#f0edf5"/>
+<g font-family="system-ui,-apple-system,sans-serif" fill="#292437">
+<rect x="28" y="24" width="584" height="218" rx="16" fill="url(#room)"/>
+<path d="M28 201H612V226Q612 242 596 242H44Q28 242 28 226Z" fill="#d6c7b7"/>
+<path d="M395 135L280 242H590L520 135Z" fill="#fff4cf" opacity=".8"/>
+<rect x="379" y="41" width="177" height="124" rx="7" fill="#fdfaf1" stroke="#a89b93" stroke-width="8"/>
+<path d="M467 45V163M383 103H552" stroke="#a89b93" stroke-width="7"/>
+<circle cx="514" cy="77" r="19" fill="#ffd665"/>
+<rect x="90" y="118" width="112" height="70" rx="19" fill="#656079"/><rect x="79" y="168" width="136" height="34" rx="12" fill="#47435c"/>
+<path d="M94 197V216M199 197V216" stroke="#47435c" stroke-width="9"/>
+<g font-size="23" font-weight="650"><rect x="45" y="42" width="190" height="42" rx="21" fill="#fff"/><text x="140" y="70" text-anchor="middle">Shaded details</text><rect x="369" y="187" width="223" height="42" rx="21" fill="#fff"/><text x="480" y="215" text-anchor="middle">Bright highlights</text></g>
+<text x="32" y="292" font-size="26" font-weight="750">SDR</text><rect x="115" y="269" width="300" height="31" rx="10" fill="url(#range)" stroke="#c9c4d5"/>
+<text x="32" y="360" font-size="26" font-weight="750">HDR</text><rect x="115" y="337" width="300" height="31" rx="10" fill="url(#range)" stroke="#c9c4d5"/><rect x="415" y="337" width="192" height="31" rx="10" fill="url(#highlight)"/>
+<path d="M415 310V391" stroke="#827491" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="115" y="416" font-size="22">Dark tones</text><text x="415" y="416" font-size="22" text-anchor="middle">Reference white</text>
+<text x="320" y="472" text-anchor="middle" font-size="25" font-weight="700">HDR adds room above ordinary white.</text>
+</g></svg>

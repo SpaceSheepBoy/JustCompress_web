@@ -60,6 +60,8 @@ for g in GUIDES:
  steps=('<section><h2>Follow these steps</h2><ol>'+''.join('<li>'+E(t)+'</li>' for t in g['steps'])+'</ol></section>') if g.get('steps') else ''
  body=f'''<header class="guide-heading"><p class="guide-eyebrow">{'MAC' if g['app']=='mac' else 'IPHONE'} GUIDE · UPDATED {E(updated)}</p><h1>{E(g['title'])}</h1><p class="guide-lede">{E(g['summary'])}</p>{cta(g['app'])}</header>
 <article class="guide-article">{video(g['video']) if g.get('video') else ''}{steps}{sections}{sources}<section class="guide-faq"><h2>Common questions</h2>{faqs}</section>{cta(g['app'])}<section><h2>Related guides and tools</h2><ul>{related}</ul><p><a href="/guides/">Browse all guides →</a></p></section></article>'''
+ if g.get('layout'):
+  body=(ROOT/'scripts/guide-layouts'/g['layout']).read_text().replace('{{CTA}}',cta(g['app'])).replace('{{DATE}}',E(updated))
  dest=ROOT/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(page(path,g['title'],g['summary'],body,schema))
 body=f'<header class="guide-heading"><p class="guide-eyebrow">REAL APP WALKTHROUGHS</p><h1>{"Video caption guides for Mac and iPhone" if CAPTIONS else "iPhone video, audio and photo guides"}</h1><p class="guide-lede">Watch the tutorial, follow the written steps and open the app for the task.</p></header>'
 if CAPTIONS:

@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/assets/visual-guide.css?v=20261023-1">
+<div class="visual-guide">
+<header class="visual-heading">
+<p class="guide-eyebrow">VIDEO BASICS · UPDATED {{DATE}}</p>
+<h1>HDR vs SDR,<br>explained visually.</h1>
+<p class="visual-lede">HDR has room for brighter highlights. SDR is often easier to share. Here is when to keep each.</p>
+<nav class="article-jumps" aria-label="In this guide"><a href="#difference">The difference</a><a href="#choose">Should I convert?</a><a href="#convert">How to convert</a></nav>
+</header>
+<article class="visual-article">
+<section id="difference" aria-labelledby="difference-title">
+<h2 id="difference-title">01. Same scene. Different brightness range.</h2>
+<figure><img src="/assets/guides/hdr-sdr/brightness-range.svg" width="640" height="510" alt="A sunlit room and brightness bands: HDR extends above the reference white level used in SDR." fetchpriority="high"><figcaption>Conceptual illustration. This SDR webpage is not a true HDR display comparison.</figcaption></figure>
+<div class="definition-pair"><div><span class="term-label">SDR</span><h3>Standard dynamic range</h3><p>A conventional delivery format for everyday playback. Rec.709 is a common SDR color standard.</p></div><div><span class="term-label term-hdr">HDR</span><h3>High dynamic range</h3><p>More room for bright reflections and light sources. The display and playback app must handle it correctly.</p></div></div>
+<p class="source-note">Definitions: <a href="https://support.apple.com/en-us/guide/final-cut-camera/dev8637f6692/ios">Apple’s video format guide</a> and <a href="https://developer.apple.com/videos/play/wwdc2024/10177/">HDR display explanation</a>.</p>
+</section>
+<aside class="takeaway"><strong>SDR does not mean blurry.</strong><p>Dynamic range and resolution are different. An SDR video can still be 4K.</p></aside>
+<section id="choose" aria-labelledby="choose-title">
+<h2 id="choose-title">02. Do you actually need to convert?</h2>
+<p>Start with the problem you can see.</p>
+<div class="decision-list">
+<div class="decision"><span class="decision-icon" aria-hidden="true">✓</span><div><h3>Looks right where you need it?</h3><p>Keep HDR. There is no demonstrated problem to fix.</p></div><span class="decision-result">Keep it</span></div>
+<div class="decision"><span class="decision-icon" aria-hidden="true">◐</span><div><h3>Looks pale or too bright after sharing?</h3><p>Compare the original with the received file. Test an SDR copy in that destination.</p></div><span class="decision-result">Try SDR</span></div>
+<div class="decision"><span class="decision-icon" aria-hidden="true">?</span><div><h3>Will not open, or upload rejected?</h3><p>Check codec, container, duration and size limits. The error alone does not prove HDR is the cause.</p></div><span class="decision-result">Check format</span></div>
+</div>
+</section>
+<section aria-labelledby="labels-title">
+<h2 id="labels-title">Three labels. Three different jobs.</h2>
+<div class="comparison-wrap"><table><caption class="sr-only">What HDR, HEVC and MP4 describe</caption><thead><tr><th scope="col">Label</th><th scope="col">Describes</th><th scope="col">Examples</th></tr></thead><tbody><tr><th scope="row">Dynamic range</th><td>Brightness representation</td><td>HDR, SDR</td></tr><tr><th scope="row">Codec</th><td>How video is encoded</td><td>HEVC, H.264</td></tr><tr><th scope="row">Container</th><td>The file wrapper</td><td>MOV, MP4</td></tr></tbody></table></div>
+<p class="small-note">An MP4 can contain HDR. Renaming a MOV file does not convert its color or codec.</p>
+</section>
+<section id="convert" aria-labelledby="convert-title">
+<h2 id="convert-title">03. Export a copy. Keep the original.</h2>
+<figure><img src="/assets/guides/hdr-sdr/tone-mapping.svg" width="640" height="350" alt="Tone mapping remaps the HDR brightness range into a separate SDR sharing copy." loading="lazy"><figcaption>Tone mapping fits brightness into the output range. It cannot preserve every HDR highlight unchanged.</figcaption></figure>
+<ol class="conversion-options"><li><h3>Already editing in iMovie?</h3><p>When sharing your movie, open <strong>Options</strong> and turn <strong>HDR off</strong> for an SDR export. <a href="https://support.apple.com/en-us/102241">Apple’s instructions</a>.</p></li><li><h3>Want a dedicated conversion?</h3><p>Our app <strong>VideoFix: HDR Video Converter</strong> offers <strong>Convert HDR to SDR</strong>, with H.264 MP4 and Rec.709 SDR output. <a href="/guides/hdr-to-sdr-iphone/">Follow the app steps →</a></p></li></ol>
+<aside class="output-check"><h3>Before you send the whole batch</h3><ul><li>Test one short clip.</li><li>Check a bright window, a face and a dark area.</li><li>Open the export in the actual receiving app or device.</li></ul><p>Keep the HDR original for future edits. Conversion is not a general repair for damaged files.</p></aside>
+{{CTA}}
+</section>
+<section class="visual-related"><h2>Keep going</h2><ul><li><a href="/guides/hdr-to-sdr-iphone/">Convert HDR to SDR on iPhone →</a></li><li><a href="/guides/hevc-to-mp4-iphone/">Convert HEVC to H.264 MP4 →</a></li><li><a href="/hdr-video-checker/">Check whether your file is HDR →</a></li></ul></section>
+</article></div>
