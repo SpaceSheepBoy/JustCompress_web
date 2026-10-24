@@ -15,25 +15,8 @@ for p in root.rglob('index.html'):
  # Shorten descriptions on navigation cards, keeping their titles and links.
  for el in s.select('.blog-grid p,.article-index p,.mini-tools p,.guide-grid p'):el.decompose()
  for el in s.select('.lede'):
-  if 'seo-visual' in s.body.get('class',[]):el.string='🔒 On your device · No upload' if s.select_one('#tool') else 'A quick guide. See the app in action.'
- # Condense guides to their original introduction and first concrete steps.
- for article in s.select('article.prose'):
-  intro=article.find('p',recursive=False)
-  steps=article.find(['ol','ul'])
-  keep=[]
-  if intro:
-   text=intro.get_text(' ',strip=True)
-   sentence=re.split(r'(?<=[.!?])\s+',text)[0]
-   if len(sentence.split())<=55: keep.append('<p>'+sentence+'</p>')
-  if steps:
-   lis=steps.find_all('li',recursive=False)[:3]
-   keep.append('<ol>'+''.join('<li>'+re.split(r'(?<=[.!?])\s+',li.get_text(' ',strip=True))[0]+'</li>' for li in lis)+'</ol>')
-  # Keep unique comparison tables when present, folded with the guide.
-  table=article.find('table')
-  if table:keep.append(str(table))
-  if keep:
-   article.clear()
-   article.append(BeautifulSoup(''.join(keep),'html.parser'))
+  if 'seo-visual' in s.body.get('class',[]) and s.select_one('#tool'):el.string='🔒 On your device · No upload'
+ # Article content is maintained source. Compact spacing, never delete its sections.
  # Keep answers available with one collapsed entrance rather than a wall of questions.
  for faq in s.select('.faq'):
   if faq.find_parent('details'):continue

@@ -19,3 +19,7 @@ for route,(title,body) in pages.items():
  html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><link rel="canonical" href="'+url+'"><style>'+css+'</style></head><body><main>'+nav+body+'<hr>'+nav+'<p class="small">© 2026 Space Sheep Studio</p></main></body></html>'
  (folder/'index.html').write_text(html)
 print('Prepared 4 Audio Fix pages. No deployment performed.')
+
+# Apply shared descriptions and canonicals after rebuilding the current copy.
+import runpy
+runpy.run_path(str(Path(__file__).resolve().parent/'repair-seo-metadata.py'))

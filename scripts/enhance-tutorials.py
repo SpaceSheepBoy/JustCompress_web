@@ -120,3 +120,7 @@ else:
    raw=p.read_text();new=re.sub(r'Space Sheep Studio','Space Sheep Studio',raw,flags=re.I)
    if new!=raw:p.write_text(new)
 print('Connected tutorials, CTAs and product entries for',m.HOST)
+
+# Existing legal/product metadata is preserved after page generators.
+import subprocess,sys
+subprocess.run([sys.executable,str(ROOT/'scripts/repair-seo-metadata.py')],check=True)

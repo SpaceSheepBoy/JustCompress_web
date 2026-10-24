@@ -28,7 +28,7 @@ const articles = [
     tag: "PDF PRIVACY",
     title: "Are Online PDF Tools Safe for Private Documents?",
     description: "Learn when online PDF tools are safe, when uploading is unnecessary, and why no-upload PDF tools are better for contracts, IDs, bank statements, and client files.",
-    direct: "Many online PDF tools are legitimate and use security practices such as HTTPS, encryption, and automatic file deletion. The privacy question is simpler: if a PDF contains contracts, IDs, bank statements, medical forms, or client details, the safest option is a no-upload tool that keeps the file on your own device.",
+    direct: "Many online PDF tools are legitimate and use security practices such as HTTPS, encryption, and automatic file deletion. The privacy question is simpler: if a PDF contains contracts, IDs, bank statements, medical forms, or client details, local processing avoids sending the file to another processing service. Follow any policy that applies to the document.",
     sections: [
       ["The real risk is the upload step", "A cloud PDF tool may be well run, but it still has to receive your document before it can process it. That means your private file leaves your device, passes through another company's infrastructure, and depends on that service's retention, access, deletion, and account policies."],
       ["Use Just Compress when the task is mechanical", "Compression, merging, typed signing, watermarking, JPG to PDF, and PDF to JPG do not require a company or AI model to understand the contents of the document. Just Compress is built for those jobs: choose a file, process it locally in the browser or app, and download the result."],
@@ -37,7 +37,7 @@ const articles = [
     faqs: [
       ["Are my files uploaded?", "With Just Compress browser tools, supported PDF work runs on your device. Cloud PDF tools often upload files to servers before processing."],
       ["Are files deleted after processing?", "Many cloud tools say they delete files after a short period, but you still have to trust that policy. With a no-upload tool, the better answer is that the file never needed to be stored on a server for the task."],
-      ["Can employees see my file?", "Reputable services usually restrict access, but the strongest privacy posture is to avoid sending sensitive files to another system at all."],
+      ["Can employees see my file?", "Reputable services usually restrict access, but avoiding an unnecessary upload reduces one source of exposure. Device security and organizational requirements still matter."],
       ["Is this safe for contracts or bank statements?", "For simple file operations, use a no-upload tool first. If the document needs legal review, OCR, or advanced editing, use a specialized service with the privacy controls your situation requires."]
     ],
     primaryCta: "/compress-pdf/"
@@ -89,7 +89,7 @@ const articles = [
     sections: [
       ["Use ChatGPT when the content matters", "AI is useful when you want to understand a document, ask questions about it, compare files, draft text, or extract meaning. In those cases, the service needs access to the content to help you."],
       ["Do not upload just to resize a file", "Compression and simple conversion are mechanical tasks. They do not require an AI assistant to read the document, so a no-upload tool is usually the better privacy choice."],
-      ["Know the retention difference", "OpenAI's help center explains that uploaded files are saved in your account up to the retention period of the corresponding chat, and data controls affect whether consumer ChatGPT content may be used to improve models. That is very different from a local file tool where the file does not leave your device for the operation."]
+      ["Know the retention difference", "Before uploading, read the current official file-upload and data-control policies linked below for your account, plan and workflow. Do not assume that deleting a chat or disabling training answers every question about file retention. If you only need local compression, you can avoid a processing upload altogether."]
     ],
     faqs: [
       ["Can I upload a PDF to ChatGPT?", "Yes, if you need AI help with the contents of the PDF. For simple file operations, use a local tool instead."],
@@ -108,7 +108,7 @@ const articles = [
     tag: "PDF TOOL COMPARISON",
     title: "Free Online PDF Tools vs No-Upload PDF Apps: Which Is Safer?",
     description: "Compare free cloud PDF tools with no-upload PDF apps. Learn why local PDF processing is safer when the document is private and the job is simple.",
-    direct: "Free online PDF tools can be convenient and many are operated by reputable companies. A no-upload PDF app is safer for private files because the file does not need to be sent to a server for simple tasks.",
+    direct: "Free online PDF tools can be convenient and many are operated by reputable companies. A no-upload PDF app avoids a processing upload because the file does not need to be sent to a server for simple tasks.",
     sections: [
       ["The common cloud promise", "Many cloud PDF tools answer privacy questions with encryption, restricted access, and automatic deletion. Those are useful protections, but they do not remove the fact that the file was uploaded first."],
       ["The no-upload difference", "No-upload tools reduce the trust requirement. For simple compression, merging, signing, watermarking, and conversion, the file can stay on your device while the tool creates the result."],
@@ -116,7 +116,7 @@ const articles = [
     ],
     faqs: [
       ["Are free online PDF tools safe?", "Often, yes for non-sensitive files. For private files, no-upload tools are safer because the file does not leave your device."],
-      ["Are no-upload PDF apps free?", "Just Compress provides free browser tools and free companion iOS apps for key PDF workflows."],
+      ["Are no-upload PDF apps free?", "Just Compress provides free browser tools. Companion iOS apps have their own access and purchase options, shown in the App Store."],
       ["Do no-upload tools have limits?", "Browser tools depend on your device, browser, and file complexity. Very large or unusual files may need a desktop or full PDF editor."],
       ["Which is better for company files?", "For simple file work, use no-upload processing when company policy allows it. For managed workflows, follow your company's approved tools."]
     ],
@@ -146,7 +146,7 @@ const articles = [
     tag: "FREE PDF TOOLS",
     title: "Are Free PDF Compressors Really Free and Private?",
     description: "Free PDF compressors vary. Learn how to spot uploads, paywalls, watermarks, account requirements, and why Just Compress is free, no-account, and no-upload.",
-    direct: "Some free PDF compressors are genuinely useful, while others add limits, watermarks, sign-up gates, or server upload requirements. Just Compress is built for simple private compression: no account, no output watermark, and no upload for supported PDF compression.",
+    direct: "Some free PDF compressors are genuinely useful, while others add limits, watermarks, sign-up gates, or server upload requirements. Just Compress is built for simple private compression: no account and no upload for supported PDF compression. Browser PDF exports include a small app logo watermark.",
     sections: [
       ["What to check before choosing a free compressor", "Look for account requirements, file-size limits, daily limits, output watermarks, upgrade prompts after processing, and whether the file is uploaded to a server."],
       ["Privacy is more than deletion", "A tool can be free and reputable while still requiring cloud processing. If the file is private, the best question is not only whether it will be deleted later, but whether it needed to be uploaded at all."],
@@ -154,7 +154,7 @@ const articles = [
     ],
     faqs: [
       ["Is Just Compress free?", "Yes. The browser PDF compressor is free and does not require an account."],
-      ["Does Just Compress add a watermark?", "No. Just Compress does not add a branding watermark to compressed PDFs."],
+      ["Does Just Compress add a watermark?", "Yes. The browser PDF compressor adds a small Just Compress app logo watermark. Inspect the output and check whether your recipient accepts it."],
       ["Are all free PDF compressors private?", "No. Many are safe for ordinary files but still upload documents to servers."],
       ["What is the safest free PDF compressor for sensitive files?", "Use a no-upload PDF compressor for simple jobs involving contracts, invoices, IDs, or client documents."]
     ],
@@ -230,7 +230,7 @@ const articles = [
     ],
     faqs: [
       ["Can I compress MOV without uploading?", "Use Just Compress for short MOV clips, or the MOV to MP4 tool when compatibility is the main issue."],
-      ["Will the video still be MP4?", "Just Compress video compression exports H.264 MP4 for broad compatibility."],
+      ["Will the video still be MP4?", "Check the exported file type and playback. Browser encoder support varies; an MP4 extension alone does not establish the video codec or compatibility."],
       ["Can I use it on iPhone?", "Modern mobile browsers can run many local file tools, but performance depends on the device and file size."],
       ["What if the file is too large?", "Use a native editor or approved desktop tool for long videos. For short private clips, try no-upload compression first."]
     ],
@@ -336,7 +336,7 @@ function footer() {
 
 function comparisonTable() {
   const rows = [
-    ["Just Compress", "Simple private file tasks: compress, merge, sign, watermark, convert, trim, split.", "OCR, legal review, deep PDF editing, transcription, or AI analysis.", "No upload for supported tools. Free, no account, no output watermark."],
+    ["Just Compress", "Simple private file tasks: compress, merge, sign, watermark, convert, trim, split.", "OCR, legal review, deep PDF editing, transcription, or AI analysis.", "No upload for supported tools. Browser tools are free and require no account. PDF exports include a small app logo watermark."],
     ["Cloud PDF and media tools", "Non-sensitive files, collaboration, heavy server processing, shared workflows.", "Sensitive files that only need a simple mechanical file operation.", "Often secure, but many require upload, server processing, and deletion policies."],
     ["ChatGPT / AI", "Summarizing, reasoning, rewriting, comparing, extracting meaning from content.", "Only making a file smaller, converting it, or adding a simple mark.", "Useful when content analysis is needed; unnecessary exposure for simple file tasks."],
     ["Adobe / full editors", "OCR, redaction, forms, certificates, advanced page editing, professional workflows.", "One quick compression or conversion where no full editor is needed.", "Powerful, but heavier than needed for simple no-upload file work."]
@@ -377,6 +377,7 @@ function articlePage(article) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
+    dateModified: "2026-10-24",
     description: article.description,
     author: { "@type": "Organization", name: "Just Compress" },
     publisher: { "@type": "Organization", name: "Just Compress" },
@@ -419,21 +420,26 @@ ${json(articleLd)}
 <script type="application/ld+json">
 ${json(faqLd)}
 </script>
+<script type="application/ld+json">
+${json({"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Just Compress",item:site+"/"},{"@type":"ListItem",position:2,name:"Blog",item:site+"/blog/"},{"@type":"ListItem",position:3,name:article.title,item:canonical}]})}
+</script>
 </head>
 <body class="t-pdf">
 <div class="topline"></div>
 ${nav("Blog")}
 
 <header class="measure hero">
-  <span class="kicker rise d1"><span class="led"></span>${esc(article.tag)}</span>
+  <span class="kicker rise d1"><span class="led"></span>${esc(article.tag)} · REVIEWED <time datetime="2026-10-24">2026-10-24</time></span>
   <h1 class="rise d2">${esc(article.title)}</h1>
   <p class="lede rise d3">${esc(article.description)}</p>
   <div class="assure rise d3">No-upload file tools for supported PDF, audio, video, and photo tasks</div>
 </header>
 
 <main class="measure">
-  <article class="prose">
+  <article class="prose" data-maintained-article>
     <div class="tldr"><b>Short answer</b>${esc(article.direct)}</div>
+
+    <figure class="privacy-flow" id="workflow"><img src="/assets/local-file-processing.svg" alt="Local processing keeps the file operation on your device; cloud processing sends a copy to a remote service." width="640" height="500" loading="lazy"><figcaption>Conceptual data-flow diagram. Loading a website and optional website analytics are separate from uploading your selected file. <a href="/privacy/">Website privacy</a>.</figcaption></figure>
 
     ${article.sections.map(([heading, body]) => `<h2>${esc(heading)}</h2>
     <p>${esc(body)}</p>`).join("\n\n    ")}
@@ -531,9 +537,9 @@ fs.mkdirSync(blogRoot, { recursive: true });
 for (const article of articles) {
   const dir = path.join(blogRoot, article.slug);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "index.html"), visualPage(articlePage(article), article.slug));
+  fs.writeFileSync(path.join(dir, "index.html"), visualPage(articlePage(article), article.slug).replaceAll("—", ", ").replaceAll("–", " to ").replace(/ +$/gm, ""));
 }
-fs.writeFileSync(path.join(blogRoot, "index.html"), indexPage());
+if (!process.argv.includes("--articles-only")) fs.writeFileSync(path.join(blogRoot, "index.html"), indexPage());
 
 const sitemapPath = path.join(root, "sitemap.xml");
 let sitemap = fs.readFileSync(sitemapPath, "utf8");
@@ -541,14 +547,11 @@ const blogUrls = [
   { loc: `${site}/blog/`, priority: "0.9" },
   ...articles.map((article) => ({ loc: `${site}/blog/${article.slug}/`, priority: "0.8" }))
 ];
-const blogXml = blogUrls.map(({ loc, priority }) => `  <url>
-    <loc>${loc}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>${priority}</priority>
-  </url>`).join("\n");
-sitemap = sitemap.replace(/\n  <url>\n    <loc>https:\/\/justcompress\.online\/blog\/[\s\S]*?(?=\n  <url>\n    <loc>https:\/\/justcompress\.online\/legal\/)/, "");
-if (!sitemap.includes(`${site}/blog/`)) {
-  sitemap = sitemap.replace(/\n  <url>\n    <loc>https:\/\/justcompress\.online\/legal\/<\/loc>/, `\n${blogXml}\n  <url>\n    <loc>https://justcompress.online/legal/</loc>`);
+// Preserve existing URL records and real modification dates on rebuild.
+for (const {loc, priority} of blogUrls) {
+  if (!sitemap.includes(`<loc>${loc}</loc>`)) {
+    sitemap = sitemap.replace('</urlset>', `  <url><loc>${loc}</loc><changefreq>monthly</changefreq><priority>${priority}</priority></url>\n</urlset>`);
+  }
 }
 fs.writeFileSync(sitemapPath, sitemap);
 
@@ -562,4 +565,4 @@ if (!llms.includes("[Blog](https://justcompress.online/blog/)")) {
 }
 fs.writeFileSync(llmsPath, llms);
 
-console.log(`Generated ${articles.length} privacy blog articles plus /blog/.`);
+console.log(`Generated ${articles.length} privacy articles${process.argv.includes("--articles-only") ? " (index preserved)" : " plus /blog/"}.`);
