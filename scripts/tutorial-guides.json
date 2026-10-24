@@ -450,5 +450,35 @@
       "/hdr-video-checker/"
     ],
     "layout": "hdr-vs-sdr-video.html"
+  },
+  {
+    "slug": "audio-bitrate-file-size",
+    "title": "Audio bitrate and file size: choose a smaller, clear export",
+    "summary": "Estimate audio file size from bitrate and duration, choose a sensible speech or music test, and verify a smaller sharing copy without losing the original.",
+    "app": "6769563659",
+    "kind": "knowledge",
+    "published": "2026-10-24",
+    "modified": "2026-10-24",
+    "layout": "audio-bitrate-file-size.html",
+    "sections": [],
+    "faq": [],
+    "related": [
+      "/compress-audio/",
+      "/apps/audio-compressor/"
+    ],
+    "sources": [
+      [
+        "Audio codecs",
+        "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Audio_codecs"
+      ],
+      [
+        "MP3 export options",
+        "https://manual.audacityteam.org/man/mp3_export_options.html"
+      ],
+      [
+        "Bitrate and VBR",
+        "https://support.apple.com/en-ie/guide/itunes/itns2965/windows"
+      ]
+    ]
   }
 ]

@@ -27,7 +27,8 @@ def video(i):
 
 def card(g):
  thumb=f'<img src="{E(VIDEOS[g["video"]]["thumbnail"])}" width="480" height="360" alt="" loading="lazy">' if g.get('video') else ''
- return f'<a class="guide-card" href="/guides/{g["slug"]}/">{thumb}<div><span>{"Mac" if g["app"]=="mac" else "iPhone"} tutorial</span><h3>{E(g["title"])}</h3><p>{E(g["summary"])}</p><b>Read the steps →</b></div></a>'
+ label="Practical guide" if g.get("kind")=="knowledge" else (("Mac" if g["app"]=="mac" else "iPhone")+" tutorial")
+ return f'<a class="guide-card" href="/guides/{g["slug"]}/">{thumb}<div><span>{label}</span><h3>{E(g["title"])}</h3><p>{E(g["summary"])}</p><b>Read the guide →</b></div></a>'
 
 def page(path,title,description,body,schema=''):
  url=HOST+path
