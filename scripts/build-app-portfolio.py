@@ -49,13 +49,17 @@ for a in APPS:
  body+='<section class="product-section"><h2>What you can do</h2><ul class="feature-list">'+''.join('<li>'+E(f)+'</li>' for f in a['features'])+'</ul></section>'
  body+=f'<section class="product-section"><h2>Access and purchases</h2><p>{E(a["access"])}</p><p>Prices and availability can differ by storefront. Apple shows the current local offer before purchase.</p></section><section class="product-section"><h2>Before you export or share</h2><p>{E(a["caveat"])}</p></section>'
  if a.get('release_notes'):body+=f'<section class="product-section"><h2>Latest published update</h2><p class="product-version">Version {E(a["version"])} · released {E(a["release_date"])}</p><p>{E(a["release_notes"]).replace(chr(10),"<br>")}</p></section>'
- related=[(f'/guides/{g["slug"]}/',g['title']) for g in GUIDES if g['app']==a['id']]
+ related={
+  '6769563659':[('/compress-audio-file-iphone/','How to compress an audio file on iPhone')],
+  '6769563339':[('/compress-video-for-whatsapp/','Video too big for WhatsApp: choose how to send it')],
+  '6769762323':[('/sign-merge-compress-pdf-iphone-no-upload/','Sign, merge and compress a PDF on iPhone')]
+ }.get(a['id'],[])+[(f'/guides/{g["slug"]}/',g['title']) for g in GUIDES if g['app']==a['id']]
  for p in sorted((ROOT/'iphone-video-tutorials').glob('*/index.html')):
   name=p.parent.name
   match=('audio' in name or 'm4a' in name) if a['id']=='6769563659' else ('watermark' in name) if a['id']=='6769761016' else ('pdf' in name and 'watermark' not in name) if a['id']=='6769762323' else False
   if match:related.append(('/iphone-video-tutorials/'+name+'/',name.split('-',1)[1].replace('-',' ').capitalize()))
  if a['slug']=='just-captions':related.append(('https://justcaptions.com/guides/','Just Captions guides for iPhone and Mac'))
- if related:body+='<section class="product-section"><h2>Practical guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in related[:6])+'</ul></section>'
+ if related:body+='<section class="product-section"><h2>Practical guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in related[:7])+'</ul></section>'
  body+=f'<aside class="product-download"><h2>{E(a["name"])}</h2><p>{E(a["benefit"])}. Review the current store listing for full details and compatibility.</p><a class="portfolio-button" href="{E(a["store_url"])}">Get the iPhone app ↗</a><p class="product-links">{policy_links(a)}</p></aside>'
  schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':'iOS '+a['minimum_os']+' or later','applicationCategory':'UtilitiesApplication','description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
  page(route,a['name']+' for iPhone',a['benefit']+'. Current features, App Store screenshots, version details and access options.',body,schema,alternates=alternates if a['slug']=='collage-maker' else None)
