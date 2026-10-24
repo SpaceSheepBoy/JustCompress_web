@@ -38,3 +38,5 @@ node scripts/test-posthog.cjs
 ```
 
 Review generated pages at desktop and 390px width. Update sitemap entries only for genuinely changed or added pages. Check internal links, canonical URLs, JSON-LD, product availability and prohibited personal names before deploying. Keep deployment, search indexing and analytics ingestion evidence separate.
+
+The current 11-App portfolio and all-page verification workflow are documented in [the portfolio maintenance notes](docs/seo-portfolio-2026-10-24.md). Run the final public-page normalizer after content generation and analytics installation after that. The public portfolio is explicitly curated; a developer account lookup must never automatically add every App to this website.

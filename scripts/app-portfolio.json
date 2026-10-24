@@ -1,0 +1,635 @@
+{
+  "checked": "2026-10-24",
+  "apps": [
+    {
+      "id": "6812821310",
+      "slug": "videofix",
+      "name": "VideoFix: HDR Video Converter",
+      "benefit": "Convert HDR, HEVC and Apple Log video",
+      "features": [
+        "Map HDR video to standard Rec.709 SDR color.",
+        "Convert HEVC to an H.264 MP4, including HEVC that is already SDR.",
+        "Convert Apple ProRes Log to Rec.709 SDR.",
+        "Choose a steady 24, 25, 30 or 60 FPS export and process several clips.",
+        "Choose output resolution, set an optional maximum size, or extract AAC audio as M4A."
+      ],
+      "access": "The first 3 conversions are free. Lifetime and auto-renewing monthly purchases unlock unlimited conversions.",
+      "caveat": "Conversion re-encodes the video. Keep the original and check playback, sound and color in the intended destination.",
+      "version": "1.0.5",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-12",
+      "release_notes": "A clearer animated introduction to the app and an improved upgrade flow.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310",
+      "icon": {
+        "src": "/assets/apps/435a08cad30bc4005b.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/ba/90/acba9070-614a-8414-f3f8-66c38e0cd446/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "435a08cad30bc4005bfa1e7cb4f41b803640afbb132ddfb3d1e6083f2616ca02",
+        "bytes": 18808,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/90b9def57ec24b0d9a.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/37/4f/f1374f8b-40b5-37a3-9c2c-f75c46748993/01-ready.png/320x480bb.jpg",
+          "sha256": "90b9def57ec24b0d9a732018e0548ed53ef2d361b736cf874d25a09bc49f5b96",
+          "bytes": 25729,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/1d8dbe7e1d92eae047.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/87/c9/1d87c91d-4628-4f5f-c7a1-e9e276101ddb/02-convert.png/320x480bb.jpg",
+          "sha256": "1d8dbe7e1d92eae047cfde662433f80db626406a73b25ce18b68f502c55277b1",
+          "bytes": 26686,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/170b1e96a6111510c6.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/27/76/43277689-2b22-4edb-0e25-da742ede823d/03-inspect.png/320x480bb.jpg",
+          "sha256": "170b1e96a6111510c6fac5dcbda637e08876433130f5504c17c1e590220a4a03",
+          "bytes": 26568,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/videofix/privacy/",
+      "website": "https://justcompress.online/apps/videofix/",
+      "rating_count": 0
+    },
+    {
+      "id": "6769563659",
+      "slug": "audio-compressor",
+      "name": "Audio Compressor MP3 Converter",
+      "benefit": "Compress, trim and convert audio",
+      "features": [
+        "Compress MP3, M4A, WAV, AAC and other supported audio files.",
+        "Convert audio, extract sound from video and cut clips.",
+        "Use pitch, tempo and metronome tools.",
+        "The current release adds silence removal and accepts a single file or a batch for compression."
+      ],
+      "access": "Pro unlocks the export tools through a lifetime purchase or an auto-renewing monthly plan. See the current in-app offer.",
+      "caveat": "File compression changes encoded size. It is different from reducing the dynamic range of a recording.",
+      "version": "1.1.7",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-11",
+      "release_notes": "A simpler Home screen puts Trim, Auto Split, Convert and Compress first. Compress Audio now accepts one file or a batch. This update also adds silence removal and improves purchase and restore reliability.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659",
+      "icon": {
+        "src": "/assets/apps/5980b2f82847a81e98.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/78/34/f3783422-1279-fbc6-da1f-f5158a013072/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "5980b2f82847a81e98bea208646f09ab0cd69ef2fcc9a731cbaad89dd1188d59",
+        "bytes": 28010,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/941d9b6eb3effeb681.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/bd/5c/e6bd5ce6-0a33-4441-4a47-384ee2cfcc2c/01-trim-audio-on-iphone.png/320x480bb.jpg",
+          "sha256": "941d9b6eb3effeb6818172d463e04afe933a279610c4b2b87703859dd9e8cf1a",
+          "bytes": 31637,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/49f7e2210dc056af8e.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/94/98/0c94982c-c15a-7896-a374-1d4e340098f7/02-split-long-recordings.png/320x480bb.jpg",
+          "sha256": "49f7e2210dc056af8ea2de6409829324fdf5c35c66f167aa1eaf64e1ad73054d",
+          "bytes": 31104,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/78e3eba172c2026443.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/6c/b1/9d6cb1cc-7606-145e-b1d4-8806279bf0ad/03-convert-m4a-to-mp3.png/320x480bb.jpg",
+          "sha256": "78e3eba172c20264431f0d32ef51f6a51fcd6ac44079c521f8a49945b403d7da",
+          "bytes": 32310,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/audio-compressor/privacy/",
+      "website": "https://justcompress.online/apps/audio-compressor/",
+      "rating_count": 0
+    },
+    {
+      "id": "6810266264",
+      "slug": "collage-maker",
+      "name": "Combine Photos: Stitch & Grid",
+      "benefit": "Stitch screenshots or make a photo grid",
+      "features": [
+        "Combine 2 to 30 selected photos or screenshots.",
+        "Choose among 11 layouts, including grids and side-by-side arrangements.",
+        "Move and zoom photos, then export JPEG or PNG up to 3000 pixels wide.",
+        "Save to Photos, share with another app, or find the finished image in Files."
+      ],
+      "access": "One free export is included and every layout is available. Lifetime or monthly Pro unlocks unlimited exports.",
+      "caveat": "Processing stays on your device. The current store listing says no accounts, ads or watermarks.",
+      "version": "1.3",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-11",
+      "release_notes": "Clearer Pro pricing and a refreshed lifetime plan comparison.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264",
+      "icon": {
+        "src": "/assets/apps/97a24f9c7c7aa15f6c.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/70/98/b77098b7-f402-0f81-4cbd-771755a19a86/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "97a24f9c7c7aa15f6cc74beee76e247c7368a63b2359ceb4259340cfcc43d52b",
+        "bytes": 15926,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/8364592d022a9bef43.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
+          "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
+          "bytes": 30014,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
+          "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
+          "bytes": 23900,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/547967614872e4e4bf.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/96/7a/03967a18-d29e-2aee-58e3-2ae3022e6dc8/03-long-photo.png/320x480bb.jpg",
+          "sha256": "547967614872e4e4bf0a511023f742a2253e4c891b088938c3ec875657e41070",
+          "bytes": 31415,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/collage-maker/privacy/",
+      "website": "https://justcompress.online/apps/collage-maker/",
+      "rating_count": 0
+    },
+    {
+      "id": "6769762323",
+      "slug": "pdf-compressor",
+      "name": "PDF Compressor: Sign & Merge",
+      "benefit": "Make PDFs smaller and finish document tasks",
+      "features": [
+        "Compress one PDF or batch compress up to 50 PDFs.",
+        "Inspect the estimated output size before export and the actual saving afterward.",
+        "Scan documents, reorder or rotate pages, sign, watermark and merge PDFs.",
+        "Combine JPEG images into a PDF or export PDF pages as JPEG."
+      ],
+      "access": "PDF Compressor Pro unlocks export tools with lifetime or auto-renewing monthly access. Check the store and in-app offer.",
+      "caveat": "Compression may create image-backed pages and remove selectable text, forms, links, annotations, layers or metadata. Keep the original and inspect the exported copy.",
+      "version": "1.3.1",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-12",
+      "release_notes": "A clearer animated introduction to the app and an improved upgrade flow.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323",
+      "icon": {
+        "src": "/assets/apps/08b03fb1bb2c9e942d.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/0c/cc/fa0ccc6e-b634-8d85-0d11-8c79644237de/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "08b03fb1bb2c9e942db796c23e5e755d2095c3f31155cd37660b187a5f90c9e3",
+        "bytes": 26664,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/fd33e6ef75d670160b.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/ac/02/7aac0245-ac3b-bc6d-9d96-af3722e98395/01-compress-pdfs-save-space.png/320x480bb.jpg",
+          "sha256": "fd33e6ef75d670160b08e31da20b09dd7b28cc9a10e2f1f8e521e0b91aba952d",
+          "bytes": 33415,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/02a49d642dd83d886e.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/58/9b/a5589be2-02a2-8f4d-006e-be68365a8fee/02-compress-many-pdfs-at-once.png/320x480bb.jpg",
+          "sha256": "02a49d642dd83d886ec6c0d645dd39b106ef24c5168ea0582487039966e76049",
+          "bytes": 31443,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/16b8cb061602ac689c.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/de/c0/fddec038-b963-47af-7434-12d9ad3dffc4/03-scan-documents-to-pdf.png/320x480bb.jpg",
+          "sha256": "16b8cb061602ac689c1196bf915ec59ce02be1ec043262185fd5f154902990b7",
+          "bytes": 31320,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/pdf-compressor/privacy/",
+      "website": "https://justcompress.online/apps/pdf-compressor/",
+      "rating_count": 0
+    },
+    {
+      "id": "6769761016",
+      "slug": "pdf-watermarker",
+      "name": "PDF Watermark & Stamp",
+      "benefit": "Add a visible purpose mark to a PDF",
+      "features": [
+        "Select a PDF from Files and write your watermark text.",
+        "Choose repeated diagonal marks or a centered stamp.",
+        "Adjust text, opacity, size and color, and preview the pages.",
+        "Export a new marked copy while retaining the original."
+      ],
+      "access": "PDF Watermark Pro unlocks the export tools with lifetime or auto-renewing monthly access.",
+      "caveat": "A visible watermark identifies a copy. It does not encrypt the file or prevent every edit or redistribution.",
+      "version": "1.4.3",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-12",
+      "release_notes": "A clearer animated introduction to the app and an improved upgrade flow.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016",
+      "icon": {
+        "src": "/assets/apps/edd4e0bab2bb2496db.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/37/ea/e737ea83-5e36-8d7c-d3a8-47079b93fffc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "edd4e0bab2bb2496dbb08c869f66772cf9818b0320296a8f136ec4113b5717bd",
+        "bytes": 42801,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/d49bf95fbd1e3b5d59.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/bb/63/5fbb6356-d035-f86e-4a1e-1ff987a5b90c/01-protect-sensitive-pdfs.png/320x480bb.jpg",
+          "sha256": "d49bf95fbd1e3b5d59e9ce76561d626f3b421ca38f4cf00be050e01ab4d604fa",
+          "bytes": 29752,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/eeab8a98596346aedd.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/a1/6d/0ba16d00-5820-5089-fa7c-65e773fac32a/02-stamp-every-page.png/320x480bb.jpg",
+          "sha256": "eeab8a98596346aedd8e5505cf66942194d7707146e0dd20be562fb8275cb72d",
+          "bytes": 23113,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/7bf24cc2925627827f.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/09/52/82095274-49dc-ce45-1054-aeee982faeb6/03-single-or-repeated-watermarks.png/320x480bb.jpg",
+          "sha256": "7bf24cc2925627827f90ae45b09a429918fb280fc2fc0d283ed706a931f1d25c",
+          "bytes": 24838,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/pdf-watermarker/privacy/",
+      "website": "https://justcompress.online/apps/pdf-watermarker/",
+      "rating_count": 0
+    },
+    {
+      "id": "6778131414",
+      "slug": "glowpop",
+      "name": "GlowPop: Selfie Glow Camera",
+      "benefit": "Use screen light for selfies and video",
+      "features": [
+        "Preview adjustable screen-light colors with the front camera open.",
+        "Adjust brightness and use the selfie mirror.",
+        "Capture photos and save them to the app album and Photos.",
+        "Pro includes unlimited photos and video recording."
+      ],
+      "access": "Preview light colors for free. The first 5 photos are free, including white-light photos. Lifetime or monthly Pro unlocks unlimited photos and video.",
+      "caveat": "Screen fill light changes the lighting around the front camera. Results depend on the device, distance and room light.",
+      "version": "1.0.3",
+      "minimum_os": "18.0",
+      "release_date": "2026-10-13",
+      "release_notes": "A simpler GlowPop\nBigger controls, fewer choices, and easy access to light, camera and retro filters.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414",
+      "icon": {
+        "src": "/assets/apps/d469bd4cdc941db426.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/1c/d8/3a1cd852-4a77-ed10-6d4e-6cd0f15938da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "sha256": "d469bd4cdc941db42658e4649aeb521eeb8498b3b57dad669e557af1a5a82f93",
+        "bytes": 29560,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/425488b9d474d1a640.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ca/b3/29cab345-dc70-4a07-4746-66f973ff9de8/simple-v2-iphone-01-en-US.png/320x480bb.jpg",
+          "sha256": "425488b9d474d1a6400c7d87cc9d23c22b3191a9131e311ded55edd38b0664c7",
+          "bytes": 26859,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/92caef1f887d6dfe45.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/3d/11/513d119e-daaa-a6fc-f784-0cd86d1c000a/simple-v2-iphone-02-en-US.png/320x480bb.jpg",
+          "sha256": "92caef1f887d6dfe4500867eb3172fcd65f3e0b5e6994ecbe5114140b0a3a3ee",
+          "bytes": 24842,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/59a609f3d96a3297a6.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/6b/70/766b709e-a8cf-e258-0480-b2deff47c649/simple-v2-iphone-03-en-US.png/320x480bb.jpg",
+          "sha256": "59a609f3d96a3297a6febece47325843a25dc6ea2174a8ecb085e026e417f250",
+          "bytes": 24535,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/glowpop/privacy/",
+      "website": null,
+      "rating_count": 2
+    },
+    {
+      "id": "6770354079",
+      "slug": "just-captions",
+      "name": "Subtitle Maker: Just Captions",
+      "benefit": "Add captions, word highlights and emojis",
+      "features": [
+        "Generate speech captions, review the transcript and edit the words.",
+        "Use emoji matching, animated caption styles and word highlights.",
+        "With Pro, caption up to 20 videos in a batch.",
+        "Use optional AI Correct and AI Translate, with consent, and export video or SRT text."
+      ],
+      "access": "Free single-video exports have a Just Captions watermark. One single-video Emoji export is available to try. Pro adds batch captions, locked styles, higher export quality and 600 AI caption minutes per month.",
+      "caveat": "Core caption generation can run on device. Optional online AI text tools send caption text after consent; they are different from the local caption workflow.",
+      "version": "2.8",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-07",
+      "release_notes": "This update improves free allowance tracking and preserves usage records when reinstalling the app on the same device.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079",
+      "icon": {
+        "src": "/assets/apps/b1ecdbe3c2cc9ff728.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/86/5e/6f865ef6-bd30-b68b-cfdd-650182f0a8b5/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+        "sha256": "b1ecdbe3c2cc9ff72828c0be961ae1fc5a9502bd38c42fb520ab82af538c4e5c",
+        "bytes": 18075,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/1ec6d092a37db14f19.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/2b/61/0d2b6143-6ca5-e430-55e4-b08bf95954e0/01-Auto-Captions.jpg/320x480bb.jpg",
+          "sha256": "1ec6d092a37db14f1976ddfd5be3c7e56359f803e35dafec7e63b25b96370563",
+          "bytes": 33691,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/bbec817add0efcbe20.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/c7/3b/50c73b47-f3c7-70b8-e719-734e9d91ebd6/02-Emoji-Captions.jpg/320x480bb.jpg",
+          "sha256": "bbec817add0efcbe201c2f3b622bfb1f3b8043c2fd339ffa3ac905c23c4a72c4",
+          "bytes": 39288,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/e0bbfaac1c6f82f9b3.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/fe/b8/60feb837-4217-33ee-31ac-2c09282b865f/03-Batch-Subtitles.jpg/320x480bb.jpg",
+          "sha256": "e0bbfaac1c6f82f9b3595fb7d395500ef73140cce8970632915874bd485dc88a",
+          "bytes": 44498,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://spacesheepboy.github.io/JustCaptions-legal/privacy/",
+      "website": "https://justcaptions.com/",
+      "rating_count": 0
+    },
+    {
+      "id": "6758529772",
+      "slug": "dying-soon",
+      "name": "Dying Soon: Screen Time Limit",
+      "benefit": "Set screen-time limits and mindful reminders",
+      "features": [
+        "Choose apps to block and use app limits or schedules.",
+        "Use memento mori reminders and a configurable life-grid view.",
+        "Set daily notifications and collect reflection quotes.",
+        "The current update adds temporary unlocks from the block screen."
+      ],
+      "access": "Check the current App Store listing and in-app offer for access and purchase options.",
+      "caveat": "Countdowns and grids are personal reflection tools. They are not predictions of an individual lifespan.",
+      "version": "2.3.2",
+      "minimum_os": "17.0",
+      "release_date": "2026-09-28",
+      "release_notes": "Unlock right from the block screen.\n• Blocked apps now show a Temporary unlock button. Tap it, then tap the notification to take one breath and choose how long.\n• The in-app Temporary unlock button is bigger and shows how many unlocks are left today.\n• Tapping Return now always counts the hour you reclaimed, even for apps blocked by category.\n• The block screen follows the language you chose in the app.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772",
+      "icon": {
+        "src": "/assets/apps/476c562f4ebfd9a99a.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/ca/5f/b2ca5f58-3bf6-351d-b29d-6d3b00bcdd71/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+        "sha256": "476c562f4ebfd9a99a05546bf51188f17ad3841f9443d1562773a5d601f9fb94",
+        "bytes": 21387,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/48adb3fd1016eb02b5.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/34/92/89349223-492c-ca0f-9ca8-ef2e58c4cc34/02_blocked.png/320x480bb.jpg",
+          "sha256": "48adb3fd1016eb02b5589e419f8ec71ec9f4a8e93da85666eb828447b12af584",
+          "bytes": 25829,
+          "width": 222,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/77bcf7e9dfc1c675b2.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/11/7b/18117bf2-715e-3029-6881-5596fe912830/01_reclaim.png/320x480bb.jpg",
+          "sha256": "77bcf7e9dfc1c675b294e00abd920e0f388974962046f911a71fa9b772013987",
+          "bytes": 20835,
+          "width": 222,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/de78b229d5bf14be50.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/e0/6f/69e06f15-6505-5af0-6291-7fc7c857683a/04_lifegrid.png/320x480bb.jpg",
+          "sha256": "de78b229d5bf14be50538c3d11fb49a7e1958c8328e8109578d997c4d1e06a7d",
+          "bytes": 19723,
+          "width": 222,
+          "height": 480
+        }
+      ],
+      "privacy": "https://spacesheepboy.github.io/dyingsoon-privacy/",
+      "website": null,
+      "rating_count": 0
+    },
+    {
+      "id": "6769563339",
+      "slug": "vidkit",
+      "name": "Video Compressor & MP4 Convert",
+      "benefit": "Compress videos and convert MP4, HEVC or MOV",
+      "features": [
+        "Convert HEVC to MP4/H.264 for a more compatible copy.",
+        "Convert MP4/H.264 to HEVC or export a MOV copy.",
+        "Reduce video size and compare the original and exported sizes.",
+        "With Pro, batch compress videos, change speed or export a looping GIF up to 15 seconds.",
+        "Compress photos as an additional tool."
+      ],
+      "access": "Video Compressor Pro unlocks the export tools with lifetime or auto-renewing monthly access.",
+      "caveat": "Compression and conversion re-encode media. A smaller file does not by itself solve HDR color or every upload error.",
+      "version": "1.3.1",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-12",
+      "release_notes": "A clearer animated introduction to the app and an improved upgrade flow.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/video-compressor-mp4-convert/id6769563339",
+      "icon": {
+        "src": "/assets/apps/155f045b16cdc3ac53.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/a5/55/f5a555b1-8efc-80e1-6d6e-6f7ecc1f780b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "155f045b16cdc3ac53ed1ec55edabee48be23112ea543fb69dae6e7318c72a81",
+        "bytes": 25226,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/90fef760f952635a08.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/c7/07/bec707b0-af0a-91ae-49f6-630c6cccd0ef/01-compress-video.png/320x480bb.jpg",
+          "sha256": "90fef760f952635a087f6ccf675494666351b9f531e75cd319fc5b626256b35a",
+          "bytes": 30004,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/75524f9cd7bae88790.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/0e/29/cf0e29b1-d6e8-4f21-caaf-90a7cd502916/02-convert-video.png/320x480bb.jpg",
+          "sha256": "75524f9cd7bae88790a5868d369c7abdc4c5dcce83360cf823477c6f38137b05",
+          "bytes": 31791,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/29b37ca08a0e0b38d9.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/17/e5/4717e503-f60a-fd89-ad62-aed4b851640c/03-batch-compress.png/320x480bb.jpg",
+          "sha256": "29b37ca08a0e0b38d98d0a38b63f178d1422e81ffbb57cc83ab2b427db999afb",
+          "bytes": 37386,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/vidkit/privacy/",
+      "website": "https://justcompress.online/apps/vidkit/",
+      "rating_count": 0
+    },
+    {
+      "id": "6816526877",
+      "slug": "photofix",
+      "name": "PhotoFix: HDR to Normal Photos",
+      "benefit": "Convert HDR, HEIC and RAW photos",
+      "features": [
+        "Map HDR highlights into an SDR photo for ordinary sharing.",
+        "Convert HEIC or device-compatible RAW photos to JPEG, or export PNG.",
+        "Apply a creative normal-to-HDR brightness effect.",
+        "Process batches and choose whether to retain capture date and location.",
+        "Keep Live Photo motion for normal SDR export; HDR export creates a still photo."
+      ],
+      "access": "The first 3 successful photo conversions are free. Every photo in a batch uses one conversion. Lifetime and monthly purchases unlock unlimited conversions.",
+      "caveat": "Normal-to-HDR cannot recover detail already lost. HDR brightness depends on the display. JPEG replaces transparency with white; PNG can preserve it.",
+      "version": "1.3",
+      "minimum_os": "18.0",
+      "release_date": "2026-10-12",
+      "release_notes": "A clearer animated introduction to the app and an improved upgrade flow.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877",
+      "icon": {
+        "src": "/assets/apps/194e681865ddd8237c.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/29/44/6c2944f3-1622-f9fc-1b11-340d1a9c522d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "194e681865ddd8237c4d655ef6fb06986560c09ab8fd513fa3046eb296ba0e51",
+        "bytes": 20651,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/31ba7713d810168530.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/f3/f5/a8f3f57d-1ea0-e52e-0112-2eb05b930632/01-sharing.png/320x480bb.jpg",
+          "sha256": "31ba7713d810168530b01756a851de8b4ae39a5b05686dc5c34aec54d055b0c1",
+          "bytes": 28913,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/991b0c4e1b21423453.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/c4/b7/d9c4b701-8e56-4c4d-2588-a00dad4fc73f/02-batch.png/320x480bb.jpg",
+          "sha256": "991b0c4e1b214234530821c60074fb9c7bc0d573e1e4dfd6c367ff3eb541bf4e",
+          "bytes": 19654,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/f9cd31955bf7a27607.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/39/20/d5392086-5064-a1b0-a498-6eff5c7d7259/03-share.png/320x480bb.jpg",
+          "sha256": "f9cd31955bf7a27607af062f5d61550bdf2a6d525c6e442a7fc71e02b1819ca9",
+          "bytes": 22280,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/photofix/privacy/",
+      "website": "https://justcompress.online/apps/photofix/",
+      "rating_count": 0
+    },
+    {
+      "id": "6811067941",
+      "slug": "brew-day",
+      "name": "Sober Wins: Quit Drinking",
+      "benefit": "Track alcohol-free days with Sober Wins",
+      "features": [
+        "Log alcohol-free days and review the local history.",
+        "Collect virtual items, arrange the mini fridge and take a breathing pause.",
+        "Optionally read sleep and resting-heart-rate trends from Apple Health.",
+        "Pro adds premium cabinets, poster export and a daily collection boost."
+      ],
+      "access": "Basic tracking, history, collectibles, the mini fridge and basic poster sharing are free. Lifetime is a one-time purchase. Existing active Monthly subscriptions remain Pro while valid; Lifetime does not cancel them.",
+      "caveat": "Health trends are not medical advice or proof of cause. Virtual collectibles have no cash or alcohol redemption value.",
+      "version": "1.2",
+      "minimum_os": "17.0",
+      "release_date": "2026-10-13",
+      "release_notes": "Now available in 13 languages, including localized tracking, rewards, breathing, Health trends and poster sharing.",
+      "checked": "2026-10-24",
+      "store_url": "https://apps.apple.com/us/app/sober-wins-quit-drinking/id6811067941",
+      "icon": {
+        "src": "/assets/apps/ff105c0c592196426e.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/ac/a9/51aca9ba-1dc6-3ad7-5f20-2e50bfae20ac/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+        "sha256": "ff105c0c592196426e8bc348dc6e686e5922c79f6aa86b155059f70cf2a7f6a5",
+        "bytes": 60827,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/e695ae3bfc16814618.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/33/3a/f7333aba-89a9-f163-0174-14d0cad29228/l10n7-01-home.png/320x480bb.jpg",
+          "sha256": "e695ae3bfc16814618c973cefc961696ffc0dd9b44572dfa502ccda337f88324",
+          "bytes": 30394,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/073ecb03174a6de4b6.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/05/b0/bb05b0a4-403c-8e4b-2ada-7a3940ef085b/l10n7-02-rewards.png/320x480bb.jpg",
+          "sha256": "073ecb03174a6de4b613731e3b01c39603b3d366a587b394c45fa1d999b3e0e5",
+          "bytes": 23045,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "src": "/assets/apps/5b15d881134920b95e.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/84/e1/f184e125-3b04-8236-8fea-deac60beec62/l10n7-03-cabinet.png/320x480bb.jpg",
+          "sha256": "5b15d881134920b95e2d41ebc7cd633e829d092b285dd4324b5e8559a5295087",
+          "bytes": 26030,
+          "width": 221,
+          "height": 480
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/brew-day/privacy/",
+      "website": null,
+      "rating_count": 0
+    }
+  ]
+}

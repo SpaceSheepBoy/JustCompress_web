@@ -1,0 +1,15 @@
+{
+  "compress-pdf": {
+    "How much smaller will my PDF get?": "It depends on the source and setting. Image-heavy PDFs may shrink more than text-heavy or already optimized files. Check the actual file size, readability and any required document features before sending.",
+    "How do I compress a PDF on iPhone?": "Use the supported browser tool or PDF Compressor: Sign & Merge. Check the App Store and in-app offer for current access and purchase options."
+  },
+  "watermark-pdf": {
+    "How do I watermark a PDF on iPhone?": "Use this browser tool or PDF Watermark & Stamp. Check the current App Store listing and purchase options for the iPhone workflow."
+  },
+  "compress-audio": {
+    "What file do I get back?": "The browser audio compressor exports M4A with AAC audio. Actual size and quality depend on duration and encoding settings. Check playback in the destination."
+  },
+  "mp3-to-m4a": {
+    "Is M4A smaller than MP3?": "Not necessarily. Size depends on the codec, total encoded bitrate and duration. Changing formats does not guarantee a smaller file or recover lost quality."
+  }
+}

@@ -62,65 +62,14 @@ else:
   for text in s.find_all(string=True):
    if old in text:text.replace_with(str(text).replace(old,m.PRODUCTS[app]['name']))
   save(rel,s);insert(rel,m.cta(app)+'<p><a href="/guides/">New video and photo tutorials →</a></p>',True)
- # App-specific connections, with no unrelated catalog in the captions product site.
- for app,slug in [('6812821310','videofix'),('6810266264','collage-maker'),('6769563339','vidkit'),('6769563659','audio-compressor')]:
-  rel=f'apps/{slug}/index.html'
-  if (ROOT/rel).exists():
-   linked=[g for g in m.GUIDES if g['app']==app]
-   insert(rel,m.cta(app)+'<h2>Learn with real app tutorials</h2><div class="guide-grid">'+''.join(m.card(g) for g in linked)+'</div><p><a href="/iphone-video-tutorials/">Audio and PDF walkthroughs</a> · <a href="/guides/">All guides</a></p>')
- # New, live and stale product entries use verified App Store identity and real screenshots.
- slugs={'6812821310':'videofix','6769563659':'audio-compressor','6810266264':'collage-maker','6769563339':'vidkit','6770354079':'just-captions','6769761016':'pdf-watermarker','6769762323':'pdf-compressor','6778131414':'glowpop','6816526877':'photofix','6758529772':'dying-soon','6811067941':'brew-day'}
- for app,slug in slugs.items():
-  rel=f'apps/{slug}/index.html'
-  if (ROOT/rel).exists() and slug not in ['photofix','brew-day']:continue
-  p=m.PRODUCTS[app];paragraphs=p['description'].split('\n\n')
-  text=''.join('<p>'+E(t).replace('\n','<br>')+'</p>' for t in paragraphs if not t.startswith(('Terms','Privacy')))
-  shots=''.join(f'<img src="{E(u)}" alt="{E(p["name"])} official App Store screenshot" width="200" loading="lazy">' for u in p['screenshots'])
-  links=''.join(f'<a href="/apps/{slug}/{d}/">{d.capitalize()}</a> ' for d in ['privacy','terms','support'] if (ROOT/f'apps/{slug}/{d}/index.html').exists())
-  body=f'<header class="guide-heading"><p class="guide-eyebrow">IPHONE APP</p><h1>{E(p["name"])}</h1>{m.cta(app)}</header><article class="guide-article"><section><h2>What the app does</h2>{text}</section><section style="display:flex;gap:16px;overflow-x:auto">{shots}</section><p>{links}</p><p><a href="/guides/">Browse the tutorial guides</a> · <a href="/apps/">All apps</a></p></article>'
-  dest=ROOT/rel;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(m.page('/apps/'+slug+'/',p['name'],paragraphs[0][:160],body));save(rel,read(rel))
- pending={
-  'livephoto':('Live Photo to Video: 4K','Convert selected Live Photos and videos on your device using Apple frameworks. The app supports saving results to Photos or Files.','Live Photo conversion'),
-  'talknice':('TalkNice: AI Voice Keyboard','Turn speech into text and optionally rewrite messages in a kinder tone. Cloud audio and text tools require the applicable in-app consent. Read the privacy information for current providers and data flow.','Voice keyboard'),
-  'camrecorder':('CamRecorder: Camera Recorder','Capture camera video and microphone audio on Mac. Camera processing and background blur run locally. Read the support page for the app workflow and permissions.','Mac camera recorder')}
- for slug,(name,desc,kind) in pending.items():
-  rel=f'apps/{slug}/index.html'
-  if (ROOT/rel).exists():continue
-  body=f'<header class="guide-heading"><p class="guide-eyebrow">{E(kind)}</p><h1>{E(name)}</h1><p class="guide-lede">{E(desc)}</p></header><article class="guide-article"><h2>Availability</h2><p>Download availability is being confirmed. For product questions, use the support page.</p><p><a class="guide-button" href="/apps/{slug}/support/">Product support →</a></p><p><a href="/apps/{slug}/privacy/">Privacy</a> · <a href="/apps/">Browse available apps</a></p></article>'
-  dest=ROOT/rel;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(m.page('/apps/'+slug+'/',name,desc[:160],body));save(rel,read(rel))
- s=read('apps/index.html')
- s.title.string='iPhone apps, tutorials and downloads | Just Compress'
- s.find('meta',attrs={'name':'description'})['content']='Find the app from our videos. Browse verified iPhone downloads, practical tutorials and new app information from Space Sheep Studio.'
- for old in s.select('[data-tutorial-library]'):old.decompose()
- for app,slug in slugs.items():
-  p=m.PRODUCTS[app];card=s.select_one(f'[data-app="{app}"]')
-  if card:
-   card.find('h2').string=p['name'];card.find('input')['value']=p['name']
-   for a in card.select('[data-store]'):a['href']=p['url'];a['aria-label']='Download '+p['name']+' on the App Store'
-   if app=='6811067941':
-    b=card.select_one('.benefit')
-    if b:b.string='Track your alcohol-free days'
-  else:
-   card=fragment(f'<article class="app-card tone-4" id="{slug}" data-app="{app}"><div class="card-body"><div class="identity"><img class="app-icon" src="{E(p["icon"])}" alt="" width="56" height="56" loading="lazy"><div><h2>{E(p["name"])}</h2><p class="benefit">{E("Convert HDR, HEIC and RAW photos" if slug=="photofix" else "Screen time and memento mori")}</p></div></div><input id="name-{app}" type="hidden" value="{E(p["name"])}"><div class="actions"><a class="store" data-store href="{E(p["url"])}">App Store ↗</a><button type="button" data-copy="name-{app}">Copy name</button></div></div></article>').article
-   s.select_one('.more .app-grid').append(card)
-  cb=card.select_one('.card-body')
-  if not cb.find('a',href=f'/apps/{slug}/'):cb.append(fragment(f'<p><a href="/apps/{slug}/" style="text-decoration:underline">App details &amp; guides →</a></p>'))
- summary=s.select_one('.more summary, .more-title')
- if summary:summary.clear();summary.append('More apps ');summary.append(str(len(s.select('.more .app-card'))))
- catalog='<h2>New app information</h2><p>Product and support pages for our newest apps. Download availability is being confirmed.</p><ul>'+''.join(f'<li><a href="/apps/{slug}/">{E(name)}</a></li>' for slug,name in [('audiofix','Audio Fix (in development)'),('dpi','DPI Changer: 300 DPI Photo'),('livephoto','Live Photo to Video: 4K'),('talknice','TalkNice: AI Voice Keyboard'),('camrecorder','CamRecorder: Camera Recorder')])+'</ul><p><a class="guide-button" href="/guides/">Watch tutorials and follow the steps →</a></p>'
- s.find('main').append(fragment('<section class="guide-enhancement" data-tutorial-library>'+catalog+'</section>'))
- save('apps/index.html',s)
- # Source inputs must retain the verified names after the old generator is run.
- for p in ROOT.rglob('*.html'):
-  if '.git' in p.parts:continue
-  raw=p.read_text();new=re.sub(r'Space Sheep Studio','Space Sheep Studio',raw,flags=re.I)
-  if new!=raw:p.write_text(new)
- for p in (ROOT/'scripts').iterdir():
-  if p.suffix in ['.mjs','.json','.py']:
-   raw=p.read_text();new=re.sub(r'Space Sheep Studio','Space Sheep Studio',raw,flags=re.I)
-   if new!=raw:p.write_text(new)
+ # Product pages and catalog are generated from the verified portfolio below.
 print('Connected tutorials, CTAs and product entries for',m.HOST)
 
 # Existing legal/product metadata is preserved after page generators.
 import subprocess,sys
 subprocess.run([sys.executable,str(ROOT/'scripts/repair-seo-metadata.py')],check=True)
+
+# Verified public product snapshots own the App pages and directory.
+subprocess.run([sys.executable,str(ROOT/'scripts/build-app-portfolio.py')],check=True)
+
+subprocess.run([sys.executable,str(ROOT/'scripts/refresh-public-pages.py')],check=True)

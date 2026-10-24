@@ -1,50 +1,50 @@
 {
   "audio": {
     "name": "Audio Compressor MP3 Converter",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/eb/0f/f2eb0f80-d939-c326-96aa-325fda9b5b19/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "/assets/apps/5980b2f82847a81e98.jpg",
     "screens": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/5d/5c/ef5d5cf8-a5a1-7578-79e4-f23bb5ac0d90/01-compress-mp3-save-space.png/320x480bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/11/21/ff1121d1-2d12-4188-20da-298600488988/02-extract-audio-from-video.png/320x480bb.jpg"
+      "/assets/apps/941d9b6eb3effeb681.jpg",
+      "/assets/apps/49f7e2210dc056af8e.jpg"
     ],
     "slug": "audio-compressor",
     "tool": "/compress-audio/"
   },
   "video": {
     "name": "Video Compressor & MP4 Convert",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/f8/b7/63f8b7ac-f4d5-942e-0b5f-977e098a6975/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "/assets/apps/155f045b16cdc3ac53.jpg",
     "screens": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/4f/79/a04f7918-b195-9056-a1fa-e000f02f6049/01-phone-storage-clean.png/320x480bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/dd/d2/26ddd25d-4a54-2fab-a343-dcf0af9748e2/02-batch-compress.png/320x480bb.jpg"
+      "/assets/apps/90fef760f952635a08.jpg",
+      "/assets/apps/75524f9cd7bae88790.jpg"
     ],
     "slug": "vidkit",
     "tool": "/compress-video/"
   },
   "pdf": {
     "name": "PDF Compressor: Sign & Merge",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/0e/d4/150ed487-b6fe-d81b-8e1e-347a8207ba59/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "/assets/apps/08b03fb1bb2c9e942d.jpg",
     "screens": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/ac/02/7aac0245-ac3b-bc6d-9d96-af3722e98395/01-compress-pdfs-save-space.png/320x480bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/58/9b/a5589be2-02a2-8f4d-006e-be68365a8fee/02-compress-many-pdfs-at-once.png/320x480bb.jpg"
+      "/assets/apps/fd33e6ef75d670160b.jpg",
+      "/assets/apps/02a49d642dd83d886e.jpg"
     ],
     "slug": "pdf-compressor",
     "tool": "/compress-pdf/"
   },
   "photo": {
     "name": "Combine Photos: Stitch & Grid",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/82/ff/3982ff81-8c37-db2a-0ff4-7f606f784dde/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "/assets/apps/97a24f9c7c7aa15f6c.jpg",
     "screens": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/4c/16/bc4c1624-4279-a5d9-b84c-d056e0508305/01-stitch.png/320x480bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/e7/a3/c2e7a3fa-695d-f4dd-ea0b-29ce31673309/02-layouts.png/320x480bb.jpg"
+      "/assets/apps/8364592d022a9bef43.jpg",
+      "/assets/apps/0d3d3c03b34ce6fa60.jpg"
     ],
     "slug": "collage-maker",
     "tool": "/combine-photos/"
   },
   "watermark": {
     "name": "PDF Watermark & Stamp",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/08/3d/19083d9a-d07d-dd52-1004-cd96c6168396/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "/assets/apps/edd4e0bab2bb2496db.jpg",
     "screens": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/4a/ce/454acec8-7a3c-4b10-b1a6-14949ef5de35/01-protect-sensitive-pdfs.png/320x480bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/5a/2d/115a2d9f-e5cf-3d5a-1c98-5519b246384e/02-stamp-every-page.png/320x480bb.jpg"
+      "/assets/apps/d49bf95fbd1e3b5d59.jpg",
+      "/assets/apps/eeab8a98596346aedd.jpg"
     ],
     "slug": "pdf-watermarker",
     "tool": "/watermark-pdf/"

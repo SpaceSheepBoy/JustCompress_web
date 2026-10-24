@@ -182,5 +182,428 @@
         "/guides/hevc-to-mp4-iphone/"
       ]
     ]
+  },
+  {
+    "slug": "why-private-file-tools",
+    "title": "What does no-upload file processing mean?",
+    "tag": "PRACTICAL FILE GUIDE",
+    "description": "No-upload processing means the selected file operation runs on your device. The webpage still loads software from the internet. Check the file workflow, website analytics and any later sharing step separately.",
+    "direct": "No-upload processing means the selected file operation runs on your device. The webpage still loads software from the internet. Check the file workflow, website analytics and any later sharing step separately.",
+    "reviewed": "2026-10-24",
+    "appId": "6769762323",
+    "figure": "/assets/local-file-processing.svg",
+    "figureWidth": 640,
+    "figureHeight": 500,
+    "figureAlt": "Local processing keeps the file operation on the device. Cloud processing uploads a copy to a remote service.",
+    "figureCaption": "An explanatory data-flow diagram. A website can load software and optional analytics separately from processing your selected file.",
+    "cards": [
+      [
+        "Local operation",
+        "The selected file is processed on your device."
+      ],
+      [
+        "Website requests",
+        "The page and software still need to load. Optional analytics is a separate choice."
+      ],
+      [
+        "Sharing the result",
+        "Email, storage and messaging destinations have their own data flows."
+      ]
+    ],
+    "sections": [
+      [
+        "Three different data flows",
+        "Loading a webpage, processing a document and sharing its output are different actions. A local compressor can keep your PDF on the device while the hosting service receives ordinary connection requests. Optional website analytics can record a page visit after consent without receiving the selected file."
+      ],
+      [
+        "What to check before selecting a file",
+        "Read where processing happens, what output the tool creates and which limitations matter for your task. A server deletion promise describes uploaded files; a genuinely local operation avoids that processing upload. A private file still needs a secure device and an appropriate sharing destination."
+      ],
+      [
+        "When local processing is a practical fit",
+        "Simple compression, trimming, conversion and basic document edits can often run locally. Very large files may exceed a browser tab's resources. Keep the original, try a representative copy and inspect the result instead of assuming every supported-looking extension will work."
+      ],
+      [
+        "What local processing does not guarantee",
+        "It does not promise that a site never loads external resources, that a device is secure, or that sending the result through another service stays local. Our website privacy page explains the separate optional analytics controls."
+      ]
+    ],
+    "steps": [
+      "Identify where the file operation runs.",
+      "Keep an original and verify the exported copy.",
+      "Check the destination before sending a private file."
+    ],
+    "faqs": [
+      [
+        "Does no upload mean the website is offline?",
+        "No. The page and processing software can load from the internet. A selected file can still be processed locally."
+      ],
+      [
+        "Does downloading the result share it with someone?",
+        "Saving a copy and sending it to another person are different steps. The chosen destination determines the sharing behavior."
+      ]
+    ],
+    "sources": [
+      [
+        "Just Compress website privacy",
+        "https://justcompress.online/privacy/"
+      ],
+      [
+        "Current App Store listing",
+        "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323"
+      ]
+    ],
+    "primaryCta": "/compress-pdf/",
+    "primaryCtaLabel": "Open the browser tool",
+    "related": [
+      [
+        "Choose the right tool",
+        "/best-private-file-tools/"
+      ],
+      [
+        "Compare local and cloud workflows",
+        "/compare-file-tools/"
+      ]
+    ]
+  },
+  {
+    "slug": "best-private-file-tools",
+    "title": "Choose a private file tool for the task",
+    "tag": "PRACTICAL FILE GUIDE",
+    "description": "Start with the actual job: a smaller PDF, a shorter recording, a compatible video or a photo layout. Choose a browser tool for a supported one-off task, and inspect its output before moving to a batch workflow.",
+    "direct": "Start with the actual job: a smaller PDF, a shorter recording, a compatible video or a photo layout. Choose a browser tool for a supported one-off task, and inspect its output before moving to a batch workflow.",
+    "reviewed": "2026-10-24",
+    "appId": "6769762323",
+    "figure": "/assets/local-file-processing.svg",
+    "figureWidth": 640,
+    "figureHeight": 500,
+    "figureAlt": "Local processing keeps the file operation on the device. Cloud processing uploads a copy to a remote service.",
+    "figureCaption": "An explanatory data-flow diagram. A website can load software and optional analytics separately from processing your selected file.",
+    "cards": [
+      [
+        "PDF",
+        "Compression and document tasks. Check marks and document features."
+      ],
+      [
+        "Audio",
+        "Compression, conversion and editing solve different problems."
+      ],
+      [
+        "Video and photos",
+        "Check compatibility and color separately from size."
+      ]
+    ],
+    "sections": [
+      [
+        "Documents",
+        "Use Compress PDF for a smaller copy, Merge PDF for combining documents, or JPG to PDF for turning selected images into a document. Browser PDF exports include a small app logo watermark. Check readability, signatures, form fields and the recipient's requirements before sending."
+      ],
+      [
+        "Audio",
+        "Use the audio compressor for encoded file size, M4A to MP3 for that format conversion, and Trim or Split for removing or dividing sections. These are separate operations. A different extension or a shorter clip does not guarantee a particular receiving app will accept it."
+      ],
+      [
+        "Video and photos",
+        "For a short compatible clip, try the browser video compressor or MOV-to-MP4 converter. The HDR checker reads metadata; it does not convert color. Use the photo combiner for one grid or long image. Keep originals and check image quality, orientation, audio and actual file size."
+      ],
+      [
+        "When a native App is a better fit",
+        "Repeated batches and larger files may be more practical in an installed App. Our App directory lists the current published versions, full store names, real screenshots and access options. Native Apps have their own purchase terms; a free browser tool does not establish that the App is free."
+      ]
+    ],
+    "steps": [
+      "Name the one operation you need.",
+      "Test one file with the matching tool.",
+      "Inspect the output, then decide whether a native batch workflow helps."
+    ],
+    "faqs": [
+      [
+        "Which browser tool should I use first?",
+        "Choose the operation that matches the problem. The Tools directory links the available browser tasks."
+      ],
+      [
+        "Will every App be free because the website is free?",
+        "No. Check each App's current store listing and in-app purchase offer."
+      ]
+    ],
+    "sources": [
+      [
+        "Just Compress website privacy",
+        "https://justcompress.online/privacy/"
+      ],
+      [
+        "Current App Store listing",
+        "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323"
+      ]
+    ],
+    "primaryCta": "/compress-pdf/",
+    "primaryCtaLabel": "Open the browser tool",
+    "related": [
+      [
+        "Browse all browser tools",
+        "/tools/"
+      ],
+      [
+        "View current iPhone Apps",
+        "/apps/"
+      ],
+      [
+        "Understand no-upload processing",
+        "/why-private-file-tools/"
+      ]
+    ]
+  },
+  {
+    "slug": "compare-file-tools",
+    "title": "Browser, native App or cloud tool: how to choose",
+    "tag": "PRACTICAL FILE GUIDE",
+    "description": "Choose by the operation and data flow. A local browser tool suits a supported quick task. A native App can suit repeated device workflows. A cloud service may help when collaboration or remote processing is required.",
+    "direct": "Choose by the operation and data flow. A local browser tool suits a supported quick task. A native App can suit repeated device workflows. A cloud service may help when collaboration or remote processing is required.",
+    "reviewed": "2026-10-24",
+    "appId": "6769762323",
+    "figure": "/assets/local-file-processing.svg",
+    "figureWidth": 640,
+    "figureHeight": 500,
+    "figureAlt": "Local processing keeps the file operation on the device. Cloud processing uploads a copy to a remote service.",
+    "figureCaption": "An explanatory data-flow diagram. A website can load software and optional analytics separately from processing your selected file.",
+    "cards": [
+      [
+        "Browser",
+        "Convenient for one supported task. Device resources still matter."
+      ],
+      [
+        "Native App",
+        "Useful for focused repeated workflows. Verify features and access."
+      ],
+      [
+        "Cloud service",
+        "Useful when the task needs a remote service. Check the upload and sharing rules."
+      ]
+    ],
+    "sections": [
+      [
+        "Local browser tool",
+        "There is no installation for a quick supported job. The selected file operation can run on your device, but memory, browser support and file complexity limit what is practical. Read the output notes: our browser PDF exports include a small app logo watermark."
+      ],
+      [
+        "Native App",
+        "An installed App can provide a focused import, batch, export and sharing workflow. That does not make every feature free or every App offline. Read the current App description and privacy information for the actual product. Our directory distinguishes published versions from unverified availability."
+      ],
+      [
+        "Cloud service",
+        "A server workflow can provide remote processing, shared work or team access. The service receives the files it needs for that operation. Check access, retention, deletion, recipient permissions and any organizational requirements before using it."
+      ],
+      [
+        "A useful decision test",
+        "Ask whether another service needs the content to complete the job. For a mechanical local operation, a supported local tool may be enough. For collaboration or content analysis, choose an appropriate service and share only what the task requires. Cost depends on the actual offer; this page does not invent competitor prices or savings."
+      ]
+    ],
+    "steps": [
+      "Define the operation and output requirements.",
+      "Check local support and the actual data flow.",
+      "Use one representative file to compare the result before committing a whole batch."
+    ],
+    "faqs": [
+      [
+        "Is one approach always the most private?",
+        "No. Avoiding an unnecessary processing upload reduces one source of exposure, but device security, access and sharing requirements still matter."
+      ],
+      [
+        "Does a lower price prove a tool is the right choice?",
+        "No. Compare the task, data flow, output limitations and current offer."
+      ]
+    ],
+    "sources": [
+      [
+        "Just Compress website privacy",
+        "https://justcompress.online/privacy/"
+      ],
+      [
+        "Current App Store listing",
+        "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323"
+      ]
+    ],
+    "primaryCta": "/compress-pdf/",
+    "primaryCtaLabel": "Open the browser tool",
+    "related": [
+      [
+        "Pick a tool by task",
+        "/best-private-file-tools/"
+      ],
+      [
+        "Website privacy",
+        "/privacy/"
+      ],
+      [
+        "Current iPhone App directory",
+        "/apps/"
+      ]
+    ]
+  },
+  {
+    "slug": "sign-merge-compress-pdf-iphone-no-upload",
+    "title": "Sign, merge and compress a PDF on iPhone",
+    "tag": "PRACTICAL FILE GUIDE",
+    "description": "Keep your original documents. Combine only the pages you need, make any visual edits on a copy, and inspect the result before sending. PDF compression can change document features, so digitally signed or fillable files need particular care.",
+    "direct": "Keep your original documents. Combine only the pages you need, make any visual edits on a copy, and inspect the result before sending. PDF compression can change document features, so digitally signed or fillable files need particular care.",
+    "reviewed": "2026-10-24",
+    "appId": "6769762323",
+    "figure": "/assets/local-file-processing.svg",
+    "figureWidth": 640,
+    "figureHeight": 500,
+    "figureAlt": "Local processing keeps the file operation on the device. Cloud processing uploads a copy to a remote service.",
+    "figureCaption": "An explanatory data-flow diagram. A website can load software and optional analytics separately from processing your selected file.",
+    "cards": [
+      [
+        "Merge",
+        "Confirm page order and include only the required pages."
+      ],
+      [
+        "Sign or mark",
+        "Keep visual marks distinct from existing digital signatures."
+      ],
+      [
+        "Compress",
+        "Check readability and whether document features survive."
+      ]
+    ],
+    "sections": [
+      [
+        "Plan the output before editing",
+        "Check the recipient's page order, size limit and signature requirements. A typed or drawn signature is a visible mark; it is not the same as preserving an existing cryptographic digital signature. Follow the requirements for the document you are sending."
+      ],
+      [
+        "Use a separate working copy",
+        "Our App, PDF Compressor: Sign & Merge, lists merging, page reordering, drawn or typed signatures, watermarks and compression in its current published version. Use the available document tools on a working copy and keep the originals separate."
+      ],
+      [
+        "Compress only after checking what must be preserved",
+        "The current App listing explains that compression may create image-backed PDF pages and remove selectable text, forms, links, annotations, metadata or layers. If those features are required, do not assume a smaller PDF retains them. Keep the original and choose an appropriate output workflow."
+      ],
+      [
+        "Inspect the exported file",
+        "Open the exported PDF. Check page order and count, small text, any visible signature, links and fields that the recipient requires. Confirm the actual file size and try the intended upload or mail workflow before deleting a source copy."
+      ]
+    ],
+    "steps": [
+      "Keep the original and define the required output.",
+      "Use the available merge and visual-editing tools on a copy.",
+      "Inspect any compressed export before sending it."
+    ],
+    "faqs": [
+      [
+        "Does compression preserve forms and selectable text?",
+        "Not necessarily. The current App listing warns that compression can create image-backed pages and remove document features."
+      ],
+      [
+        "Is the browser output identical to the iPhone App output?",
+        "No. They are different tools. Our browser PDF exports include a small app logo watermark; inspect the actual output from the tool you use."
+      ]
+    ],
+    "sources": [
+      [
+        "Just Compress website privacy",
+        "https://justcompress.online/privacy/"
+      ],
+      [
+        "Current App Store listing",
+        "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323"
+      ]
+    ],
+    "primaryCta": "/compress-pdf/",
+    "primaryCtaLabel": "Open the browser tool",
+    "related": [
+      [
+        "Make a PDF small enough for email",
+        "/compress-pdf-for-email/"
+      ],
+      [
+        "Current PDF App features",
+        "/apps/pdf-compressor/"
+      ]
+    ]
+  },
+  {
+    "slug": "compress-audio-file-iphone",
+    "title": "How to compress an audio file on iPhone",
+    "tag": "PRACTICAL FILE GUIDE",
+    "description": "Make one smaller sharing copy and listen to it before exporting a full recording. The useful setting depends on duration, codec and content. A format conversion alone does not guarantee a smaller or accepted file.",
+    "direct": "Make one smaller sharing copy and listen to it before exporting a full recording. The useful setting depends on duration, codec and content. A format conversion alone does not guarantee a smaller or accepted file.",
+    "reviewed": "2026-10-24",
+    "appId": "6769563659",
+    "figure": "/assets/local-file-processing.svg",
+    "figureWidth": 640,
+    "figureHeight": 500,
+    "figureAlt": "Local processing keeps the file operation on the device. Cloud processing uploads a copy to a remote service.",
+    "figureCaption": "An explanatory data-flow diagram. A website can load software and optional analytics separately from processing your selected file.",
+    "cards": [
+      [
+        "Duration",
+        "Longer recordings need more data at the same bitrate."
+      ],
+      [
+        "Codec and bitrate",
+        "A file extension does not tell you the quality or exact size."
+      ],
+      [
+        "Listening check",
+        "Choose the smallest copy that remains clear enough for your purpose."
+      ]
+    ],
+    "sections": [
+      [
+        "Check the receiving requirement",
+        "Read the destination's actual size, duration and format limits. Do not assume email, a messaging attachment and a document upload use the same cap. Inspect the error separately from the filename extension."
+      ],
+      [
+        "Use the available audio workflow",
+        "Our App, Audio Compressor MP3 Converter, lists compression, conversion, trimming and audio extraction. Its current release accepts one file or a batch for compression and adds silence removal. Import a copy, choose an available setting and export one representative test."
+      ],
+      [
+        "Listen before applying a stronger setting",
+        "Check soft speech, consonants, background noise and music at ordinary listening volume. Lossy encoding discards information; raising the bitrate later cannot recover it. If the copy sounds watery or dull, choose a less aggressive setting and compare again."
+      ],
+      [
+        "Measure the exported copy",
+        "Check actual size, duration and playback in the receiving app. Keep the best original for future editing. For a short browser-supported recording, the free browser audio tool is an alternative; it uses the device's resources and is a separate product from the native App."
+      ]
+    ],
+    "steps": [
+      "Check the destination and keep an original.",
+      "Export one representative section using an available setting.",
+      "Listen, inspect the size and test it in the destination."
+    ],
+    "faqs": [
+      [
+        "Will converting M4A to MP3 always shrink the file?",
+        "No. Size depends on the encoded bitrate, duration and other settings. Check the actual exported file."
+      ],
+      [
+        "Is file compression the same as dynamic compression?",
+        "No. File compression changes the encoded file size. Dynamic compression changes level differences in the audio."
+      ]
+    ],
+    "sources": [
+      [
+        "Just Compress website privacy",
+        "https://justcompress.online/privacy/"
+      ],
+      [
+        "Current App Store listing",
+        "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659"
+      ]
+    ],
+    "primaryCta": "/compress-audio/",
+    "primaryCtaLabel": "Open the browser tool",
+    "related": [
+      [
+        "Understand audio bitrate and size",
+        "/guides/audio-bitrate-file-size/"
+      ],
+      [
+        "Current audio App features",
+        "/apps/audio-compressor/"
+      ]
+    ]
   }
 ]

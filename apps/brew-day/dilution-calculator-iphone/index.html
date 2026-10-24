@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Wort dilution calculator on iPhone: fix high original gravity | Brew Day</title>
-<meta content="Calculate how much water to add when original gravity is too high. Worked 18 L, 1.060 to 1.050 example, plus the offline Brew Day workflow for iPhone." name="description"/>
+<title>Wort dilution calculator: estimate water to add | Just Compress</title>
+<meta content="Estimate a water addition from wort volume and specific gravity. Includes a transparent 18 L worked example and the calculation assumptions." name="description"/>
 <link href="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/" rel="canonical"/>
 <link href="/assets/portfolio.css" rel="stylesheet"/>
 <meta content="Fix high original gravity before fermentation" property="og:title"/><meta content="article" property="og:type"/>
 <meta content="https://justcompress.online/apps/brew-day/dilution-calculator-iphone/" property="og:url"/>
 <style>label{display:block;margin:16px 0}input{display:block;width:100%;max-width:320px;padding:12px;font:inherit;border:1px solid #7b817b;border-radius:8px}output{display:block;font-size:24px;font-weight:700;margin:22px 0}code{overflow-wrap:anywhere}</style>
-<link href="/assets/compact.css" rel="stylesheet"/><script defer src="/assets/posthog-init.js?v=20261022-3"></script>
-</head><body class="compact-page"><main>
-<nav><a href="/apps/brew-day/">Brew Day</a><a href="/apps/">All iPhone apps</a></nav>
+<link href="/assets/compact.css" rel="stylesheet"/><script defer="" src="/assets/posthog-init.js?v=20261022-3"></script>
+<link href="/assets/sitewide.css?v=20261024" rel="stylesheet"/></head><body class="compact-page site-public"><main>
+<nav><a href="/tools/">Just Compress tools</a><a href="/apps/">All iPhone apps</a></nav>
 <header class="hero"><p class="eyebrow">Original gravity · brew-day guide</p><h1>Original gravity too high? Work out the dilution.</h1>
 <p class="lede">Before fermentation, use your measured wort volume and temperature-corrected specific gravity to estimate the water needed to reach your target.</p></header>
 <section class="card"><h2>Try the wort dilution calculator</h2>
@@ -24,17 +24,7 @@
 <p>Current wort holds 18 × 60 = 1,080 point-liters. At 50 gravity points, the final volume is 1,080 ÷ 50 = <b>21.6 L</b>. The estimated addition is <b>3.6 L of water</b>.</p>
 <p><code>Final volume = current volume × (current SG − 1) ÷ (target SG − 1)</code></p>
 <p><code>Water to add = final volume − current volume</code></p>
-<h2>Use the same calculation offline on iPhone</h2>
-<ol><li>Open <a href="/apps/brew-day/">Homebrew Calculator: Brew Day</a> and choose Tools → Gravity fix.</li>
-<li>Enter your current wort volume, current SG and target SG. Keep your units consistent.</li>
-<li>Read the suggested water addition. Add carefully, mix, and measure again rather than treating an estimate as an exact result.</li>
-<li>Save the measurement and calculation with your tracked batch so the next brew has a useful reference.</li></ol>
-<section class="note"><h2>What if gravity is too low?</h2><p>Dilution only lowers gravity. A lower current SG needs a different adjustment; the app also reports evaporation volume and missing point-liters. This calculator does not recommend a fermentation or packaging decision.</p></section>
-<h2>Can I use a refractometer after fermentation?</h2>
-<p>Alcohol changes the reading. Use the app’s fermented refractometer correction with the original Brix and current Brix instead of entering an uncorrected post-fermentation reading here.</p>
-<h2>What does the app cost?</h2><p>Recipes are unlimited. The first tracked brew is free. Lifetime or Monthly Pro unlocks unlimited tracked sessions; the purchase screen shows the current local price. Monthly renews until cancelled.</p>
-<p><a class="button" href="https://apps.apple.com/app/id6811067941">Find Brew Day on the App Store</a></p>
-<footer><a href="/apps/brew-day/">App details</a><a href="/apps/brew-day/support/">Support</a><a href="/apps/brew-day/privacy/">Privacy</a></footer>
+<h2>About this standalone calculator</h2><p>This webpage estimates dilution from conserved gravity points. It is retained as a browser calculator and is not a feature of Sober Wins, the current App using the former Brew Day store identity.</p><h2>Check the assumptions</h2><p>Use consistent units and temperature-corrected readings. Mix and measure again after an addition. This estimate is for the stated pre-fermentation inputs and does not correct post-fermentation refractometer readings.</p><footer><a href="/tools/">Other browser tools</a><a href="/support/">Support</a><a href="/privacy/">Website privacy</a></footer>
 </main><script>
 const form=document.querySelector('#dilution'), result=document.querySelector('#result');
 form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;

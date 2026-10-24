@@ -24,8 +24,8 @@ ${schema}</head><body class="guide-page"><div class="guide-shell">
 <nav class="repair-jump" aria-label="In this guide"><a href="#choose">Choose the approach</a><a href="#steps">Follow the checks</a><a href="#details">Read the details</a></nav>
 <article class="guide-article" data-maintained-article>
 <section id="choose"><h2>Choose the approach before changing the file</h2><div class="repair-cards">${page.cards.map(([h,b])=>`<div><h3>${esc(h)}</h3><p>${esc(b)}</p></div>`).join('')}</div>
-<figure id="workflow"><img src="${page.figure}" alt="${esc(page.figureAlt)}" width="640" height="580"><figcaption>${esc(page.figureCaption)}</figcaption></figure></section>
-<section id="steps"><h2>Three checks before you send</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol><p><a class="guide-button" href="${page.primaryCta}">Open the free ${page.appId==='6769762323'?'PDF':'video'} compressor ↗</a></p></section>
+<figure id="workflow"><img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}"><figcaption>${esc(page.figureCaption)}</figcaption></figure></section>
+<section id="steps"><h2>Three checks before you send</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol><p><a class="guide-button" href="${page.primaryCta}">${esc(page.primaryCtaLabel||('Open the free '+(page.appId==='6769762323'?'PDF':'video')+' compressor'))} ↗</a></p></section>
 <section id="details">${page.sections.map(([h,b])=>`<h2>${esc(h)}</h2><p>${esc(b)}</p>`).join('')}</section>
 <aside class="guide-cta"><div><strong>${esc(product.name)}</strong><p>Our App by Space Sheep Studio. See the App Store for current access and purchase options.</p></div><a class="guide-button" href="${esc(product.url)}">Get the iPhone app ↗</a></aside>
 <section class="guide-faq"><h2>Common questions</h2>${page.faqs.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>

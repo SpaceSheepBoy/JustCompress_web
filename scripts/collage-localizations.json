@@ -1,0 +1,329 @@
+{
+  "en": {
+    "country": "us",
+    "label": "English",
+    "name": "Combine Photos: Stitch & Grid",
+    "description": "Select 2–30 photos or screenshots and combine them into one JPEG/PNG image.\n\n11 layouts. Join screenshots, make a grid or place photos side by side. Drag each photo to move it; zoom to fit. Save as JPEG or PNG, up to 3000 pixels wide.\n\nSave to Photos, share with another app, or find your finished image in Files.\n\nNo accounts, ads, or watermarks.\nPhotos are processed on your device.\n\nOne free export included. Every layout is available.\n\nGet Collage Maker Pro\nUnlimited collage exports\nLifetime: Pay once. Yours forever.\nMonthly Pro: per month · Cancel anytime\nAuto-renews monthly until cancelled. Manage or cancel in your App Store account settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/8364592d022a9bef43.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
+        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
+        "bytes": 30014,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
+        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
+        "bytes": 23900,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "zh-Hans": {
+    "country": "cn",
+    "label": "简体中文",
+    "name": "照片拼接：多图合成一张图",
+    "description": "选择 2–30 张照片或截图，合并为一张 JPEG/PNG 图片。\n\n11 种布局，拼长截图、网格或横向照片。每张照片可拖动位置、缩放大小。支持 JPEG、PNG，导出宽度最高 3000 像素。\n\n保存到“照片”、分享至其他 App，或在“文件”中找到完成的图片。\n\n无账户、无广告、无水印.\n照片在你的设备上处理.\n\n包含一次免费导出，所有布局均可使用。\n\n升级 Collage Maker Pro\n无限导出拼图\n永久版: 一次购买，永久使用。\n月度 Pro: 每月 · 随时可取消\n订阅按月自动续费，直至取消。可在 App Store 账户设置中管理或取消。\n\n使用条款: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n隐私: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/cn/app/%E7%85%A7%E7%89%87%E6%8B%BC%E6%8E%A5-%E5%A4%9A%E5%9B%BE%E5%90%88%E6%88%90%E4%B8%80%E5%BC%A0%E5%9B%BE/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/ff4a241670eeb94262.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/98/e1/3e98e100-d5be-38ba-df1a-a2d0864d6dfd/01-stitch.png/320x480bb.jpg",
+        "sha256": "ff4a241670eeb942628fc00dac9301a988da32396241110efad3362a3c1280ea",
+        "bytes": 28978,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/05efdc5ae63919a716.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/a0/2c/d8a02c75-e30d-d15e-259d-ad6bbce74314/02-layouts.png/320x480bb.jpg",
+        "sha256": "05efdc5ae63919a716fc24cc3828cc377cc25d7b24d0666b27d06b9ee3f3e59e",
+        "bytes": 24357,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "zh-Hant": {
+    "country": "tw",
+    "label": "繁體中文",
+    "name": "照片拼接：圖片合併與拼圖",
+    "description": "選擇 2–30 張照片或截圖，合併為一張 JPEG/PNG 圖片。\n\n11 種版面，拼長截圖、網格或橫向照片。每張照片可拖動位置、縮放大小。支援 JPEG、PNG，匯出寬度最高 3000 像素。\n\n儲存至「照片」、分享至其他 App，或在「檔案」中找到完成的圖片。\n\n無帳號、無廣告、無浮水印.\n照片在你的裝置上處理.\n\n包含一次免費輸出，所有版面均可使用。\n\n升級 Collage Maker Pro\n無限輸出拼圖\n永久版: 一次購買，永久使用。\n月費 Pro: 每月 · 隨時可取消\n訂閱按月自動續訂，直至取消。可在 App Store 帳號設定中管理或取消。\n\n使用條款: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n隱私: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/tw/app/%E7%85%A7%E7%89%87%E6%8B%BC%E6%8E%A5-%E5%9C%96%E7%89%87%E5%90%88%E4%BD%B5%E8%88%87%E6%8B%BC%E5%9C%96/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/200b3bcc4a84e244f4.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/09/15/ed091577-81ef-8118-ef4b-fb2ec7192295/01-stitch.png/320x480bb.jpg",
+        "sha256": "200b3bcc4a84e244f472bf8a13babaf401480b17b69883447592ecfada1ba6fa",
+        "bytes": 28953,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/205910553c4c952e10.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/18/70/801870b3-58b5-d6e9-95d2-7767f2d82b86/02-layouts.png/320x480bb.jpg",
+        "sha256": "205910553c4c952e106bdc26b66ed4d9af529632265ff8df36ed9369817c8420",
+        "bytes": 24439,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "fr": {
+    "country": "fr",
+    "label": "Français",
+    "name": "Collage Maker : Photos",
+    "description": "Choisissez de 2 à 30 photos ou captures d’écran et réunissez-les dans une seule image JPEG/PNG.\n\n11 dispositions. Assemblez des captures, créez une grille ou placez vos photos côte à côte. Déplacez et zoomez chaque photo. JPEG ou PNG, jusqu’à 3000 pixels de large.\n\nEnregistrez dans Photos, partagez avec une autre app ou retrouvez votre image dans Fichiers.\n\nSans compte, publicité ni filigrane.\nPhotos traitées sur votre appareil.\n\nUn export gratuit inclus. Toutes les dispositions sont disponibles.\n\nPasser à Collage Maker Pro\nExports de collages illimités\nÀ vie: Un seul achat. Pour toujours.\nPro mensuel: par mois · Résiliable à tout moment\nRenouvellement mensuel automatique jusqu’à résiliation. Gérez ou annulez dans les réglages de votre compte App Store.\n\nConditions d’utilisation: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nConfidentialite: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/fr/app/collage-maker-photos/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/77ceaa949812d5becd.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/7f/c8/fc7fc8d7-6416-272e-6e83-27b505b9fdab/01-stitch.png/320x480bb.jpg",
+        "sha256": "77ceaa949812d5becdb730f06f41e0d300abd155729cca3720b99a7b4b102db6",
+        "bytes": 30846,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/97d2733d8579503dfd.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/39/1b/cd391b78-a533-fe0a-4ed0-41e992cf2a2a/02-layouts.png/320x480bb.jpg",
+        "sha256": "97d2733d8579503dfdd57ee4806d2105a7f8f924a00832e9c9802c3d2d33234a",
+        "bytes": 24452,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "de": {
+    "country": "de",
+    "label": "Deutsch",
+    "name": "Collage Maker: Fotos verbinden",
+    "description": "Wähle 2–30 Fotos oder Screenshots und verbinde sie zu einem einzigen JPEG/PNG-Bild.\n\n11 Layouts. Screenshots verbinden, Raster erstellen oder Fotos nebeneinander setzen. Jedes Foto verschieben und zoomen. JPEG oder PNG, bis zu 3000 Pixel breit.\n\nSpeichere in Fotos, teile mit einer anderen App oder finde dein fertiges Bild in Dateien.\n\nOhne Konto, Werbung oder Wasserzeichen.\nFotos werden auf deinem Gerät verarbeitet.\n\nEin kostenloser Export inklusive. Alle Layouts sind verfügbar.\n\nCollage Maker Pro freischalten\nUnbegrenzte Collage-Exporte\nLebenslang: Einmal zahlen. Für immer nutzen.\nPro monatlich: pro Monat · Jederzeit kündbar\nVerlängert sich monatlich bis zur Kündigung. Verwalte oder kündige das Abo in deinen App-Store-Accounteinstellungen.\n\nNutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nDatenschutz: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/de/app/collage-maker-fotos-verbinden/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/f0b94ac0f0dada148c.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/65/ef/0a65ef95-0ab5-0426-29be-9b171a5f3d84/01-stitch.png/320x480bb.jpg",
+        "sha256": "f0b94ac0f0dada148c406e668fa3e01320c58d57a0ad756359686db15803cd0a",
+        "bytes": 28891,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/dd359225e11dc54ca7.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/b0/83/5ab0839e-5fc7-e7de-df5e-6550527bf47a/02-layouts.png/320x480bb.jpg",
+        "sha256": "dd359225e11dc54ca7fcd138bbc38b8fc1c94bfb6afcf13891908f5827626046",
+        "bytes": 23907,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "es": {
+    "country": "mx",
+    "label": "Español",
+    "name": "Collage Maker: Une fotos",
+    "description": "Elige entre 2 y 30 fotos o capturas de pantalla y combínalas en una sola imagen JPEG/PNG.\n\n11 diseños. Une capturas, crea una cuadrícula o coloca fotos lado a lado. Mueve y amplía cada foto. Guarda en JPEG o PNG, hasta 3000 píxeles de ancho.\n\nGuarda en Fotos, comparte con otra app o encuentra tu imagen en Archivos.\n\nSin cuentas, anuncios ni marcas de agua.\nLas fotos se procesan en tu dispositivo.\n\nIncluye una exportación gratis. Todos los diseños están disponibles.\n\nObtener Collage Maker Pro\nExportaciones ilimitadas\nDe por vida: Un pago. Para siempre.\nPro mensual: al mes · Cancela cuando quieras\nSe renueva cada mes hasta que canceles. Administra o cancela en la configuración de tu cuenta del App Store.\n\nTérminos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacidad: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/mx/app/collage-maker-une-fotos/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/61fe55c2d76d8e9ee9.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/e7/cc/52e7cc1e-5ba8-76ab-9b06-1aac9200864e/01-stitch.png/320x480bb.jpg",
+        "sha256": "61fe55c2d76d8e9ee9a297e747ee8a74822f6d96cdec21dfd71ab3a6156b1ff2",
+        "bytes": 27924,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/b60b856495db075655.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/93/07/22930760-5a07-0596-de03-e41c45007262/02-layouts.png/320x480bb.jpg",
+        "sha256": "b60b856495db075655c5e67d19f7802322344ac15ffae28f257faf7bcb4a4aad",
+        "bytes": 26074,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "pt": {
+    "country": "br",
+    "label": "Português",
+    "name": "Collage Maker: Juntar fotos",
+    "description": "Escolha de 2 a 30 fotos ou capturas de tela e combine tudo em uma única imagem JPEG/PNG.\n\n11 layouts. Junte capturas, crie uma grade ou coloque fotos lado a lado. Mova e amplie cada foto. Salve em JPEG ou PNG, até 3000 pixels de largura.\n\nSalve em Fotos, compartilhe com outro app ou encontre a imagem pronta em Arquivos.\n\nSem conta, anúncios ou marca-d’água.\nFotos processadas no seu dispositivo.\n\nInclui uma exportação grátis. Todos os layouts estão disponíveis.\n\nObter Collage Maker Pro\nExportações ilimitadas\nVitalício: Pague uma vez. Use para sempre.\nPro mensal: por mês · Cancele quando quiser\nRenovação mensal automática até o cancelamento. Gerencie ou cancele nos ajustes da sua conta da App Store.\n\nTermos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacidade: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/br/app/collage-maker-juntar-fotos/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/a8d71660e9cc54f2f5.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/b8/17/17b817ac-35be-9d36-cd3e-529e319da30d/01-stitch.png/320x480bb.jpg",
+        "sha256": "a8d71660e9cc54f2f583baab38dbf544d5b37cd717609c5397cebb6a884bdbce",
+        "bytes": 28896,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/0802bf2ff0cd4fc963.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/25/75/4025758e-becf-03d0-939c-6780b6dba42d/02-layouts.png/320x480bb.jpg",
+        "sha256": "0802bf2ff0cd4fc9635a61841a16f484980c16a8bfc6f5e212896603c9dae130",
+        "bytes": 25391,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "ja": {
+    "country": "jp",
+    "label": "日本語",
+    "name": "写真つなぎ・スクショ結合 Collage Maker",
+    "description": "2〜30枚の写真やスクリーンショットを選び、1枚のJPEG/PNG画像にまとめます。\n\n11種類のレイアウト。スクショをつなぐ、グリッドにする、横に並べる。写真ごとに移動・拡大できます。JPEG・PNGで最大幅3000ピクセル。\n\n写真ライブラリに保存したり、別のアプリに共有したり、「ファイル」から完成画像を開けます。\n\nアカウント・広告・透かしなし.\n写真はデバイス上で処理.\n\n1回無料で書き出せます。すべてのレイアウトを利用できます。\n\nCollage Maker Proにアップグレード\nコラージュを無制限に書き出し\n永久版: 一度の購入で、ずっと使える。\n月額Pro: 月額 · いつでも解約可能\n解約するまで毎月自動更新されます。App Storeのアカウント設定で管理・解約できます。\n\n利用規約: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nプライバシー: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%A4%E3%81%AA%E3%81%8E-%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E7%B5%90%E5%90%88-collage-maker/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/aca6c90a255277e223.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/1a/61/d61a6101-f802-9f9a-6c61-f2d048f962c6/01-stitch.png/320x480bb.jpg",
+        "sha256": "aca6c90a255277e2238b1a17580069527ed2b01f7e8257c31d17dae35360b1e6",
+        "bytes": 29949,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/d9275c6b443ac85e80.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/bc/7e/c6bc7e1a-c641-e5ad-7ac1-8473a3465d50/02-layouts.png/320x480bb.jpg",
+        "sha256": "d9275c6b443ac85e80d7cd6f8da9bdcb0c9091d44b0f1c63acf5941ee4ecb7ab",
+        "bytes": 24341,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "ko": {
+    "country": "kr",
+    "label": "한국어",
+    "name": "사진 이어붙이기: Collage Maker",
+    "description": "사진이나 스크린샷 2~30장을 골라 하나의 JPEG/PNG 이미지로 합치세요.\n\n11가지 레이아웃. 스크린샷을 잇거나 격자 또는 가로로 배치하세요. 사진마다 이동하고 확대할 수 있어요. JPEG·PNG, 최대 너비 3000픽셀.\n\n사진 앱에 저장하거나 다른 앱으로 공유하세요. 파일 앱에서도 완성된 이미지를 찾을 수 있어요.\n\n계정, 광고, 워터마크 없음.\n사진은 기기에서 처리됩니다.\n\n무료 내보내기 1회가 포함됩니다. 모든 레이아웃을 사용할 수 있어요.\n\nCollage Maker Pro 이용하기\n콜라주 무제한 내보내기\n평생 이용: 한 번 결제로 평생 이용.\n월간 Pro: 매월 · 언제든 취소\n취소할 때까지 매월 자동 갱신됩니다. App Store 계정 설정에서 관리하거나 취소하세요.\n\n이용 약관: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n개인정보: https://justcompress.online/apps/collage-maker/privacy/",
+    "version": "1.3",
+    "url": "https://apps.apple.com/kr/app/%EC%82%AC%EC%A7%84-%EC%9D%B4%EC%96%B4%EB%B6%99%EC%9D%B4%EA%B8%B0-collage-maker/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/69db5a30f6a44b85b7.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/c6/e1/fbc6e117-da4b-b583-9a2c-f79d8d7e8deb/01-stitch.png/320x480bb.jpg",
+        "sha256": "69db5a30f6a44b85b73591e4f48903d174bc618ee844e92f0ba807ea18fdc50d",
+        "bytes": 29120,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/5083bde4c6520d331b.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/71/99/56719998-ec6e-a54d-6d47-bc5d5222c026/02-layouts.png/320x480bb.jpg",
+        "sha256": "5083bde4c6520d331bd315bca5fb3be068c34863abd22275755dcb4b0335ddf0",
+        "bytes": 22535,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24"
+  },
+  "ar": {
+    "country": "sa",
+    "label": "العربية",
+    "name": "Combine Photos: Stitch & Grid",
+    "description": "اختر من صورتين إلى 30 صورة أو لقطة شاشة واجمعها في صورة JPEG أو PNG واحدة.\n\nتتوفر 11 طريقة ترتيب، بما فيها الشبكات والصور المتجاورة. حرّك كل صورة وكبّرها لتناسب الإطار. صدّر صورة بعرض يصل إلى 3000 بكسل.\n\nاحفظ في تطبيق الصور، أو شارك مع تطبيق آخر، أو اعثر على الصورة المكتملة في تطبيق الملفات.\n\nتتم معالجة الصور على جهازك، بدون حساب أو إعلانات أو علامات مائية.\n\nيتضمن التطبيق عملية تصدير مجانية واحدة، وجميع طرق الترتيب متاحة. تتيح لك ترقية Pro تصدير عدد غير محدود من الصور عبر شراء مدى الحياة أو اشتراك شهري. يتجدد الاشتراك الشهري تلقائيًا حتى إلغائه في إعدادات حساب Apple.",
+    "version": "1.3",
+    "url": "https://apps.apple.com/sa/app/combine-photos-stitch-grid/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/8364592d022a9bef43.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
+        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
+        "bytes": 30014,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
+        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
+        "bytes": 23900,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24",
+    "description_source": "Website translation of verified public features. The actual storefront app name is preserved."
+  },
+  "id": {
+    "country": "id",
+    "label": "Bahasa Indonesia",
+    "name": "Combine Photos: Stitch & Grid",
+    "description": "Pilih 2 hingga 30 foto atau tangkapan layar dan gabungkan menjadi satu gambar JPEG atau PNG.\n\nTersedia 11 tata letak, termasuk kisi dan foto berdampingan. Geser setiap foto dan perbesar agar pas. Ekspor dengan lebar hingga 3000 piksel.\n\nSimpan ke Foto, bagikan ke aplikasi lain, atau temukan gambar jadi di File.\n\nFoto diproses di perangkat Anda, tanpa akun, iklan, atau tanda air.\n\nSatu ekspor gratis disertakan dan semua tata letak tersedia. Pro membuka ekspor tanpa batas melalui pembelian seumur hidup atau langganan bulanan. Langganan bulanan diperpanjang otomatis hingga dibatalkan di pengaturan akun Apple.",
+    "version": "1.3",
+    "url": "https://apps.apple.com/id/app/combine-photos-stitch-grid/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/8364592d022a9bef43.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
+        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
+        "bytes": 30014,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
+        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
+        "bytes": 23900,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24",
+    "description_source": "Website translation of verified public features. The actual storefront app name is preserved."
+  },
+  "th": {
+    "country": "th",
+    "label": "ไทย",
+    "name": "Combine Photos: Stitch & Grid",
+    "description": "เลือกรูปภาพหรือภาพหน้าจอ 2 ถึง 30 รูป แล้วรวมเป็นภาพ JPEG หรือ PNG เดียว\n\nมี 11 รูปแบบ รวมถึงตารางและภาพวางข้างกัน ลากและขยายแต่ละภาพให้พอดี ส่งออกได้กว้างสูงสุด 3000 พิกเซล\n\nบันทึกไปยังรูปภาพ แชร์ไปยังแอปอื่น หรือค้นหาภาพที่เสร็จแล้วในไฟล์\n\nประมวลผลภาพบนอุปกรณ์ของคุณ โดยไม่ต้องมีบัญชี ไม่มีโฆษณาหรือลายน้ำ\n\nรวมการส่งออกฟรีหนึ่งครั้งและใช้ได้ทุกรูปแบบ Pro ปลดล็อกการส่งออกไม่จำกัดด้วยการซื้อแบบตลอดชีพหรือการสมัครสมาชิกรายเดือน การสมัครรายเดือนจะต่ออายุอัตโนมัติจนกว่าจะยกเลิกในการตั้งค่าบัญชี Apple.",
+    "version": "1.3",
+    "url": "https://apps.apple.com/th/app/combine-photos-stitch-grid/id6810266264",
+    "screenshots": [
+      {
+        "src": "/assets/apps/8364592d022a9bef43.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
+        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
+        "bytes": 30014,
+        "width": 221,
+        "height": 480
+      },
+      {
+        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
+        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
+        "bytes": 23900,
+        "width": 221,
+        "height": 480
+      }
+    ],
+    "checked": "2026-10-24",
+    "description_source": "Website translation of verified public features. The actual storefront app name is preserved."
+  }
+}
