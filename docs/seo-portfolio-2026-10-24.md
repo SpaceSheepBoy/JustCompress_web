@@ -31,3 +31,7 @@ Review the build diff. The sitemap script updates modification dates only for ad
 Validation covers 149 HTML routes, 26 inline scripts, local links/assets, metadata, schema parsing, 11 product identities, language alternatives and 142 indexable sitemap entries. Responsive browser checks cover 320, 390, 430 and 1280 px widths. The directory search and copy action were exercised; file-processing algorithms were not changed by this portfolio pass. Existing consent and HDR classifier checks pass.
 
 Deployment success, public page readback, search indexing and App Store attribution are separate outcomes. This update does not establish new indexing or conversion performance. Keep the existing daily editorial schedule unchanged.
+
+## Directory ordering
+
+`scripts/app-display-order.json` holds the explicit order from the growth workspace's latest verified 30-day sales window. The order combines normalized first-download and net paid-unit volume with equal weights. It is separate from editorial article allocation. Keep raw sales counts in private growth evidence. The builder requires the ordered IDs to match the curated portfolio exactly and does not fall back to alphabetical or hard-coded featured ordering. Refresh through the growth workspace's `scripts/refresh_website_app_order.py` during the existing weekly data review, preserving the previous order on missing or stale data.

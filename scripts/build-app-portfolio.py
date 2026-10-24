@@ -84,7 +84,9 @@ for lang,l in LOCALES.items():
  schema=ld({'@type':'SoftwareApplication','name':l['name'],'url':SITE+route,'downloadUrl':l['url'],'softwareVersion':l['version'],'operatingSystem':'iOS 17 or later','inLanguage':lang,'description':parts[0]})
  page(route,l['name'],parts[0][:170],body,schema,lang,alternates)
 # The existing copy-name and search controls remain available with current full store names.
-featured=['6812821310','6769563659','6810266264'];ordered=sorted(APPS,key=lambda a:(featured.index(a['id']) if a['id'] in featured else 10,a['slug']))
+display_order=json.loads((ROOT/'scripts/app-display-order.json').read_text())['app_ids']
+assert len(display_order)==len(set(display_order)) and set(display_order)=={a['id'] for a in APPS},'Display order must match the curated released portfolio'
+ordered=sorted(APPS,key=lambda a:display_order.index(a['id']))
 cards=[]
 for a in ordered:
  gallery='<figure class="catalog-gallery"><div class="catalog-shots" aria-label="'+E(a["name"])+' App Store screenshots">'+''.join('<a href="'+E(shot['src'])+'" target="_blank" rel="noopener" aria-label="Open '+E(a['name'])+' screenshot '+str(i)+' full size">'+image(shot,a["name"]+" official App Store screenshot "+str(i),"catalog-shot")+'</a>' for i,shot in enumerate(a["screenshots"][:3],1))+'</div><figcaption>3 official screenshots. Select an image to view full size.</figcaption></figure>'
