@@ -480,5 +480,22 @@
         "https://support.apple.com/en-ie/guide/itunes/itns2965/windows"
       ]
     ]
+  },
+  {
+    "slug": "hdr-vs-hevc-vs-mp4",
+    "title": "HDR, HEVC and MP4: what each one tells you",
+    "summary": "Separate color, codec and container before choosing a conversion. Diagnose playback, color and upload problems without guessing from a filename.",
+    "app": "6812821310",
+    "kind": "knowledge",
+    "category": "Practical guide",
+    "published": "2026-10-25",
+    "modified": "2026-10-25",
+    "layout": "hdr-vs-hevc-vs-mp4.html",
+    "steps": [],
+    "sections": [],
+    "faq": [],
+    "related": [
+      "/guides/"
+    ]
   }
 ]

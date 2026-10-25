@@ -59,7 +59,7 @@ for a in APPS:
   match=('audio' in name or 'm4a' in name) if a['id']=='6769563659' else ('watermark' in name) if a['id']=='6769761016' else ('pdf' in name and 'watermark' not in name) if a['id']=='6769762323' else False
   if match:related.append(('/iphone-video-tutorials/'+name+'/',name.split('-',1)[1].replace('-',' ').capitalize()))
  if a['slug']=='just-captions':related.append(('https://justcaptions.com/guides/','Just Captions guides for iPhone and Mac'))
- if related:body+='<section class="product-section"><h2>Practical guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in related[:7])+'</ul></section>'
+ if related:body+='<section class="product-section"><h2>Practical guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in related)+'</ul></section>'
  body+=f'<aside class="product-download"><h2>{E(a["name"])}</h2><p>{E(a["benefit"])}. Review the current store listing for full details and compatibility.</p><a class="portfolio-button" href="{E(a["store_url"])}">Get the iPhone app ↗</a><p class="product-links">{policy_links(a)}</p></aside>'
  schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':'iOS '+a['minimum_os']+' or later','applicationCategory':'UtilitiesApplication','description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
  page(route,a['name']+' for iPhone',a['benefit']+'. Current features, App Store screenshots, version details and access options.',body,schema,alternates=alternates if a['slug']=='collage-maker' else None)
