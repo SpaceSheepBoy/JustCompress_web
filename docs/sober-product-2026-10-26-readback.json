@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-26",
+  "commit": "24c120b5d7701915a426e006f438f06ed5b99498",
+  "result": "PASS",
+  "checks": [
+    {
+      "url": "https://justcompress.online/apps/brew-day/",
+      "status": "PASS",
+      "verification": "byte-identical to committed candidate",
+      "heading": "Sober Wins: Quit Drinking Track your alcohol-free days."
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/guides/breathing-pause/",
+      "status": "PASS",
+      "verification": "byte-identical to committed candidate",
+      "heading": "How to take a breathing pause in Sober Wins"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/guides/daily-rewards-and-collection/",
+      "status": "PASS",
+      "verification": "byte-identical to committed candidate",
+      "heading": "How daily rewards work in Sober Wins"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/guides/track-alcohol-free-days/",
+      "status": "PASS",
+      "verification": "byte-identical to committed candidate",
+      "heading": "How to track alcohol-free days on iPhone"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/privacy/",
+      "status": "PASS",
+      "verification": "content, title, canonical and publisher",
+      "heading": "Privacy Policy"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/terms/",
+      "status": "PASS",
+      "verification": "content, title, canonical and publisher",
+      "heading": "Terms of Use"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/support/",
+      "status": "PASS",
+      "verification": "content, title, canonical and publisher",
+      "heading": "Support"
+    },
+    {
+      "url": "https://justcompress.online/assets/product-story.css",
+      "status": "PASS",
+      "sha256": "28f08388ca22e7b8fb37cfc450e92201aa7f92a035fc9988f9c1fb565dfd3c07"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/track.jpg",
+      "status": "PASS",
+      "sha256": "3008cb68404e3baf439d32747f1a3c09d31140c3b6b4a74b9c637ee6550b415d"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/rewards.jpg",
+      "status": "PASS",
+      "sha256": "424d079c36233020a903f59b7a2b24dadda831d42ff25cbafad9a046bf86772c"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/cabinet.jpg",
+      "status": "PASS",
+      "sha256": "995c3c62a99683f0bb73a5230d467b7f26ad2652074239ff06100382d1e6af9d"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/breathe.jpg",
+      "status": "PASS",
+      "sha256": "a01b74c885037113a9cb0f0870c3e69055e63eb9871cff560baef82e72917018"
+    },
+    {
+      "url": "https://justcompress.online/sitemap.xml",
+      "status": "PASS",
+      "sha256": "3c72c543157d89a3c398293129e7c9ba90d31e466f25a36d871782f05d0b07d9"
+    }
+  ]
+}

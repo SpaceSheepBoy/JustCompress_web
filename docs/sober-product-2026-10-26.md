@@ -26,4 +26,10 @@ UNVERIFIED: Google indexing, ranking changes, search traffic, production analyti
 
 ## Production
 
-Pending deployment/readback at report creation.
+PASS: Implementation commit `24c120b5d7701915a426e006f438f06ed5b99498` pushed to the existing GitHub Pages `main` source. Pages reported `built` at 2026-10-26 13:44:57 UTC (14:44:57 Paris), without a build error.
+
+PASS: All four product/guide pages, the shared CSS, four screenshots and sitemap were fetched over the public domain and matched the committed files byte-for-byte. Privacy, terms and support returned content with the expected heading, canonical and publisher. Existing Cloudflare email obfuscation rewrites legal-page email links, so those pages are checked semantically rather than by whole-file hashes.
+
+PASS: Logged-out browser rendering of the live product page and app privacy page verified. The live page was opened in Codex. Screenshot: `/Users/jiali/Documents/apps/output/sober-site-2026-10-26/live-desktop.png`. The machine-readable receipt is stored beside this document.
+
+A default Python urllib request received HTTP 403; curl and the actual browser returned the expected pages without a CAPTCHA. This client-specific discrepancy was investigated through both paths; no site access restriction was changed. Browser and curl access are observed, not proof of universal access from every client or region.
