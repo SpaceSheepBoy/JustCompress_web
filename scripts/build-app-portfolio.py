@@ -1,7 +1,10 @@
 """Build the website portfolio from verified, public App Store snapshots.
 
-Only this site's curated Apps appear here. Native App binaries and store metadata
-are never edited. Existing policy bodies are maintained separately.
+Only this site's curated, publicly downloadable Apps appear here.
+Do not list unreleased apps, even as support-only links in the catalog. After a
+public release is verified, refresh its Apple snapshot and display order before
+regenerating and deploying /apps/. Keep required legal/support pages available.
+Native App binaries and store metadata are never edited. Existing policy bodies are maintained separately.
 """
 from pathlib import Path
 from html import escape as E
@@ -103,7 +106,7 @@ cards=[]
 for a in ordered:
  gallery='<figure class="catalog-gallery"><div class="catalog-shots" aria-label="'+E(a["name"])+' App Store screenshots">'+''.join('<a href="'+E(a['store_url'])+'" aria-label="View '+E(a['name'])+' on the App Store, screenshot '+str(i)+'">'+image(shot,a["name"]+" official App Store screenshot "+str(i),"catalog-shot")+'</a>' for i,shot in enumerate(a["screenshots"][:3],1))+'</div></figure>'
  cards.append(f'<article class="app-card" id="{a["slug"]}" data-app="{a["id"]}"><a class="catalog-identity" href="/apps/{a["slug"]}/" aria-label="About {E(a["name"])}">{image(a["icon"],"","app-icon")}<div><h2>{E(a["name"])}</h2><p class="benefit">{E(a["benefit"])}</p></div></a>{gallery}<input id="name-{a["id"]}" type="hidden" value="{E(a["name"])}"><div class="actions"><a class="catalog-store-badge" data-store href="{E(a["store_url"])}" aria-label="Download {E(a["name"])} on the App Store"><img src="/assets/brand/download-on-the-app-store.svg" width="150" height="50" alt="Download on the App Store"></a><button type="button" data-copy="name-{a["id"]}" aria-label="Copy app name: {E(a["name"])}">Copy name</button></div><p><a href="/apps/{a["slug"]}/">App details and guides →</a></p></article>')
-body='<header class="catalog-heading"><h1>Find the app you saw.</h1><input id="find-app" type="search" aria-label="Search by app or task" placeholder="Search apps…" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog" aria-label="Available iPhone apps">'+''.join(cards)+'</section><p id="no-results" hidden>No matching app. Try “video”, “audio”, “photo” or “PDF”.</p><section class="product-section"><h2>Other product information</h2><p>These pages are retained for support. A public App Store download has not been verified for them.</p><ul>'+''.join(f'<li><a href="/apps/{s}/">{E(n)}</a></li>' for s,n in [('audiofix','Audio Fix'),('dpi','DPI Changer'),('livephoto','Live Photo to Video'),('talknice','TalkNice'),('camrecorder','CamRecorder')])+'</ul></section><script defer src="/assets/find-app.js?v=20261024-portfolio"></script>'
+body='<header class="catalog-heading"><h1>Find the app you saw.</h1><input id="find-app" type="search" aria-label="Search by app or task" placeholder="Search apps…" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog" aria-label="Available iPhone apps">'+''.join(cards)+'</section><p id="no-results" hidden>No matching app. Try “video”, “audio”, “photo” or “PDF”.</p><script defer src="/assets/find-app.js?v=20261024-portfolio"></script>'
 schema=ld({'@type':'CollectionPage','name':'Our iPhone apps','url':SITE+'/apps/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':a['name'],'url':SITE+'/apps/'+a['slug']+'/'} for i,a in enumerate(ordered)]}})
 page('/apps/','iPhone apps, current screenshots and practical guides','Find the app from our tutorials. Browse current App Store names, screenshots, published versions and practical guides from Space Sheep Studio.',body,schema)
 # Support destinations remain local when a maintained local support page exists.
