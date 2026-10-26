@@ -45,3 +45,7 @@ PASS: embedded 320/390 CSS-pixel viewport visual checks for all four tool layout
 UNVERIFIED: search clicks/impressions/rankings, installs, website-to-app conversion lift, production analytics ingestion and Core Web Vitals. No effect is claimed from immediate publication. The deployment receipt records the actual live start; use the existing analytics workflow to compare equivalent complete 28-day windows before/after that start, then prioritize by observed queries and download clicks. Do not infer improvement solely from added words or small samples.
 
 Local content baseline, browser captures and the final remote readback receipt are stored in the task’s external output evidence directory. These retain the commit identity, exact verified files and live-start timestamp without introducing a new automation.
+
+## Catalog interaction and content cleanup follow-up
+
+The user requested clickable catalog screenshots to open the corresponding App Store listing, the identity row to open the product webpage, and official App Store badges in place of the text buttons. Applied consistently to all eleven catalog Apps; copy-name controls remain. Removed the internal “Check the source” panel from all four expanded product pages and its maintained renderer; the short studio introduction remains, with support/legal links in the existing footer. Screenshot enlargement links inside individual product pages are unchanged.

@@ -2,3 +2,6 @@
 .support-card{display:flex;align-items:center;gap:16px;border:1px solid #ded8e5;border-radius:14px;padding:18px;background:#fff;min-width:0}.support-card .app-icon{width:48px;height:48px;flex-shrink:0;border-radius:10px}.support-card span{font-weight:650;overflow-wrap:anywhere}.policy-directory{list-style:none;padding:0}.policy-directory li{padding:20px 0;border-bottom:1px solid #ded8e5;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.policy-directory a{margin-inline-end:16px}
 
 @media(max-width:560px){.app-catalog{grid-template-columns:1fr}}
+
+/* Catalog: identity opens the product page; screenshots and badge open the store. */
+.portfolio-page a.catalog-identity{color:inherit;text-decoration:none}.catalog-identity:hover h2{text-decoration:underline;text-underline-offset:4px}.app-card .actions{align-items:center}.catalog-store-badge{display:inline-flex;flex-shrink:0;line-height:0}.catalog-store-badge img{display:block;width:150px;height:50px}

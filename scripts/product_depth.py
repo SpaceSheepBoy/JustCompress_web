@@ -13,7 +13,7 @@ DEPTH = json.loads((ROOT / 'scripts/product-depth.json').read_text())
 
 def resources(slug):
     photo = '<script defer src="/assets/combine-photos.js"></script>' if slug == 'collage-maker' else ''
-    return '<link rel="stylesheet" href="/assets/product-depth.css?v=20261026-depth"><script type="module" src="/assets/product-depth.js?v=20261026-depth"></script>' + photo
+    return '<link rel="stylesheet" href="/assets/product-depth.css?v=20261026-links"><script type="module" src="/assets/product-depth.js?v=20261026-depth"></script>' + photo
 
 
 def jump_links():
@@ -51,8 +51,7 @@ def choices(slug):
 
 def studio(slug, app):
     d = DEPTH[slug]
-    route = '/apps/' + slug + '/'
-    return '<section class="section" id="made-by"><div class="depth-studio"><div>' + heading('Made by Space Sheep Studio', d['studio_title']) + f'<p>{E(d["studio_body"])}</p><a class="text-link" href="/apps/">Explore the studio’s apps ↗</a></div><aside class="source-card"><h3>Check the source.</h3><p>Published iPhone version {E(app["version"])}. Screens and access details were checked against the US App Store on October 26, 2026.</p><ul><li><a href="{E(app["store_url"])}">Read the official App Store listing</a></li><li><a href="{route}support/">Get app-specific support</a></li><li><a href="{route}privacy/">Read this app’s privacy policy</a></li></ul><p class="fine-print">The store is the source for current availability, user reviews and local purchase offers.</p></aside></div></section>'
+    return '<section class="section" id="made-by"><div class="depth-studio">' + heading('Made by Space Sheep Studio', d['studio_title']) + f'<p>{E(d["studio_body"])}</p><a class="text-link" href="/apps/">Explore the studio’s apps ↗</a></div></section>'
 
 
 def topic_cards(slug):
