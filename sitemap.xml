@@ -33,22 +33,6 @@
     <lastmod>2026-10-24</lastmod>
   </url>
   <url>
-    <loc>https://justcompress.online/apps/brew-day/</loc>
-    <lastmod>2026-10-26</lastmod>
-  </url>
-  <url>
-    <loc>https://justcompress.online/apps/brew-day/privacy/</loc>
-    <lastmod>2026-10-24</lastmod>
-  </url>
-  <url>
-    <loc>https://justcompress.online/apps/brew-day/support/</loc>
-    <lastmod>2026-10-24</lastmod>
-  </url>
-  <url>
-    <loc>https://justcompress.online/apps/brew-day/terms/</loc>
-    <lastmod>2026-10-24</lastmod>
-  </url>
-  <url>
     <loc>https://justcompress.online/apps/camrecorder/privacy/</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
@@ -146,7 +130,7 @@
   </url>
   <url>
     <loc>https://justcompress.online/apps/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/just-captions/</loc>
@@ -227,6 +211,34 @@
   <url>
     <loc>https://justcompress.online/apps/retrophone/support/</loc>
     <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/guides/breathing-pause/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/guides/daily-rewards-and-collection/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/guides/track-alcohol-free-days/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/privacy/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/support/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/apps/sober-wins/terms/</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/apps/talknice/privacy/</loc>
@@ -409,6 +421,10 @@
     <lastmod>2026-10-24</lastmod>
   </url>
   <url>
+    <loc>https://justcompress.online/guides/hdr-vs-hevc-vs-mp4/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
     <loc>https://justcompress.online/guides/hdr-vs-sdr-video/</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
@@ -419,6 +435,10 @@
   <url>
     <loc>https://justcompress.online/guides/</loc>
     <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://justcompress.online/guides/side-by-side-vs-grid-photo-layout/</loc>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/hdr-video-checker/</loc>
@@ -498,7 +518,7 @@
   </url>
   <url>
     <loc>https://justcompress.online/legal/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/m4a-to-mp3/</loc>
@@ -538,7 +558,7 @@
   </url>
   <url>
     <loc>https://justcompress.online/support/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://justcompress.online/terms/</loc>
@@ -568,9 +588,4 @@
     <loc>https://justcompress.online/why-private-file-tools/</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
-  <url><loc>https://justcompress.online/guides/hdr-vs-hevc-vs-mp4/</loc><lastmod>2026-10-25</lastmod></url>
-<url><loc>https://justcompress.online/guides/side-by-side-vs-grid-photo-layout/</loc><lastmod>2026-10-26</lastmod></url>
-  <url><loc>https://justcompress.online/apps/brew-day/guides/track-alcohol-free-days/</loc><lastmod>2026-10-26</lastmod></url>
-  <url><loc>https://justcompress.online/apps/brew-day/guides/daily-rewards-and-collection/</loc><lastmod>2026-10-26</lastmod></url>
-  <url><loc>https://justcompress.online/apps/brew-day/guides/breathing-pause/</loc><lastmod>2026-10-26</lastmod></url>
 </urlset>

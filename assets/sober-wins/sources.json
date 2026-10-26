@@ -40,5 +40,40 @@
       "sha256": "a01b74c885037113a9cb0f0870c3e69055e63eb9871cff560baef82e72917018",
       "bytes": 140718
     }
-  ]
+  ],
+  "hero_screens": [
+    {
+      "name": "home",
+      "src": "/assets/sober-wins/screen-home.png",
+      "source": "SoberWins/design/sobriety/app-store-localized/raw/en-US/01-home.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "7b34a2b5b255cb4e8efe59e303786999b4485b9dd61d74508fa548cc09b1cc5e",
+      "note": "Unmodified raw capture used for published 1.2 App Store marketing screenshots; no drawn device frame."
+    },
+    {
+      "name": "collection",
+      "src": "/assets/sober-wins/screen-collection.png",
+      "source": "SoberWins/design/sobriety/app-store-localized/raw/en-US/02-rewards.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "3ea4b4f431c42a43c41c16067c54b17d92238311d825eb80c803672ea15c52d6",
+      "note": "Unmodified raw capture used for published 1.2 App Store marketing screenshots; no drawn device frame."
+    },
+    {
+      "name": "fridge",
+      "src": "/assets/sober-wins/screen-fridge.png",
+      "source": "SoberWins/design/sobriety/app-store-localized/raw/en-US/03-cabinet.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "5e81eccb6348d411440deefce15ab3d06ee19ea3ea7bdfef3b92c30e4cfd1ef1",
+      "note": "Unmodified raw capture used for published 1.2 App Store marketing screenshots; no drawn device frame."
+    }
+  ],
+  "app_store_badge": {
+    "src": "/assets/sober-wins/download-on-the-app-store.svg",
+    "source": "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg",
+    "sha256": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f",
+    "guidelines": "https://developer.apple.com/app-store/marketing/guidelines/"
+  }
 }

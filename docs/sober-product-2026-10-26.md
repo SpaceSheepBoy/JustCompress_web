@@ -33,3 +33,20 @@ PASS: All four product/guide pages, the shared CSS, four screenshots and sitemap
 PASS: Logged-out browser rendering of the live product page and app privacy page verified. The live page was opened in Codex. Screenshot: `/Users/jiali/Documents/apps/output/sober-site-2026-10-26/live-desktop.png`. The machine-readable receipt is stored beside this document.
 
 A default Python urllib request received HTTP 403; curl and the actual browser returned the expected pages without a CAPTCHA. This client-specific discrepancy was investigated through both paths; no site access restriction was changed. Browser and curl access are observed, not proof of universal access from every client or region.
+
+
+## Reference-layout correction and route migration, October 26
+
+This revision supersedes the first sample’s single-poster hero and decision to retain the old product name in the URL. The canonical product URL is now `/apps/sober-wins/`. Three guides and privacy/terms/support use the same new prefix. The seven former URLs contain immediate HTML meta-refresh redirects plus JavaScript that preserves query strings and fragments; these are static-hosting redirects, not HTTP 301 responses. The unrelated historical wort calculator retains its existing URL.
+
+The hero follows the user-supplied reference’s order and proportions: left-aligned two-line headline and description, blue privacy promise, outlined Learn More, privacy strip and the official black App Store badge; three actual app interfaces appear side by side on the right. Brand blue, rounded type, on-device tracking and the illustrated virtual collection are preserved. No Android badge, review score or user count is invented.
+
+The screen files are unmodified raw captures used to compose the published English 1.2 store screenshots, copied from `SoberWins/design/sobriety/app-store-localized/raw/en-US/`. They show daily tracking, Collection and the mini fridge. They are app-screen images, without added hardware shells or camera holes. `assets/sober-wins/sources.json` records source paths and hashes. The official badge was fetched unchanged from `https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg`; Apple’s current marketing guidance was reviewed.
+
+PASS: desktop reference comparison and 320/390/430px responsive browser checks. All three app screens remain side by side on mobile; the real layouts were inspected at the screen row as well as at the hero text/badge. The image aspect ratios are preserved. All three screens and the badge loaded successfully.
+
+PASS: an actual browser navigation to the old product route with `?from=old-link#faq` arrived at `/apps/sober-wins/?from=old-link#faq`; canonical points to the new clean URL.
+
+PASS: existing public-surface, SEO-content and consent tests. Public-surface checks now verify that compatibility pages have valid final destinations, no redirect chains and no sitemap entries. The full portfolio builder preserves the new story and all seven aliases. Public pages were scanned for the prohibited personal name.
+
+Production receipt for this correction is recorded after deployment. Earlier receipts above describe the superseded first sample.

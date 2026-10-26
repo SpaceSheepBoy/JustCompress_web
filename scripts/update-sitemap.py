@@ -14,7 +14,7 @@ for p in sorted(ROOT.rglob('index.html')):
  rel=p.relative_to(ROOT)
  if any(x.startswith('.') or x in ('scripts','vendor','node_modules') for x in rel.parts):continue
  s=BeautifulSoup(p.read_text(),'html.parser')
- if s.select_one('meta[name="robots"][content*="noindex"]'):continue
+ if s.select_one('meta[name="robots"][content*="noindex"]') or s.select_one('[data-site-redirect]'):continue
  route='/' if len(rel.parts)==1 else '/'+str(rel.parent)+'/'
  url='https://justcompress.online'+route
  n=ET.SubElement(root,'{'+NS+'}url');ET.SubElement(n,'{'+NS+'}loc').text=url

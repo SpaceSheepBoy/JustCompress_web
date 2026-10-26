@@ -16,7 +16,13 @@ for p in ROOT.rglob('*.html'):
   assert pattern not in raw.lower(),(rel,pattern)
  assert len(s.select('h1'))==1,(rel,'h1')
  assert s.select_one('meta[name="description"]')['content'].strip(),rel
- assert s.select_one('link[rel="canonical"]')['href']=='https://justcompress.online'+route,(rel,'canonical')
+ redirect=s.select_one('[data-site-redirect]')
+ expected=redirect['data-site-redirect'] if redirect else route
+ assert s.select_one('link[rel="canonical"]')['href']=='https://justcompress.online'+expected,(rel,'canonical')
+ if redirect:
+  assert s.select_one('meta[http-equiv="refresh"]')['content']=='0;url='+expected,(rel,'redirect')
+  assert (ROOT/expected.strip('/')/'index.html').exists(),(rel,'redirect destination')
+  assert not BeautifulSoup((ROOT/expected.strip('/')/'index.html').read_text(),'html.parser').select_one('[data-site-redirect]'),(rel,'redirect chain')
  for node in s.select('script[type="application/ld+json"]'):json.loads(node.string)
  for el in s.select('[href],img[src],script[src]'):
   val=el.get('href') or el.get('src');u=urlsplit(val)
@@ -35,7 +41,7 @@ catalog=BeautifulSoup((ROOT/'apps/index.html').read_text(),'html.parser')
 assert len(catalog.select('[data-app]'))==11
 for a in apps:
  s=BeautifulSoup((ROOT/'apps'/a['slug']/'index.html').read_text(),'html.parser')
- assert a['name'] in s.h1.get_text() and a['version'] in s.get_text()
+ assert (a['name'] in s.h1.get_text() or a['name'] in s.title.get_text()) and a['version'] in s.get_text()
  assert s.select_one(f'a[href="{a["store_url"]}"]'),a['slug']
  for shot in s.select('img'):assert shot.get('width') and shot.get('height') and shot.get('alt'),a['slug']
  locales=['','zh-Hans/','zh-Hant/','fr/','de/','es/','pt/','ja/','ko/','ar/','id/','th/']
@@ -49,5 +55,6 @@ for url in urls:
  p=ROOT/urlsplit(url).path.strip('/')/'index.html'
  assert p.exists(),url
  assert not BeautifulSoup(p.read_text(),'html.parser').select_one('meta[name="robots"][content*="noindex"]'),url
+ assert not BeautifulSoup(p.read_text(),'html.parser').select_one('[data-site-redirect]'),url
 for a in apps:assert 'https://justcompress.online/apps/'+a['slug']+'/' in urls
 print(json.dumps({'pages':len(paths),'inline_scripts_syntax_checked':scripts,'apps':len(apps),'sitemap_urls':len(urls),'excluded_apps_absent':True,'result':'PASS'}))

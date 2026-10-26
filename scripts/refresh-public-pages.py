@@ -42,6 +42,7 @@ for p in ROOT.rglob('*.html'):
  rel=p.relative_to(ROOT)
  if any(x.startswith('.') or x in ['scripts','vendor','node_modules'] for x in rel.parts):continue
  raw=p.read_text();s=BeautifulSoup(raw,'html.parser')
+ if s.select_one('[data-site-redirect]'):continue
  if not s.html:continue
  if not s.head:
   head=s.new_tag('head')

@@ -44,7 +44,7 @@ for app in APPS:
   page('/apps/'+app['slug']+'/support/',app['name']+' support','Support for '+app['name']+'. Current version information, access details and developer contact.',body)
 for a in APPS:
  route='/apps/'+a['slug']+'/'
- if a['slug']=='brew-day':
+ if a['id']=='6811067941':
   build_sober_product(ROOT,a)
   continue
  locales='<nav class="product-languages" aria-label="Product language">'+''.join(f'<a href="{alternates[k]}" lang="{k}">{E(v["label"])}</a>' for k,v in LOCALES.items())+'</nav>' if a['slug']=='collage-maker' else ''
@@ -109,6 +109,7 @@ page('/support/','App support','Find help for our published iPhone Apps, current
 rows=[]
 for folder in sorted((ROOT/'apps').iterdir()):
  if not folder.is_dir():continue
+ if folder.name=='brew-day':continue
  policy=[(part,label) for part,label in [('privacy','Privacy'),('terms','Terms'),('support','Support')] if (folder/part/'index.html').exists()]
  if not policy:continue
  a=next((a for a in APPS if a['slug']==folder.name),None)

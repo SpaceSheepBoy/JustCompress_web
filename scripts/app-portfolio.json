@@ -576,7 +576,7 @@
     },
     {
       "id": "6811067941",
-      "slug": "brew-day",
+      "slug": "sober-wins",
       "name": "Sober Wins: Quit Drinking",
       "benefit": "Track alcohol-free days with Sober Wins",
       "features": [
@@ -627,8 +627,8 @@
           "height": 480
         }
       ],
-      "privacy": "https://justcompress.online/apps/brew-day/privacy/",
-      "website": null,
+      "privacy": "https://justcompress.online/apps/sober-wins/privacy/",
+      "website": "https://justcompress.online/apps/sober-wins/",
       "rating_count": 0
     }
   ]
