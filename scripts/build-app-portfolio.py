@@ -6,6 +6,7 @@ are never edited. Existing policy bodies are maintained separately.
 from pathlib import Path
 from html import escape as E
 import json,re
+from sober_product import build as build_sober_product
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'scripts/app-portfolio.json').read_text())
 APPS=DATA['apps'];GUIDES=json.loads((ROOT/'scripts/tutorial-guides.json').read_text())
@@ -43,6 +44,9 @@ for app in APPS:
   page('/apps/'+app['slug']+'/support/',app['name']+' support','Support for '+app['name']+'. Current version information, access details and developer contact.',body)
 for a in APPS:
  route='/apps/'+a['slug']+'/'
+ if a['slug']=='brew-day':
+  build_sober_product(ROOT,a)
+  continue
  locales='<nav class="product-languages" aria-label="Product language">'+''.join(f'<a href="{alternates[k]}" lang="{k}">{E(v["label"])}</a>' for k,v in LOCALES.items())+'</nav>' if a['slug']=='collage-maker' else ''
  body=f'<header class="product-heading"><div class="product-identity">{image(a["icon"],a["name"]+" icon","product-icon",False)}<div><p class="eyebrow">IPHONE APP</p><h1>{E(a["name"])}</h1></div></div><p class="product-lede">{E(a["benefit"])}</p><p class="product-version">US App Store version {E(a["version"])} · iOS {E(a["minimum_os"])} or later · Checked {DATA["checked"]}</p><a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a></header>{locales}'
  body+=screenshots(a['screenshots'],a['name'])

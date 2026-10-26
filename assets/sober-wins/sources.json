@@ -1,0 +1,44 @@
+{
+  "checked": "2026-10-26",
+  "app_id": "6811067941",
+  "version": "1.2",
+  "source": "https://itunes.apple.com/lookup?id=6811067941&country=us",
+  "screenshots": [
+    {
+      "name": "track",
+      "src": "/assets/sober-wins/track.jpg",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/33/3a/f7333aba-89a9-f163-0174-14d0cad29228/l10n7-01-home.png/900x1950bb.jpg",
+      "width": 900,
+      "height": 1950,
+      "sha256": "3008cb68404e3baf439d32747f1a3c09d31140c3b6b4a74b9c637ee6550b415d",
+      "bytes": 198252
+    },
+    {
+      "name": "rewards",
+      "src": "/assets/sober-wins/rewards.jpg",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/05/b0/bb05b0a4-403c-8e4b-2ada-7a3940ef085b/l10n7-02-rewards.png/900x1950bb.jpg",
+      "width": 900,
+      "height": 1950,
+      "sha256": "424d079c36233020a903f59b7a2b24dadda831d42ff25cbafad9a046bf86772c",
+      "bytes": 162882
+    },
+    {
+      "name": "cabinet",
+      "src": "/assets/sober-wins/cabinet.jpg",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/84/e1/f184e125-3b04-8236-8fea-deac60beec62/l10n7-03-cabinet.png/900x1950bb.jpg",
+      "width": 900,
+      "height": 1950,
+      "sha256": "995c3c62a99683f0bb73a5230d467b7f26ad2652074239ff06100382d1e6af9d",
+      "bytes": 197928
+    },
+    {
+      "name": "breathe",
+      "src": "/assets/sober-wins/breathe.jpg",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/f4/63/f3f463fb-ec7b-b44d-6031-5504a47979dc/l10n7-04-breathe.png/900x1950bb.jpg",
+      "width": 900,
+      "height": 1950,
+      "sha256": "a01b74c885037113a9cb0f0870c3e69055e63eb9871cff560baef82e72917018",
+      "bytes": 140718
+    }
+  ]
+}
