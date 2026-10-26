@@ -1,0 +1,1212 @@
+{
+  "videofix": {
+    "fr": {
+      "trackName": "VideoFix : Convertisseur HDR",
+      "version": "1.0.6",
+      "releaseDate": "2026-09-17T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/videofix-convertisseur-hdr/id6812821310?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:10:58.759107+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6812821310&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/43f599475f2466bccb31.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/e4/eb/bce4ebf6-7c44-1bdd-2ddc-c063fece996e/01-ready.png/320x480bb.jpg",
+          "source_sha256": "5e11b99e44de121ee4efec534f4928856422cb41e7a224f6c566b7965a4db7af",
+          "file_sha256": "fe653e453525cb8e9077ad7730ce0ab25e3a464b3f82e154ba3656e7dfbaf413",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/e4/eb/bce4ebf6-7c44-1bdd-2ddc-c063fece996e/01-ready.png/0x0ss.png",
+          "sha256": "43f599475f2466bccb315e681e6c8c82ec7ce9b807631818135b9d45b40a131d",
+          "bytes": 346828,
+          "original_sha256": "8d793cb0475616c8a28d5a0f98571e198014cf3dbc9a2d426490d616ea0dd803",
+          "original_bytes": 688082,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/52072b6ff0600aa79bc4.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/f9/8f/96f98fdd-40e3-ec74-452c-15af703174e1/02-convert.png/320x480bb.jpg",
+          "source_sha256": "2bb37568131d687c1d8f9a75da6e8c9b45c1ab7f6dddd2643c62d0df9bfeb920",
+          "file_sha256": "4356b06e28285a8c848ce3ca98fa327f662bbd9b0b333747a99d54a27ceff34a",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/f9/8f/96f98fdd-40e3-ec74-452c-15af703174e1/02-convert.png/0x0ss.png",
+          "sha256": "52072b6ff0600aa79bc42d2834f2a85350c12fe1a347cc1783c7a7e54729bd2c",
+          "bytes": 1048138,
+          "original_sha256": "c24f873cb9381305c85d60f9953b6f0745709f5acb53f9a72078ff01ac4fc300",
+          "original_bytes": 1735692,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/7bd6eca040543e1a5f39.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/82/6c/1e826cb4-67f5-e8c7-c37c-487c59cadbd3/03-inspect.png/320x480bb.jpg",
+          "source_sha256": "72e7c42fe58678c33ab821dc3031c33cdadc4c2094c6560f32fcbce3477e4742",
+          "file_sha256": "af4ed89a47e72ab636ad09b0402cc8c5457c7722daa3cebafbd08a94a564c146",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/82/6c/1e826cb4-67f5-e8c7-c37c-487c59cadbd3/03-inspect.png/0x0ss.png",
+          "sha256": "7bd6eca040543e1a5f39795a171973426595fd4f8ef8c74f354cb6fa9d502042",
+          "bytes": 525298,
+          "original_sha256": "12440d43fc8f762e13b8c629703861a5cdf5fc209cbd57b995bd9a15cba554ad",
+          "original_bytes": 907278,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "VideoFix HDR動画変換",
+      "version": "1.0.6",
+      "releaseDate": "2026-09-17T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/videofix-hdr%E5%8B%95%E7%94%BB%E5%A4%89%E6%8F%9B/id6812821310?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:10:58.747380+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6812821310&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/34b721a5faf6427e5fcd.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/17/03/c01703a8-7620-15a0-b3b5-b62d5aa55470/01-ready.png/320x480bb.jpg",
+          "source_sha256": "bb718d62582f4e765b88d2d78741f9321cbc384fdbbf7146b2e3b513244b030d",
+          "file_sha256": "d635c701e17a96f6e05ee77a161955f3f164abaafb4ba7f2cb7bd3096e711f6e",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/17/03/c01703a8-7620-15a0-b3b5-b62d5aa55470/01-ready.png/0x0ss.png",
+          "sha256": "34b721a5faf6427e5fcdd5c40fe32dcc82029e8fcff6500faadc6001f0a768f3",
+          "bytes": 320700,
+          "original_sha256": "ccdf1cc915fa76b5deffd4a414b594dbe87eb9b0623c7b2e30d971ed692e89a4",
+          "original_bytes": 652399,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/0515967cb2998b9685b3.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/63/5d/01635d1e-78d7-29a8-494d-0a94d661a928/02-convert.png/320x480bb.jpg",
+          "source_sha256": "b501c497f84b788a799b66ac9555017b605e0b0c5a2c171fe70b53841ce46c77",
+          "file_sha256": "ebbb4a46c207e76a9e3265e7f7f1658b8d30e3077ad41936bffa53c17cb1181f",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/63/5d/01635d1e-78d7-29a8-494d-0a94d661a928/02-convert.png/0x0ss.png",
+          "sha256": "0515967cb2998b9685b3c58506e700c175a22e4137337408a17eee2f229c289e",
+          "bytes": 1069980,
+          "original_sha256": "d28827f05e1eeed487f7155fc6e60ed55eb03002650f584f8037b42c9df9d6e9",
+          "original_bytes": 1781327,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/a3d42b2c86465e95378a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/b4/4f/acb44fba-dfee-9aec-8ca0-b34933f53e41/03-inspect.png/320x480bb.jpg",
+          "source_sha256": "34018f9c25d8645cc65eeacf40c3ae2188c76668c6e056b9f7e73a041a745ec5",
+          "file_sha256": "4315eb32b9ade72fdd44f55d5a4fbfae6a8395b83958a4fd4a7e619798fa36ec",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/b4/4f/acb44fba-dfee-9aec-8ca0-b34933f53e41/03-inspect.png/0x0ss.png",
+          "sha256": "a3d42b2c86465e95378abc43df4c8dd7c468211a14fc53574b410142a8f74f3d",
+          "bytes": 523618,
+          "original_sha256": "d904554aa55b922cec098fb4d6e492e24cdc2bb102086d55118a8ce5a1246628",
+          "original_bytes": 908132,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "audio-compressor": {
+    "fr": {
+      "trackName": "Compresseur Audio MP3",
+      "version": "1.1.9",
+      "releaseDate": "2026-05-15T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/compresseur-audio-mp3/id6769563659?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:10:58.769671+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769563659&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/f55808c3f77810357eb6.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/68/b0/1368b09a-43d7-53c2-620c-88a392c17c1a/01-trim-audio-on-iphone.png/320x480bb.jpg",
+          "source_sha256": "9292edae42e6e6d96ae246befe352b596b9b0eaffdf0eaeda6c301d93e5ae7a1",
+          "file_sha256": "a9e09ede0f7a6b776acf7bbd7f8e83b252c8bda78608f2c1947913e85bc96293",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/68/b0/1368b09a-43d7-53c2-620c-88a392c17c1a/01-trim-audio-on-iphone.png/0x0ss.png",
+          "sha256": "f55808c3f77810357eb688c8f633f1e6b1a4fdcf2476fc7293078893d1b81eaf",
+          "bytes": 555854,
+          "original_sha256": "1d5fd447389e63af6bd75e93b335c08b4f4b50775173e82dd97f354743b21556",
+          "original_bytes": 967161,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/eff0e360168cea647ea3.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/63/46/406346db-5780-d011-9fe6-fdb6e731ca42/02-split-long-recordings.png/320x480bb.jpg",
+          "source_sha256": "167d08fcc3902fee4f76397597f29a56431279090c2c804cda594a38cdcab8e5",
+          "file_sha256": "2358dd451e3f505bb2b87c74f03646e9fd51dacc85037ff473077cf00139496e",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/63/46/406346db-5780-d011-9fe6-fdb6e731ca42/02-split-long-recordings.png/0x0ss.png",
+          "sha256": "eff0e360168cea647ea3217935ed5af2aded6a92d05f0b7cdd96b41dd8a3b028",
+          "bytes": 587916,
+          "original_sha256": "658e0320802f794b3e0fce3da7627519611b98ae4dfcbeed3f37626138ad355c",
+          "original_bytes": 1004505,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/434792bfb9955574161e.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/0f/c1/1d0fc1e6-a62d-66a5-fa39-61d015975501/03-convert-m4a-to-mp3.png/320x480bb.jpg",
+          "source_sha256": "95b4394a2a7cf6ad03ea23f70dee3e300b2ce509cfac3c33e282ea6d2dd4d447",
+          "file_sha256": "5a1ee0f7f7fc35d90c33519efb5ea8402f52ef9b8d3c14bba2f5e2e07ac9dfc8",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/0f/c1/1d0fc1e6-a62d-66a5-fa39-61d015975501/03-convert-m4a-to-mp3.png/0x0ss.png",
+          "sha256": "434792bfb9955574161ed6fb730493b99eff4b4f78bde54182bc7672d540eab5",
+          "bytes": 636512,
+          "original_sha256": "a0ee5c2cb6f90c414c9c0b5ec1227e62499eebed90a03babb0aeb7cc8a10375c",
+          "original_bytes": 1085943,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "音声圧縮 MP3変換",
+      "version": "1.1.9",
+      "releaseDate": "2026-05-15T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/%E9%9F%B3%E5%A3%B0%E5%9C%A7%E7%B8%AE-mp3%E5%A4%89%E6%8F%9B/id6769563659?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:10:58.778740+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769563659&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/34b772a738c389c337b5.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/a3/1f/0ba31f30-c02f-65f1-3952-60a0bd174349/01-trim-audio-on-iphone.png/320x480bb.jpg",
+          "source_sha256": "2b33c0b6970ddbbdfcaf1634dbd2e8b94d7e402cf39dcb32ead359c97e41e237",
+          "file_sha256": "cfdb319307d7b2b0384e4f3e4a4594836d3b9e40a49a9db69d5fba9904ecea23",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/a3/1f/0ba31f30-c02f-65f1-3952-60a0bd174349/01-trim-audio-on-iphone.png/0x0ss.png",
+          "sha256": "34b772a738c389c337b5f852f2b5c900843b0c5a208fd2b606215d8775f7f04a",
+          "bytes": 534084,
+          "original_sha256": "6d1a3259506e34d79f7fd6d4120c686c16135d65a47a3249af8465fc638fada7",
+          "original_bytes": 947182,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/99a8875ecdb0ca254c32.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/cb/85/51cb8500-80d5-8af8-7cc1-83e5601bb996/02-split-long-recordings.png/320x480bb.jpg",
+          "source_sha256": "52e32609c71522d857b80d3aeae9ff71c20c43619dbde2549d65d8047681d881",
+          "file_sha256": "9585e0d5d2d65653d400978a47e4244586ccc02a292b05c47b1ecccfbff28572",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/cb/85/51cb8500-80d5-8af8-7cc1-83e5601bb996/02-split-long-recordings.png/0x0ss.png",
+          "sha256": "99a8875ecdb0ca254c32240d06cc893f3565683ae6c416a7749f40c432f51b44",
+          "bytes": 549872,
+          "original_sha256": "0bc970478f2017879674228c6936ef4f0e0c79aafa04e38ddcf0f9d25efabab0",
+          "original_bytes": 956630,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/1370ed20392fd2bfea0a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/b2/ee/26b2eea6-4159-feae-9eb2-b29cc4acc5c8/03-convert-m4a-to-mp3.png/320x480bb.jpg",
+          "source_sha256": "539fdbf03b3ef53eedbc7dc9756f2ebcc6a967d57d1212f3213882799c2497f3",
+          "file_sha256": "428ff485c96b1e48911b3fc27151d5d432b554632d7f710231715e3dfcfb9c58",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/b2/ee/26b2eea6-4159-feae-9eb2-b29cc4acc5c8/03-convert-m4a-to-mp3.png/0x0ss.png",
+          "sha256": "1370ed20392fd2bfea0ad9f2d3746edd8f11a6076dd3a6b6ac6d52abbc629166",
+          "bytes": 632134,
+          "original_sha256": "7f9f69a57e82a638fd9d8ae312935bd3bf7b79e006a65285d9d87cef18b4d69a",
+          "original_bytes": 1084757,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "collage-maker": {
+    "fr": {
+      "trackName": "Collage Maker : Photos",
+      "version": "1.5",
+      "releaseDate": "2026-09-17T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/collage-maker-photos/id6810266264?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:00.173878+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6810266264&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/8b9bfa68f68d8b3d8d72.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/22/90/6722904e-8797-2e3f-442e-e0d34d71d867/01-stitch.png/320x480bb.jpg",
+          "source_sha256": "d6be32cc5938c26a6704e964c7c595cacb72b885300a60c0cf435293c7cb6b78",
+          "file_sha256": "b101910017fa09456fa06192f7fc2f550bfd79f7e4f8cdb51661f4cf6b6f8ebd",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/22/90/6722904e-8797-2e3f-442e-e0d34d71d867/01-stitch.png/0x0ss.png",
+          "sha256": "8b9bfa68f68d8b3d8d72406324426714e698fe80629e9f3d380d1c4069da6ec4",
+          "bytes": 751570,
+          "original_sha256": "d299f4163731eb2e645390ed5001878e015a98ae0ba55828d614f8c53fe05b2d",
+          "original_bytes": 1172407,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/fd29faa5d3be3ac631ff.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/68/e1/2568e168-d141-0ff2-cd9d-0495f49316d0/02-layouts.png/320x480bb.jpg",
+          "source_sha256": "fe40eaf664b647514cbc6eeab13000638efde1949c2cc947a3cdb8c8b00e1722",
+          "file_sha256": "10576279f2022024f7e06ed2c31f7fd85755894f85d2f58ab236e9cd17548a1e",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/68/e1/2568e168-d141-0ff2-cd9d-0495f49316d0/02-layouts.png/0x0ss.png",
+          "sha256": "fd29faa5d3be3ac631ff21e1a0142691915dde64e8238e0b019690ece1ec405c",
+          "bytes": 113600,
+          "original_sha256": "21cd1770623f16dc78310314d140501bf1119d4920cb0ff40d1cd1f0fdb19cf4",
+          "original_bytes": 276967,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/bed378bce54d52b10b1d.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/d5/67/1fd5670f-af0a-493d-aaee-08a633c9affa/03-long-photo.png/320x480bb.jpg",
+          "source_sha256": "88a1420ce1d0ed12da7371b850e571eba212146dd16bedba88fd289d4d712ab3",
+          "file_sha256": "0c21ba98233c5bd063aa5d2bf2d955bed1e75203805232bdee1f61eab1f91188",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/d5/67/1fd5670f-af0a-493d-aaee-08a633c9affa/03-long-photo.png/0x0ss.png",
+          "sha256": "bed378bce54d52b10b1d00e39c79f12296d762132940075f975bf871939c581c",
+          "bytes": 1492436,
+          "original_sha256": "3a25a4c3addc2ab53fcfe53ee30868cc6f3f24d25af2f042d7a33bdac9c7cfd2",
+          "original_bytes": 2175661,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "写真つなぎ・スクショ結合 Collage Maker",
+      "version": "1.5",
+      "releaseDate": "2026-09-17T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%A4%E3%81%AA%E3%81%8E-%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E7%B5%90%E5%90%88-collage-maker/id6810266264?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:00.198680+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6810266264&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/1188b906f08f41117eb5.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/1e/6c/c01e6c97-d24b-d81b-a7e2-31ae3c782738/01-stitch.png/320x480bb.jpg",
+          "source_sha256": "f89c3047107e13a56569a30e116d8215ce9c04108fa8ff8fc97b141b27f6ad03",
+          "file_sha256": "61fbfa31d841850ba41f8a881e776423688cfadc827ee4bd0426fdc337229c52",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/1e/6c/c01e6c97-d24b-d81b-a7e2-31ae3c782738/01-stitch.png/0x0ss.png",
+          "sha256": "1188b906f08f41117eb56489b43f9f6b8650e8453d9874782d7892e20d4a10d2",
+          "bytes": 742912,
+          "original_sha256": "da0742f8b3b7da17e71b1e1e852ae8273832389c687ca47403ac5b30f64d7a24",
+          "original_bytes": 1164067,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/b4b5e80e5abf2dd8b41a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/c6/8d/22c68d02-c9e1-8fd8-9af5-884de3b544c7/02-layouts.png/320x480bb.jpg",
+          "source_sha256": "aaafb753d4d841f56c96393711214f1fc02239327cc82c010b635076eaf1bbf4",
+          "file_sha256": "dbb61e22ede0c6c33c4c1ba35d9f164b5fed06eb92bd529ab44b31775242d499",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/c6/8d/22c68d02-c9e1-8fd8-9af5-884de3b544c7/02-layouts.png/0x0ss.png",
+          "sha256": "b4b5e80e5abf2dd8b41acdd35956ea1453a17e851603799466659be6060ca284",
+          "bytes": 103186,
+          "original_sha256": "d1a00ceb0a80c8d77193f2b9e67f8c843c71a2f65118f97248af11a0787a6397",
+          "original_bytes": 263689,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/dee2d200939fc0f9f031.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/8d/15/668d1541-b260-5acc-abc3-4be4dfa40ee6/03-long-photo.png/320x480bb.jpg",
+          "source_sha256": "d9a997272cea766576980cec91fff9e3b0e55a136b89dbcd49c4cd29f8d89cee",
+          "file_sha256": "52986b6d08d2e85857ba71a374406b186729be1e9a383133488b16caa818e6a9",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/8d/15/668d1541-b260-5acc-abc3-4be4dfa40ee6/03-long-photo.png/0x0ss.png",
+          "sha256": "dee2d200939fc0f9f031b855322a6b3ff2cdef0de5108d961c721f9b1ed24c48",
+          "bytes": 1498126,
+          "original_sha256": "ea25ac9a8ec6356db40a07b009042750919d022034b441a12546a150ad821c33",
+          "original_bytes": 2187566,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "pdf-compressor": {
+    "fr": {
+      "trackName": "Compresseur PDF: Signer Unir",
+      "version": "1.3.1",
+      "releaseDate": "2026-05-19T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/compresseur-pdf-signer-unir/id6769762323?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:00.083101+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769762323&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/63976680459c29d67063.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/12/57/5c125748-2850-0aa9-18b8-7518c2052631/01-compress-pdfs-save-space.png/320x480bb.jpg",
+          "source_sha256": "dce023c5b2309ea44aa58a09b001663172a3889f02ae710665a2423b5ea57038",
+          "file_sha256": "d40372ace14b27f58c01de198c654a1a29f91c8545ba650c0cbf556637b9f5ca",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/12/57/5c125748-2850-0aa9-18b8-7518c2052631/01-compress-pdfs-save-space.png/0x0ss.png",
+          "sha256": "63976680459c29d670633f9580533b731ae6a13f9725911d9d82f36b7d9debee",
+          "bytes": 541106,
+          "original_sha256": "0464352f6e912a3b5e7d948b7896faec2c14b6ad60df5e2bcf76c4ee5696e1d0",
+          "original_bytes": 1053088,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/de7efa448fb993df2c7b.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/f7/2d/13f72db3-0bc2-f03a-a58e-56a3a284f6af/02-compress-many-pdfs-at-once.png/320x480bb.jpg",
+          "source_sha256": "e471714aebf35d12febfcc02151cba52a89feead484243c9f8454d36426706b8",
+          "file_sha256": "0bd2b2e4bff28d55bcd7085e8ef209730b9ecd406b5cf471cd3dd0b992f14484",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/f7/2d/13f72db3-0bc2-f03a-a58e-56a3a284f6af/02-compress-many-pdfs-at-once.png/0x0ss.png",
+          "sha256": "de7efa448fb993df2c7b20fb5bee53afa78171d98f18d3e83a6f6185fce14582",
+          "bytes": 419214,
+          "original_sha256": "4a5a3081f54334e815cee78ba9e7354a8ce524402ef3e256da792a93d4ceeed3",
+          "original_bytes": 894233,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/2072a47a2311ea5d17b9.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/95/2c/71952cb3-5fab-c0b5-26b7-f7d141160eee/03-scan-documents-to-pdf.png/320x480bb.jpg",
+          "source_sha256": "8e3a540983a98b26534a05a22ddf9bc69ad4d8a97b33aa066c2d19bdba1180e8",
+          "file_sha256": "3b7e2b7553e5768b2536dbd1e5ab38103e92806f26f32616b390dee84f1f1f67",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/95/2c/71952cb3-5fab-c0b5-26b7-f7d141160eee/03-scan-documents-to-pdf.png/0x0ss.png",
+          "sha256": "2072a47a2311ea5d17b95d2064c8373bfc9e6a453b0f3dce9406963a80451771",
+          "bytes": 1124758,
+          "original_sha256": "7b3f1a76bcd5513239818160752ce01f18cfec4eafa58c0ce95bfac641ebbd5c",
+          "original_bytes": 1927049,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "PDF圧縮 署名・結合",
+      "version": "1.3.1",
+      "releaseDate": "2026-05-19T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/pdf%E5%9C%A7%E7%B8%AE-%E7%BD%B2%E5%90%8D-%E7%B5%90%E5%90%88/id6769762323?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:00.201057+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769762323&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/e6da3ce9a0eb5ba4ac3f.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/cc/07/1acc07d4-b622-f295-8346-6008e27fd105/01-compress-pdfs-save-space.png/320x480bb.jpg",
+          "source_sha256": "1b6988e3c21e03b641a8b9be36ee2f6fb71ce98f8012741fcecd7b8cb6bdc49e",
+          "file_sha256": "bfda3caadc1ca5412ba605f4e10f51b38601b1778ceb21c99c8b6ed6155b3be2",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/cc/07/1acc07d4-b622-f295-8346-6008e27fd105/01-compress-pdfs-save-space.png/0x0ss.png",
+          "sha256": "e6da3ce9a0eb5ba4ac3f7ec08c2af5daf98adcaebdca31a306abbf504d04cbf6",
+          "bytes": 536382,
+          "original_sha256": "9ad40ddc2242f760182cd4833bf655cdc53f15471b25a946ccf50c429d6793f4",
+          "original_bytes": 1046723,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/436e0e147114ce984913.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/1f/54/131f54b2-7d11-3998-6213-19bc950aca3e/02-compress-many-pdfs-at-once.png/320x480bb.jpg",
+          "source_sha256": "1559a0fa5b9b8cbf447160d4be15f337b3a7648347ebfcd71fa583427bfe9ecd",
+          "file_sha256": "6448bc8f2f55b31811d4a03d893d552b4136a74863791b7c7a74450b647146ce",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/1f/54/131f54b2-7d11-3998-6213-19bc950aca3e/02-compress-many-pdfs-at-once.png/0x0ss.png",
+          "sha256": "436e0e147114ce9849133d67511ac29b491b6cbe252d2e4c798e017acbbdbde3",
+          "bytes": 430544,
+          "original_sha256": "5da0a5f9bed2e4d80271aa9e90c8b4af002efde84a3e72e2083c4356cd34d26c",
+          "original_bytes": 913063,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/79695d1458ab52448fcb.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/28/5d/b9285d76-addf-5b34-04cc-18f78a6c6527/03-scan-documents-to-pdf.png/320x480bb.jpg",
+          "source_sha256": "5d341c3eaaab28e24a9639363af1d67000b6ba916aac7bdbcfbd4943b041e403",
+          "file_sha256": "4fcc6a3dd7b0a2f47de4e64b29764022a62941e2262c3bdc51fc6b0b51bfd256",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/28/5d/b9285d76-addf-5b34-04cc-18f78a6c6527/03-scan-documents-to-pdf.png/0x0ss.png",
+          "sha256": "79695d1458ab52448fcb98ba87d09c39c8544b5d2bba1c5e8ef04ef22ca87a44",
+          "bytes": 1125278,
+          "original_sha256": "a4b9fd9909fa584fa7583ae457710ebcfa4a098ab1e0880125438c7efa19468f",
+          "original_bytes": 1941583,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "pdf-watermarker": {
+    "fr": {
+      "trackName": "Filigrane PDF et Tampon",
+      "version": "1.4.5",
+      "releaseDate": "2026-05-19T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/filigrane-pdf-et-tampon/id6769761016?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:01.294005+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769761016&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/a151e1ef01c960e6fac1.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/09/49/b30949ce-430b-9407-5a25-e8cdc3a22858/01-protect-sensitive-pdfs.png/320x480bb.jpg",
+          "source_sha256": "c7160dd61931f241e432688677a62125b7fbd19de5fb4d6ea4fa9e43fc330919",
+          "file_sha256": "d0d67a0ca460ed977eaf21509968b54614dcd72341b466956d54237ef6f35439",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/09/49/b30949ce-430b-9407-5a25-e8cdc3a22858/01-protect-sensitive-pdfs.png/0x0ss.png",
+          "sha256": "a151e1ef01c960e6fac16ffa68008f1611b12daa460f743a86f12cded74ec012",
+          "bytes": 311954,
+          "original_sha256": "3cbef88639af97660de68fe7ccea11e3148cb13ca3cc113ef3d3858e44df3199",
+          "original_bytes": 690647,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/2bfc8e40d83662ad8ce1.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/c8/87/cec887f6-4745-4add-a4ec-605faf18c34e/02-stamp-every-page.png/320x480bb.jpg",
+          "source_sha256": "2ebf48263749d93d3b7799fbd7ddd9c0704313e602bf70fd8de7a7d07054861d",
+          "file_sha256": "b87e9ce566b2cf947a1e56435813a26e40a3c3c1f50273769d96b032067aa4c6",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/c8/87/cec887f6-4745-4add-a4ec-605faf18c34e/02-stamp-every-page.png/0x0ss.png",
+          "sha256": "2bfc8e40d83662ad8ce1c7542a2fb340fdc2f05a8a8f87559cea4ad110562492",
+          "bytes": 222858,
+          "original_sha256": "f01142a488139dba2301438330dfea76e676c705125846edf40e9c96925aeede",
+          "original_bytes": 512894,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/ce3cd06a2af271792c8a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/c5/46/36c54624-34d0-a545-b605-48445f5f237c/03-single-or-repeated-watermarks.png/320x480bb.jpg",
+          "source_sha256": "b1d836a7ea3248cc6c24c3f20bfda5879a5e194af277a51fca286c40420bb369",
+          "file_sha256": "6255935e7c2f9b795b8d3939b338605ba3f0ee198897fd5a1e3c9f1a6205814f",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/c5/46/36c54624-34d0-a545-b605-48445f5f237c/03-single-or-repeated-watermarks.png/0x0ss.png",
+          "sha256": "ce3cd06a2af271792c8a16f42379569b80096399434fbf97bafa84db05e362dc",
+          "bytes": 185398,
+          "original_sha256": "6913edecf15a4c436200c41ac8c9753a1c4b3d3457b64e5e453815b01158100b",
+          "original_bytes": 453511,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "PDF透かし・スタンプ",
+      "version": "1.4.5",
+      "releaseDate": "2026-05-19T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/pdf%E9%80%8F%E3%81%8B%E3%81%97-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97/id6769761016?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:01.273085+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769761016&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/ea0ed39127e12cf48931.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/18/90/a6189091-6905-6bcf-55b6-f703fc7c2851/01-protect-sensitive-pdfs.png/320x480bb.jpg",
+          "source_sha256": "8fd0a4f2736e9760d75d4c5d10d810a4035e13e05cdeacd2cab7e28395bdf0e0",
+          "file_sha256": "5344771ae6c01f31ddd81c1ec862d7c2a2b3d3446b631509082d5559e1a30756",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/18/90/a6189091-6905-6bcf-55b6-f703fc7c2851/01-protect-sensitive-pdfs.png/0x0ss.png",
+          "sha256": "ea0ed39127e12cf48931ba0916e6d5368ca0cb8af525d912f2c82e266e4e26f5",
+          "bytes": 323222,
+          "original_sha256": "d0d03a4e3b6d5d91833a03474ae2f5c5a1b3c0f21eaafa977a7e79d9d3070517",
+          "original_bytes": 709030,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/8be44cd52ebaf062bcbf.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/5b/3d/c45b3dd5-f42d-49b5-4004-26669e336f12/02-stamp-every-page.png/320x480bb.jpg",
+          "source_sha256": "2b0e0a6f64ccad3d63243398cf2faf2bbe588e843fe5c9a9ffc0265a649fc852",
+          "file_sha256": "09fabb5ea0d8fd232b4439f93261788fdd6336733e1ba245654be12562dc4b66",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/5b/3d/c45b3dd5-f42d-49b5-4004-26669e336f12/02-stamp-every-page.png/0x0ss.png",
+          "sha256": "8be44cd52ebaf062bcbf8fecd31b0093211931abf6d5d01cbd87f5c1fba066a9",
+          "bytes": 229724,
+          "original_sha256": "ac6e264640c017f49f64a1c5415f67409fd2fdfe2da2578e0abb423f10eecddd",
+          "original_bytes": 522660,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/0e329ce34b601da8334a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/40/16/da40168b-9489-b15d-cc7e-c16cc930d979/03-single-or-repeated-watermarks.png/320x480bb.jpg",
+          "source_sha256": "1a673cd986111113986ce2daca78077228b385bb7a273e37c2917cc691a647c5",
+          "file_sha256": "63ccc6c94c67417b8e07a6528d4d18cecfce87e88e9a089d5225d93050279e44",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/40/16/da40168b-9489-b15d-cc7e-c16cc930d979/03-single-or-repeated-watermarks.png/0x0ss.png",
+          "sha256": "0e329ce34b601da8334ad59f84c9be6b2233781b4cf4975a7ca79246a33b4b1d",
+          "bytes": 202878,
+          "original_sha256": "87e0c67377902246b0b61836fd8d8517b59ad3e5e2c80430280f6efc6715214e",
+          "original_bytes": 480193,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "glowpop": {
+    "fr": {
+      "trackName": "GlowPop: Selfie Lumière Nuit",
+      "version": "1.0.4",
+      "releaseDate": "2026-06-15T07:00:00Z",
+      "minimumOsVersion": "18.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/glowpop-selfie-lumi%C3%A8re-nuit/id6778131414?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:01.297799+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6778131414&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/6372bdc3c9c68a3725d1.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/0e/7c/2e0e7c57-b3de-4395-e242-e719f8a12e1d/simple-v2-iphone-01-fr-FR.png/320x480bb.jpg",
+          "source_sha256": "7e7de9fbdb73f7f00974394f4f1f5d2cff7c213f42667afa52064c92b352a216",
+          "file_sha256": "8ace022f3d583d3bd536d098600387e21c3d8dd4209ba33dc0242a391bac38e3",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/0e/7c/2e0e7c57-b3de-4395-e242-e719f8a12e1d/simple-v2-iphone-01-fr-FR.png/0x0ss.png",
+          "sha256": "6372bdc3c9c68a3725d18db2b32cc33171000f7920a76ad3c60f577ea2477fbb",
+          "bytes": 463840,
+          "original_sha256": "bc70f404b3506f04a964025d87bfd15c44974bb8f9e2d7145d068ab80266760c",
+          "original_bytes": 855494,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/4cd1b69a7c8a049ea809.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/a6/6a/14a66a6f-8f77-10c1-6be7-b7ecb54e8f09/simple-v2-iphone-02-fr-FR.png/320x480bb.jpg",
+          "source_sha256": "ef9548e9d3778078fc20c70cb2aaccfcb99d6863d0a7df63637b26582266e879",
+          "file_sha256": "c950a14babb664a5d0209771a5f4da2ad4846c6175fb676768fd365e43751095",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/a6/6a/14a66a6f-8f77-10c1-6be7-b7ecb54e8f09/simple-v2-iphone-02-fr-FR.png/0x0ss.png",
+          "sha256": "4cd1b69a7c8a049ea8099fe00570003ab127e7c76d6ceced5447a75f67aa1afb",
+          "bytes": 774756,
+          "original_sha256": "e0e09fd5018865e8052c4b0bf7ef554930d0580ee8cb63e296342f442f6f8d55",
+          "original_bytes": 1349253,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/b186ba3d87875a307d6f.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4c/4a/7a4c4a09-4cd6-b2aa-d2e5-7c2078d1b753/simple-v2-iphone-03-fr-FR.png/320x480bb.jpg",
+          "source_sha256": "f0d423417be2c7a3102efb8ebbafb00600a46eb40f6bf2d6d6c7e78242ec4e22",
+          "file_sha256": "1b94f998864773a91ecf96e23a215d64e0626f6ef5497440bc8a00b8b92befc8",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/4c/4a/7a4c4a09-4cd6-b2aa-d2e5-7c2078d1b753/simple-v2-iphone-03-fr-FR.png/0x0ss.png",
+          "sha256": "b186ba3d87875a307d6fd5921b60e9d4f94ceb3d2a1947cf3c7ea151857f7e43",
+          "bytes": 185652,
+          "original_sha256": "bded94a9ccb449dfeb44382729942bf8d2309ec91595d8e30894107cd5eaad89",
+          "original_bytes": 437411,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "GlowPop - 盛れる自撮りライト",
+      "version": "1.0.4",
+      "releaseDate": "2026-06-15T07:00:00Z",
+      "minimumOsVersion": "18.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/glowpop-%E7%9B%9B%E3%82%8C%E3%82%8B%E8%87%AA%E6%92%AE%E3%82%8A%E3%83%A9%E3%82%A4%E3%83%88/id6778131414?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:01.269494+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6778131414&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/3eca04d2536e316a386e.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/05/bc/8905bc0e-bdc8-b9c7-8a33-bf618e69fed2/simple-v2-iphone-01-ja.png/320x480bb.jpg",
+          "source_sha256": "0a881a947f6fc2b4bf3054a41d607f56983be6af77b177b98b8a8fb3bc727f91",
+          "file_sha256": "3ae9b9e2eb38bb8adf46322c48f1ec8c09d8e5b64b57eab10eb0a63f0b089607",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/05/bc/8905bc0e-bdc8-b9c7-8a33-bf618e69fed2/simple-v2-iphone-01-ja.png/0x0ss.png",
+          "sha256": "3eca04d2536e316a386e383473723625ecf5ab4e19af0a5225a6ff888edad845",
+          "bytes": 465016,
+          "original_sha256": "2ddb4ea84f53d92626a0f3d5cfd4564282566b6ca9d20004e104e94102e75ef5",
+          "original_bytes": 857731,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/b68ecf44345a099a4ee5.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/36/2c/1a362c45-0096-5b11-97b8-27c98ef42d14/simple-v2-iphone-02-ja.png/320x480bb.jpg",
+          "source_sha256": "9d50cb4d651840de740f8421d3caaf234921477e2bed233d67bbe92e071d4b36",
+          "file_sha256": "66585e3133884106de22a92afa8eea985a4c40b6587a184ec6e628cffbbd5803",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/36/2c/1a362c45-0096-5b11-97b8-27c98ef42d14/simple-v2-iphone-02-ja.png/0x0ss.png",
+          "sha256": "b68ecf44345a099a4ee538dceea6e8034bd1efebe77ed7d09de8025fb40d8561",
+          "bytes": 780832,
+          "original_sha256": "25dd0bee28f0073d477a72d2558282e62794439f3f0d01e2e0170e271aef8fe2",
+          "original_bytes": 1367906,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/30a46824a8b7bc6a95ec.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/12/50/8412507a-d6d5-e0e0-0a6d-e25012948106/simple-v2-iphone-03-ja.png/320x480bb.jpg",
+          "source_sha256": "8723cb6c4b0fdd25ddcdb8395a11dc8f93c87cbec891295a936831bf6ff18008",
+          "file_sha256": "e7f6d3903c29ab27d566e4ed3fc05f5fe30504a746629097bb14cacf38577efd",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/12/50/8412507a-d6d5-e0e0-0a6d-e25012948106/simple-v2-iphone-03-ja.png/0x0ss.png",
+          "sha256": "30a46824a8b7bc6a95ecbadb2992152c283f9792a60c9c9124fc144db7ce2ff4",
+          "bytes": 201432,
+          "original_sha256": "a07bcd6a27ed3583251b0ff9bbb33c943212ce5f17da81eb87d722188891c391",
+          "original_bytes": 472621,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "just-captions": {
+    "fr": {
+      "trackName": "Just Captions: Sous-titres IA",
+      "version": "2.9",
+      "releaseDate": "2026-05-21T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/just-captions-sous-titres-ia/id6770354079?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:01.585378+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6770354079&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/a5f4992dcb792ebe6217.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/d2/e9/dbd2e9df-9b69-6d96-ce57-73da46b197c6/01-Auto-Captions.jpg/320x480bb.jpg",
+          "source_sha256": "65d34485e6e5825626b6afb044c47cca0a88442c674e7d7bc0126f1bf367da1c",
+          "file_sha256": "89794dc480c9614d6370b130ad9cde9c48eed24b78991139f8d3fd420c0eb8c0",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/d2/e9/dbd2e9df-9b69-6d96-ce57-73da46b197c6/01-Auto-Captions.jpg/0x0ss.png",
+          "sha256": "a5f4992dcb792ebe62179e9669d91ea2717d80ce35c57504cabed1e3a2aa448e",
+          "bytes": 1163516,
+          "original_sha256": "aac3b4a2b8c66230c7af5de515c1ec0bb7bccebbd932ed34c2182d9fed4e5b1b",
+          "original_bytes": 2318794,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/8a208c2159c557f2e69a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/b2/d4/efb2d427-52ea-8a1e-1b13-986ff3135919/02-Batch-Subtitles.jpg/320x480bb.jpg",
+          "source_sha256": "a917333e49ff1895d0817e8b12f328a7943f8d094a7fe5737194e74364cda54d",
+          "file_sha256": "cb31ac36c616cc87229fbbd912909e494c1ae81086e0bf2fae884d773dd2fc48",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/b2/d4/efb2d427-52ea-8a1e-1b13-986ff3135919/02-Batch-Subtitles.jpg/0x0ss.png",
+          "sha256": "8a208c2159c557f2e69a0439cf17a4205ecf99c7480389dde1a885fb4bbeb3ba",
+          "bytes": 1615948,
+          "original_sha256": "c185dc2357d2df326e81bac7a86593e2b2e8ddb2361ffca37bcc8c35f047a64a",
+          "original_bytes": 2652600,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/cf585e9530619278a07f.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/b9/4f/eeb94f46-014d-dc69-1186-6422367262b4/03-Emoji-Captions.jpg/320x480bb.jpg",
+          "source_sha256": "c848c0a4b4058f9b1a0c21ef18d21593a51ea3d7acc60005f1d748a71b436c5e",
+          "file_sha256": "cf314d94db8668530556b6561dc4f8947a5ebd14371744193dead57573cf921b",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/b9/4f/eeb94f46-014d-dc69-1186-6422367262b4/03-Emoji-Captions.jpg/0x0ss.png",
+          "sha256": "cf585e9530619278a07fb996e10436b3b09b16d88a488d60a4bb3df499fcb045",
+          "bytes": 964108,
+          "original_sha256": "a63292941d70951ac2fbc52ada99aa410e53f401e6df616a5a0ce1c5becb2c24",
+          "original_bytes": 1809876,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "Just Captions: AI字幕",
+      "version": "2.9",
+      "releaseDate": "2026-05-21T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/just-captions-ai%E5%AD%97%E5%B9%95/id6770354079?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:01.596218+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6770354079&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/5d48fe27b00151eefa1d.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/87/9a/1b879ae6-3733-dfb6-4793-4cedb70b4794/01-Auto-Captions.jpg/320x480bb.jpg",
+          "source_sha256": "93fb4c9ea560d89a9bf58a132deb1b4a266e805d46776004a67ef753d336d3c8",
+          "file_sha256": "219be24ea1ea36506ed6070730204282307bce95bc31fe3af2ea20534b0976bd",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/87/9a/1b879ae6-3733-dfb6-4793-4cedb70b4794/01-Auto-Captions.jpg/0x0ss.png",
+          "sha256": "5d48fe27b00151eefa1dd31a9074b600bab10727c621587a87331cd03a5bee5b",
+          "bytes": 1150272,
+          "original_sha256": "fa22579cff10dbf47b1e06b7d389b8351fa3b92eaf9b513cc4c704c008fa6ad9",
+          "original_bytes": 2320978,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/eb09c1adc2b154fce6ad.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/0c/23/890c23f4-9fb8-58de-ccc8-8d428c334638/02-Batch-Subtitles.jpg/320x480bb.jpg",
+          "source_sha256": "afb46b6b95280d438e967f628b20902ab45c629e65e6d75221b629f030b44ee0",
+          "file_sha256": "cb69b0d4a56faf9785422c028b77a5dd3a36c7f44d06ced0bf45f0fad4d42b27",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/0c/23/890c23f4-9fb8-58de-ccc8-8d428c334638/02-Batch-Subtitles.jpg/0x0ss.png",
+          "sha256": "eb09c1adc2b154fce6adac74df331ddb61a7ba0d1423d44920ea57675a2f1318",
+          "bytes": 1625944,
+          "original_sha256": "27fabb670ac856ecc5cd524e046ab2cb6cf49dcf57d460976150e78f2e930548",
+          "original_bytes": 2668505,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/6d1224b23c1bef1a8a8a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/53/ad/fb53ad26-f981-d0cb-c795-dfa795b112d2/03-Emoji-Captions.jpg/320x480bb.jpg",
+          "source_sha256": "bd7cb931798072fa4712601c637786884ee3a2d0de7e99e62d7f192ea619d1e0",
+          "file_sha256": "d67b16046da6cd8c800d7cfca8ba43c000693aa3f90d82b580b729d1847c0080",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fb/53/ad/fb53ad26-f981-d0cb-c795-dfa795b112d2/03-Emoji-Captions.jpg/0x0ss.png",
+          "sha256": "6d1224b23c1bef1a8a8ab975d6e0c03c815eb3ec5246c08e6c2a46bc52df6561",
+          "bytes": 1037422,
+          "original_sha256": "aa05dcd68e7acca208f385008e541d99e51444ce9cc476998175f13b09d9a7ce",
+          "original_bytes": 1902588,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "dying-soon": {
+    "fr": {
+      "trackName": "Dying Soon: Temps d'écran",
+      "version": "2.3.2",
+      "releaseDate": "2026-03-13T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/dying-soon-temps-d%C3%A9cran/id6758529772?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:01.594261+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6758529772&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/3ee756856f3b50534469.webp",
+          "width": 1284,
+          "height": 2778,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/b2/d6/71b2d66e-3d15-a925-6823-5b537c14035e/01_reclaim.png/320x480bb.jpg",
+          "source_sha256": "37a552c34d47631b93a863bc498b63097ca460a3ab36be1f2eff2d4176976a96",
+          "file_sha256": "0dd21e188031b6307934620b25ded12a270a0f16ac6def3ef8b5a7cf2d97f7b4",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/b2/d6/71b2d66e-3d15-a925-6823-5b537c14035e/01_reclaim.png/0x0ss.png",
+          "sha256": "3ee756856f3b50534469e56b3c44d2831ac5553437e9b18a4be038d520076b11",
+          "bytes": 559114,
+          "original_sha256": "46adbaeae33382f5e06ac00b4b239ef0f5442e7a767f2fecf261c419093eee7b",
+          "original_bytes": 979607,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/547b8369c55049e8f4b1.webp",
+          "width": 1284,
+          "height": 2778,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/7d/a0/587da006-4493-74f1-5b7b-51b707531e7c/03_timer.png/320x480bb.jpg",
+          "source_sha256": "d1dd190f4271940e2eebbf375146deee355d530324447f81cf266d8705d8ec0a",
+          "file_sha256": "2e279587d91b8ae68e09d83d7a8f8ab091f39280afe91e5a16636985703837f0",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/7d/a0/587da006-4493-74f1-5b7b-51b707531e7c/03_timer.png/0x0ss.png",
+          "sha256": "547b8369c55049e8f4b15087b8d914d90d546905669d1de8abc89a5a3a2b4bab",
+          "bytes": 138008,
+          "original_sha256": "39cc13caa627e40ef3ba34dc4276857d9ebc0d21dca6f25cfd025a475e52765b",
+          "original_bytes": 332237,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/42f5bf3cadb49ca793af.webp",
+          "width": 1284,
+          "height": 2778,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/60/af/cd60afd0-97b7-89b7-a6a1-6e6b15bad9c9/02_blocked.png/320x480bb.jpg",
+          "source_sha256": "06a280019d2ac15a6b902f5dda1dc3f78f49d6225f42aa0d20301d51b1c6026f",
+          "file_sha256": "493e1c45656ea8fa3e9ee0365ebf31ba003f1a5b987e348c29b4e5a13437bac2",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/60/af/cd60afd0-97b7-89b7-a6a1-6e6b15bad9c9/02_blocked.png/0x0ss.png",
+          "sha256": "42f5bf3cadb49ca793af7322debe84211a1d8b2592e0a859ce55bf9b6f849b29",
+          "bytes": 199706,
+          "original_sha256": "96157b558d9522e64bdba44cc09f2c07c4c8ee0e7eeaffd1c03844a87e9d393c",
+          "original_bytes": 494159,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "Dying Soon: スクリーンタイム管理",
+      "version": "2.3.2",
+      "releaseDate": "2026-03-12T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/dying-soon-%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A0%E7%AE%A1%E7%90%86/id6758529772?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:01.645488+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6758529772&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/e5abeb1bbb9753a61eb4.webp",
+          "width": 1284,
+          "height": 2778,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/28/23/2e2823bb-145e-f2d8-439c-31a9419c5ec8/01_reclaim.png/320x480bb.jpg",
+          "source_sha256": "dfbdfaf6175344d0a3e14d3e624331080452d80e133474ca3b3cdef1152d8623",
+          "file_sha256": "b370cb849002d6ce74efa7907239e31b564053880f71a211712e9bda5996ed42",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/28/23/2e2823bb-145e-f2d8-439c-31a9419c5ec8/01_reclaim.png/0x0ss.png",
+          "sha256": "e5abeb1bbb9753a61eb49a4c2875d63573c1b2f22b46315dc4275d736447e786",
+          "bytes": 614112,
+          "original_sha256": "0d92ede341dde8923707c6e49dcc559e513f1f37fcf3628397643e9a6445e213",
+          "original_bytes": 1024403,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/cc5e3750a4a38ab3e955.webp",
+          "width": 1284,
+          "height": 2778,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/4e/50/ed4e50df-e34e-1085-f73a-24c91741e494/02_blocked.png/320x480bb.jpg",
+          "source_sha256": "77775eda25e4cb46a9a1ccbf1f37ce80118b13fa0cf1e24271cc444c8d104808",
+          "file_sha256": "15828c491c4b6217c5e99fdf2e8701dc1af2a321953cfadca22326537b104697",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/4e/50/ed4e50df-e34e-1085-f73a-24c91741e494/02_blocked.png/0x0ss.png",
+          "sha256": "cc5e3750a4a38ab3e955736a88d2a8c6f97fa581766dfd78cb1c7dd08ead7e6a",
+          "bytes": 220996,
+          "original_sha256": "e0f50aad9ba3f8123d6640ec229c0edcf39dc27ebbd853d30ecdbf0edfaf8544",
+          "original_bytes": 552852,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/0600f0f5a4c85fe89616.webp",
+          "width": 1284,
+          "height": 2778,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/3f/e0/453fe0e7-07bf-7c41-934e-7c18b7e8d021/03_timer.png/320x480bb.jpg",
+          "source_sha256": "82b01fd521360080286a41a134f6edb116da443aed611be1b96f1e581ab2af03",
+          "file_sha256": "0d7b5c2cea856a64fe9a27328a5bcac10f5e184df6b688c2931636d96714330d",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/3f/e0/453fe0e7-07bf-7c41-934e-7c18b7e8d021/03_timer.png/0x0ss.png",
+          "sha256": "0600f0f5a4c85fe896167683d00fb27f1c63f91900ce37fd2774fd1916d9c27a",
+          "bytes": 154902,
+          "original_sha256": "3d9a1189ace47122561109d22d4cbf8e6da8122db1df541c1ca357a0ec75d8dd",
+          "original_bytes": 365252,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "vidkit": {
+    "fr": {
+      "trackName": "Compresseur Vidéo MP4",
+      "version": "1.3.2",
+      "releaseDate": "2026-09-10T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/compresseur-vid%C3%A9o-mp4/id6769563339?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:01.934556+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769563339&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/dc5a2cd95b9cd1dde3ce.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/97/1b/ac971bdf-fbfd-7716-5e88-b617844474df/01-compress-video.png/320x480bb.jpg",
+          "source_sha256": "3f96dcd5afe6b013e3f1cdf5a6b8aed6247816ea3ce91ec8725f95828bdb13f4",
+          "file_sha256": "7f8e51ca590d499f43a19fc9fb222443767147dcd7d9095da5e2bd43fc509386",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/97/1b/ac971bdf-fbfd-7716-5e88-b617844474df/01-compress-video.png/0x0ss.png",
+          "sha256": "dc5a2cd95b9cd1dde3ce00bf0577fd1961a734b91e629647fcc1d1623e89fc75",
+          "bytes": 242902,
+          "original_sha256": "8e6ab5dd7428c4c7635ac0657351372a6139ada1b8adab9e1e7be956548051ed",
+          "original_bytes": 603997,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/006f6caafa17014dab43.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/f8/c1/45f8c171-8c98-538f-816c-dd6572f51448/02-convert-video.png/320x480bb.jpg",
+          "source_sha256": "d3c2d9dfdf65634de6f2ce44c4f76255375f4837fb3fa63cd6f1e597c1916a73",
+          "file_sha256": "bb2e8a339d2c5d50d5d1ba0fac2bf268cec14c55f02ad3294fd1cfeb0ebbc02e",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/f8/c1/45f8c171-8c98-538f-816c-dd6572f51448/02-convert-video.png/0x0ss.png",
+          "sha256": "006f6caafa17014dab438070c970e8d19dfc108ae0200909e16dd6e0b0aa91a7",
+          "bytes": 268644,
+          "original_sha256": "bf13ca7bcdf5a8f67cb09f42d831c3f70a058359169385467d120b2abd9b4957",
+          "original_bytes": 645105,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/743a33628e1edfd0160a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/f9/66/26f96658-30e6-7771-f06c-898523bc6ee8/03-batch-compress.png/320x480bb.jpg",
+          "source_sha256": "ccba60b1b26b2426b33a99cc8dd548fa3eac54255f963e6b01e90d23aee5b55a",
+          "file_sha256": "23c829f69b6fc9c54a2987287e7eb2b254be541f43899c2bc76cafd13ad48760",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/f9/66/26f96658-30e6-7771-f06c-898523bc6ee8/03-batch-compress.png/0x0ss.png",
+          "sha256": "743a33628e1edfd0160a75280323740f2e42a1bf4f09e61f6b54cca0dd57ab68",
+          "bytes": 854956,
+          "original_sha256": "f5bc8a281d1728888730d559c460d9602f775e651b0e1429afdb0a562f5d227f",
+          "original_bytes": 1570910,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "動画圧縮 MP4変換",
+      "version": "1.3.2",
+      "releaseDate": "2026-09-10T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/%E5%8B%95%E7%94%BB%E5%9C%A7%E7%B8%AE-mp4%E5%A4%89%E6%8F%9B/id6769563339?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:02.008906+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6769563339&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/d6b5da56e0b897e7713a.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/f5/e3/e1f5e386-c203-d38e-8248-e30e83b0eb93/01-compress-video.png/320x480bb.jpg",
+          "source_sha256": "f1fd13b95f0ea30f04cd35e0d7b19c32ebad72f809120d124505e42644856f09",
+          "file_sha256": "5bc3faa7f189d2a36045f700dc60fb23c65006fa94696238b6005376eeaee3ec",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/f5/e3/e1f5e386-c203-d38e-8248-e30e83b0eb93/01-compress-video.png/0x0ss.png",
+          "sha256": "d6b5da56e0b897e7713a4cef77a583a085047a009897bc19c65ec4fb66dfa850",
+          "bytes": 245580,
+          "original_sha256": "a7d858623c59e8760b9819842c7f8091eff469c1f2deae5acb09c56a9e9772f5",
+          "original_bytes": 609278,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/37bdd3b8e1bdd5da4677.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/43/82/994382ac-7cff-f268-2eb7-3b4640976dc6/02-convert-video.png/320x480bb.jpg",
+          "source_sha256": "14d7cb70e0e1e4b5f79f534a8d43464ed3ea0f8cb3732563cbd37fba1d86ee06",
+          "file_sha256": "5fc914fc98f891f8a70be24010b2ceab3f851885d8e7295a75058b24d7900bc6",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/99/43/82/994382ac-7cff-f268-2eb7-3b4640976dc6/02-convert-video.png/0x0ss.png",
+          "sha256": "37bdd3b8e1bdd5da4677947a49ceac38528a12aa9842ee2005e8805dd77be787",
+          "bytes": 281524,
+          "original_sha256": "2b66ed3008a41b67e5ffe26eadf3a1e6625b0799bf942adf5c0397dc4ec5f7c7",
+          "original_bytes": 672116,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/d4700cacd5af31d63bf9.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/aa/6b/f9aa6ba1-270b-7edc-9282-0b7b311b20be/03-batch-compress.png/320x480bb.jpg",
+          "source_sha256": "13944cd741002faec8970af299019d13c24db2ae250bb70b9cd37b7d8670246f",
+          "file_sha256": "f9973835182f90ab86e705286522e7dc0c14b0ce3e7c732d52aee3fc5701f410",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/aa/6b/f9aa6ba1-270b-7edc-9282-0b7b311b20be/03-batch-compress.png/0x0ss.png",
+          "sha256": "d4700cacd5af31d63bf969f6b7b94ed8dba70b643fff55d90a8c2f59bd9e13f7",
+          "bytes": 865844,
+          "original_sha256": "b46ddf2cc6472edc7109d23a5f2be58a2ad0fb1a0d460540eb38da88a4c46d29",
+          "original_bytes": 1585405,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "photofix": {
+    "fr": {
+      "trackName": "PhotoFix: Conversion HDR JPEG",
+      "version": "1.4",
+      "releaseDate": "2026-10-03T07:00:00Z",
+      "minimumOsVersion": "18.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/photofix-conversion-hdr-jpeg/id6816526877?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:02.039667+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6816526877&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/c6657d3501a517384bd0.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/b8/10/62b810fc-6f3b-d3ac-954f-568859125b2c/01-sharing.png/320x480bb.jpg",
+          "source_sha256": "2452be5c0c752f9e290f50120c563bf131bce957c1048b3ee5be4a29803b5819",
+          "file_sha256": "5a44feff037b8171553f4959ec218d27cb38b758c65e80b81080223283a0a0f2",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/b8/10/62b810fc-6f3b-d3ac-954f-568859125b2c/01-sharing.png/0x0ss.png",
+          "sha256": "c6657d3501a517384bd0609e418e144dc8971d8ff2ee50a19e1e986480325c31",
+          "bytes": 824348,
+          "original_sha256": "889511aaaf63af263e002d18a207f54284c252ee8d8a693f19320dcb81326e8d",
+          "original_bytes": 1363927,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/4d59f08b8459299594a0.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/28/5a/9d285aad-3798-0b96-15b4-f0fdc34e7d0c/02-batch.png/320x480bb.jpg",
+          "source_sha256": "aad14d79db55648d29ee67be853733a76c48e45c77cbc7a7c83a3da038373997",
+          "file_sha256": "cc2a719314bcfc6eac76d5a83785be377fd0bb52036984cf4c6b4f9f65e850b2",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/28/5a/9d285aad-3798-0b96-15b4-f0fdc34e7d0c/02-batch.png/0x0ss.png",
+          "sha256": "4d59f08b8459299594a0e699e3598a24cdfe4616d8628b0b3693ce84e956b78c",
+          "bytes": 482422,
+          "original_sha256": "31d94c9d59ba3809d941258335d07edb4c1afd6e60700f4fcbe46832d8addc3b",
+          "original_bytes": 760572,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/8cd9c8a2ebbb72829bc6.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/ba/48/40ba4881-a201-beee-6ca4-a09a238e6da9/03-share.png/320x480bb.jpg",
+          "source_sha256": "f97f540d5fd0703364d0b2f72467af6696fac34c31d6686cc55eb8f1a21c36b2",
+          "file_sha256": "553247ab8e9b6221fa28db921f23ebd0d026cecd5455e8a5b4770826ad94f4e6",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/ba/48/40ba4881-a201-beee-6ca4-a09a238e6da9/03-share.png/0x0ss.png",
+          "sha256": "8cd9c8a2ebbb72829bc669957246ce66bdb264e6f92db67c075ba2db2c49d1d8",
+          "bytes": 540698,
+          "original_sha256": "fa8a14c1d6b55d5c5c09d7aef27abe742f1099626c9a23098c9d0c65c47b47dd",
+          "original_bytes": 891246,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "PhotoFix：HDR・JPEG写真変換",
+      "version": "1.4",
+      "releaseDate": "2026-10-03T07:00:00Z",
+      "minimumOsVersion": "18.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/photofix-hdr-jpeg%E5%86%99%E7%9C%9F%E5%A4%89%E6%8F%9B/id6816526877?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:02.032447+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6816526877&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/7c3fe1d01363d28d7aa7.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/32/67/de3267e1-de33-d077-1674-22468eea2d05/01-sharing.png/320x480bb.jpg",
+          "source_sha256": "37ade792da5069b74322db11985c53e7cb7fdd74759a673f16d8b20fcbbcc8bd",
+          "file_sha256": "c167933f115eb7618cabeded3b228bb44cd0beb3b0c75d98fa9649546589227c",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/32/67/de3267e1-de33-d077-1674-22468eea2d05/01-sharing.png/0x0ss.png",
+          "sha256": "7c3fe1d01363d28d7aa7e7bfa9db3f3bdea0086125a5101c3b370b3aa8d621e9",
+          "bytes": 805868,
+          "original_sha256": "0c45da0114c7bab563c504a49bf03a7107d5eac27e36bb8640917842f7da7d9a",
+          "original_bytes": 1338428,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/317e7ed20d054c5efb17.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/b4/f6/40b4f65b-6d22-85f0-697f-b9f58f579c6a/02-batch.png/320x480bb.jpg",
+          "source_sha256": "e6a9675ac15e052bbfba80621784ee5b75c80b46683b446f46b4f7d0924696c9",
+          "file_sha256": "73ef4e974f3beb15b7d8d6513560bd741734a584f78effe6705cd7a44a49fee9",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/b4/f6/40b4f65b-6d22-85f0-697f-b9f58f579c6a/02-batch.png/0x0ss.png",
+          "sha256": "317e7ed20d054c5efb17d860418ca40c9a42f23d65a4cd8166117ea9d6a2c062",
+          "bytes": 492234,
+          "original_sha256": "d651ca50f2683d2afd80550e90eaaf126246226ac821ae48e8613cb06a438669",
+          "original_bytes": 785955,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/377a866bc7f09e7ca26b.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/22/46/122246a8-29c3-6def-c90e-041291bbed96/03-share.png/320x480bb.jpg",
+          "source_sha256": "6025543e037bce9d06a14c71af41558af91e36bd1fc936fccacdd2be3cb8a4a4",
+          "file_sha256": "157b767aa2f03dc8d722fd605dc5bfa9b0e6717cab388d8f0d8e2af97a55d13a",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/22/46/122246a8-29c3-6def-c90e-041291bbed96/03-share.png/0x0ss.png",
+          "sha256": "377a866bc7f09e7ca26b2aa360ce86f19829bb5f3520f7acdd1b31e1e252dce5",
+          "bytes": 538676,
+          "original_sha256": "f5a1d0c489ed8b09a603b51bde7bea60a2fd76a56a2742cf8a397ca76382cf3a",
+          "original_bytes": 890788,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  },
+  "sober-wins": {
+    "fr": {
+      "trackName": "Sober Wins",
+      "version": "1.3",
+      "releaseDate": "2026-09-18T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/sober-wins/id6811067941?uo=4",
+      "country": "fr",
+      "checked_at": "2026-10-26T23:11:02.269185+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6811067941&country=fr&lang=fr",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/0ceadc5ef85f258931b9.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/23/e0/9a23e04b-acda-2b9c-cc6f-04d2c6aad92d/large-fr-FR-01-home.png/320x480bb.jpg",
+          "source_sha256": "50b0211738235be311e992fa567205f3f35c4f12e2539f6810d4d9c16c08deda",
+          "file_sha256": "556544495d9e1408bf3d86c65976b5e8003120b902df073339719e2e9f4fe004",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/23/e0/9a23e04b-acda-2b9c-cc6f-04d2c6aad92d/large-fr-FR-01-home.png/0x0ss.png",
+          "sha256": "0ceadc5ef85f258931b9cbbab295e9c7ad3ba22c54e822c443a2b77c11c91020",
+          "bytes": 210062,
+          "original_sha256": "b3a29b291f2734f1ba5a0bb66c7ecfbad1104eec5728a18b19ec30d29517d395",
+          "original_bytes": 422958,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/919b5cb82768e9bf8654.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/68/8c/db688c70-4ea8-61a1-0fdb-d1d3c859f8c5/large-fr-FR-02-rewards.png/320x480bb.jpg",
+          "source_sha256": "d23a9b95ab64b710ee38223648dcd34b28adc9a7a7aefc16d3f0586e719eaf0a",
+          "file_sha256": "3ab88cf0ae637b2b7c0b18a7b18cd34b75b4f790ebbf02fb61c331da875071b9",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/68/8c/db688c70-4ea8-61a1-0fdb-d1d3c859f8c5/large-fr-FR-02-rewards.png/0x0ss.png",
+          "sha256": "919b5cb82768e9bf8654266c5a01fe40554f6cae7a834276589ef0ba2fbe7ffd",
+          "bytes": 313304,
+          "original_sha256": "d2761bd4d23a7552d1deb23cf89ef211a59fbc7dc316384defae0f6cce04e311",
+          "original_bytes": 554806,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/0cd28d43ea00a38f08e8.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/92/08/d89208ad-649c-cfae-ae6c-f9b0951af0a3/large-fr-FR-03-cabinet.png/320x480bb.jpg",
+          "source_sha256": "95c1127dbe938e80cbe2b064976baaff7cf91f7012dd9b05c1cae86fac340430",
+          "file_sha256": "770c5c5c86f4a1dc2f7bc87eaaf6b3e40be73684fab6d607af1bdf4a30f1478e",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/92/08/d89208ad-649c-cfae-ae6c-f9b0951af0a3/large-fr-FR-03-cabinet.png/0x0ss.png",
+          "sha256": "0cd28d43ea00a38f08e862f2362721b94535ef39bfb9a94e94d528e00a86ffb7",
+          "bytes": 655310,
+          "original_sha256": "79c905dfa68d0fc9946b85424fc035348ca5590befbed06313e867a037938d06",
+          "original_bytes": 1040391,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    },
+    "ja": {
+      "trackName": "Sober Wins",
+      "version": "1.3",
+      "releaseDate": "2026-09-18T07:00:00Z",
+      "minimumOsVersion": "17.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/sober-wins/id6811067941?uo=4",
+      "country": "jp",
+      "checked_at": "2026-10-26T23:11:02.272665+00:00",
+      "source_url": "https://itunes.apple.com/lookup?id=6811067941&country=jp&lang=ja",
+      "screens": [
+        {
+          "src": "/assets/apps/screenshots/95f3226262aceb3555b4.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/6b/21/1b6b211b-5f28-164d-f6e8-e7d8355e01d5/large-ja-01-home.png/320x480bb.jpg",
+          "source_sha256": "33f853bd64af4439fd74742efa2130124bd20f1fa9d94d256cff2375533ca030",
+          "file_sha256": "02df6184779edaf5388a9546e2a86507dc21a3537efa9b1beaad804fe58955bc",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/6b/21/1b6b211b-5f28-164d-f6e8-e7d8355e01d5/large-ja-01-home.png/0x0ss.png",
+          "sha256": "95f3226262aceb3555b429ad9fe4412e29fc6ec1ffaec0a891fa947619086634",
+          "bytes": 194488,
+          "original_sha256": "cf3ab360f8e8e287a63c2a257ea6f8c892d1664cced5b4518f1acb11cdcac224",
+          "original_bytes": 405184,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/ac7cdef1c47062f2de99.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/d1/27/02d127fb-5eb5-e0af-b2da-de3efac9e0bc/large-ja-02-rewards.png/320x480bb.jpg",
+          "source_sha256": "d76539cfb34def82e3ce1884710a045d6cfcef2960fa0d2d11cca849043c8d68",
+          "file_sha256": "7bc0e949dd7ff9694c4d6a269c83575ec11a44175901ea7edf0e33811d1b9376",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/d1/27/02d127fb-5eb5-e0af-b2da-de3efac9e0bc/large-ja-02-rewards.png/0x0ss.png",
+          "sha256": "ac7cdef1c47062f2de9912a5f4791e6e38ac19d598379f3c941ea1f08505337e",
+          "bytes": 292994,
+          "original_sha256": "19d7e5c66dc7319121fc8467fcd1442bbe993885cde113c8483d30036c819a8c",
+          "original_bytes": 529517,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        },
+        {
+          "src": "/assets/apps/screenshots/ed1104d719be0f9f9da8.webp",
+          "width": 1290,
+          "height": 2796,
+          "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/b8/9e/c7b89e73-1fa0-3079-c246-e2bc6bb0f9c2/large-ja-03-cabinet.png/320x480bb.jpg",
+          "source_sha256": "66fc2629f1ece66cbd09991f0d49cfe28f67c7fe6f54ec6bdab31cd88669b19b",
+          "file_sha256": "43ae1f650c6540b1117f7b4911fa4feb403473542484067b07c8fc645a8e405f",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/b8/9e/c7b89e73-1fa0-3079-c246-e2bc6bb0f9c2/large-ja-03-cabinet.png/0x0ss.png",
+          "sha256": "ed1104d719be0f9f9da85fd09f8ff4ad1fe8128b0d917911a12d56413cd70839",
+          "bytes": 654202,
+          "original_sha256": "cd9655947b0e4fa6878e51ffd636ea6ce7c7f3785af2500c4e3072df828f52ba",
+          "original_bytes": 1041196,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
+        }
+      ]
+    }
+  }
+}

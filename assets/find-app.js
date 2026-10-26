@@ -1,16 +1,17 @@
 (() => {
+  const copy = (window.spaceSheepI18n || {})[document.documentElement.lang] || {};
   const status = document.getElementById('status');
   document.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
     const input = document.getElementById(button.dataset.copy);
     try {
       await navigator.clipboard.writeText(input.value);
-      status.textContent = 'Copied: ' + input.value + '. Paste it into App Store search.';
-      button.textContent = 'Name copied ✓';
-      setTimeout(() => { button.textContent = 'Copy name'; }, 2200);
+      status.textContent = (copy.copied_prefix || 'Copied: ') + input.value + (copy.copied_suffix || '. Paste it into App Store search.');
+      button.textContent = copy.copied_button || 'Name copied ✓';
+      setTimeout(() => { button.textContent = copy.copy || 'Copy name'; }, 2200);
     } catch (_) {
       input.type = 'text'; input.className = 'copy-fallback'; input.readOnly = true;
       input.focus(); input.select(); input.setSelectionRange(0, input.value.length);
-      status.textContent = 'Select Copy, then paste this name into App Store search.';
+      status.textContent = copy.copy_fallback || 'Select Copy, then paste this name into App Store search.';
     }
   }));
   const search = document.getElementById('find-app');

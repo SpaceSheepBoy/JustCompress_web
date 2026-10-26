@@ -1,0 +1,53 @@
+{
+  "en": {
+    "0": "HDR",
+    "1": "SDR",
+    "2": "HEVC",
+    "3": "H.264",
+    "4": "MP4",
+    "5": "Rec.709",
+    "6": "Apple ProRes Log",
+    "7": "JPEG",
+    "8": "PNG",
+    "9": "M4A",
+    "10": "AAC",
+    "11": "SRT",
+    "12": "RAW",
+    "13": "HEIC",
+    "14": "Space Sheep Studio"
+  },
+  "fr": {
+    "0": "HDR",
+    "1": "SDR",
+    "2": "HEVC",
+    "3": "H.264",
+    "4": "MP4",
+    "5": "Rec.709",
+    "6": "Apple ProRes Log",
+    "7": "JPEG",
+    "8": "PNG",
+    "9": "M4A",
+    "10": "AAC",
+    "11": "SRT",
+    "12": "RAW",
+    "13": "HEIC",
+    "14": "Space Sheep Studio"
+  },
+  "ja": {
+    "0": "HDR",
+    "1": "SDR",
+    "2": "HEVC",
+    "3": "H.264",
+    "4": "MP4",
+    "5": "Rec.709",
+    "6": "Apple ProRes Log",
+    "7": "JPEG",
+    "8": "PNG",
+    "9": "M4A",
+    "10": "AAC",
+    "11": "SRT",
+    "12": "RAW",
+    "13": "HEIC",
+    "14": "Space Sheep Studio"
+  }
+}

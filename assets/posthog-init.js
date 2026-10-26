@@ -5,6 +5,8 @@
   var key = 'spacesheep.analytics.v1';
   var blocked = navigator.globalPrivacyControl === true || navigator.doNotTrack === '1';
   var client, loading = false, banner, choices;
+  var pageLang = document.documentElement && document.documentElement.lang || 'en';
+  var copy = (window.spaceSheepI18n || {})[pageLang] || {};
   function preference(value) {
     try { if (value) localStorage.setItem(key, value); return localStorage.getItem(key); }
     catch (_) { return value || null; }
@@ -61,18 +63,18 @@
   }
   if (blocked) return;
   var style = document.createElement('style');
-  style.textContent = '.ss-analytics{position:fixed;z-index:9999;box-sizing:border-box;color:#172033;background:#fff;border:1px solid #c7cbd1;border-radius:14px;box-shadow:0 4px 24px #0002;font:14px/1.5 system-ui,sans-serif;padding:16px}.ss-analytics[hidden]{display:none}.ss-analytics-banner{bottom:52px;left:16px;max-width:420px;width:calc(100% - 32px)}.ss-analytics button{font:inherit;color:#172033;background:#f0f1f3;border:1px solid #b5bac2;border-radius:7px;padding:7px 13px;margin:10px 8px 0 0;cursor:pointer}.ss-analytics a{color:#194eac;text-decoration:underline}.ss-analytics-choice{bottom:10px;left:16px;padding:5px 10px;cursor:pointer}';
+  style.textContent = '.ss-analytics{position:fixed;z-index:9999;box-sizing:border-box;color:#172033;background:#fff;border:1px solid #c7cbd1;border-radius:14px;box-shadow:0 4px 24px #0002;font:14px/1.5 system-ui,sans-serif;padding:16px}.ss-analytics[hidden]{display:none}.ss-analytics-banner{bottom:64px;left:16px;max-width:420px;width:calc(100% - 32px)}.ss-analytics button{font:inherit;color:#172033;background:#f0f1f3;border:1px solid #b5bac2;border-radius:7px;padding:7px 13px;margin:10px 8px 0 0;cursor:pointer;min-height:44px}.ss-analytics a{color:#194eac;text-decoration:underline}.ss-analytics-choice{bottom:10px;left:16px;padding:5px 10px;cursor:pointer;min-height:44px}';
   document.head.appendChild(style);
   banner = document.createElement('section'); banner.className = 'ss-analytics ss-analytics-banner';
-  banner.setAttribute('aria-label', 'Optional website analytics');
+  banner.setAttribute('aria-label', copy.analytics_label || 'Optional website analytics');
   var text = document.createElement('div');
-  text.textContent = 'Allow optional analytics? PostHog helps Space Sheep Studio understand page visits and download clicks. We do not record sessions, form contents, or your files. ';
+  text.textContent = copy.analytics_text || 'Allow optional analytics? PostHog helps Space Sheep Studio understand page visits and download clicks. We do not record sessions, form contents, or your files. ';
   var policy = document.createElement('a');
-  policy.href = 'https://justcompress.online/privacy/'; policy.textContent = 'Privacy policy';
+  policy.href = 'https://justcompress.online/privacy/'; policy.textContent = copy.policy || 'Privacy policy';
   text.appendChild(policy); banner.appendChild(text);
-  banner.appendChild(button('Reject', function () { choose('deny'); }));
-  banner.appendChild(button('Allow analytics', function () { choose('allow'); }));
-  choices = button('Privacy choices', function () { banner.hidden = !banner.hidden; });
+  banner.appendChild(button(copy.reject || 'Reject', function () { choose('deny'); }));
+  banner.appendChild(button(copy.allow || 'Allow analytics', function () { choose('allow'); }));
+  choices = button(copy.choices || 'Privacy choices', function () { banner.hidden = !banner.hidden; });
   choices.className = 'ss-analytics ss-analytics-choice';
   document.body.appendChild(banner); document.body.appendChild(choices);
   banner.hidden = preference() === 'allow' || preference() === 'deny';

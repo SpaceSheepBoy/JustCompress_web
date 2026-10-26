@@ -84,3 +84,8 @@ if not m.CAPTIONS:
  schema+=m.ld({'@type':'HowTo','name':title,'step':[{'@type':'HowToStep','name':'Choose the clip','text':'Open Extract from Video in Audio Compressor MP3 Converter and select your video.'},{'@type':'HowToStep','name':'Extract the audio','text':'Tap Extract Audio from Video and keep the App open while it processes.'},{'@type':'HowToStep','name':'Save and listen','text':'Tap Save audio, choose a location, and play the saved file to check the sound.'}]})
  html=m.page(path,title,description,body,schema).replace('</head>','<meta name="apple-itunes-app" content="app-id=6769563659"></head>')
  (ROOT/path.strip('/')/'index.html').write_text(html)
+
+# Weblate catalogs are compiled last so legacy normalization cannot overwrite
+# localized store names, consent UI or language metadata.
+if not m.CAPTIONS and (ROOT/'locales/review.json').exists():
+ subprocess.run([sys.executable,str(ROOT/'scripts/i18n_pages.py')],check=True)
