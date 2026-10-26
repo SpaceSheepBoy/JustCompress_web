@@ -73,3 +73,14 @@ subprocess.run([sys.executable,str(ROOT/'scripts/repair-seo-metadata.py')],check
 subprocess.run([sys.executable,str(ROOT/'scripts/build-app-portfolio.py')],check=True)
 
 subprocess.run([sys.executable,str(ROOT/'scripts/refresh-public-pages.py')],check=True)
+
+# Preserve the improved tutorial at its existing URL after legacy generators run.
+if not m.CAPTIONS:
+ path='/iphone-video-tutorials/10-how-to-extract-audio-from-video-on-iphone/'
+ title='How to Extract Audio from Video on iPhone'
+ description='Save the sound from an iPhone video as a separate audio file. Three clear steps, real App images, and a recorded walkthrough.'
+ body=(ROOT/'scripts/guide-layouts/extract-audio-iphone.html').read_text().replace('{{DATE}}','2026-10-26').replace('{{CTA}}',m.cta('6769563659'))
+ schema=m.ld({'@type':'Article','headline':title,'description':description,'dateModified':'2026-10-26','mainEntityOfPage':m.HOST+path,'author':{'@type':'Organization','name':'Space Sheep Studio'}})
+ schema+=m.ld({'@type':'HowTo','name':title,'step':[{'@type':'HowToStep','name':'Choose the clip','text':'Open Extract from Video in Audio Compressor MP3 Converter and select your video.'},{'@type':'HowToStep','name':'Extract the audio','text':'Tap Extract Audio from Video and keep the App open while it processes.'},{'@type':'HowToStep','name':'Save and listen','text':'Tap Save audio, choose a location, and play the saved file to check the sound.'}]})
+ html=m.page(path,title,description,body,schema).replace('</head>','<meta name="apple-itunes-app" content="app-id=6769563659"></head>')
+ (ROOT/path.strip('/')/'index.html').write_text(html)

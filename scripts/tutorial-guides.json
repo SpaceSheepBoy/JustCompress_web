@@ -279,8 +279,8 @@
   },
   {
     "slug": "combine-photos-iphone",
-    "title": "How to combine photos into one image on iPhone",
-    "summary": "Put several photos in a single grid or stitched image, then export one file to share or upload.",
+    "title": "How to Combine Photos into One Image on iPhone",
+    "summary": "Combine two or more photos into one picture on iPhone. Follow three steps, see a real collage example, or use the free browser combiner.",
     "app": "6810266264",
     "video": "nqSEzQ1BOcc",
     "steps": [
@@ -321,7 +321,9 @@
       "/combine-photos/",
       "/apps/collage-maker/",
       "/guides/hdr-photos-to-sdr-iphone/"
-    ]
+    ],
+    "layout": "combine-photos-iphone.html",
+    "modified": "2026-10-26"
   },
   {
     "slug": "compress-video-iphone",
