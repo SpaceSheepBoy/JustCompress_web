@@ -1,0 +1,44 @@
+{
+  "app_id": "6769563659",
+  "published_version": "1.1.8",
+  "checked": "2026-10-26",
+  "source": "https://itunes.apple.com/lookup?id=6769563659&country=us",
+  "screens": [
+    {
+      "src": "/assets/product-pages/audio-compressor/screen-1.webp",
+      "width": 1206,
+      "height": 2622,
+      "source": "CompressorApps/AudioCompressorApp/fastlane/source_screenshots/en-US/trim-audio.png",
+      "source_sha256": "c95b463d52e3e9a579037772d57ec4bfc4bcaa7352ac4551fbc0759f02db5035",
+      "sha256": "8e3dc5364c48b99edf8b77d30db1b7e0135556178da1344673d23874c8486568",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    },
+    {
+      "src": "/assets/product-pages/audio-compressor/screen-2.webp",
+      "width": 1206,
+      "height": 2622,
+      "source": "CompressorApps/AudioCompressorApp/fastlane/source_screenshots/en-US/split-audio.png",
+      "source_sha256": "d04abfc0572f1456b7e182c530a006c6fba6190aae11a64b7f9b31abd58a835e",
+      "sha256": "0f4a3aabb98dc3a1288f165dea9f6698fed029d028cfc711cd5aa4cf3d958cba",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    },
+    {
+      "src": "/assets/product-pages/audio-compressor/screen-3.webp",
+      "width": 1206,
+      "height": 2622,
+      "source": "CompressorApps/AudioCompressorApp/fastlane/source_screenshots/en-US/convert-audio.png",
+      "source_sha256": "30b78df6945b1964a43f39c6e6312143cf0324d07fce5017d144de9674a5f45e",
+      "sha256": "e65fcf8a8dd7cc323996a2d161b3404850eaf5943ad7636e1abffd41bbb2489a",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    }
+  ],
+  "detail_screen": {
+    "src": "/assets/product-pages/audio-compressor/screen-compress.webp",
+    "width": 1206,
+    "height": 2622,
+    "source": "CompressorApps/AudioCompressorApp/fastlane/source_screenshots/en-US/compress-audio.png",
+    "source_sha256": "e17f0b05c8f0f3ea2b72cb63b5a1f0d337c1d73b964e93aecf43b2e3c066618a",
+    "sha256": "3823fdb80e7d94eb1492b5ced59b14f566166c3474a75122dceac51a394066d2",
+    "transformation": "Lossless WebP, decoded RGB pixel identity verified"
+  }
+}

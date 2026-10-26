@@ -45,3 +45,6 @@ Sober Wins lives at `/apps/sober-wins/`, with instant compatibility redirects fr
 
 
 Product-page copy must follow each App’s actual reason to use it; share layout components without copying another product’s positioning. Sober Wins leads with daily tracking, collectible rewards and the mini fridge. Keep privacy and permissions in the appropriate FAQ/legal explanations. VideoFix should explain video compatibility and color conversion; Audio Compressor should explain smaller, usable audio files; Combine Photos should explain combining images into the intended layout. Do not apply one universal headline or benefit set to the portfolio.
+
+
+VideoFix, Audio Compressor and Combine Photos use the same three-screen product-page standard with independent briefs in `scripts/product-stories.json`, themes in `assets/product-stories.css`, and per-App screenshot evidence in `assets/product-pages/`. Run `python3 scripts/product_stories.py` for a targeted rebuild; the portfolio builder calls the same code. Refresh published versions, pricing/access evidence and source assets together. Existing localized Combine Photos pages and their language alternatives remain separate. See `docs/top-three-product-pages-2026-10-26.md`.

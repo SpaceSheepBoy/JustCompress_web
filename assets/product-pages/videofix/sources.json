@@ -1,0 +1,54 @@
+{
+  "app_id": "6812821310",
+  "published_version": "1.0.6",
+  "checked": "2026-10-26",
+  "source": "https://itunes.apple.com/lookup?id=6812821310&country=us",
+  "screens": [
+    {
+      "src": "/assets/product-pages/videofix/screen-1.webp",
+      "width": 1206,
+      "height": 2622,
+      "source": "HEVCHDRVideoConverter/marketing/preview/raw/en-US/01-home.png",
+      "source_sha256": "c0942bb9530532daf24ae21059693724a542db09e5d7c8e1bac4ae34bc0668e5",
+      "sha256": "73e53a63417ba025ad3a58783c57ee576ed8402f6129868dbe453d4f4a26d25d",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    },
+    {
+      "src": "/assets/product-pages/videofix/screen-2.webp",
+      "width": 1206,
+      "height": 2622,
+      "source": "HEVCHDRVideoConverter/marketing/preview/raw/en-US/03-done.png",
+      "source_sha256": "82499340dfa458e8aad8a3e06a9cc0a297c852b45f82729d88dbc1695116ef26",
+      "sha256": "a412de39586fa7709ffe9a9afd41b3750fa6ec791f8d03039076bb09050651d2",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    },
+    {
+      "src": "/assets/product-pages/videofix/screen-3.webp",
+      "width": 1206,
+      "height": 2622,
+      "source": "HEVCHDRVideoConverter/marketing/preview/raw/en-US/02-analysis.png",
+      "source_sha256": "98d33e54498ebff76b4e60a946786c2db1ebd55a74dcbff96322800236806a79",
+      "sha256": "07c6a54a3f778b47cc6233579dace2c78c255883a64db113ef031aebaa72dcf6",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    }
+  ],
+  "comparison": [
+    {
+      "src": "/assets/product-pages/videofix/apple-prores-log.webp",
+      "width": 720,
+      "height": 1280,
+      "source": "HEVCHDRVideoConverter/marketing/comparison/apple-prores-log.png",
+      "source_sha256": "cca5c34bbc68db34311645bc767b88e59973b1019b8ef006e680fd94d826c46c",
+      "sha256": "96116ae3f4be55f44c3604dfdaade6c83cab66bc80263851ce0da74455c76fa3"
+    },
+    {
+      "src": "/assets/product-pages/videofix/standard-sdr.webp",
+      "width": 720,
+      "height": 1280,
+      "source": "HEVCHDRVideoConverter/marketing/comparison/standard-sdr.png",
+      "source_sha256": "386e3cb62b1425ba74dfd69b54f58bc4282e08d7c45f156f73456f4f469143ca",
+      "sha256": "d7bb80ed815708fe0b04732a08f1c02859e07de0eb3ae8c5f02b00a9002ac586"
+    }
+  ],
+  "comparison_evidence": "Matching 2.000-second frames from the supplied Apple ProRes Log source and supplied VideoFix H.264 Rec.709 SDR conversion; see HEVCHDRVideoConverter/marketing/comparison/README.md. No creative color modification or independent reconversion claimed."
+}

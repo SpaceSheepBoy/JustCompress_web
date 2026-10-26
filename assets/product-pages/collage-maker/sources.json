@@ -1,0 +1,35 @@
+{
+  "app_id": "6810266264",
+  "published_version": "1.4",
+  "checked": "2026-10-26",
+  "source": "https://itunes.apple.com/lookup?id=6810266264&country=us",
+  "screens": [
+    {
+      "src": "/assets/product-pages/collage-maker/screen-1.webp",
+      "width": 1290,
+      "height": 2796,
+      "source": "PhotoCollage/fastlane/source_screenshots/en-US/21-stitch.png",
+      "source_sha256": "fbcef278ccb20e22f3288979d10ea3b9981287c1a2ac32147dde2ab68b577c55",
+      "sha256": "86af4b13d79df65faf628f86d5eebd64006ff444fe020698a6b164f9082b8089",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    },
+    {
+      "src": "/assets/product-pages/collage-maker/screen-2.webp",
+      "width": 1290,
+      "height": 2796,
+      "source": "PhotoCollage/fastlane/source_screenshots/en-US/22-layouts.png",
+      "source_sha256": "8e69ef8195a300c097169df8f23c1a13beaf660dc5522f658afb233fb3430260",
+      "sha256": "b321c8f51b19b97a2e44b5b49108724d3909ff817d9d95ea64f04817fa3cb8d4",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    },
+    {
+      "src": "/assets/product-pages/collage-maker/screen-3.webp",
+      "width": 1290,
+      "height": 2796,
+      "source": "PhotoCollage/fastlane/source_screenshots/en-US/24-save.png",
+      "source_sha256": "3295242eea4205d0403d4ebc5caa4840c9735a36470a451b7738842a4329407f",
+      "sha256": "d45ab6cd711a87eaed6c595c81d1c52fd2b9900b8e6b329fc1863f33c48ec857",
+      "transformation": "Lossless WebP encoding; decoded RGB pixels and dimensions verified identical"
+    }
+  ]
+}

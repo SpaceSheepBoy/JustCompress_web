@@ -1,0 +1,395 @@
+{
+  "6812821310": {
+    "brand": "VideoFix",
+    "theme": "videofix",
+    "headline": [
+      "HDR to SDR.",
+      "Ready to Share."
+    ],
+    "description": "Make a standard-color MP4 for sharing or editing. Convert HDR or Apple Log to SDR, change HEVC to H.264, and export several clips together.",
+    "promise": "Standard color. Compatible formats. Originals kept.",
+    "highlight": [
+      "🎬",
+      "3 free conversions",
+      "Choose a goal. Export a compatible copy."
+    ],
+    "download_note": "First 3 successful conversions free · Optional Pro purchases",
+    "screen_labels": [
+      "conversion goals for HDR, frame rate and audio",
+      "completed MP4 export with preview and sharing",
+      "source video inspection and conversion settings"
+    ],
+    "features_title": [
+      "The right copy",
+      "for your next step."
+    ],
+    "features_intro": "Keep filming the way you want. Prepare a separate copy for the place your video needs to go.",
+    "features": [
+      [
+        "☀️",
+        "Bring Log and HDR into SDR",
+        "Convert Apple ProRes Log or HDR footage to standard Rec.709 SDR color."
+      ],
+      [
+        "▶",
+        "Make an H.264 MP4",
+        "Convert HEVC video, including HEVC that is already SDR, into a widely supported sharing format."
+      ],
+      [
+        "▤",
+        "Handle more than one clip",
+        "Choose several videos, apply the same export settings and save the finished copies."
+      ]
+    ],
+    "workflow_title": "From source to shareable copy.",
+    "steps": [
+      [
+        "Choose your goal",
+        "Open Convert HDR to SDR, Change Frame Rate or Extract Audio, then select your videos."
+      ],
+      [
+        "Check the settings",
+        "Review the source and choose resolution, frame rate or an optional size limit for your destination."
+      ],
+      [
+        "Preview and save",
+        "Check the converted copy, then share it or save it to Photos. Keep the original for future edits."
+      ]
+    ],
+    "stories": [
+      {
+        "screen": 2,
+        "eyebrow": "Know what you are converting",
+        "title": [
+          "Check the source.",
+          "Choose the export."
+        ],
+        "body": "See the video’s format and color information before conversion. Choose output resolution, or switch to a steady 24, 25, 30 or 60 FPS for your editing workflow.",
+        "link": [
+          "/guides/hevc-to-mp4-iphone/",
+          "When HEVC needs an H.264 copy"
+        ]
+      },
+      {
+        "screen": 1,
+        "eyebrow": "Keep a separate copy",
+        "title": [
+          "Preview it.",
+          "Then pass it on."
+        ],
+        "body": "Play the result before sharing. Save it to Photos or send it to another app; the source file is not overwritten.",
+        "link": [
+          "/guides/batch-convert-hdr-videos-iphone/",
+          "Follow the batch conversion workflow"
+        ]
+      }
+    ],
+    "free_title": "Try three conversions",
+    "free_items": [
+      "3 successful conversions included",
+      "Try your own footage and destination",
+      "Failed or cancelled conversions do not use the allowance"
+    ],
+    "pro_title": "Keep converting",
+    "pro_items": [
+      "Unlimited conversions",
+      "One-time Lifetime access or Monthly Pro",
+      "Both plans unlock the same conversion features"
+    ],
+    "access_note": "Monthly Pro renews automatically until cancelled in your Apple Account. Lifetime is a one-time purchase. Apple shows the current local price before purchase; prices shown in example screens may differ by storefront.",
+    "faq": [
+      [
+        "Is Apple Log the same as HDR?",
+        "No. Log footage and HDR video are different sources. VideoFix can convert supported Apple ProRes Log footage or HDR video to standard Rec.709 SDR color. The comparison on this page is an Apple Log example."
+      ],
+      [
+        "Can I convert HEVC that is already SDR?",
+        "Yes. Choose Convert HDR to SDR for an H.264 MP4 compatibility copy, including when the HEVC source is already SDR."
+      ],
+      [
+        "Will the copy look exactly like my original?",
+        "Conversion re-encodes the video, and HDR-to-SDR changes the brightness and color range. Keep your original and check color, sound and playback in the intended destination."
+      ],
+      [
+        "Can it fix every editing or playback problem?",
+        "No. A compatible codec or constant frame rate can help an appropriate workflow, but it cannot repair every existing synchronization problem. Device and destination requirements still apply."
+      ],
+      [
+        "Can I save only the sound?",
+        "Yes. Extract Audio saves the supported first audio track as an AAC M4A file."
+      ],
+      [
+        "What is included after the free conversions?",
+        "After three successful free conversions, Lifetime or Monthly Pro unlocks unlimited conversions. Lifetime is one payment; Monthly renews until you cancel it. Restore purchases with the Apple Account used for the purchase."
+      ]
+    ],
+    "closing_title": [
+      "Your next clip.",
+      "Ready for its destination."
+    ],
+    "closing_body": "Try a conversion with your own video, then check the copy where you plan to use it.",
+    "meta_description": "Convert HDR and Apple ProRes Log to SDR on iPhone with VideoFix. Make H.264 MP4 copies, change frame rate and batch export. Three free conversions."
+  },
+  "6769563659": {
+    "brand": "Audio Compressor",
+    "theme": "audio",
+    "headline": [
+      "Trim. Split.",
+      "Convert Audio."
+    ],
+    "description": "Turn long recordings into useful clips, convert M4A to MP3, and make large audio files smaller. Keep your everyday audio tools in one place.",
+    "promise": "Keep the part you need. Save it in the format you want.",
+    "highlight": [
+      "🎧",
+      "Your audio toolkit",
+      "Trim, split, convert and compress on iPhone"
+    ],
+    "download_note": "One successful export included · Optional Pro purchases",
+    "screen_labels": [
+      "audio trimming with a waveform and time range",
+      "a recording split into six parts",
+      "M4A to MP3 format and quality settings"
+    ],
+    "features_title": [
+      "Long recording?",
+      "Make it useful."
+    ],
+    "features_intro": "Work with voice memos, lectures, interviews and music clips without turning each job into a separate app hunt.",
+    "features": [
+      [
+        "✂️",
+        "Keep the useful part",
+        "Trim the beginning and end, preview the range and export the section you need."
+      ],
+      [
+        "▥",
+        "Break up a long recording",
+        "Split audio into smaller parts, then use the individual clips for sharing or listening."
+      ],
+      [
+        "♫",
+        "Choose a usable format",
+        "Convert formats such as M4A to MP3 and choose the quality that fits your file-size needs."
+      ]
+    ],
+    "workflow_title": "Choose a tool. Finish the file.",
+    "steps": [
+      [
+        "Pick the job",
+        "Choose Trim, Auto Split, Convert or Compress, then import your audio from Files."
+      ],
+      [
+        "Set the result",
+        "Choose the time range, number of parts, output format or quality. Preview what the tool offers before exporting."
+      ],
+      [
+        "Save and listen",
+        "Export the file, save or share it, and play it back to check the section, format and sound."
+      ]
+    ],
+    "stories": [
+      {
+        "screen": "detail",
+        "eyebrow": "Smaller files for sharing",
+        "title": [
+          "Make the recording",
+          "take up less room."
+        ],
+        "body": "Compress MP3, M4A, WAV, AAC and other supported files. Choose the size-quality tradeoff for your recording, then compare the result before sharing it.",
+        "link": [
+          "/compress-audio-file-iphone/",
+          "How to compress audio on iPhone"
+        ]
+      },
+      {
+        "screen": 1,
+        "eyebrow": "A long recording, in parts",
+        "title": [
+          "Split the session.",
+          "Keep the useful clips."
+        ],
+        "body": "Use Auto Split to turn a long recording into separate parts. Review the segment lengths before export and check the saved clips afterwards.",
+        "link": [
+          "/iphone-video-tutorials/14-how-to-split-an-audio-file-on-iphone/",
+          "Watch the audio splitting walkthrough"
+        ]
+      }
+    ],
+    "free_title": "Try an export",
+    "free_items": [
+      "One successful export included",
+      "Recording and playback remain free",
+      "Failed or cancelled exports do not use the allowance"
+    ],
+    "pro_title": "Unlock the export tools",
+    "pro_items": [
+      "Further exports and Pro tools",
+      "One-time Lifetime unlock or Monthly Pro",
+      "Compression, conversion, trimming and more in one toolkit"
+    ],
+    "access_note": "Monthly Pro renews automatically until cancelled in your Apple Account. Lifetime is a one-time purchase. Check the current local price in the app before purchase. Restore Purchases restores eligible Pro access.",
+    "faq": [
+      [
+        "Can I convert an iPhone M4A recording to MP3?",
+        "Yes. Import the recording into Convert, choose MP3 and select the quality before exporting. Listen to the saved file and check that your destination accepts it."
+      ],
+      [
+        "Does a smaller file always sound the same?",
+        "No. Lower-bitrate or lossy exports can reduce sound quality. Keep the original, choose settings for your use and listen to the result before sending it."
+      ],
+      [
+        "Is this audio compression the same as making quiet voices louder?",
+        "No. File compression reduces encoded file size. It is different from dynamic-range compression or repairing the volume of a recording."
+      ],
+      [
+        "Can I save the audio from a video?",
+        "Yes. The app includes a video-to-audio extraction tool. Select your video, extract its audio, then save and listen to the result."
+      ],
+      [
+        "Can I use it for music practice?",
+        "Pitch, tempo and metronome tools are available alongside the file tools. Choose the tool for the practice task you want to do."
+      ],
+      [
+        "What is free and what needs Pro?",
+        "One successful export is included, while recording and playback remain free. Further exports and Pro tools require an eligible Lifetime purchase or active Monthly subscription. Failed or cancelled exports do not consume the included export."
+      ]
+    ],
+    "closing_title": [
+      "Keep the right clip.",
+      "Send the right file."
+    ],
+    "closing_body": "Start with the audio job in front of you: trim, split, convert or compress.",
+    "meta_description": "Trim recordings, split long audio, convert M4A to MP3 and compress audio on iPhone. Explore Audio Compressor MP3 Converter, with one successful export included."
+  },
+  "6810266264": {
+    "brand": "Combine Photos",
+    "theme": "collage",
+    "headline": [
+      "Your Photos.",
+      "One Image."
+    ],
+    "description": "Join screenshots, put photos side by side, or make a grid. Choose 2–30 images, pick one of 11 layouts, and save the result as a JPEG or PNG.",
+    "promise": "Pick your photos. Choose a layout. Make it yours.",
+    "highlight": [
+      "🖼️",
+      "11 layouts",
+      "Long photos, side by side and photo grids"
+    ],
+    "download_note": "One free export · Every layout available",
+    "screen_labels": [
+      "three travel photos arranged in one image",
+      "the eleven photo layout choices",
+      "a finished photo collage ready to save or share"
+    ],
+    "features_title": [
+      "The pictures you want.",
+      "The layout that fits."
+    ],
+    "features_intro": "Bring several images together for the way you want to show them.",
+    "features": [
+      [
+        "▤",
+        "Make one long image",
+        "Place photos or screenshots in a vertical layout to share them as a single file."
+      ],
+      [
+        "▦",
+        "Choose a grid or a pair",
+        "Use side-by-side, grid and larger-photo arrangements across 11 layouts."
+      ],
+      [
+        "↔",
+        "Adjust the composition",
+        "Move and zoom each photo, then choose your output size and JPEG or PNG format."
+      ]
+    ],
+    "workflow_title": "From a few photos to one image.",
+    "steps": [
+      [
+        "Choose 2–30 images",
+        "Select the photos or screenshots you want to combine."
+      ],
+      [
+        "Arrange the layout",
+        "Choose a layout, adjust spacing and move or zoom each photo to fit."
+      ],
+      [
+        "Save the finished image",
+        "Export a JPEG or PNG up to 3000 pixels wide, then save to Photos or share it."
+      ]
+    ],
+    "stories": [
+      {
+        "screen": 1,
+        "eyebrow": "A layout for the way you share",
+        "title": [
+          "Side by side.",
+          "Or one long photo."
+        ],
+        "body": "Show a pair together, combine a sequence of screenshots or give one photo more room in a grid. Switch layouts before you export.",
+        "link": [
+          "/guides/combine-photos-iphone/",
+          "Follow the photo-combining walkthrough"
+        ]
+      },
+      {
+        "screen": 2,
+        "eyebrow": "A finished file, ready to use",
+        "title": [
+          "Save it.",
+          "Share the whole picture."
+        ],
+        "body": "Create one JPEG or PNG, save it to Photos or share it with another app. You can also find the finished image in Files.",
+        "link": [
+          "/combine-photos/",
+          "Need a browser tool? Combine photos online"
+        ]
+      }
+    ],
+    "free_title": "Make your first image",
+    "free_items": [
+      "One free export included",
+      "Every layout available",
+      "JPEG or PNG output without a watermark"
+    ],
+    "pro_title": "Keep combining",
+    "pro_items": [
+      "Unlimited collage exports",
+      "One-time Lifetime access or Monthly Pro",
+      "The same 11 layouts for your next set of images"
+    ],
+    "access_note": "Monthly Pro renews until cancelled in your Apple Account. Lifetime is a one-time purchase. Apple shows the current local offer before purchase; use Restore Purchases for eligible access.",
+    "faq": [
+      [
+        "How many photos can I combine?",
+        "Select 2–30 photos or screenshots, then choose one of the 11 layouts."
+      ],
+      [
+        "Can I put two photos side by side?",
+        "Yes. Choose the side-by-side layout after selecting your images, then adjust each photo before exporting."
+      ],
+      [
+        "Can I make a long image from screenshots?",
+        "Yes. Choose the long-photo layout to place your selected screenshots vertically. Review the joins and framing before export."
+      ],
+      [
+        "What file can I save?",
+        "Export one JPEG or PNG image up to 3000 pixels wide. Save it to Photos, share it with another app, or find the finished image in Files."
+      ],
+      [
+        "Does it add a watermark?",
+        "The current app listing specifies no watermarks. One free export is included and every layout is available; Pro unlocks unlimited exports."
+      ],
+      [
+        "What is the difference between Lifetime and Monthly?",
+        "Lifetime is a one-time purchase for Pro access. Monthly is an auto-renewing subscription that continues until cancelled in your Apple Account. Check the local offer before purchasing."
+      ]
+    ],
+    "closing_title": [
+      "A few photos.",
+      "One image to share."
+    ],
+    "closing_body": "Start with your pictures and choose the layout that tells the story.",
+    "meta_description": "Combine 2–30 photos or screenshots on iPhone. Choose 11 layouts, stitch long photos or make a grid, then save JPEG or PNG with Combine Photos: Stitch & Grid."
+  }
+}
