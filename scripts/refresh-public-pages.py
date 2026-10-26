@@ -25,6 +25,19 @@ def set_description(s,text):
   el=s.find('meta',attrs={'property':key}) or s.find('meta',attrs={'name':key})
   if el:el['content']=text
 changed=[]
+def normalize_audio_mac_disclosure(s):
+ section=s.select_one('#mac-platform-disclosure')
+ if not section:return
+ for para in section.select('p'):
+  text=para.get_text(' ',strip=True)
+  if text.startswith('Audio Compressor is provided by Space Sheep Studio.'):
+   para.string='Audio Compressor is provided by Space Sheep Studio and is available for iOS and native macOS through the same App Store listing. Audio and video processing happens locally; selected media and recordings are not uploaded to a developer server or a third-party AI service.'
+  elif text.startswith('The iOS and native macOS versions are being consolidated'):
+   para.string='The iOS and native macOS versions share one universal-purchase app record. The same approved Lifetime purchase or active Monthly subscription provides the corresponding Pro access on both platforms through the same Apple Account; use Restore Purchases when needed. Lifetime is a one-time purchase. Monthly renews automatically until cancelled in Apple Account settings. Apple processes payments. Local files and preferences do not transfer through Restore Purchases.'
+  elif text.startswith('Updated October 15, 2026.'):
+   for node in para.find_all(string=True):
+    if 'Updated October 15, 2026.' in node:node.replace_with(str(node).replace('Updated October 15, 2026.','Updated October 26, 2026.'))
+
 for p in ROOT.rglob('*.html'):
  rel=p.relative_to(ROOT)
  if any(x.startswith('.') or x in ['scripts','vendor','node_modules'] for x in rel.parts):continue
@@ -91,6 +104,7 @@ for p in ROOT.rglob('*.html'):
     para.clear();para.append('The current published App is '+app['name']+'. ');link=s.new_tag('a',href=app['store_url']);link.string='View the current App Store listing';para.append(link)
    if rel.parts[2]=='support' and text.startswith(('Compress, convert, split, trim, merge','Compress, sign, merge, convert JPG','Use your screen as a glow light')):para.string=app['benefit']+'. See the current product page for published features and access options.'
    if 'provided by Space Sheep Studio for iPhone, iPad and Mac.' in text:para.string=text.replace('provided by Space Sheep Studio for iPhone, iPad and Mac.','provided by Space Sheep Studio. A separate native Mac App Store listing has not been verified; Mac-build details below are retained for support.')
+  if rel.parts[1]=='audio-compressor':normalize_audio_mac_disclosure(s)
   if rel.parts[1]=='photofix':
    for node in s.select('.pill'):
     if 'help' in node.get_text():node.string='PhotoFix '+app['version']+' support'
