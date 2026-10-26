@@ -1,0 +1,151 @@
+{
+  "commit": "0aa609676767aaa0929864dbeebd14d8af84c246",
+  "date": "2026-10-26",
+  "pages_build": "built",
+  "result": "PASS",
+  "browser_legacy_navigation": {
+    "input": "https://justcompress.online/apps/brew-day/?from=old-link#app-screens",
+    "observed": "https://justcompress.online/apps/sober-wins/?from=old-link#app-screens",
+    "canonical": "https://justcompress.online/apps/sober-wins/",
+    "hero_screen_count": 3
+  },
+  "checks": [
+    {
+      "url": "https://justcompress.online/apps/sober-wins/guides/breathing-pause/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "55ddfc16cd11ee479b4ed214b9d7863d1f509dc40aa66d9cddc87b18685fea65"
+    },
+    {
+      "url": "https://justcompress.online/apps/sober-wins/guides/daily-rewards-and-collection/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "3ef4f25edf95294678c3ca360c9c8be0646fa564c4eb5f7bd1653f0cb4b5f4f6"
+    },
+    {
+      "url": "https://justcompress.online/apps/sober-wins/guides/track-alcohol-free-days/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "05111fbec6db4a3cc2aeb5b2bff0b6abacac27c4a547082d93cbf83202c11857"
+    },
+    {
+      "url": "https://justcompress.online/apps/sober-wins/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "e7eb937b0c29fd62adf51c460dcf9db33729f54f21b79c157105fe256a773d3e"
+    },
+    {
+      "url": "https://justcompress.online/apps/sober-wins/privacy/",
+      "result": "PASS",
+      "verification": "heading and canonical identity; Cloudflare email obfuscation",
+      "sha256": "1249b9c5437e6bdd9519780cc28bd5f8ac23683ae977feb2516f86c743637a0f"
+    },
+    {
+      "url": "https://justcompress.online/apps/sober-wins/support/",
+      "result": "PASS",
+      "verification": "heading and canonical identity; Cloudflare email obfuscation",
+      "sha256": "6b5addde93a192581ce034acfae4cd2ccbbfb4ccd32bb87a318832ac8914c93d"
+    },
+    {
+      "url": "https://justcompress.online/apps/sober-wins/terms/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "6ab4ae056f5fa327cc60d100a9c223992a1f90738800f0b9d4f67b695f25aff7"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/guides/breathing-pause/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/guides/breathing-pause/"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/guides/daily-rewards-and-collection/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/guides/daily-rewards-and-collection/"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/guides/track-alcohol-free-days/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/guides/track-alcohol-free-days/"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/privacy/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/privacy/"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/support/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/support/"
+    },
+    {
+      "url": "https://justcompress.online/apps/brew-day/terms/",
+      "result": "PASS",
+      "redirect_to": "/apps/sober-wins/terms/"
+    },
+    {
+      "url": "https://justcompress.online/assets/product-story.css",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "7a4ea8a4e5467069f358edb35d95d2c1108a88d7c511659f3b408b41f8d769c3"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/download-on-the-app-store.svg",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/screen-home.png",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "7b34a2b5b255cb4e8efe59e303786999b4485b9dd61d74508fa548cc09b1cc5e"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/screen-collection.png",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "3ea4b4f431c42a43c41c16067c54b17d92238311d825eb80c803672ea15c52d6"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/screen-fridge.png",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "5e81eccb6348d411440deefce15ab3d06ee19ea3ea7bdfef3b92c30e4cfd1ef1"
+    },
+    {
+      "url": "https://justcompress.online/assets/sober-wins/sources.json",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "8fa2163a80b7e8b626f57f7cad55ebc20b3de8c11c1bdec4f682ff4713c7c822"
+    },
+    {
+      "url": "https://justcompress.online/sitemap.xml",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "6cad9f6ab131989dcc33a6998e673258085af5583bac30bbe20b74e7dde08f63"
+    },
+    {
+      "url": "https://justcompress.online/apps/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "43e01d41d08e8c6a18a76cfe6050f7c73a7f6de06bc011fac941954b90c6c337"
+    },
+    {
+      "url": "https://justcompress.online/support/",
+      "result": "PASS",
+      "verification": "heading and canonical identity; Cloudflare email obfuscation",
+      "sha256": "bdcc0998c4384e5955924165084c3d4ff7eed6d8a090dad8221455c9743f3441"
+    },
+    {
+      "url": "https://justcompress.online/legal/",
+      "result": "PASS",
+      "verification": "byte identity",
+      "sha256": "fb59c2e28b04f698895d1860e6c0cd84b5d3bb8ae24cb7ffc58e5f2863714cca"
+    }
+  ]
+}

@@ -49,4 +49,4 @@ PASS: an actual browser navigation to the old product route with `?from=old-link
 
 PASS: existing public-surface, SEO-content and consent tests. Public-surface checks now verify that compatibility pages have valid final destinations, no redirect chains and no sitemap entries. The full portfolio builder preserves the new story and all seven aliases. Public pages were scanned for the prohibited personal name.
 
-Production receipt for this correction is recorded after deployment. Earlier receipts above describe the superseded first sample.
+PASS: correction commit `0aa609676767aaa0929864dbeebd14d8af84c246` was built by GitHub Pages at 2026-10-26 15:01:38 UTC (16:01:38 Paris). Public readback verified all seven new routes, seven compatibility redirects, three raw screen assets, the official badge, CSS, provenance, sitemap and navigation indexes. The live browser loaded the three-screen hero and verified the old URL preserves query/fragment. Receipt: `docs/sober-route-migration-2026-10-26-readback.json`. Screenshot: `/Users/jiali/Documents/apps/output/sober-site-2026-10-26/revision-trio/live-desktop.png`. Earlier receipts above describe the superseded first sample.
