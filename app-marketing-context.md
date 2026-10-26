@@ -32,6 +32,10 @@ Screens are actual source captures used in published store artwork. WebP copies 
 
 ## Markets, resources and limits
 
-This pass writes English pages and preserves existing localized product routes and language alternatives. US App Store metadata was checked October 26. No keyword or competitor research was needed for these existing product-page upgrades. The visual reference is sober-tracker.com, not a competitor claim for these three categories.
+This pass writes English pages and preserves existing localized product routes and language alternatives. US App Store metadata was checked October 26. The follow-up content audit compared the full sober-tracker.com homepage with these pages. It informed galleries, task examples, web tryouts and FAQ coverage; no keyword-volume or ranking research was performed. The visual reference is sober-tracker.com, not a competitor claim for these three categories.
 
 No ad spend, new subscription, account connection or automation is part of this task. Existing consent-gated analytics are preserved. Maintain the copy in `scripts/product-stories.json`, published snapshots in `scripts/app-portfolio.json`, and evidence in each product asset directory.
+
+## Full-page content expansion
+
+The three leading Apps and Sober Wins now include app-specific galleries, a local browser tryout, three practical use cases, a workflow-choice table, studio/source context, sixteen FAQ answers and six guide cards each. Five new task guides cover photo screenshot composition, JPEG/PNG choice, Sober Wins history, poster sharing and daily routine. Product copy lives in product-depth.json; the five guides live in product-depth-guides.json. The website tools are separate from app transactions and stored app records. No invented ratings, user testimonials or founder biography were added.

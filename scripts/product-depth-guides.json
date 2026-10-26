@@ -1,0 +1,71 @@
+{
+  "collage-maker": [
+    {
+      "slug": "combine-screenshots",
+      "title": "How to combine screenshots into one image on iPhone",
+      "summary": "Choose a reading order, use a long-photo layout and check the finished screenshot image before sharing.",
+      "screen": 0,
+      "sections": [
+        ["Choose the sequence before the layout", "Select only the screenshots needed to tell the story. Put them in the order a reader should follow, and check for repeated headers or overlapping sections. Combining images is different from automatically reconstructing a scrolling screen. Keep the source screenshots until you have checked the finished file."],
+        ["Arrange the images in Combine Photos", "Select two to thirty images in the iPhone app. Choose the long-photo layout for a vertical reading sequence, then review the order and spacing. Use the framing controls to keep the relevant content visible. The app offers eleven layouts if a pair or grid is a better fit for your images."],
+        ["Check text at the saved size", "Export JPEG or PNG at an appropriate output width, up to 3000 pixels. Open the saved image and zoom in on the smallest text. Fitting many screenshots into one output can make each section smaller. If it is difficult to read, use fewer screenshots in each composition rather than assuming a larger collection is more useful."],
+        ["Check the copy that reaches the reader", "Save to Photos or share the finished image. A messaging destination may resize it, so inspect the received copy as well as the file you saved. Use a file-sharing method that preserves the detail your reader needs. Review names, messages and other personal information before sharing the image."],
+        ["Try the separate browser version", "The browser tool offers three basic layouts for up to twelve JPG, PNG or WebP files, with output limited to 4096 pixels on its longest side. It fits images inside square cells without cropping and does not remove repeated overlap. Its limits and behavior differ from the iPhone app."]
+      ]
+    },
+    {
+      "slug": "jpeg-or-png",
+      "title": "JPEG or PNG for your combined photos?",
+      "summary": "Compare photographic detail, text edges and file size in the image you actually save.",
+      "screen": 2,
+      "sections": [
+        ["Start with the pictures in your composition", "A set of photographs and a sequence of text-heavy screenshots can need different export choices. There is no format that is always the best for every composition. Decide where the image will be used and what must stay readable before saving."],
+        ["Consider JPEG for photographs", "JPEG can be a practical sharing format for photographic images. Check faces, fine detail and the size of the saved file. Compression may change detail or introduce visible artifacts, so keep the original photos for future edits instead of treating the collage as a replacement for them."],
+        ["Consider PNG for text and graphics", "PNG avoids the lossy JPEG compression that can affect crisp text and graphic edges. That does not guarantee a small file, nor does it add detail to an already low-resolution screenshot. Inspect text at the final output size and check the file size if you plan to send it as an attachment."],
+        ["Choose the output in Combine Photos", "Arrange two to thirty images using one of eleven layouts, then choose JPEG or PNG for the export. The app supports output up to 3000 pixels wide. Before saving, check framing, image order and spacing. One free export is included; further exports require eligible Pro access."],
+        ["Verify the destination too", "Open the saved image before sending it. Then check the copy received by the destination, because a messaging or publishing service can resize or recompress an uploaded image. If text has become too small, simplify the composition or choose a file delivery method suited to the detail you need."]
+      ]
+    }
+  ],
+  "sober-wins": [
+    {
+      "slug": "review-your-history",
+      "title": "How to review your daily history in Sober Wins",
+      "summary": "Look beyond a single counter and distinguish recorded, missing and incorrect daily entries.",
+      "screen": "track",
+      "sections": [
+        ["A counter is one view of the record", "Your current alcohol-free period does not describe every earlier day. Daily history adds context by keeping the entries you have recorded. Use it to understand the actual log rather than treating one number as a complete account of your routine."],
+        ["Record the day you actually had", "On the home screen, choose No alcohol or Had a drink. A missing entry is not the same thing as a confirmed alcohol-free day. Keep collection rewards separate from the answer you choose; an accurate record is more useful than an entry made to protect a counter."],
+        ["Open History and review the entries", "Use the History control near the app title to revisit your days and earlier alcohol-free periods. If an entry is wrong, use the available correction controls in History. Review the result after making a correction. Button wording may vary with the selected app language."],
+        ["Keep Health trends in context", "Connecting Apple HealthKit for sleep and resting-heart-rate trends is optional. You can keep a daily log without granting that access. A trend is not proof that one behavior caused a change, and the app does not turn those observations into medical advice."],
+        ["Keep local records and purchases separate", "Daily records and cabinet arrangements are stored on your iPhone without developer cloud sync. Device backups depend on your Apple settings. Restore Purchases restores eligible paid access, not deleted history. Keep any important exports before removing the app or changing devices."]
+      ]
+    },
+    {
+      "slug": "share-a-little-win",
+      "title": "How to share a little win from Sober Wins",
+      "summary": "Choose a moment, review the poster and decide what you want to share.",
+      "screen": "cabinet",
+      "sections": [
+        ["Sharing is your choice", "A daily record can be useful without being public. If you want to mark a moment, Sober Wins includes basic poster sharing. You can also keep the image for yourself. There is no need to share a day, a collection or a number to make the record count."],
+        ["Start with the record and collection you have", "Review your daily log and the virtual items you have collected. Choose what you want to show using the app’s poster controls. The illustrated beer collectibles are virtual items, have no cash value and cannot be redeemed for alcohol. Consider whether that visual theme is appropriate for the audience you want to share with."],
+        ["Review the finished poster before sending", "Inspect the text, images and any information that identifies your routine. Confirm that the poster says what you intend it to say. Use the preview to check the image before choosing a destination, then inspect the saved or sent copy afterwards."],
+        ["Know what is included", "Basic tracking, history, collectibles, the mini fridge and basic poster sharing are free. Pro adds premium nine-position cabinets, poster export and a four-times daily collection boost. Check the current local offer in the app before purchasing. The exact sharing controls can vary with the selected language."],
+        ["A poster is a moment, not a full record", "A shared image does not contain the context of every daily entry, and it is not proof of recovery or a medical assessment. Keep the daily record useful for you, whether or not you decide to show a particular moment to someone else."]
+      ]
+    },
+    {
+      "slug": "choose-your-routine",
+      "title": "Choose a daily tracking routine in Sober Wins",
+      "summary": "Decide how daily logging, virtual collectibles and optional pauses fit into your day.",
+      "screen": "rewards",
+      "sections": [
+        ["Start with the smallest useful action", "Open the app and log what happened today. The home screen offers No alcohol and Had a drink. You do not need a long written entry or a finished collection to keep a useful record. Pick a moment you can return to, then review whether that routine is working for you."],
+        ["Make the collection optional", "Daily logs contribute progress toward illustrated virtual collectibles. You can review your finds and arrange the mini fridge when you want that visual part of the routine. You can also focus on the tracker. The beer-item theme may not suit everyone choosing an alcohol-free tracking app, so inspect the actual screens first."],
+        ["Use history to keep context", "Look back at your recorded days rather than judging everything by the current counter. A missed entry and an incorrect entry require different attention. Use the available History controls to review and correct the record where appropriate."],
+        ["Add a pause when you want one", "The Panic button opens in-app activities, including breathing. The optional camera mirror is not required to use the breathing exercise. The button does not contact emergency services, and a pause does not replace professional treatment or support."],
+        ["Choose access after the routine makes sense", "Basic tracking, history, collectibles and the mini fridge are free. If the additional cabinet, poster-export and collection-boost features are useful to you, inspect the Pro offer in the app. Lifetime is a one-time purchase; existing active Monthly subscriptions remain Pro while valid. Buying Lifetime does not cancel an existing subscription."]
+      ]
+    }
+  ]
+}

@@ -121,6 +121,46 @@
       [
         "What is included after the free conversions?",
         "After three successful free conversions, Lifetime or Monthly Pro unlocks unlimited conversions. Lifetime is one payment; Monthly renews until you cancel it. Restore purchases with the Apple Account used for the purchase."
+      ],
+      [
+        "Why does my video look washed out after sharing?",
+        "A destination may interpret HDR or Log differently from the app where you filmed it. First check the source color information and compare playback in the intended destination. If that workflow needs standard SDR, make a Rec.709 copy; changing the filename to MP4 alone does not perform color conversion."
+      ],
+      [
+        "Is MP4 the same thing as H.264?",
+        "No. MP4 is a container, while H.264 and HEVC are video codecs. A video can already be an MP4 and still use a codec your destination does not accept. Choose the output codec and color handling for the destination rather than relying on the file extension."
+      ],
+      [
+        "Do I need to convert every iPhone video?",
+        "No. If the destination already accepts the source and it looks correct, keep using it. A separate conversion is useful when you need standard SDR color, H.264 compatibility, a selected frame rate or a different output resolution."
+      ],
+      [
+        "Can I change the frame rate for an editing project?",
+        "Yes. The frame-rate tool offers steady 24, 25, 30 and 60 FPS choices. Match the requirement of your project, then check movement and sound in the exported clip. A different frame rate cannot recover motion that was never captured."
+      ],
+      [
+        "Can I process a folder of clips in one go?",
+        "You can select several videos and apply a shared conversion goal. Review each finished copy because source clips can differ in color, resolution and frame rate. Keep enough free storage for both your originals and the outputs."
+      ],
+      [
+        "Will conversion make every video smaller?",
+        "No. Output size depends on duration, resolution, frame rate and encoding settings. H.264 can be larger than an efficient HEVC source. Use the optional size limit when appropriate and inspect the actual output size and quality afterwards."
+      ],
+      [
+        "Will my original footage be overwritten?",
+        "The workflow creates a separate converted copy. Keep your original until you have checked the export and any backups you need. Deleting source footage is a separate decision; a successful conversion is not a backup."
+      ],
+      [
+        "What should I check before sending the result?",
+        "Open the saved file, play the beginning and end, listen to the sound and inspect color in the app or device that will receive it. Check orientation, duration and file size as well as whether the video opens."
+      ],
+      [
+        "Should I use SDR for a project that needs HDR?",
+        "Keep the HDR source for an HDR delivery workflow. SDR conversion makes a different version for a standard-color destination; it is not an upgrade to the original. Check the delivery specification before choosing the output."
+      ],
+      [
+        "Where can I get help with a particular clip?",
+        "Use the VideoFix support page and describe the source format, intended output and where playback fails. Include the app and iOS versions and the steps you tried. You do not need to send private footage just to describe the issue."
       ]
     ],
     "closing_title": [
@@ -252,6 +292,46 @@
       [
         "What is free and what needs Pro?",
         "One successful export is included, while recording and playback remain free. Further exports and Pro tools require an eligible Lifetime purchase or active Monthly subscription. Failed or cancelled exports do not consume the included export."
+      ],
+      [
+        "How do I bring a Voice Memo into the app?",
+        "In Voice Memos, share the recording and save a copy to Files. Open the appropriate tool in Audio Compressor and choose that file. Keep the source recording while you check your exported clip."
+      ],
+      [
+        "Should I trim before compressing?",
+        "If you only need part of the recording, trim first so the export contains the useful section. Reducing duration can reduce file size without lowering the encoding quality of the kept section. Listen at both cut points before sharing."
+      ],
+      [
+        "How large will an MP3 export be?",
+        "For a constant bitrate, approximate size in decimal MB is duration in seconds multiplied by bitrate in kilobits per second, divided by 8,000. The calculator on this page estimates the audio payload. Metadata, encoder behavior and variable bitrate can change the final file."
+      ],
+      [
+        "Which bitrate should I choose?",
+        "Choose a setting you can actually listen to before committing. Speech and music have different needs, and a lower bitrate may lose detail. A higher export bitrate cannot recover detail missing from a low-quality source."
+      ],
+      [
+        "Can I make a recording fit an email attachment limit?",
+        "Use the calculator to estimate a target bitrate, then try compression or split the recording into parts. Check the final exported size and the attachment limit of your email service. Estimates do not guarantee a file will be accepted."
+      ],
+      [
+        "Does splitting automatically transcribe or find topics?",
+        "The split workflow divides a recording into parts. It is not a transcript or a promise that every boundary matches a speaker, sentence or topic. Review the segment lengths and listen to the clips before sending them."
+      ],
+      [
+        "Does converting to MP3 improve the original sound?",
+        "No. MP3 is a lossy format. Converting can make a file convenient for a destination, but cannot restore missing detail or remove all noise. Keep the original for future editing."
+      ],
+      [
+        "Should I keep WAV or export a smaller format?",
+        "Keep a WAV source when you need it for later editing or delivery. A compressed copy may be more convenient for listening and sharing. Follow the format requirement of the person or app receiving the file."
+      ],
+      [
+        "What should I check after an export?",
+        "Play the saved output, check its duration and file size, and listen around trim or split boundaries. Open it in the intended destination too. Successful export and successful delivery are separate checks."
+      ],
+      [
+        "Does the web calculator process my recording?",
+        "No. It only calculates from the duration, bitrate and target size you enter. It does not load, analyze, upload or convert an audio file. Use the iPhone app for the actual audio workflow."
       ]
     ],
     "closing_title": [
@@ -383,6 +463,46 @@
       [
         "What is the difference between Lifetime and Monthly?",
         "Lifetime is a one-time purchase for Pro access. Monthly is an auto-renewing subscription that continues until cancelled in your Apple Account. Check the local offer before purchasing."
+      ],
+      [
+        "Which layout should I choose for screenshots?",
+        "Use a long-photo layout for an ordered sequence that should be read from top to bottom. Check that small text remains readable in the final image. Review joins yourself; placing screenshots together does not necessarily remove repeated overlap."
+      ],
+      [
+        "Which layout works best for a before-and-after pair?",
+        "Side by side gives two images a clear comparison. Choose images that can be framed consistently, then check the crop and order before exporting. A grid is useful when you have more images to show together."
+      ],
+      [
+        "Can I change which part of a photo appears?",
+        "Yes. Move and zoom each photo inside its layout before export. Inspect faces, text and edges so important content stays visible. The exported file reflects the composition you chose."
+      ],
+      [
+        "Will a grid keep every photo at its original size?",
+        "The images are fitted into a combined composition. The output width and layout affect how many pixels each photo receives, so a large grid can make small details harder to read. Keep the originals if you need separate full-resolution files."
+      ],
+      [
+        "Should I save JPEG or PNG?",
+        "JPEG is often practical for photographic images; PNG is useful when you want to avoid JPEG compression around text or graphic edges. Compare the result and file size for your own images rather than assuming one format is always best."
+      ],
+      [
+        "Can I use the app for a trip or a product comparison?",
+        "Yes. Select the relevant images, choose a pair or grid and arrange the framing. For a trip, one larger photo can anchor the composition. For a comparison, keep similar subjects and scale together so the result is easy to read."
+      ],
+      [
+        "Does it automatically remove overlapping screenshot content?",
+        "The long-photo workflow places selected images into a composition. Do not assume automatic overlap removal. Check repeated headers, gaps and the order of screenshots before saving."
+      ],
+      [
+        "How is the browser tool different from the iPhone app?",
+        "The separate browser tool on this page offers three basic layouts for up to twelve JPG, PNG or WebP files. The iPhone app offers eleven layouts, two to thirty images and its own export allowance. The web tool does not unlock or synchronize app purchases."
+      ],
+      [
+        "Why might the combined image be hard to read in a message?",
+        "Messaging apps may resize or recompress large images. Inspect the saved file first, then check the received copy. For detailed screenshots, consider fewer images per composition or sharing the file through a destination that preserves the required detail."
+      ],
+      [
+        "Can I try a layout before using my own photos?",
+        "Yes. Load the example illustrations in the browser tool on this page, change the layout and spacing, then export a sample. These are demonstration illustrations, separate from the real app screenshots shown above."
       ]
     ],
     "closing_title": [

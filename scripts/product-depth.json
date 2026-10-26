@@ -1,0 +1,395 @@
+{
+  "videofix": {
+    "gallery_title": "Follow a clip through VideoFix.",
+    "gallery_intro": "Start with a conversion goal, inspect the source and finish with a separate MP4. Open any screen for a closer look.",
+    "gallery": [
+      [
+        0,
+        "01 · Choose a goal",
+        "Start with the job: color conversion, a different frame rate or audio extraction."
+      ],
+      [
+        2,
+        "02 · Review the source",
+        "Inspect the video information and choose the output settings for your destination."
+      ],
+      [
+        1,
+        "03 · Preview and share",
+        "Play the converted copy, then share it or save it to Photos."
+      ]
+    ],
+    "scenes_title": "A copy for the place it is going.",
+    "scenes": [
+      [
+        "Sharing a clip",
+        "Your video looks right in Photos, but a recipient sees flat or unusual color. Check whether the source is HDR or Log and whether the destination expects SDR. Create a standard-color copy when that is the requirement, then check the received version. Keep the original for a future HDR edit.",
+        "/guides/hdr-to-sdr-iphone/",
+        "Prepare an SDR copy"
+      ],
+      [
+        "Handing footage to an editor",
+        "Ask for the required codec, resolution and frame rate before converting. If H.264 MP4 is requested, an HEVC source can need a compatibility copy even when its color is already SDR. Export a short sample first and confirm it works in the actual editing project.",
+        "/guides/hevc-to-mp4-iphone/",
+        "Understand the format choice"
+      ],
+      [
+        "Preparing several clips",
+        "Select a batch when several videos need the same output goal. Mixed footage can still contain different colors, frame rates and dimensions. Check each result instead of assuming one successful clip proves the entire batch. Allow storage for the originals and the new copies.",
+        "/guides/batch-convert-hdr-videos-iphone/",
+        "Plan a batch export"
+      ]
+    ],
+    "choice_title": "Do you need a conversion?",
+    "choice_intro": "Choose the smallest change that satisfies the delivery requirement. Keeping a working source is a valid choice.",
+    "choices": [
+      [
+        "The source already plays correctly",
+        "Keep the original",
+        "No extra conversion is needed just because the file came from an iPhone."
+      ],
+      [
+        "Standard SDR color is required",
+        "Create a Rec.709 SDR copy",
+        "Use color conversion for supported HDR or Apple Log sources, then inspect the output."
+      ],
+      [
+        "H.264 is requested",
+        "Make an H.264 MP4",
+        "A codec change can matter even if the source is already SDR or already has an .mp4 extension."
+      ],
+      [
+        "The project needs a steady frame rate",
+        "Use Change Frame Rate",
+        "Choose the project requirement and check motion and sound after export."
+      ]
+    ],
+    "studio_title": "Tools for the handoff after filming.",
+    "studio_body": "VideoFix is made by Space Sheep Studio for the handoff after filming. You may want to keep your HDR or Log original while sending a standard-color copy, or give an editor the format their project requires. Source information, export choices and a preview of the finished file help you make that separate copy with a clear purpose.",
+    "tool": "video",
+    "tool_title": "Find a sensible export starting point.",
+    "tool_intro": "Pick a source and a destination requirement. This guide recommends a workflow; it does not inspect or convert a video.",
+    "tool_link": [
+      "/hdr-video-checker/",
+      "Need to inspect a file? Open the separate video checker"
+    ],
+    "topics": [
+      [
+        "/guides/apple-log-to-rec709-iphone/",
+        "Apple Log to Rec.709",
+        "When a Log source needs a standard-color delivery copy."
+      ],
+      [
+        "/guides/change-video-frame-rate-iphone/",
+        "Choose a frame rate",
+        "Match a steady frame rate to the editing requirement."
+      ],
+      [
+        "/guides/hdr-vs-hevc-vs-mp4/",
+        "Color, codec and container",
+        "Understand what HDR, HEVC and MP4 actually describe."
+      ]
+    ]
+  },
+  "audio-compressor": {
+    "gallery_title": "See the tools before you import.",
+    "gallery_intro": "A time range, a set of parts, a format choice and a smaller-file export. These are real app interfaces with example recordings.",
+    "gallery": [
+      [
+        0,
+        "Trim a useful section",
+        "Set the beginning and end, then preview the range you want to keep."
+      ],
+      [
+        1,
+        "Split a long recording",
+        "Review the number of parts and their lengths before exporting."
+      ],
+      [
+        2,
+        "Convert the format",
+        "Choose the output format and quality for the place the file is going."
+      ],
+      [
+        "detail",
+        "Compress a larger file",
+        "Balance file size and sound quality, then check the exported result."
+      ]
+    ],
+    "scenes_title": "Make the recording easier to use.",
+    "scenes": [
+      [
+        "A voice memo to send",
+        "Save a copy of your recording to Files, then import it into the tool for the job. Trim empty material if you do not need it and choose a format the recipient accepts. Play the final file before sending it; a smaller attachment is only useful if the speech is still clear.",
+        "/iphone-video-tutorials/08-how-to-compress-a-voice-memo-on-iphone/",
+        "Work with a voice memo"
+      ],
+      [
+        "A lecture in smaller parts",
+        "A long session can be easier to listen to in separate files. Use Auto Split to divide the recording, review the lengths and listen near the boundaries. This divides audio into parts; it does not transcribe the lecture or automatically name its topics.",
+        "/iphone-video-tutorials/14-how-to-split-an-audio-file-on-iphone/",
+        "See audio splitting"
+      ],
+      [
+        "An M4A file for an MP3 destination",
+        "Keep the original recording and make an MP3 copy for the app or person that requests it. Choose the quality with the recording in mind, then compare the output. A higher export bitrate does not restore detail that was already missing in the source.",
+        "/iphone-video-tutorials/09-how-to-convert-m4a-to-mp3-on-iphone/",
+        "Convert M4A to MP3"
+      ]
+    ],
+    "choice_title": "Trim, split, convert or compress?",
+    "choice_intro": "These tools solve different problems. Start with the result you need rather than changing every setting.",
+    "choices": [
+      [
+        "Only one section matters",
+        "Trim",
+        "Keep a selected time range. Check the first and last seconds of the exported clip."
+      ],
+      [
+        "One long recording is awkward",
+        "Auto Split",
+        "Create separate parts. Review the boundaries instead of assuming they follow topics."
+      ],
+      [
+        "The recipient needs MP3",
+        "Convert",
+        "Change the file format. Keep the original for later editing."
+      ],
+      [
+        "The file is too large to send",
+        "Compress",
+        "Choose an encoding tradeoff or trim/split first. Verify the actual saved size."
+      ]
+    ],
+    "studio_title": "Everyday audio jobs, in one place.",
+    "studio_body": "Audio Compressor is made by Space Sheep Studio for the work that comes after recording. Keep the useful section of an interview, divide a long lecture into parts, or prepare a smaller file to send. The tools bring these everyday jobs together so you can move from a recording in Files to a clip you can use.",
+    "tool": "audio",
+    "tool_title": "Estimate an audio file’s size.",
+    "tool_intro": "Try a duration and bitrate before exporting. The result is a mathematical estimate, not an analysis of your recording.",
+    "tool_link": [
+      "/guides/audio-bitrate-file-size/",
+      "Understand bitrate and file size"
+    ],
+    "topics": [
+      [
+        "/guides/audio-bitrate-file-size/",
+        "Bitrate and file size",
+        "Estimate the size-quality tradeoff before exporting."
+      ],
+      [
+        "/iphone-video-tutorials/09-how-to-convert-m4a-to-mp3-on-iphone/",
+        "M4A to MP3",
+        "Prepare a recording for a destination that asks for MP3."
+      ],
+      [
+        "/iphone-video-tutorials/10-how-to-extract-audio-from-video-on-iphone/",
+        "Keep a video’s audio",
+        "Use the sound separately from the picture."
+      ]
+    ]
+  },
+  "collage-maker": {
+    "gallery_title": "From your pictures to a finished image.",
+    "gallery_intro": "Inspect the composition, the available layouts and the saved result. The travel-photo example comes from the actual app captures.",
+    "gallery": [
+      [
+        0,
+        "01 · Arrange the photos",
+        "Review the image order, framing and spacing in your composition."
+      ],
+      [
+        1,
+        "02 · Choose the layout",
+        "Switch between long photos, side-by-side and grid arrangements."
+      ],
+      [
+        2,
+        "03 · Save or share",
+        "Check the exported image, then save it to Photos or share it."
+      ]
+    ],
+    "scenes_title": "Different pictures. Different ways to share.",
+    "scenes": [
+      [
+        "A trip in one picture",
+        "Start with the photographs that belong together rather than every photograph from the trip. Give a favorite image more room, then use the others to add context. Move and zoom the photos so faces, landmarks and edges fit the chosen layout before saving the final image.",
+        "/guides/combine-photos-iphone/",
+        "Build a photo composition"
+      ],
+      [
+        "A clear comparison",
+        "Use a side-by-side arrangement when the relationship between two images matters. Put the subjects in a consistent order and frame them at a useful scale. Check the final image on the screen where you will share it so the comparison remains easy to read.",
+        "/guides/side-by-side-vs-grid-photo-layout/",
+        "Choose a comparison layout"
+      ],
+      [
+        "A readable screenshot sequence",
+        "A long image can keep selected screenshots together as one file. Arrange them in reading order, check repeated headers and inspect the joins. The composition tool does not promise automatic overlap removal. For small text, use fewer screenshots if the finished image becomes hard to read.",
+        "/apps/collage-maker/guides/combine-screenshots/",
+        "Plan a long screenshot image"
+      ]
+    ],
+    "choice_title": "A quick browser job or more layouts on iPhone?",
+    "choice_intro": "The web tool and iPhone app are separate products with different limits. Choose the one that fits this image.",
+    "choices": [
+      [
+        "Try a simple grid right now",
+        "Use the browser tool on this page",
+        "Three layouts, up to twelve JPG/PNG/WebP files and a maximum 4096-pixel longest side."
+      ],
+      [
+        "Use more layout choices",
+        "Use Combine Photos on iPhone",
+        "Eleven layouts and two to thirty images, with per-photo framing controls."
+      ],
+      [
+        "Choose an export format",
+        "Compare JPEG and PNG",
+        "Check text edges, photographic detail and file size in the saved image."
+      ],
+      [
+        "Make a very detailed collage",
+        "Keep the source photos too",
+        "A composition fits multiple images into one output; it does not preserve every source pixel."
+      ]
+    ],
+    "studio_title": "Give the pictures a useful shape.",
+    "studio_body": "Combine Photos is made by Space Sheep Studio around one task: bringing selected pictures into one image. Layout, framing and the saved file are part of that same workflow. The real app captures show a travel composition, while the separate browser tool lets you experiment with basic arrangements before deciding what you need on iPhone.",
+    "tool": "photos",
+    "tool_title": "Try a simple composition here.",
+    "tool_intro": "Use example illustrations or add your own JPG, PNG or WebP files. This is our separate browser combiner, with three layouts and up to twelve images. Your images are processed in this browser, without an upload.",
+    "tool_link": [
+      "/combine-photos/",
+      "Open the browser combiner on its own page"
+    ],
+    "topics": [
+      [
+        "/guides/side-by-side-vs-grid-photo-layout/",
+        "Side by side or grid?",
+        "Choose the layout for a pair or a larger set."
+      ],
+      [
+        "/apps/collage-maker/guides/combine-screenshots/",
+        "Combine screenshots",
+        "Keep the sequence and small text readable."
+      ],
+      [
+        "/apps/collage-maker/guides/jpeg-or-png/",
+        "JPEG or PNG?",
+        "Check the export format against your images."
+      ]
+    ]
+  },
+  "sober-wins": {
+    "gallery_title": "A daily log. A collection of little wins.",
+    "gallery_intro": "Explore daily tracking, Collection and the mini fridge, then take a closer look at the published tracking, rewards and breathing feature screens.",
+    "gallery": [
+      [
+        0,
+        "Log today",
+        "Choose the answer that matches your day, then keep the daily record going."
+      ],
+      [
+        1,
+        "Discover your finds",
+        "Check collection progress and revisit unlocked virtual items."
+      ],
+      [
+        2,
+        "Arrange your mini fridge",
+        "Give your collectibles a place of their own."
+      ],
+      [
+        "track",
+        "Daily tracking",
+        "Published App Store feature screenshot."
+      ],
+      [
+        "rewards",
+        "Collection rewards",
+        "Published App Store feature screenshot."
+      ],
+      [
+        "cabinet",
+        "Your cabinet",
+        "Published App Store feature screenshot."
+      ],
+      [
+        "breathe",
+        "A breathing pause",
+        "Published App Store feature screenshot."
+      ]
+    ],
+    "scenes_title": "A routine that leaves room for real life.",
+    "scenes": [
+      [
+        "A quick check-in",
+        "Open the app and choose No alcohol or Had a drink for today. The useful part is the honest record, not an answer chosen to protect a number. Check reward progress if you want to, then carry on with your day. The collection is optional alongside the daily tracker.",
+        "/apps/sober-wins/guides/track-alcohol-free-days/",
+        "Start a daily log"
+      ],
+      [
+        "Something small to return to",
+        "Virtual finds add a visual part to the routine. Review Collection and arrange your mini fridge when you want to make it your own. These are illustrated beer items, so look at the screenshots and consider whether that theme suits you. They are not physical rewards or a measure of recovery.",
+        "/apps/sober-wins/guides/daily-rewards-and-collection/",
+        "Explore the collection"
+      ],
+      [
+        "A day that needs context",
+        "A drinking day, a missed entry and an incorrect entry are different things. Review what is actually recorded in History and use the available correction controls when needed. Earlier entries still matter beyond the current alcohol-free period. A pause can sit alongside that routine without replacing your record.",
+        "/apps/sober-wins/guides/review-your-history/",
+        "Review days in context"
+      ]
+    ],
+    "choice_title": "Is Sober Wins your kind of tracker?",
+    "choice_intro": "Choose a tracker for the routine you want to keep. You do not need every feature for it to be useful.",
+    "choices": [
+      [
+        "A daily log with a visual collection",
+        "Explore Sober Wins",
+        "Basic tracking, history, collectibles and the mini fridge are available for free."
+      ],
+      [
+        "Just the tracking part",
+        "Keep collection optional",
+        "Use the daily choices and History without making the cabinet your focus."
+      ],
+      [
+        "A pause alongside the routine",
+        "Open Breathing",
+        "The camera mirror and Apple HealthKit connection are optional."
+      ],
+      [
+        "Treatment or emergency support",
+        "Use appropriate professional support",
+        "Sober Wins is a tracking app. Its Panic button opens activities and does not call emergency services."
+      ]
+    ],
+    "studio_title": "A daily record with something of your own.",
+    "studio_body": "Sober Wins is made by Space Sheep Studio around a small daily routine: record what happened, discover a virtual find and give it a place in the mini fridge. The log keeps the days in context; the collection gives you something visual to make your own. Use the parts that fit your routine, whether that is a quick entry, a look back through History or a short pause.",
+    "tool": "breathing",
+    "tool_title": "Take a one-minute breathing pause.",
+    "tool_intro": "Try a simple guided pause in your browser: four seconds in, six seconds out, for six rounds. Breathe comfortably and stop whenever you want. This web exercise is separate from the app and does not save a daily entry.",
+    "tool_link": [
+      "/apps/sober-wins/guides/breathing-pause/",
+      "Find the breathing activity in Sober Wins"
+    ],
+    "topics": [
+      [
+        "/apps/sober-wins/guides/review-your-history/",
+        "Review your daily history",
+        "Distinguish a recorded day from a missing or incorrect entry."
+      ],
+      [
+        "/apps/sober-wins/guides/share-a-little-win/",
+        "Share a little win",
+        "Choose what you want to show before sending a poster."
+      ],
+      [
+        "/apps/sober-wins/guides/choose-your-routine/",
+        "Choose your tracking routine",
+        "Decide how the log, collection and pauses fit your day."
+      ]
+    ]
+  }
+}

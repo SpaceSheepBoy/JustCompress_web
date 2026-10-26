@@ -48,3 +48,9 @@ Product-page copy must follow each App’s actual reason to use it; share layout
 
 
 VideoFix, Audio Compressor and Combine Photos use the same three-screen product-page standard with independent briefs in `scripts/product-stories.json`, themes in `assets/product-stories.css`, and per-App screenshot evidence in `assets/product-pages/`. Run `python3 scripts/product_stories.py` for a targeted rebuild; the portfolio builder calls the same code. Refresh published versions, pricing/access evidence and source assets together. Existing localized Combine Photos pages and their language alternatives remain separate. See `docs/top-three-product-pages-2026-10-26.md`.
+
+### Full product-page content and browser tryouts
+
+The four expanded English product pages are maintained in `scripts/product_stories.py` and `scripts/sober_product.py`. Shared rendering is in `scripts/product_depth.py`; product-specific cases, choice tables, gallery captions and tool introductions live in `scripts/product-depth.json`. The five additional task guides are maintained in `scripts/product-depth-guides.json` and are rebuilt by the corresponding product builder. Run `python3 scripts/product_stories.py` and `python3 scripts/sober_product.py` for a targeted refresh. The full portfolio builder delegates to both.
+
+`assets/product-depth.js` handles the audio estimate, video workflow guide, gallery arrows and breathing pause. `assets/combine-photos.js` is reused unchanged for the actual browser photo combiner. Run `node scripts/test-product-depth.mjs` for the calculator and video decision checks, alongside existing full-site validators. Browser-only tryouts do not synchronize app records or paid access; mathematical estimates are labeled as estimates.
