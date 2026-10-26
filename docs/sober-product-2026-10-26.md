@@ -50,3 +50,12 @@ PASS: an actual browser navigation to the old product route with `?from=old-link
 PASS: existing public-surface, SEO-content and consent tests. Public-surface checks now verify that compatibility pages have valid final destinations, no redirect chains and no sitemap entries. The full portfolio builder preserves the new story and all seven aliases. Public pages were scanned for the prohibited personal name.
 
 PASS: correction commit `0aa609676767aaa0929864dbeebd14d8af84c246` was built by GitHub Pages at 2026-10-26 15:01:38 UTC (16:01:38 Paris). Public readback verified all seven new routes, seven compatibility redirects, three raw screen assets, the official badge, CSS, provenance, sitemap and navigation indexes. The live browser loaded the three-screen hero and verified the old URL preserves query/fragment. Receipt: `docs/sober-route-migration-2026-10-26-readback.json`. Screenshot: `/Users/jiali/Documents/apps/output/sober-site-2026-10-26/revision-trio/live-desktop.png`. Earlier receipts above describe the superseded first sample.
+
+
+## Product positioning correction, October 26
+
+The user clarified that Sober Wins should not lead with privacy. The hero now reads “Track Your Days. Collect Little Wins.” Its supporting copy focuses on daily tracking, collectible rewards, the mini fridge and breathing. The privacy promise and privacy-first strip have been replaced by the product’s daily reward loop. The prominent on-device/privacy section is replaced by history, optional Health trends and sharing a progress poster. The closing CTA and guide summaries use the same product voice. Necessary permission, backup and policy information remains in the FAQ, relevant guides and legal pages.
+
+README maintenance guidance now explicitly separates a reusable visual structure from App-specific messaging: Sober Wins emphasizes tracking and collection, VideoFix compatibility/color conversion, Audio Compressor smaller usable audio, and Combine Photos the intended image layout. This edit changes Sober Wins copy, not those other product pages.
+
+PASS: shared public-surface, SEO and consent validators. Browser review confirms the three real screens and official App Store badge remain present, with no privacy positioning in the hero.
