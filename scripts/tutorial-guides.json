@@ -497,5 +497,22 @@
     "related": [
       "/guides/"
     ]
+  },
+  {
+    "slug": "side-by-side-vs-grid-photo-layout",
+    "title": "Side-by-side or grid: choose a photo layout that stays readable",
+    "summary": "Choose an equal pair for comparison or a grid for a collection. Check crops, photo order and the final viewing size before sharing.",
+    "app": "6810266264",
+    "kind": "knowledge",
+    "category": "Practical guide",
+    "published": "2026-10-26",
+    "modified": "2026-10-26",
+    "layout": "side-by-side-vs-grid-photo-layout.html",
+    "steps": [],
+    "sections": [],
+    "faq": [],
+    "related": [
+      "/guides/"
+    ]
   }
 ]
