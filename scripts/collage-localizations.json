@@ -8,20 +8,26 @@
     "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/8364592d022a9bef43.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
-        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
-        "bytes": 30014,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/fb86d433673cde854205.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/0x0ss.png",
+        "sha256": "fb86d433673cde854205e22328db0f696d35e3de08cfdf7356b08e71e0aac4fd",
+        "bytes": 738572,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "2857e0af63abab68e236a2d196b5bc252b0c984c8cb407168838686ccf6d7b97",
+        "original_bytes": 1156777,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
-        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
-        "bytes": 23900,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/0387ab1e1cce9e627eb6.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/0x0ss.png",
+        "sha256": "0387ab1e1cce9e627eb6c01f1ea9949ecb3dd59a2454ab468cf1e0a5d7c67092",
+        "bytes": 101682,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "084d3bf6f9767d2fa69b8ba67364b8c03256b9a8b455d7498bdf66735ee9e7fc",
+        "original_bytes": 258722,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -35,20 +41,26 @@
     "url": "https://apps.apple.com/cn/app/%E7%85%A7%E7%89%87%E6%8B%BC%E6%8E%A5-%E5%A4%9A%E5%9B%BE%E5%90%88%E6%88%90%E4%B8%80%E5%BC%A0%E5%9B%BE/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/ff4a241670eeb94262.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/98/e1/3e98e100-d5be-38ba-df1a-a2d0864d6dfd/01-stitch.png/320x480bb.jpg",
-        "sha256": "ff4a241670eeb942628fc00dac9301a988da32396241110efad3362a3c1280ea",
-        "bytes": 28978,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/895a1f69a517b2b67083.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/98/e1/3e98e100-d5be-38ba-df1a-a2d0864d6dfd/01-stitch.png/0x0ss.png",
+        "sha256": "895a1f69a517b2b67083f6da2da2386bca6f2ab3c1f0e50ad6326513ee91e47a",
+        "bytes": 732746,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "5b631df1f84d38ac8da1de93202107ec1607c997150b69cd077adb39d2673323",
+        "original_bytes": 1146857,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/05efdc5ae63919a716.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/a0/2c/d8a02c75-e30d-d15e-259d-ad6bbce74314/02-layouts.png/320x480bb.jpg",
-        "sha256": "05efdc5ae63919a716fc24cc3828cc377cc25d7b24d0666b27d06b9ee3f3e59e",
-        "bytes": 24357,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/8523245fbe16987a1a5a.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/a0/2c/d8a02c75-e30d-d15e-259d-ad6bbce74314/02-layouts.png/0x0ss.png",
+        "sha256": "8523245fbe16987a1a5a40c10d77c838e4f1400d97ece7ef80f5fd99d3def5d9",
+        "bytes": 100838,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "0822216b5862e62ab21616f9ef85d7414026ff486573841bdccdd1bc99e0ca77",
+        "original_bytes": 260219,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -62,20 +74,26 @@
     "url": "https://apps.apple.com/tw/app/%E7%85%A7%E7%89%87%E6%8B%BC%E6%8E%A5-%E5%9C%96%E7%89%87%E5%90%88%E4%BD%B5%E8%88%87%E6%8B%BC%E5%9C%96/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/200b3bcc4a84e244f4.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/09/15/ed091577-81ef-8118-ef4b-fb2ec7192295/01-stitch.png/320x480bb.jpg",
-        "sha256": "200b3bcc4a84e244f472bf8a13babaf401480b17b69883447592ecfada1ba6fa",
-        "bytes": 28953,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/14f44aa24c4bcec2fefa.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/09/15/ed091577-81ef-8118-ef4b-fb2ec7192295/01-stitch.png/0x0ss.png",
+        "sha256": "14f44aa24c4bcec2fefa2001cf88fbb84cd6e9579f9bec6f9834f7191b678780",
+        "bytes": 732602,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "821616633f3202977bf67722d212524b7d3406bc754f9b3ee19c107302aa77f6",
+        "original_bytes": 1146171,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/205910553c4c952e10.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/18/70/801870b3-58b5-d6e9-95d2-7767f2d82b86/02-layouts.png/320x480bb.jpg",
-        "sha256": "205910553c4c952e106bdc26b66ed4d9af529632265ff8df36ed9369817c8420",
-        "bytes": 24439,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/8f59a16af3ef811a0036.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/18/70/801870b3-58b5-d6e9-95d2-7767f2d82b86/02-layouts.png/0x0ss.png",
+        "sha256": "8f59a16af3ef811a0036011b12b41b83cbb5727ac6733fef451f2bcf4a2ecb81",
+        "bytes": 102740,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "57751d384a2cd3ceeb220549bed515ad6d8dbbaffa75f1d322f2485cfa987b4a",
+        "original_bytes": 261830,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -89,20 +107,26 @@
     "url": "https://apps.apple.com/fr/app/collage-maker-photos/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/77ceaa949812d5becd.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/7f/c8/fc7fc8d7-6416-272e-6e83-27b505b9fdab/01-stitch.png/320x480bb.jpg",
-        "sha256": "77ceaa949812d5becdb730f06f41e0d300abd155729cca3720b99a7b4b102db6",
-        "bytes": 30846,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/dd168c03dcc62aea5ab9.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/7f/c8/fc7fc8d7-6416-272e-6e83-27b505b9fdab/01-stitch.png/0x0ss.png",
+        "sha256": "dd168c03dcc62aea5ab9bd9725082e38248815c62559f691b938c933da9a5914",
+        "bytes": 750740,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "4829d2cee5b4d14ba146a94350afd937d2d806c83721f4daaa8a7ee4be1bc890",
+        "original_bytes": 1172476,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/97d2733d8579503dfd.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/39/1b/cd391b78-a533-fe0a-4ed0-41e992cf2a2a/02-layouts.png/320x480bb.jpg",
-        "sha256": "97d2733d8579503dfdd57ee4806d2105a7f8f924a00832e9c9802c3d2d33234a",
-        "bytes": 24452,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/64b5aff6b94c0e0db91a.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/39/1b/cd391b78-a533-fe0a-4ed0-41e992cf2a2a/02-layouts.png/0x0ss.png",
+        "sha256": "64b5aff6b94c0e0db91a793a2f897a92203b1a8784e9f7cee656a30ee3b13299",
+        "bytes": 114280,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "4cf49188fed3e2003865767b9a2d0cb1b4d5f80187a092017bd4c9988ec6df64",
+        "original_bytes": 277652,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -116,20 +140,26 @@
     "url": "https://apps.apple.com/de/app/collage-maker-fotos-verbinden/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/f0b94ac0f0dada148c.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/65/ef/0a65ef95-0ab5-0426-29be-9b171a5f3d84/01-stitch.png/320x480bb.jpg",
-        "sha256": "f0b94ac0f0dada148c406e668fa3e01320c58d57a0ad756359686db15803cd0a",
-        "bytes": 28891,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/7168e72e89dbeca42cbc.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/65/ef/0a65ef95-0ab5-0426-29be-9b171a5f3d84/01-stitch.png/0x0ss.png",
+        "sha256": "7168e72e89dbeca42cbcd13823b5570d371de9a437a3fa1e430d22ed9dcd3b52",
+        "bytes": 741870,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "22bd76dc08458fbdaf6369e9ad58dbf2d65a65d7a673e696685620d30df7e16b",
+        "original_bytes": 1157222,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/dd359225e11dc54ca7.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/b0/83/5ab0839e-5fc7-e7de-df5e-6550527bf47a/02-layouts.png/320x480bb.jpg",
-        "sha256": "dd359225e11dc54ca7fcd138bbc38b8fc1c94bfb6afcf13891908f5827626046",
-        "bytes": 23907,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/f321b45c9238bfe32a02.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/b0/83/5ab0839e-5fc7-e7de-df5e-6550527bf47a/02-layouts.png/0x0ss.png",
+        "sha256": "f321b45c9238bfe32a02a42e9249b119f6f05a9d4045ae7979383131e2c85942",
+        "bytes": 106354,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "df0607abb51a95e8f92c38f0495b7efe676887bd73edb939824383db682fea97",
+        "original_bytes": 265589,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -143,20 +173,26 @@
     "url": "https://apps.apple.com/mx/app/collage-maker-une-fotos/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/61fe55c2d76d8e9ee9.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/e7/cc/52e7cc1e-5ba8-76ab-9b06-1aac9200864e/01-stitch.png/320x480bb.jpg",
-        "sha256": "61fe55c2d76d8e9ee9a297e747ee8a74822f6d96cdec21dfd71ab3a6156b1ff2",
-        "bytes": 27924,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/33ac1eff6ca77dd47874.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/e7/cc/52e7cc1e-5ba8-76ab-9b06-1aac9200864e/01-stitch.png/0x0ss.png",
+        "sha256": "33ac1eff6ca77dd478740671f8e37cb2177996b49e087752f587fe60ec24cbdf",
+        "bytes": 737662,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "80e868e232b9de538f803a76b411da6e7432500eca3f18a3442768553c50fc72",
+        "original_bytes": 1153015,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/b60b856495db075655.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/93/07/22930760-5a07-0596-de03-e41c45007262/02-layouts.png/320x480bb.jpg",
-        "sha256": "b60b856495db075655c5e67d19f7802322344ac15ffae28f257faf7bcb4a4aad",
-        "bytes": 26074,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/d3af673e7b850bc8450f.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/93/07/22930760-5a07-0596-de03-e41c45007262/02-layouts.png/0x0ss.png",
+        "sha256": "d3af673e7b850bc8450ff91acfc071af8701fca3815fe712fa2ae43b6917860d",
+        "bytes": 111790,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "3de13ecf34548ea541ed34585807f306b518a23ca17c7faed9542ec5725a1ba0",
+        "original_bytes": 272882,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -170,20 +206,26 @@
     "url": "https://apps.apple.com/br/app/collage-maker-juntar-fotos/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/a8d71660e9cc54f2f5.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/b8/17/17b817ac-35be-9d36-cd3e-529e319da30d/01-stitch.png/320x480bb.jpg",
-        "sha256": "a8d71660e9cc54f2f583baab38dbf544d5b37cd717609c5397cebb6a884bdbce",
-        "bytes": 28896,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/e525c8417455a1880e1f.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/b8/17/17b817ac-35be-9d36-cd3e-529e319da30d/01-stitch.png/0x0ss.png",
+        "sha256": "e525c8417455a1880e1f81574ae2d9b802e3ac0a19df9aed653f5710e7f9acc7",
+        "bytes": 742678,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "f488ac2787c5a309bbbb3e69eba578e07bbb8586e92107d5ac196c019852c45b",
+        "original_bytes": 1160649,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/0802bf2ff0cd4fc963.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/25/75/4025758e-becf-03d0-939c-6780b6dba42d/02-layouts.png/320x480bb.jpg",
-        "sha256": "0802bf2ff0cd4fc9635a61841a16f484980c16a8bfc6f5e212896603c9dae130",
-        "bytes": 25391,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/577784760e40b5dc8858.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/25/75/4025758e-becf-03d0-939c-6780b6dba42d/02-layouts.png/0x0ss.png",
+        "sha256": "577784760e40b5dc885834b87a174daa7020b635f81f2e01ee6f4e9959e4a907",
+        "bytes": 111636,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "ef794a372f78b80e99dc7792a8e0d344325ec73d0966498f848e4307ddceccc9",
+        "original_bytes": 274571,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -197,20 +239,26 @@
     "url": "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%A4%E3%81%AA%E3%81%8E-%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E7%B5%90%E5%90%88-collage-maker/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/aca6c90a255277e223.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/1a/61/d61a6101-f802-9f9a-6c61-f2d048f962c6/01-stitch.png/320x480bb.jpg",
-        "sha256": "aca6c90a255277e2238b1a17580069527ed2b01f7e8257c31d17dae35360b1e6",
-        "bytes": 29949,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/df92d1a542a5fd14807e.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/1a/61/d61a6101-f802-9f9a-6c61-f2d048f962c6/01-stitch.png/0x0ss.png",
+        "sha256": "df92d1a542a5fd14807ebea6c0d51b40cefd5c8cd54bfb7653fb7cff90624c41",
+        "bytes": 742512,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "71c24830a3a83bac174a4f3d4141d1c8af84ec6572b553a6cda0f01d47e118e5",
+        "original_bytes": 1164331,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/d9275c6b443ac85e80.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/bc/7e/c6bc7e1a-c641-e5ad-7ac1-8473a3465d50/02-layouts.png/320x480bb.jpg",
-        "sha256": "d9275c6b443ac85e80d7cd6f8da9bdcb0c9091d44b0f1c63acf5941ee4ecb7ab",
-        "bytes": 24341,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/9f17cbee28a7ffc0edb1.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/bc/7e/c6bc7e1a-c641-e5ad-7ac1-8473a3465d50/02-layouts.png/0x0ss.png",
+        "sha256": "9f17cbee28a7ffc0edb1a29d93e621552676c4f01ecdeff2e6703040fb67cdcc",
+        "bytes": 102696,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "172010e028f02c301876abe7ce65518211df6a250237890c36fdd0c2a98750e9",
+        "original_bytes": 263901,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -224,20 +272,26 @@
     "url": "https://apps.apple.com/kr/app/%EC%82%AC%EC%A7%84-%EC%9D%B4%EC%96%B4%EB%B6%99%EC%9D%B4%EA%B8%B0-collage-maker/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/69db5a30f6a44b85b7.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/c6/e1/fbc6e117-da4b-b583-9a2c-f79d8d7e8deb/01-stitch.png/320x480bb.jpg",
-        "sha256": "69db5a30f6a44b85b73591e4f48903d174bc618ee844e92f0ba807ea18fdc50d",
-        "bytes": 29120,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/e1defab75538c50f3ac8.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/c6/e1/fbc6e117-da4b-b583-9a2c-f79d8d7e8deb/01-stitch.png/0x0ss.png",
+        "sha256": "e1defab75538c50f3ac88015008aa986367f4379a91f7c56f26c6335c50be7b9",
+        "bytes": 719728,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "58e748bcb5131e9667640e165f6ab8be294e8c7e71d1e003d69848a0874b0897",
+        "original_bytes": 1121752,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/5083bde4c6520d331b.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/71/99/56719998-ec6e-a54d-6d47-bc5d5222c026/02-layouts.png/320x480bb.jpg",
-        "sha256": "5083bde4c6520d331bd315bca5fb3be068c34863abd22275755dcb4b0335ddf0",
-        "bytes": 22535,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/f224bfe2d40df0c47d54.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/71/99/56719998-ec6e-a54d-6d47-bc5d5222c026/02-layouts.png/0x0ss.png",
+        "sha256": "f224bfe2d40df0c47d54582b10525f381e49ddfaf3c5bb64ca70eeaeb16f521d",
+        "bytes": 84628,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "a90c5ed7788037fcdcbf506f6a2d5be62b9c05a03b37deaca63b740f6c0202be",
+        "original_bytes": 230374,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24"
@@ -251,20 +305,26 @@
     "url": "https://apps.apple.com/sa/app/combine-photos-stitch-grid/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/8364592d022a9bef43.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
-        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
-        "bytes": 30014,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/fb86d433673cde854205.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/0x0ss.png",
+        "sha256": "fb86d433673cde854205e22328db0f696d35e3de08cfdf7356b08e71e0aac4fd",
+        "bytes": 738572,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "2857e0af63abab68e236a2d196b5bc252b0c984c8cb407168838686ccf6d7b97",
+        "original_bytes": 1156777,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
-        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
-        "bytes": 23900,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/0387ab1e1cce9e627eb6.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/0x0ss.png",
+        "sha256": "0387ab1e1cce9e627eb6c01f1ea9949ecb3dd59a2454ab468cf1e0a5d7c67092",
+        "bytes": 101682,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "084d3bf6f9767d2fa69b8ba67364b8c03256b9a8b455d7498bdf66735ee9e7fc",
+        "original_bytes": 258722,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24",
@@ -279,20 +339,26 @@
     "url": "https://apps.apple.com/id/app/combine-photos-stitch-grid/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/8364592d022a9bef43.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
-        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
-        "bytes": 30014,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/fb86d433673cde854205.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/0x0ss.png",
+        "sha256": "fb86d433673cde854205e22328db0f696d35e3de08cfdf7356b08e71e0aac4fd",
+        "bytes": 738572,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "2857e0af63abab68e236a2d196b5bc252b0c984c8cb407168838686ccf6d7b97",
+        "original_bytes": 1156777,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
-        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
-        "bytes": 23900,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/0387ab1e1cce9e627eb6.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/0x0ss.png",
+        "sha256": "0387ab1e1cce9e627eb6c01f1ea9949ecb3dd59a2454ab468cf1e0a5d7c67092",
+        "bytes": 101682,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "084d3bf6f9767d2fa69b8ba67364b8c03256b9a8b455d7498bdf66735ee9e7fc",
+        "original_bytes": 258722,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24",
@@ -307,20 +373,26 @@
     "url": "https://apps.apple.com/th/app/combine-photos-stitch-grid/id6810266264",
     "screenshots": [
       {
-        "src": "/assets/apps/8364592d022a9bef43.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/320x480bb.jpg",
-        "sha256": "8364592d022a9bef43d5f85a104fdc05b2e9c8e22d4c34b65e45d1f2dba303ab",
-        "bytes": 30014,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/fb86d433673cde854205.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/b9/62/d2b962da-e953-b8e1-7c67-9f53d21998d8/01-stitch.png/0x0ss.png",
+        "sha256": "fb86d433673cde854205e22328db0f696d35e3de08cfdf7356b08e71e0aac4fd",
+        "bytes": 738572,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "2857e0af63abab68e236a2d196b5bc252b0c984c8cb407168838686ccf6d7b97",
+        "original_bytes": 1156777,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       },
       {
-        "src": "/assets/apps/0d3d3c03b34ce6fa60.jpg",
-        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/320x480bb.jpg",
-        "sha256": "0d3d3c03b34ce6fa605a74f8a2c838f00d2f2258d96b310670456260c8cd3f26",
-        "bytes": 23900,
-        "width": 221,
-        "height": 480
+        "src": "/assets/apps/screenshots/0387ab1e1cce9e627eb6.webp",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/f0/5b/f1f05bd5-aab4-3191-5fda-521197fc32b3/02-layouts.png/0x0ss.png",
+        "sha256": "0387ab1e1cce9e627eb6c01f1ea9949ecb3dd59a2454ab468cf1e0a5d7c67092",
+        "bytes": 101682,
+        "width": 1290,
+        "height": 2796,
+        "original_sha256": "084d3bf6f9767d2fa69b8ba67364b8c03256b9a8b455d7498bdf66735ee9e7fc",
+        "original_bytes": 258722,
+        "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
       }
     ],
     "checked": "2026-10-24",

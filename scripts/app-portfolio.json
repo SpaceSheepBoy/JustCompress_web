@@ -31,28 +31,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/ea9e5bc36d67e2ab1e.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/fb/8d/b7fb8d93-a7e0-bb63-6cdf-f706062abcf1/01-ready.png/320x480bb.jpg",
-          "sha256": "ea9e5bc36d67e2ab1e98af6a5db2954eae642cd97f95d9802fcca3768b6b7671",
-          "bytes": 25729,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/fd34fda51b29466f7dc8.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/fb/8d/b7fb8d93-a7e0-bb63-6cdf-f706062abcf1/01-ready.png/0x0ss.png",
+          "sha256": "fd34fda51b29466f7dc8bd81840f606b2ca8f7033db25d99f0f8503a40bcb484",
+          "bytes": 323760,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "0e0613181a49e0c756c96109048d3e930dfb3979163d2047b5e9befb7f22c810",
+          "original_bytes": 648839,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/1af7387829a447dae9.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/cc/65/d5cc6500-1d02-226a-2df7-67ae8997b05c/02-convert.png/320x480bb.jpg",
-          "sha256": "1af7387829a447dae9d9b76b99ed66e6429977439098caf1b047ca6a54224a3a",
-          "bytes": 26686,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/467159383f103eab43b8.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/cc/65/d5cc6500-1d02-226a-2df7-67ae8997b05c/02-convert.png/0x0ss.png",
+          "sha256": "467159383f103eab43b898e5b4a94e633eff11e6672ebefbc2669397479a2aa5",
+          "bytes": 1046142,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "a707e025850b2e4f7588b10ae5de4562fedc1492ede76c65da0809313dd1be16",
+          "original_bytes": 1737647,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/db70d1578c6a8575d5.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/3f/bd/0d3fbdae-86d9-5bba-7892-089d82770fec/03-inspect.png/320x480bb.jpg",
-          "sha256": "db70d1578c6a8575d55d158f315ff58f90a6058ec4d48eb304c77c1d0bb34e40",
-          "bytes": 26568,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/c9b628b6c4b8451f8fad.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/3f/bd/0d3fbdae-86d9-5bba-7892-089d82770fec/03-inspect.png/0x0ss.png",
+          "sha256": "c9b628b6c4b8451f8fad3579217f180089789ef4945a6a720864fe31bfed270e",
+          "bytes": 498192,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "8331d068133f0004b74dbaf27f97ee67a55b9f37d3f66043f2c2c6de8d8b376c",
+          "original_bytes": 871726,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/videofix/privacy/",
@@ -88,28 +97,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/ac5b081fe115380af9.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/de/fe/40defe76-f146-622c-f267-162b20596ad0/01-trim-audio-on-iphone.png/320x480bb.jpg",
-          "sha256": "ac5b081fe115380af9bccc2098d0a38e269f2dfff2d3388de263237b811f214c",
-          "bytes": 31637,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/136b2cf6d9c942c6b1b0.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/de/fe/40defe76-f146-622c-f267-162b20596ad0/01-trim-audio-on-iphone.png/0x0ss.png",
+          "sha256": "136b2cf6d9c942c6b1b0e167ac73a62da627a320d3e6886307ce597c0aaa4c7a",
+          "bytes": 528982,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "5d8c13bbd508a7817cee5a4195b821618c9900a8540f47e95a6802b7f0344e4c",
+          "original_bytes": 938143,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/6f424ad43b992e3601.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/5f/88/8c5f8869-cf87-beea-ae0e-3c38b28c7eed/02-split-long-recordings.png/320x480bb.jpg",
-          "sha256": "6f424ad43b992e3601c614f5ada2782c4df9dc002e273e0b56f624d8e1d4538a",
-          "bytes": 31104,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/fd0a1f2b42057a3c85c9.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/5f/88/8c5f8869-cf87-beea-ae0e-3c38b28c7eed/02-split-long-recordings.png/0x0ss.png",
+          "sha256": "fd0a1f2b42057a3c85c9c12b09c41941b99c40e98c8d60b21ef4d2e0eda0dbe4",
+          "bytes": 583226,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "0c2dcd0bca2cd6e1620023dcaec1a5913b79bffcd0834c7dfcc5b60cdb8bff73",
+          "original_bytes": 1002892,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/184c0aad5048a9cbad.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/69/10/ee691087-70ee-a40c-8663-fe6cb0b3eb4a/03-convert-m4a-to-mp3.png/320x480bb.jpg",
-          "sha256": "184c0aad5048a9cbad3301c23091c4770eb406e227351e66545ab15d27be349c",
-          "bytes": 32310,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/fd2438ee977926732706.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/69/10/ee691087-70ee-a40c-8663-fe6cb0b3eb4a/03-convert-m4a-to-mp3.png/0x0ss.png",
+          "sha256": "fd2438ee97792673270616eee61732c2f4b6830faf6e9568ac5a290a5a952ad6",
+          "bytes": 644158,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "9aa0f2e741d099e7e9138fda6a2cef2cbceba44e40e5c8609d55ed8f4e8703af",
+          "original_bytes": 1101373,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/audio-compressor/privacy/",
@@ -145,28 +163,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/87638f5c73fbed876b.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/18/4f/d2184f12-84d7-9367-81c5-91ece28682d4/01-stitch.png/320x480bb.jpg",
-          "sha256": "87638f5c73fbed876bcf3ffe3cfbdcc10107c2820cc4f8ba196658b053f6f2a6",
-          "bytes": 30014,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/fb86d433673cde854205.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/18/4f/d2184f12-84d7-9367-81c5-91ece28682d4/01-stitch.png/0x0ss.png",
+          "sha256": "fb86d433673cde854205e22328db0f696d35e3de08cfdf7356b08e71e0aac4fd",
+          "bytes": 738572,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "4afd28fd983ed2359f5a9e642954eababf2599c72f8a97197fa2294c22f0d5a6",
+          "original_bytes": 1156777,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/9094135cd28066b78d.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/61/e3/8d61e34c-4726-ee9c-0f41-8e7a37291ab3/02-layouts.png/320x480bb.jpg",
-          "sha256": "9094135cd28066b78de97fd5511b8efaf19c7e46550a82ccdbe1b49f2610ef9a",
-          "bytes": 23900,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/0387ab1e1cce9e627eb6.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/61/e3/8d61e34c-4726-ee9c-0f41-8e7a37291ab3/02-layouts.png/0x0ss.png",
+          "sha256": "0387ab1e1cce9e627eb6c01f1ea9949ecb3dd59a2454ab468cf1e0a5d7c67092",
+          "bytes": 101682,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "072a7402edfb87fc22f925143a67ea0a44dce46eb7dde3d5727b87549f253530",
+          "original_bytes": 258722,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/34e18223a526dd3aa1.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/19/78/ca1978e8-4325-b503-8340-dcad66d43acd/03-long-photo.png/320x480bb.jpg",
-          "sha256": "34e18223a526dd3aa172cdfa92d3643053413167d37e7a0620b99e97b85243f3",
-          "bytes": 31415,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/17086df5d461792991b4.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/19/78/ca1978e8-4325-b503-8340-dcad66d43acd/03-long-photo.png/0x0ss.png",
+          "sha256": "17086df5d461792991b491e078aa0451e20e2b1ef49200016cb59ebbd7937e12",
+          "bytes": 1491978,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "786d78139ba15611bbc08f4e28b75be5e214fa154e1d730b831b3ab28c079591",
+          "original_bytes": 2174751,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/collage-maker/privacy/",
@@ -202,28 +229,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/fd33e6ef75d670160b.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/ac/02/7aac0245-ac3b-bc6d-9d96-af3722e98395/01-compress-pdfs-save-space.png/320x480bb.jpg",
-          "sha256": "fd33e6ef75d670160b08e31da20b09dd7b28cc9a10e2f1f8e521e0b91aba952d",
-          "bytes": 33415,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/c06765f4b3105457e208.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/ac/02/7aac0245-ac3b-bc6d-9d96-af3722e98395/01-compress-pdfs-save-space.png/0x0ss.png",
+          "sha256": "c06765f4b3105457e2089aee38396fb457091bd8adc0c1a81d048370b95dc1cc",
+          "bytes": 544664,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "984c8cd8bf09acd5bcc8e89d224075cf932f541d730ebe3c0c0da4ffdf9636ea",
+          "original_bytes": 1057359,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/02a49d642dd83d886e.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/58/9b/a5589be2-02a2-8f4d-006e-be68365a8fee/02-compress-many-pdfs-at-once.png/320x480bb.jpg",
-          "sha256": "02a49d642dd83d886ec6c0d645dd39b106ef24c5168ea0582487039966e76049",
-          "bytes": 31443,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/7e9fd2867fb3ce7b10db.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/58/9b/a5589be2-02a2-8f4d-006e-be68365a8fee/02-compress-many-pdfs-at-once.png/0x0ss.png",
+          "sha256": "7e9fd2867fb3ce7b10dbb45ea086c57315c9bbff77ad7849d17265012506dd8d",
+          "bytes": 433582,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "a8b85bc4a21b81ecc36f76f286092018e59271195f42bac1fb7b62be8f83a559",
+          "original_bytes": 914174,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/16b8cb061602ac689c.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/de/c0/fddec038-b963-47af-7434-12d9ad3dffc4/03-scan-documents-to-pdf.png/320x480bb.jpg",
-          "sha256": "16b8cb061602ac689c1196bf915ec59ce02be1ec043262185fd5f154902990b7",
-          "bytes": 31320,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/03931a8565ac02a30ea6.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/de/c0/fddec038-b963-47af-7434-12d9ad3dffc4/03-scan-documents-to-pdf.png/0x0ss.png",
+          "sha256": "03931a8565ac02a30ea6573ca1e95ade394268cdd75ed82110db773134357f36",
+          "bytes": 1121480,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "ee74a88798cbe139c9b29a65889d1fea35ac5dbeb97e25fd3100623f3d634797",
+          "original_bytes": 1931225,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/pdf-compressor/privacy/",
@@ -259,28 +295,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/d49bf95fbd1e3b5d59.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/bb/63/5fbb6356-d035-f86e-4a1e-1ff987a5b90c/01-protect-sensitive-pdfs.png/320x480bb.jpg",
-          "sha256": "d49bf95fbd1e3b5d59e9ce76561d626f3b421ca38f4cf00be050e01ab4d604fa",
-          "bytes": 29752,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/d0a980f12ec08a081707.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/bb/63/5fbb6356-d035-f86e-4a1e-1ff987a5b90c/01-protect-sensitive-pdfs.png/0x0ss.png",
+          "sha256": "d0a980f12ec08a0817077f90be74312f2a9d0f51088d94a7eb09500bb9afcee1",
+          "bytes": 349778,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "6bfe2bba9220f84a0668ef334c4bc84bc6a1855a0c6a2ddaef9b27f53eeb29c3",
+          "original_bytes": 847374,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/eeab8a98596346aedd.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/a1/6d/0ba16d00-5820-5089-fa7c-65e773fac32a/02-stamp-every-page.png/320x480bb.jpg",
-          "sha256": "eeab8a98596346aedd8e5505cf66942194d7707146e0dd20be562fb8275cb72d",
-          "bytes": 23113,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/7b885a0664e524a4be73.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/a1/6d/0ba16d00-5820-5089-fa7c-65e773fac32a/02-stamp-every-page.png/0x0ss.png",
+          "sha256": "7b885a0664e524a4be736677c5e7c16308846d67bd48e9e9450a55ff478c8ccf",
+          "bytes": 263526,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "e0eb676fc2fa40265f11c8dc0a3f5a05536ce09618d27708c8524e35bc3a8fa4",
+          "original_bytes": 667540,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/7bf24cc2925627827f.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/09/52/82095274-49dc-ce45-1054-aeee982faeb6/03-single-or-repeated-watermarks.png/320x480bb.jpg",
-          "sha256": "7bf24cc2925627827f90ae45b09a429918fb280fc2fc0d283ed706a931f1d25c",
-          "bytes": 24838,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/f454c959e6cb4d46ce78.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/09/52/82095274-49dc-ce45-1054-aeee982faeb6/03-single-or-repeated-watermarks.png/0x0ss.png",
+          "sha256": "f454c959e6cb4d46ce789cef30b419900be036e664b7a8dfd1896aa54688c316",
+          "bytes": 220084,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "2780b690d10c72ee412c1e86e59d6483c196d884624ba28617ba5dc6cc9e8e1c",
+          "original_bytes": 589083,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/pdf-watermarker/privacy/",
@@ -316,28 +361,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/425488b9d474d1a640.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ca/b3/29cab345-dc70-4a07-4746-66f973ff9de8/simple-v2-iphone-01-en-US.png/320x480bb.jpg",
-          "sha256": "425488b9d474d1a6400c7d87cc9d23c22b3191a9131e311ded55edd38b0664c7",
-          "bytes": 26859,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/5046d7dfd5b7758fd36e.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ca/b3/29cab345-dc70-4a07-4746-66f973ff9de8/simple-v2-iphone-01-en-US.png/0x0ss.png",
+          "sha256": "5046d7dfd5b7758fd36e2e37691d7ae9807a845007c8fa055d577f06ef8a1ee3",
+          "bytes": 460330,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "5b509d58ad7ab4f536b72f36cef1f23bb8aaf5a4758ddf9f19068839efad5a0e",
+          "original_bytes": 849017,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/92caef1f887d6dfe45.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/3d/11/513d119e-daaa-a6fc-f784-0cd86d1c000a/simple-v2-iphone-02-en-US.png/320x480bb.jpg",
-          "sha256": "92caef1f887d6dfe4500867eb3172fcd65f3e0b5e6994ecbe5114140b0a3a3ee",
-          "bytes": 24842,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/f2e268a9585906cc3d29.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/3d/11/513d119e-daaa-a6fc-f784-0cd86d1c000a/simple-v2-iphone-02-en-US.png/0x0ss.png",
+          "sha256": "f2e268a9585906cc3d292a7dfca7b0b4bbbbd42e04b449dffb196775a7f284b2",
+          "bytes": 777314,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "29bf4d128d167361677d626abf7d048a58bd1242918fb9f3e6ef881e78a33885",
+          "original_bytes": 1355548,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/59a609f3d96a3297a6.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/6b/70/766b709e-a8cf-e258-0480-b2deff47c649/simple-v2-iphone-03-en-US.png/320x480bb.jpg",
-          "sha256": "59a609f3d96a3297a6febece47325843a25dc6ea2174a8ecb085e026e417f250",
-          "bytes": 24535,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/a97265832c442faf5239.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/6b/70/766b709e-a8cf-e258-0480-b2deff47c649/simple-v2-iphone-03-en-US.png/0x0ss.png",
+          "sha256": "a97265832c442faf5239eaf58a1b21c700a8a7544be23bb2417a17b9f63f9f63",
+          "bytes": 193054,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "bdc39b1eb5b312a3030a7419f8a0c14d543c789647963496c10162c38e349ab4",
+          "original_bytes": 454009,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/glowpop/privacy/",
@@ -373,28 +427,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/1ec6d092a37db14f19.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/2b/61/0d2b6143-6ca5-e430-55e4-b08bf95954e0/01-Auto-Captions.jpg/320x480bb.jpg",
-          "sha256": "1ec6d092a37db14f1976ddfd5be3c7e56359f803e35dafec7e63b25b96370563",
-          "bytes": 33691,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/a1b367de2b6361ff4989.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/2b/61/0d2b6143-6ca5-e430-55e4-b08bf95954e0/01-Auto-Captions.jpg/0x0ss.png",
+          "sha256": "a1b367de2b6361ff498932370d1cb6051d79e17bf0b4a32baddfe27e5ea90b54",
+          "bytes": 1191020,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "ee044fc7de8db0bfb4828657ab9cfa21fc56553ea6a4c2e6720f83d6dc16e1c7",
+          "original_bytes": 2371243,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/bbec817add0efcbe20.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/c7/3b/50c73b47-f3c7-70b8-e719-734e9d91ebd6/02-Emoji-Captions.jpg/320x480bb.jpg",
-          "sha256": "bbec817add0efcbe201c2f3b622bfb1f3b8043c2fd339ffa3ac905c23c4a72c4",
-          "bytes": 39288,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/2247e54ca730ed2517bc.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/c7/3b/50c73b47-f3c7-70b8-e719-734e9d91ebd6/02-Emoji-Captions.jpg/0x0ss.png",
+          "sha256": "2247e54ca730ed2517bcc527220edf964dedabee305f306981664451579f4f45",
+          "bytes": 1039872,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "eb836d2581eee727b97c5500e923cc6c142f9060fb69992f2be02dfa89dc0610",
+          "original_bytes": 1893637,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/e0bbfaac1c6f82f9b3.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/fe/b8/60feb837-4217-33ee-31ac-2c09282b865f/03-Batch-Subtitles.jpg/320x480bb.jpg",
-          "sha256": "e0bbfaac1c6f82f9b3595fb7d395500ef73140cce8970632915874bd485dc88a",
-          "bytes": 44498,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/cae76d09becfa21e7937.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/fe/b8/60feb837-4217-33ee-31ac-2c09282b865f/03-Batch-Subtitles.jpg/0x0ss.png",
+          "sha256": "cae76d09becfa21e7937e250381953d658e4685bff1d5f8d517175086d1a171f",
+          "bytes": 1663382,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "d8841adff0627d1ceb5db002f307d3d65dcb29688a4ae5d674bf1215df391139",
+          "original_bytes": 2703664,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://spacesheepboy.github.io/JustCaptions-legal/privacy/",
@@ -430,28 +493,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/48adb3fd1016eb02b5.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/34/92/89349223-492c-ca0f-9ca8-ef2e58c4cc34/02_blocked.png/320x480bb.jpg",
-          "sha256": "48adb3fd1016eb02b5589e419f8ec71ec9f4a8e93da85666eb828447b12af584",
-          "bytes": 25829,
-          "width": 222,
-          "height": 480
+          "src": "/assets/apps/screenshots/59285b378965985cf4e4.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/89/34/92/89349223-492c-ca0f-9ca8-ef2e58c4cc34/02_blocked.png/0x0ss.png",
+          "sha256": "59285b378965985cf4e4c8d1587f800f0d3fad9e88d206b01c27a22669edf114",
+          "bytes": 203696,
+          "width": 1284,
+          "height": 2778,
+          "original_sha256": "4c73fda1d0bb3d2553c494662613f2f4506fd1f7db387910ee7a0e2a8ed52b41",
+          "original_bytes": 505874,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/77bcf7e9dfc1c675b2.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/11/7b/18117bf2-715e-3029-6881-5596fe912830/01_reclaim.png/320x480bb.jpg",
-          "sha256": "77bcf7e9dfc1c675b294e00abd920e0f388974962046f911a71fa9b772013987",
-          "bytes": 20835,
-          "width": 222,
-          "height": 480
+          "src": "/assets/apps/screenshots/1bc5e85e43a4db3924ce.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/11/7b/18117bf2-715e-3029-6881-5596fe912830/01_reclaim.png/0x0ss.png",
+          "sha256": "1bc5e85e43a4db3924ce7b5196c3a78b22339d8fe670659f0062095974188fb8",
+          "bytes": 510434,
+          "width": 1284,
+          "height": 2778,
+          "original_sha256": "654d19955dacc22549877993bc3a338adad38995927c79c128ebbee768f4f7e5",
+          "original_bytes": 909625,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/de78b229d5bf14be50.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/e0/6f/69e06f15-6505-5af0-6291-7fc7c857683a/04_lifegrid.png/320x480bb.jpg",
-          "sha256": "de78b229d5bf14be50538c3d11fb49a7e1958c8328e8109578d997c4d1e06a7d",
-          "bytes": 19723,
-          "width": 222,
-          "height": 480
+          "src": "/assets/apps/screenshots/653c26f0b8272e2ce093.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/e0/6f/69e06f15-6505-5af0-6291-7fc7c857683a/04_lifegrid.png/0x0ss.png",
+          "sha256": "653c26f0b8272e2ce0930d7d1ab3879d73a9439b05e7a9163bda1dbafc727a9c",
+          "bytes": 101200,
+          "width": 1284,
+          "height": 2778,
+          "original_sha256": "da3c163cd0aede8ab95449a21eb2a8031809e40c1cb57dcaadee097a50b6f3b8",
+          "original_bytes": 267065,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://spacesheepboy.github.io/dyingsoon-privacy/",
@@ -488,28 +560,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/90fef760f952635a08.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/c7/07/bec707b0-af0a-91ae-49f6-630c6cccd0ef/01-compress-video.png/320x480bb.jpg",
-          "sha256": "90fef760f952635a087f6ccf675494666351b9f531e75cd319fc5b626256b35a",
-          "bytes": 30004,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/38c5d909fb2bc401d1a7.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/c7/07/bec707b0-af0a-91ae-49f6-630c6cccd0ef/01-compress-video.png/0x0ss.png",
+          "sha256": "38c5d909fb2bc401d1a78472f3368ca082b5c350c7e65e2d3ff0e8e59cee1543",
+          "bytes": 253660,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "622d49c1c7de2f51c53ad15f3c67b57298193b5f9f9f15bcac0884b37eebbc7d",
+          "original_bytes": 627990,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/75524f9cd7bae88790.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/0e/29/cf0e29b1-d6e8-4f21-caaf-90a7cd502916/02-convert-video.png/320x480bb.jpg",
-          "sha256": "75524f9cd7bae88790a5868d369c7abdc4c5dcce83360cf823477c6f38137b05",
-          "bytes": 31791,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/39ae8adfe061cf100ac2.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/0e/29/cf0e29b1-d6e8-4f21-caaf-90a7cd502916/02-convert-video.png/0x0ss.png",
+          "sha256": "39ae8adfe061cf100ac2a99ee3b00019c9d236b4e98c5b1865e62ad3d4cbe05f",
+          "bytes": 270862,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "314d66a49f7efe694fc5ef04c3c35fd6f719a81af369eb4a9075ddbf9da43ccf",
+          "original_bytes": 648502,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/29b37ca08a0e0b38d9.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/17/e5/4717e503-f60a-fd89-ad62-aed4b851640c/03-batch-compress.png/320x480bb.jpg",
-          "sha256": "29b37ca08a0e0b38d98d0a38b63f178d1422e81ffbb57cc83ab2b427db999afb",
-          "bytes": 37386,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/6bbd4fb1eec3db6743f7.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/17/e5/4717e503-f60a-fd89-ad62-aed4b851640c/03-batch-compress.png/0x0ss.png",
+          "sha256": "6bbd4fb1eec3db6743f76d42d27cae98b763a7bde6bbac89cc7b3475f2ee065d",
+          "bytes": 847756,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "7ec84812fb0a2d101522efa9406997428e96ee286c8c39fdf60a410cc5dbba29",
+          "original_bytes": 1548377,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/vidkit/privacy/",
@@ -546,28 +627,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/31ba7713d810168530.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/f3/f5/a8f3f57d-1ea0-e52e-0112-2eb05b930632/01-sharing.png/320x480bb.jpg",
-          "sha256": "31ba7713d810168530b01756a851de8b4ae39a5b05686dc5c34aec54d055b0c1",
-          "bytes": 28913,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/ec4ebafb683ec664a056.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/f3/f5/a8f3f57d-1ea0-e52e-0112-2eb05b930632/01-sharing.png/0x0ss.png",
+          "sha256": "ec4ebafb683ec664a056bad029db4523dec22ceb75f0f9149f6bd73cd0b4ea7e",
+          "bytes": 804316,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "c3ddf8feb94a66b01cb7d75381769bcc3c7a3c9e3d0b7020565dff10688a1fb9",
+          "original_bytes": 1333018,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/991b0c4e1b21423453.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/c4/b7/d9c4b701-8e56-4c4d-2588-a00dad4fc73f/02-batch.png/320x480bb.jpg",
-          "sha256": "991b0c4e1b214234530821c60074fb9c7bc0d573e1e4dfd6c367ff3eb541bf4e",
-          "bytes": 19654,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/1ee7244254954106e483.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/c4/b7/d9c4b701-8e56-4c4d-2588-a00dad4fc73f/02-batch.png/0x0ss.png",
+          "sha256": "1ee7244254954106e48383044e32cbdcb2618f1c939cbdca2e0ed6f37865e4ce",
+          "bytes": 478640,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "f082a7ef07a261f5fba64150d7866fe63ef5db306c3cf651abb5fea968afabe2",
+          "original_bytes": 759893,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/f9cd31955bf7a27607.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/39/20/d5392086-5064-a1b0-a498-6eff5c7d7259/03-share.png/320x480bb.jpg",
-          "sha256": "f9cd31955bf7a27607af062f5d61550bdf2a6d525c6e442a7fc71e02b1819ca9",
-          "bytes": 22280,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/2c863784c0c09f1ba2e7.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/39/20/d5392086-5064-a1b0-a498-6eff5c7d7259/03-share.png/0x0ss.png",
+          "sha256": "2c863784c0c09f1ba2e7b1633ce127f66275f90053fa9a5c7190e32bfb6c7adc",
+          "bytes": 528646,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "cdfb5c357be4fb7d9d2d86f8a7017433417a086d5d455925bb7797c12a3c3b55",
+          "original_bytes": 871704,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/photofix/privacy/",
@@ -603,28 +693,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/e695ae3bfc16814618.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/33/3a/f7333aba-89a9-f163-0174-14d0cad29228/l10n7-01-home.png/320x480bb.jpg",
-          "sha256": "e695ae3bfc16814618c973cefc961696ffc0dd9b44572dfa502ccda337f88324",
-          "bytes": 30394,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/8c1d64d509bf2ff7f7f6.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/33/3a/f7333aba-89a9-f163-0174-14d0cad29228/l10n7-01-home.png/0x0ss.png",
+          "sha256": "8c1d64d509bf2ff7f7f6321196780ec70049b49bcef4bdf809c743776e9e67fb",
+          "bytes": 213464,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "f8151db0d96ba03edecc18160d9401c704a1378433a6b7c3ccbd34767bd3541c",
+          "original_bytes": 414552,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/073ecb03174a6de4b6.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/05/b0/bb05b0a4-403c-8e4b-2ada-7a3940ef085b/l10n7-02-rewards.png/320x480bb.jpg",
-          "sha256": "073ecb03174a6de4b613731e3b01c39603b3d366a587b394c45fa1d999b3e0e5",
-          "bytes": 23045,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/d9502bd75bca3c502e1a.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/05/b0/bb05b0a4-403c-8e4b-2ada-7a3940ef085b/l10n7-02-rewards.png/0x0ss.png",
+          "sha256": "d9502bd75bca3c502e1af7fdc17de4fcbd49aa7b9541ed459018f0eefc6872f1",
+          "bytes": 235118,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "d1273dc2be3374017c829049fcae939c9a389247134c4e358feb6f38803fe536",
+          "original_bytes": 436422,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/5b15d881134920b95e.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/84/e1/f184e125-3b04-8236-8fea-deac60beec62/l10n7-03-cabinet.png/320x480bb.jpg",
-          "sha256": "5b15d881134920b95e2d41ebc7cd633e829d092b285dd4324b5e8559a5295087",
-          "bytes": 26030,
-          "width": 221,
-          "height": 480
+          "src": "/assets/apps/screenshots/9fcb610a6d4c3fc0a862.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/84/e1/f184e125-3b04-8236-8fea-deac60beec62/l10n7-03-cabinet.png/0x0ss.png",
+          "sha256": "9fcb610a6d4c3fc0a8627d751cbe7f38e92d140d0a1581c8ca2b4b7dd49e2f5a",
+          "bytes": 537080,
+          "width": 1290,
+          "height": 2796,
+          "original_sha256": "0aa2189ae5909eaefe5b8837cd8227fa1aa854ea8cb28d3ce32776da91e116f8",
+          "original_bytes": 883899,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/sober-wins/privacy/",

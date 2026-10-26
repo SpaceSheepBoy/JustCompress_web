@@ -1,11 +1,19 @@
 """Check the complete public surface and curated current portfolio before publishing."""
 from pathlib import Path
 from bs4 import BeautifulSoup
+from PIL import Image
 from urllib.parse import urlsplit,unquote
 import json,re,subprocess,tempfile,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1]
 apps=json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps']
 assert len(apps)==11
+# The website must never render Apple lookup's 221x480 thumbnail assets as store screenshots.
+shot_records=[s for a in apps for s in a['screenshots']]
+shot_records += [s for locale in json.loads((ROOT/'scripts/collage-localizations.json').read_text()).values() for s in locale['screenshots']]
+for shot in shot_records:
+ assert shot['width']>=1000 and shot['height']>=2000,(shot['src'],'low-resolution screenshot')
+ with Image.open(ROOT/shot['src'].lstrip('/')) as pixels:
+  assert pixels.size==(shot['width'],shot['height']),(shot['src'],'incorrect intrinsic dimensions')
 paths=[];errors=[];scripts=0
 for p in ROOT.rglob('*.html'):
  rel=p.relative_to(ROOT)
