@@ -11,89 +11,130 @@
     "figureAlt": "Three checks for an email PDF: check the receiving limit, inspect text and images in a compressed copy, then test the attachment or sharing link.",
     "figureCaption": "File size and legibility both matter. This is an explanatory workflow, not an App screenshot.",
     "cards": [
-      [
-        "Know the limit",
-        "Personal Gmail allows 25 MB of attachments in total. Work or school limits can be set by an administrator."
-      ],
-      [
-        "Check the copy",
-        "Small text, form fields, signatures and page count matter more than an advertised compression percentage."
-      ],
-      [
-        "Use a link when needed",
-        "A link avoids a large email attachment, but introduces hosting permissions and access requirements."
-      ]
+      {
+        "id": "limit",
+        "heading": "Know the limit",
+        "body": "Personal Gmail allows 25 MB of attachments in total. Work or school limits can be set by an administrator."
+      },
+      {
+        "id": "copy",
+        "heading": "Check the copy",
+        "body": "Small text, form fields, signatures and page count matter more than an advertised compression percentage."
+      },
+      {
+        "id": "link",
+        "heading": "Use a link when needed",
+        "body": "A link avoids a large email attachment, but introduces hosting permissions and access requirements."
+      }
     ],
     "sections": [
-      [
-        "Check the whole message, not just one PDF",
-        "Google lists a 25 MB total attachment limit for personal Gmail and says larger attachments are replaced with a Google Drive link. Work and school account limits may be set by an administrator. Microsoft's Outlook help distinguishes account types and notes that message limits can include the attachment and email itself. The recipient can impose a lower limit too. Read the actual rejection message rather than assuming every provider has the same cap."
-      ],
-      [
-        "Compress a copy in the browser",
-        "Open our PDF compressor, choose the PDF and start with the Balanced quality option. Compress and download a separate copy. Supported processing runs locally in your browser. Browser PDF exports include a small Just Compress app logo watermark, so check that this is acceptable for your recipient before using it for an application or formal document."
-      ],
-      [
-        "Check the result before attaching it",
-        "Open the new PDF and compare the first page, the smallest text, diagrams and any signatures with the original. Check page count and file size. Compression can reduce image quality, and an already optimized PDF may barely shrink. Do not promise a fixed percentage or assume that a successful export preserves every document feature. Keep a signed original and follow any requirements for digitally signed files."
-      ],
-      [
-        "If it is still too large",
-        "Send only the pages the recipient needs if that is allowed, or use a sharing link from an approved service. In Gmail, an oversized attachment may be replaced with a Drive link. In Apple Mail, Mail Drop supports attachments up to 5 GB subject to its service limits. These options upload a copy for sharing. Check recipient permissions and any expiry instead of describing them as no-upload delivery."
-      ],
-      [
-        "On iPhone",
-        "Our App, PDF Compressor: Sign & Merge, offers PDF compression and related document tools. Check the verified App Store listing below for current purchase options. Export a copy, inspect the actual PDF, then attach it using your mail app. The app name does not establish that every export will satisfy a particular portal or mail server."
-      ]
+      {
+        "id": "message-limit",
+        "heading": "Check the whole message, not just one PDF",
+        "body": "Google lists a 25 MB total attachment limit for personal Gmail and says larger attachments are replaced with a Google Drive link. Work and school account limits may be set by an administrator. Microsoft's Outlook help distinguishes account types and notes that message limits can include the attachment and email itself. The recipient can impose a lower limit too. Read the actual rejection message rather than assuming every provider has the same cap."
+      },
+      {
+        "id": "browser-copy",
+        "heading": "Compress a copy in the browser",
+        "body": "Open our PDF compressor, choose the PDF and start with the Balanced quality option. Compress and download a separate copy. Supported processing runs locally in your browser. Browser PDF exports include a small Just Compress app logo watermark, so check that this is acceptable for your recipient before using it for an application or formal document."
+      },
+      {
+        "id": "inspect-output",
+        "heading": "Check the result before attaching it",
+        "body": "Open the new PDF and compare the first page, the smallest text, diagrams and any signatures with the original. Check page count and file size. Compression can reduce image quality, and an already optimized PDF may barely shrink. Do not promise a fixed percentage or assume that a successful export preserves every document feature. Keep a signed original and follow any requirements for digitally signed files."
+      },
+      {
+        "id": "sharing-link",
+        "heading": "If it is still too large",
+        "body": "Send only the pages the recipient needs if that is allowed, or use a sharing link from an approved service. In Gmail, an oversized attachment may be replaced with a Drive link. In Apple Mail, Mail Drop supports attachments up to 5 GB subject to its service limits. These options upload a copy for sharing. Check recipient permissions and any expiry instead of describing them as no-upload delivery."
+      },
+      {
+        "id": "iphone",
+        "heading": "On iPhone",
+        "body": "Our App, PDF Compressor: Sign & Merge, offers PDF compression and related document tools. Check the verified App Store listing below for current purchase options. Export a copy, inspect the actual PDF, then attach it using your mail app. The app name does not establish that every export will satisfy a particular portal or mail server."
+      }
     ],
     "steps": [
-      "Check the account, total attachment size and recipient requirements.",
-      "Compress a separate copy. Inspect small text, page count and any marks or signatures.",
-      "Attach the checked copy, or share an approved link and verify recipient access."
+      {
+        "id": "requirements",
+        "text": "Check the account, total attachment size and recipient requirements."
+      },
+      {
+        "id": "inspect",
+        "text": "Compress a separate copy. Inspect small text, page count and any marks or signatures."
+      },
+      {
+        "id": "deliver",
+        "text": "Attach the checked copy, or share an approved link and verify recipient access."
+      }
     ],
     "faqs": [
-      [
-        "What size should I target for email?",
-        "Use the actual sending and receiving limits, counting all attachments. Leave room under the applicable limit. There is no universal safe size for every account."
-      ],
-      [
-        "Will PDF compression always make the file much smaller?",
-        "No. Image-heavy documents may shrink more than text-heavy or already optimized files. Inspect the actual result and readability."
-      ],
-      [
-        "Does the free browser PDF tool add a watermark?",
-        "Yes. Browser PDF exports include a small Just Compress app logo watermark. Check the output and the recipient's requirements before sending."
-      ]
+      {
+        "id": "target-size",
+        "heading": "What size should I target for email?",
+        "body": "Use the actual sending and receiving limits, counting all attachments. Leave room under the applicable limit. There is no universal safe size for every account."
+      },
+      {
+        "id": "compression-result",
+        "heading": "Will PDF compression always make the file much smaller?",
+        "body": "No. Image-heavy documents may shrink more than text-heavy or already optimized files. Inspect the actual result and readability."
+      },
+      {
+        "id": "watermark",
+        "heading": "Does the free browser PDF tool add a watermark?",
+        "body": "Yes. Browser PDF exports include a small Just Compress app logo watermark. Check the output and the recipient's requirements before sending."
+      }
     ],
     "sources": [
-      [
-        "Google: send attachments with Gmail",
-        "https://support.google.com/mail/answer/6584?hl=en"
-      ],
-      [
-        "Microsoft: reduce attachment size in Outlook",
-        "https://support.microsoft.com/en-us/office/reduce-attachment-size-to-send-large-files-with-outlook-8c698842-b462-4a4c-8d53-5c5dd04f77ef"
-      ],
-      [
-        "Apple: Mail Drop limits",
-        "https://support.apple.com/en-us/108329"
-      ]
+      {
+        "id": "gmail",
+        "label": "Google: send attachments with Gmail",
+        "url": "https://support.google.com/mail/answer/6584?hl=en"
+      },
+      {
+        "id": "outlook",
+        "label": "Microsoft: reduce attachment size in Outlook",
+        "url": "https://support.microsoft.com/en-us/office/reduce-attachment-size-to-send-large-files-with-outlook-8c698842-b462-4a4c-8d53-5c5dd04f77ef"
+      },
+      {
+        "id": "maildrop",
+        "label": "Apple: Mail Drop limits",
+        "url": "https://support.apple.com/en-us/108329"
+      }
     ],
     "primaryCta": "/compress-pdf/",
     "related": [
-      [
-        "How to compress a PDF on iPhone",
-        "/iphone-video-tutorials/05-how-to-compress-pdf-on-iphone/"
-      ],
-      [
-        "Compress a PDF without uploading",
-        "/blog/compress-pdf-without-uploading/"
-      ],
-      [
-        "Compare local and cloud file tools",
-        "/compare-file-tools/"
-      ]
-    ]
+      {
+        "id": "iphone-pdf",
+        "label": "How to compress a PDF on iPhone",
+        "url": "/iphone-video-tutorials/05-how-to-compress-pdf-on-iphone/"
+      },
+      {
+        "id": "local-pdf",
+        "label": "Compress a PDF without uploading",
+        "url": "/blog/compress-pdf-without-uploading/"
+      },
+      {
+        "id": "compare-tools",
+        "label": "Compare local and cloud file tools",
+        "url": "/compare-file-tools/"
+      }
+    ],
+    "i18n": {
+      "id": "pdf-email",
+      "diagram": {
+        "title": "Check a PDF before sending",
+        "step-limit": "1. Check the limit",
+        "limit-accounts": "Sending and receiving accounts",
+        "limit-total": "Count all attachments together.",
+        "step-copy": "2. Inspect the copy",
+        "copy-details": "Small text, pages and signatures",
+        "copy-original": "Keep the original unchanged.",
+        "step-delivery": "3. Test delivery",
+        "delivery-options": "Checked attachment or approved link",
+        "delivery-access": "Confirm recipient access."
+      }
+    }
   },
   {
     "slug": "compress-video-for-whatsapp",

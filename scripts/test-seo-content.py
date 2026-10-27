@@ -6,7 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 for p in json.loads((ROOT/'scripts/seo-content.json').read_text()):
  s=BeautifulSoup((ROOT/p['slug']/'index.html').read_text(),'html.parser')
  text=s.get_text(' ',strip=True)
- for heading,body in p['sections']:
+ for row in p['sections']:
+  heading,body = (row['heading'],row['body']) if isinstance(row,dict) else row
   assert heading in text and body in text,(p['slug'],'missing maintained section')
  assert len(s.select('h1'))==1
  assert s.select_one('img[alt]')
