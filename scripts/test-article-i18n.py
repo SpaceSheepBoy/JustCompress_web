@@ -24,6 +24,9 @@ for entry,page,source in articles:
         assert len(soup.select('[data-article-language]'))==1
         for script in soup.select('script[type="application/ld+json"]'):
             data=json.loads(script.string)
+            if lang!='en' and data.get('@type')=='Article':
+                assert data['datePublished']==entry['translation_date']
+                assert data['dateModified']>=data['datePublished']
             if data.get('@type')=='FAQPage':
                 for q in data['mainEntity']:
                     assert q['name'] in soup.get_text() and q['acceptedAnswer']['text'] in soup.get_text()
