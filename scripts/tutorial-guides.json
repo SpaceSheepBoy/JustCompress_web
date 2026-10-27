@@ -516,5 +516,18 @@
     "related": [
       "/guides/"
     ]
+  },
+  {
+    "slug": "send-long-voice-memo-iphone",
+    "title": "How to Send a Long Voice Memo on iPhone",
+    "summary": "Choose AirDrop, Mail Drop or a smaller audio attachment when a long iPhone voice memo will not send.",
+    "app": "6769563659",
+    "kind": "knowledge",
+    "published": "2026-10-27",
+    "modified": "2026-10-27",
+    "layout": "send-long-voice-memo-iphone.html",
+    "sections": [],
+    "faq": [],
+    "related": []
   }
 ]
