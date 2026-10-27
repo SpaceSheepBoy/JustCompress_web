@@ -1,0 +1,62 @@
+{
+  "en": {
+    "label": "English",
+    "badge_locale": "en-us",
+    "country": "us",
+    "weblate": "en"
+  },
+  "fr": {
+    "label": "Français",
+    "badge_locale": "fr-fr",
+    "country": "fr",
+    "weblate": "fr"
+  },
+  "ja": {
+    "label": "日本語",
+    "badge_locale": "ja-jp",
+    "country": "jp",
+    "weblate": "ja"
+  },
+  "es": {
+    "label": "Español",
+    "badge_locale": "es-es",
+    "country": "es",
+    "weblate": "es"
+  },
+  "zh-Hans": {
+    "label": "简体中文",
+    "badge_locale": "zh-cn",
+    "country": "sg",
+    "weblate": "zh_Hans"
+  },
+  "zh-Hant": {
+    "label": "繁體中文",
+    "badge_locale": "zh-tw",
+    "country": "tw",
+    "weblate": "zh_Hant"
+  },
+  "de": {
+    "label": "Deutsch",
+    "badge_locale": "de-de",
+    "country": "de",
+    "weblate": "de"
+  },
+  "pt": {
+    "label": "Português (Brasil)",
+    "badge_locale": "pt-br",
+    "country": "br",
+    "weblate": "pt_BR"
+  },
+  "it": {
+    "label": "Italiano",
+    "badge_locale": "it-it",
+    "country": "it",
+    "weblate": "it"
+  },
+  "ko": {
+    "label": "한국어",
+    "badge_locale": "ko-kr",
+    "country": "kr",
+    "weblate": "ko"
+  }
+}

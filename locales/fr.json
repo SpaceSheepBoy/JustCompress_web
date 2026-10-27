@@ -120,5 +120,6 @@
   "common.copied_prefix": "Copié : ",
   "common.copied_suffix": ". Collez-le dans la recherche de l’App Store.",
   "common.copy_fallback": "Choisissez Copier, puis collez ce nom dans la recherche de l’App Store.",
-  "common.no_results": "Aucune app correspondante. Essayez « vidéo », « audio », « photo » ou « PDF »."
+  "common.no_results": "Aucune app correspondante. Essayez « vidéo », « audio », « photo » ou « PDF ».",
+  "common.singapore_store_note": "Le lien de téléchargement ouvre l’App Store de Singapour. La disponibilité dépend de la région de votre compte Apple. La recherche actuelle dans la boutique de Chine continentale n’a pas renvoyé cette app."
 }

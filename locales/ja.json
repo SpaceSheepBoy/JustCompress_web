@@ -120,5 +120,6 @@
   "common.copied_prefix": "コピーしました： ",
   "common.copied_suffix": "。App Storeの検索欄に貼り付けてください。",
   "common.copy_fallback": "「コピー」を選び、App Storeの検索欄にこの名前を貼り付けてください。",
-  "common.no_results": "一致するアプリがありません。「動画」「音声」「写真」「PDF」などをお試しください。"
+  "common.no_results": "一致するアプリがありません。「動画」「音声」「写真」「PDF」などをお試しください。",
+  "common.singapore_store_note": "ダウンロードリンクはシンガポールのApp Storeを開きます。利用できるかどうかはAppleアカウントの地域によって異なります。今回の中国本土のストア検索では、このアプリは見つかりませんでした。"
 }

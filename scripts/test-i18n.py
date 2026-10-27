@@ -21,7 +21,7 @@ assert all(v['approved'] == v['total'] and not v['failing_check_ids'] for v in r
 sitemap = ET.parse(ROOT/'sitemap.xml')
 listed = {x.text for x in sitemap.getroot().iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 checked = []
-for lang in ('fr','ja'):
+for lang in build.TARGETS:
     catalog = build.load(lang+'.json')
     assert set(catalog) == set(source)
     assert review['catalogs'][lang] == build.digest(catalog)
@@ -44,6 +44,13 @@ for lang in ('fr','ja'):
         assert build.SITE+route in listed
         assert soup.select_one('script[src^="/assets/i18n-ui.js"]')
         assert soup.select_one('script[src^="/assets/posthog-init.js"]')
+        badges=soup.select('a.localized-store-badge img.official-app-store-badge')
+        assert len(badges)==(1 if slug else len(apps)), (route,'missing official download badge')
+        artwork=build.load('badge-sources.json')[lang]
+        for badge in badges:
+            assert badge['src']==artwork['src'], (route,'wrong language badge')
+            assert badge.parent['href'].startswith('https://apps.apple.com/')
+        assert len(soup.select('details.i18n-selector'))==1
         for node in soup.select('script[type="application/ld+json"]'):
             json.loads(node.string)
         for node in soup.select('a[href],img[src],script[src],link[href]'):
@@ -58,6 +65,9 @@ for lang in ('fr','ja'):
             assert 'alt' in node.attrs
         if slug:
             store=stores[slug][lang]
+            if lang=='zh-Hans':
+                assert store['country']=='sg' and '/sg/' in store['trackViewUrl']
+                assert soup.select_one('.storefront-note') and '新加坡' in soup.select_one('.storefront-note').get_text()
             assert soup.h1.get_text() == store['trackName']
             assert len(soup.select(f'a[href="{store["trackViewUrl"]}"]')) >= 2
             for screen in store['screens']:
@@ -65,6 +75,8 @@ for lang in ('fr','ja'):
                 assert im.size == (screen['width'],screen['height'])
                 assert im.width >= 1000 and im.height >= 2000
         checked.append(route)
+for locale,artwork in build.load('badge-sources.json').items():
+    assert build.hashlib.sha256((ROOT/artwork['src'].lstrip('/')).read_bytes()).hexdigest()==artwork['sha256'],(locale,'official Apple SVG was modified')
 # Every alternate in every affected cluster must return the identical reciprocal set.
 for slug in ['',*[a['slug'] for a in apps]]:
     expected={k:build.SITE+v for k,v in build.alternatives(slug).items()}

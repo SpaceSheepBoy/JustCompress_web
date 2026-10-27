@@ -3,13 +3,28 @@
 Weblate: http://localhost:8096/projects/justcompress/app-pages/
 
 `en.json` contains the maintained English source for localized product summaries
-and shared UI. `fr.json` and `ja.json` are reviewed Weblate exports. Official
+and shared UI. The target catalogs configured in `config.json` are reviewed
+Weblate exports. Supported languages are English, French, Japanese, Spanish,
+Simplified Chinese, Traditional Chinese, German, Brazilian Portuguese, Italian
+and Korean. Official
 store names, versions, destinations and screenshots come from dated Apple
 storefront snapshots. They are not translated or invented by the agent.
 
 The localized pages summarize the verified functions, access and limitations.
 They link explicitly to the longer English product walkthroughs and legal pages.
 Established English pages and other Combine Photos locales retain their URLs.
+
+`badge-sources.json` records the unmodified official Apple SVG download badges,
+language identifiers, intrinsic dimensions, source URLs and SHA256 values. Use
+the matching badge on product pages and directory cards. Do not translate or
+redraw the artwork. The compiler preserves a 40 CSS-pixel badge height with clear
+space and uses a collapsed language selector on small screens. Shared UI/CSS
+URLs use content hashes so updated translations cannot keep stale browser assets.
+
+The current mainland China lookup did not return these apps. Simplified Chinese
+pages use verified Chinese-localized Singapore listings and explicitly explain
+that destination and account-region availability. Never substitute a broken
+China storefront URL or infer mainland availability from a translated webpage.
 
 Workflow from the growth workspace:
 

@@ -14,7 +14,9 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://justcompress.online'
-LOCALES = {'en': 'English', 'fr': 'Français', 'ja': '日本語'}
+CONFIG = json.loads((ROOT/'locales/config.json').read_text())
+LOCALES = {code:entry['label'] for code,entry in CONFIG.items()}
+TARGETS = tuple(code for code in LOCALES if code != 'en')
 
 
 def digest(data):
@@ -46,11 +48,23 @@ def alternate_html(slug):
 
 
 def language_nav(slug, lang):
-    label = {'fr':'Langue','ja':'言語'}.get(lang,'Language')
-    return '<nav class="i18n-languages" aria-label="'+label+'">' + ''.join(
+    labels=dict(LOCALES)
+    if slug=='collage-maker':
+        old=json.loads((ROOT/'scripts/collage-localizations.json').read_text())
+        labels.update({code:entry['label'] for code,entry in old.items() if code not in labels})
+    label = load(lang+'.json')['common.language'] if lang in LOCALES else {'ar':'اللغة','id':'Bahasa','th':'ภาษา'}.get(lang,'Language')
+    current = LOCALES.get(lang,{'ar':'العربية','id':'Bahasa Indonesia','th':'ไทย'}.get(lang,lang))
+    return '<details class="i18n-selector"><summary>'+E(current)+' · '+E(label)+'</summary><nav class="i18n-languages" aria-label="'+E(label)+'">' + ''.join(
         f'<a href="{route(slug, code)}" lang="{code}" hreflang="{code}"' +
         (' aria-current="page"' if code == lang else '') + f'>{label}</a>'
-        for code, label in LOCALES.items()) + '</nav>'
+        for code, label in labels.items()) + '</nav></details>'
+
+
+def store_badge(url, lang, label):
+    artwork = load('badge-sources.json')[lang]
+    artwork={**artwork,'width':round(artwork['width']),'height':round(artwork['height'])}
+    return ('<a class="localized-store-badge" href="'+E(url)+'" aria-label="'+E(label)+'">'+
+            image(artwork,label,'official-app-store-badge',True)+'</a>')
 
 
 def ld(data):
@@ -76,13 +90,18 @@ def build():
         fields = {k: app[k] for k in ('benefit', 'features', 'access', 'caveat')}
         if baseline[app['slug']] != digest(fields):
             raise ValueError('English product facts changed; refresh and review translations: ' + app['slug'])
+    # Verify every catalog before emitting links to the complete language set.
+    catalogs = {lang:load(lang+'.json') for lang in TARGETS}
+    for lang,texts in catalogs.items():
+        if set(texts) != set(source) or any(not isinstance(v,str) or not v.strip() for v in texts.values()):
+            raise ValueError('Missing or extra translations: '+lang)
+        if reviewed['source_sha256'] != digest(source) or reviewed['catalogs'].get(lang) != digest(texts):
+            raise ValueError('Catalog differs from reviewed Weblate export: '+lang)
+    ui = {lang:{k.removeprefix('common.'):v for k,v in load(lang+'.json').items() if k.startswith('common.')} for lang in LOCALES}
+    asset_version=hashlib.sha256((ROOT/'assets/i18n.css').read_bytes()+json.dumps(ui,ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
     written = []
-    for lang in ('fr', 'ja'):
-        texts = load(lang + '.json')
-        if set(texts) != set(source) or any(not isinstance(v, str) or not v.strip() for v in texts.values()):
-            raise ValueError('Missing or extra translations: ' + lang)
-        if reviewed['source_sha256'] != digest(source) or reviewed['catalogs'][lang] != digest(texts):
-            raise ValueError('Catalog differs from reviewed Weblate export: ' + lang)
+    changed = set()
+    for lang,texts in catalogs.items():
         def t(key):
             return E(texts[key])
         def shell(slug, title, description, body, schema):
@@ -95,8 +114,8 @@ def build():
                     f'<meta property="og:url" content="{url}"><meta property="og:type" content="website">'
                     '<link rel="icon" href="/assets/icons/just-compress-icon.svg" type="image/svg+xml">'
                     '<link rel="stylesheet" href="/assets/portfolio-v2.css?v=20261026-card-links">'
-                    '<link rel="stylesheet" href="/assets/i18n.css?v=20261027">' + schema +
-                    '<script defer src="/assets/i18n-ui.js?v=20261027"></script>'
+                    f'<link rel="stylesheet" href="/assets/i18n.css?v={asset_version}">' + schema +
+                    f'<script defer src="/assets/i18n-ui.js?v={asset_version}"></script>'
                     '<script defer src="/assets/posthog-init.js?v=20261027-i18n"></script>'
                     '</head><body class="portfolio-page"><div class="portfolio-shell">'
                     '<nav class="portfolio-nav" aria-label="'+t('common.navigation')+'">'
@@ -114,6 +133,8 @@ def build():
                 raise ValueError('Prohibited public name')
             target = ROOT / route(slug, lang).strip('/') / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
+            if not target.exists() or target.read_text() != html:
+                changed.add(route(slug,lang))
             target.write_text(html)
             written.append(route(slug, lang))
         cards = []
@@ -131,8 +152,10 @@ def build():
                     '<div><p class="eyebrow">'+t('common.iphone_app')+'</p><h1>'+E(name)+'</h1></div></div>'
                     '<p class="product-lede">'+t(key+'benefit')+'</p><p class="product-version">'+
                     t('common.version')+' '+E(store['version'])+' · iOS '+E(store['minimumOsVersion'])+' · '+
-                    t('common.checked')+' '+E(datetime.fromisoformat(store['checked_at']).astimezone(ZoneInfo('Europe/Paris')).date().isoformat())+'</p>'
-                    '<a class="portfolio-button" href="'+E(store_url)+'">'+t('common.store')+' ↗</a></header>' + gallery +
+                    t('common.checked')+' '+E(datetime.fromisoformat(store['checked_at']).astimezone(ZoneInfo('Europe/Paris')).date().isoformat())+'</p>'+
+                    store_badge(store_url,lang,texts['common.store'])+
+                    ('<p class="storefront-note">'+t('common.singapore_store_note')+'</p>' if store.get('requested_country')=='cn' else '')+
+                    '</header>' + gallery +
                     '<section class="product-section"><h2>'+t('common.features')+'</h2><ul class="feature-list">'+
                     ''.join('<li>'+t(key+'feature.'+str(i))+'</li>' for i in range(len(app['features'])))+'</ul></section>'
                     '<section class="product-section"><h2>'+t('common.access')+'</h2><p>'+t(key+'access')+'</p><p>'+t('common.local_offer')+'</p></section>'
@@ -157,41 +180,62 @@ def build():
             schema += ld({'@type':'BreadcrumbList','itemListElement':[
                 {'@type':'ListItem','position':1,'name':texts['common.apps'],'item':SITE+route('',lang)},
                 {'@type':'ListItem','position':2,'name':name,'item':SITE+route(slug,lang)}]})
-            shell(slug, name, texts[key+'benefit']+'. '+texts['common.meta_detail'], body, schema)
+            separator='。' if lang in ('zh-Hans','zh-Hant','ja') else '. '
+            shell(slug, name, texts[key+'benefit']+separator+texts['common.meta_detail'], body, schema)
             cards.append('<article class="app-card"><a class="catalog-identity" href="'+route(slug,lang)+'">'+
                 image(app['icon'],'','app-icon')+'<div><h2>'+E(name)+'</h2><p class="benefit">'+t(key+'benefit')+'</p></div></a>'+
                 '<figure class="catalog-gallery"><div class="catalog-shots">'+''.join(image(s,name+': '+texts['common.screenshot'],'catalog-shot') for s in screens)+'</div></figure>'+
                 '<input id="name-'+app['id']+'" type="hidden" value="'+E(name)+'">'+
                 '<div class="actions"><a class="portfolio-button" href="'+route(slug,lang)+'">'+t('common.details')+'</a>'+
-                '<a href="'+E(store_url)+'">App Store ↗</a><button type="button" data-copy="name-'+app['id']+'">'+t('common.copy')+'</button></div></article>')
+                store_badge(store_url,lang,texts['common.store'])+'<button type="button" data-copy="name-'+app['id']+'">'+t('common.copy')+'</button></div></article>')
         body = '<header class="catalog-heading"><h1>'+t('common.directory_title')+'</h1><p>'+t('common.directory_intro')+'</p><input id="find-app" type="search" aria-label="'+t('common.search_label')+'" placeholder="'+t('common.search_placeholder')+'" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog">'+''.join(cards)+'</section><p id="no-results" hidden>'+t('common.no_results')+'</p><script defer src="/assets/find-app.js?v=20261027-i18n"></script>'
         schema = ld({'@type':'CollectionPage','name':texts['common.directory_title'],'url':SITE+route('',lang),'inLanguage':lang,
                      'mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':stores[a['slug']][lang]['trackName'],'url':SITE+route(a['slug'],lang)} for i,a in enumerate(apps)]}})
         shell('',texts['common.directory_title'],texts['common.directory_intro'],body,schema)
-    ui = {lang:{k.removeprefix('common.'):v for k,v in load(lang+'.json').items() if k.startswith('common.')} for lang in LOCALES}
     (ROOT/'assets/i18n-ui.js').write_text('window.spaceSheepI18n = '+json.dumps(ui,ensure_ascii=False).replace('</','<\\/')+';\n')
     # Add language links to source pages without rewriting their prose or scripts.
     for slug in ['', *[a['slug'] for a in apps]]:
         languages = alternatives(slug) if slug == 'collage-maker' else {'en':route(slug,'en')}
         for lang, url in languages.items():
-            if lang == 'x-default' or lang in ('fr','ja'):
+            if lang == 'x-default' or lang in TARGETS:
                 continue
             path = ROOT / url.strip('/') / 'index.html'
             html = path.read_text()
+            before = html
             html = re.sub(r'<link\b(?=[^>]*\brel=["\']alternate["\'])(?=[^>]*\bhreflang=)[^>]*>', '', html)
+            html = re.sub(r'<details class="i18n-selector".*?</details>', '', html, flags=re.S)
             html = re.sub(r'<nav class="i18n-languages".*?</nav>', '', html, flags=re.S)
+            if slug=='collage-maker':
+                html=re.sub(r'<nav class="(?:product-languages|product-language-links)".*?</nav>','',html,flags=re.S)
             html = re.sub(r'<link rel="stylesheet" href="/assets/i18n.css[^\"]*">', '', html)
-            html = html.replace('</head>', alternate_html(slug)+'<link rel="stylesheet" href="/assets/i18n.css?v=20261027"></head>')
+            html = html.replace('</head>', alternate_html(slug)+f'<link rel="stylesheet" href="/assets/i18n.css?v={asset_version}"></head>')
             html = html.replace('<main>', language_nav(slug,lang)+'<main>', 1)
             # Source generators with a bare main attribute are also supported.
             if 'class="i18n-languages"' not in html:
                 html = re.sub(r'(<main\b[^>]*>)',language_nav(slug,lang)+r'\1',html,count=1)
+            # Legacy product summaries also receive Apple's actual localized art.
+            # Existing story-page and directory English badges are already official.
+            if slug:
+                def localize_header(match):
+                    header=match.group(0)
+                    return re.sub(r'<a\b[^>]*href="(https://apps\.apple\.com/[^\"]+)"[^>]*>.*?</a>',
+                        lambda link: store_badge(link.group(1).replace('&amp;','&'),lang,
+                            load('en.json')['common.store'] if lang=='en' else 'App Store'),header,count=1,flags=re.S)
+                html=re.sub(r'<header\b(?=[^>]*\bclass="[^"]*\bproduct-heading\b)[^>]*>.*?</header>',localize_header,html,flags=re.S)
+            if html != before:
+                changed.add(url)
             path.write_text(html)
     ns = 'http://www.sitemaps.org/schemas/sitemap/0.9'
     ET.register_namespace('', ns)
     sitemap_path = ROOT/'sitemap.xml'
     tree = ET.parse(sitemap_path)
     existing = {el.findtext('{'+ns+'}loc') for el in tree.getroot()}
+    for el in tree.getroot():
+        loc=el.findtext('{'+ns+'}loc')
+        if loc and loc.removeprefix(SITE) in changed:
+            modified=el.find('{'+ns+'}lastmod')
+            if modified is None:modified=ET.SubElement(el,'{'+ns+'}lastmod')
+            modified.text=datetime.now(ZoneInfo('Europe/Paris')).date().isoformat()
     for path in written:
         if SITE+path not in existing:
             el = ET.SubElement(tree.getroot(),'{'+ns+'}url')

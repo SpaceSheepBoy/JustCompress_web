@@ -120,5 +120,6 @@
   "common.copied_prefix": "Copied: ",
   "common.copied_suffix": ". Paste it into App Store search.",
   "common.copy_fallback": "Select Copy, then paste this name into App Store search.",
-  "common.no_results": "No matching app. Try “video”, “audio”, “photo” or “PDF”."
+  "common.no_results": "No matching app. Try “video”, “audio”, “photo” or “PDF”.",
+  "common.singapore_store_note": "The download link opens the Singapore App Store. Availability depends on your Apple Account region. The current mainland China store lookup did not return this app."
 }
