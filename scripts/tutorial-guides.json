@@ -323,7 +323,7 @@
       "/guides/hdr-photos-to-sdr-iphone/"
     ],
     "layout": "combine-photos-iphone.html",
-    "modified": "2026-10-26"
+    "modified": "2026-10-27"
   },
   {
     "slug": "compress-video-iphone",
@@ -508,14 +508,15 @@
     "kind": "knowledge",
     "category": "Practical guide",
     "published": "2026-10-26",
-    "modified": "2026-10-26",
+    "modified": "2026-10-27",
     "layout": "side-by-side-vs-grid-photo-layout.html",
     "steps": [],
     "sections": [],
     "faq": [],
     "related": [
       "/guides/"
-    ]
+    ],
+    "archived_to": "/guides/combine-photos-iphone/"
   },
   {
     "slug": "send-long-voice-memo-iphone",

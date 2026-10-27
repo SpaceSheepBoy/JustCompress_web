@@ -7,6 +7,7 @@ HOST='https://justcaptions.com' if (ROOT/'styles.css').exists() else 'https://ju
 CAPTIONS='justcaptions' in HOST
 BRAND='Just Captions' if CAPTIONS else 'Just Compress'
 GUIDES=json.loads((ROOT/'scripts/tutorial-guides.json').read_text())
+ACTIVE_GUIDES=[g for g in GUIDES if not g.get('archived_to')]
 PRODUCTS=json.loads((ROOT/'scripts/tutorial-products.json').read_text())
 VIDEOS=json.loads((ROOT/'scripts/tutorial-videos.json').read_text())
 DATE='2026-10-22'
@@ -43,6 +44,11 @@ def page(path,title,description,body,schema=''):
 
 for g in GUIDES:
  path='/guides/'+g['slug']+'/'
+ if g.get('archived_to'):
+  body=f'<header class="guide-heading"><p class="guide-eyebrow">PHOTO GUIDE</p><h1>Combine your photos in one image</h1><p class="guide-lede">The layout examples and export checks are now part of our step-by-step iPhone guide.</p></header><article class="guide-article"><p>Use a side-by-side pair to compare two photos, or a grid for a collection. Keep faces and text visible, then check the saved image at normal phone size.</p><p><a class="guide-button" href="{E(g["archived_to"])}">Open the photo-combining guide →</a></p><p>This older link remains available so bookmarks still lead to the instructions.</p></article>'
+  html=page(path,g['title'],g['summary'],body).replace('</head>','<meta name="robots" content="noindex,follow"></head>')
+  dest=ROOT/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(html)
+  continue
  schema=ld({'@type':'Article','headline':g['title'],'description':g['summary'],'datePublished':g.get('published',DATE),'dateModified':g.get('modified',g.get('published',DATE)),'mainEntityOfPage':HOST+path,'author':{'@type':'Organization','name':'Space Sheep Studio'},'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})
  schema+=ld({'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':BRAND,'item':HOST+'/'},{'@type':'ListItem','position':2,'name':'Guides','item':HOST+'/guides/'},{'@type':'ListItem','position':3,'name':g['title'],'item':HOST+path}]})
  if g.get('video') and VIDEOS[g['video']].get('published'):
@@ -70,10 +76,10 @@ if CAPTIONS:
  links=[('/how-to-batch-add-captions-to-videos/','Batch add captions on iPhone'),('/how-to-translate-captions-to-multiple-languages/','Translate one video into several languages'),('/guides/batch-translate-captions-iphone/','Batch translate captions on iPhone'),('/create-srt-file-on-iphone/','Export an SRT subtitle file'),('/add-captions-to-tiktok/','Captions for TikTok'),('/add-captions-to-instagram-reels/','Captions for Reels'),('/add-captions-to-youtube-shorts/','Captions for Shorts')]
  body+='<section class="guide-article"><h2>iPhone captioning guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in links)+'</ul></section><section><h2>Mac walkthroughs</h2>'
 else:body+='<section><h2>Video and photo walkthroughs</h2>'
-body+='<p><a class="guide-button" href="/videos/">Browse all video walkthroughs →</a></p><div class="guide-grid">'+''.join(card(g) for g in GUIDES if not CAPTIONS or g['app']=='mac')+'</div></section>'
+body+='<p><a class="guide-button" href="/videos/">Browse all video walkthroughs →</a></p><div class="guide-grid">'+''.join(card(g) for g in ACTIVE_GUIDES if not CAPTIONS or g['app']=='mac')+'</div></section>'
 if not CAPTIONS:body+='<section class="guide-article"><h2>Audio and PDF tutorials</h2><p>Convert M4A to MP3, trim audio, compress a voice memo, make PDFs smaller, sign documents and more.</p><a class="guide-button" href="/iphone-video-tutorials/">Watch audio and PDF tutorials →</a><p><a href="/tutorials/">Browse browser-tool help</a> · <a href="/apps/">Find your iPhone app</a></p></section>'
 else:body+=cta('mac')
-schema=ld({'@type':'CollectionPage','name':'Tutorial guides','url':HOST+'/guides/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':g['title'],'url':HOST+'/guides/'+g['slug']+'/'} for i,g in enumerate(GUIDES)]}})
+schema=ld({'@type':'CollectionPage','name':'Tutorial guides','url':HOST+'/guides/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':g['title'],'url':HOST+'/guides/'+g['slug']+'/'} for i,g in enumerate(ACTIVE_GUIDES)]}})
 (ROOT/'guides').mkdir(exist_ok=True);(ROOT/'guides/index.html').write_text(page('/guides/','Tutorial guides', 'Practical tutorials with real app videos, written steps, export checks and download links.',body,schema))
 
 # Every verified published walkthrough remains findable without creating a thin article for each duplicate.
