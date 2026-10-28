@@ -55,5 +55,7 @@
   "diagram.step-delivery": "3. Test an H.264 MP4 copy",
   "diagram.delivery-options": "Keep the original unchanged.",
   "diagram.delivery-access": "Check picture, sound and ending.",
+  "photo.alt": "AI illustration of a phone playing a cat video while a laptop cannot yet play the copied clip.",
+  "photo.caption": "AI illustration of a playback problem, not a Windows error screenshot or a measured VideoFix result.",
   "primaryCtaLabel": "View VideoFix on the App Store"
 }

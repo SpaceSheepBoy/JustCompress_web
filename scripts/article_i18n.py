@@ -35,6 +35,7 @@ def digest(value):
 
 def context(page):
     return {**{key:page[key] for key in ('appId','reviewed','figure','primaryCta')},
+            **({'photoExample':page['photoExample']} if page.get('photoExample') else {}),
             **{field:{row['id']:row['url'] for row in page[field]} for field in ('sources','related')}}
 
 
@@ -61,6 +62,7 @@ def documents(root=ROOT):
                         source[f'{field}.{row["id"]}.{key}'] = row[key]
         source.update({'ui.'+key: text for key, text in {**UI,**page['i18n'].get('ui',{})}.items()})
         source.update({'diagram.'+key: text for key, text in page['i18n']['diagram'].items()})
+        source.update({'photo.'+key: text for key, text in page['i18n'].get('photo',{}).items()})
         source['primaryCtaLabel'] = page.get('primaryCtaLabel', UI['freeTool'])
         if any(not isinstance(v,str) or not v.strip() for v in source.values()):
             raise ValueError('Missing source text: '+entry['id'])

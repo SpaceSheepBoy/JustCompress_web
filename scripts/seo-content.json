@@ -746,9 +746,20 @@
         "step-delivery": "3. Test an H.264 MP4 copy",
         "delivery-options": "Keep the original unchanged.",
         "delivery-access": "Check picture, sound and ending."
+      },
+      "photo": {
+        "alt": "AI illustration of a phone playing a cat video while a laptop cannot yet play the copied clip.",
+        "caption": "AI illustration of a playback problem, not a Windows error screenshot or a measured VideoFix result."
       }
     },
     "workflowHtml": true,
-    "discoveryBacklink": "guides/hevc-to-mp4-iphone/index.html"
+    "discoveryBacklink": "guides/hevc-to-mp4-iphone/index.html",
+    "photoExample": {
+      "src": "/assets/iphone-windows-playback-ai-example.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "photo",
+      "provenance": "OpenAI built-in image_gen, original AI illustration,2026-10-28"
+    }
   }
 ]

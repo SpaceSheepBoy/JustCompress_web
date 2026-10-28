@@ -1,9 +1,9 @@
 {
   "article": "windows-video",
   "component": "article-windows-video",
-  "checked_at": "2026-10-28T10:33:34.685192+01:00",
-  "source_sha256": "fd732f6e36d705f4da95cc8c5ba51495f2c7f335ff72ed8bd2d3b6e27e756a67",
-  "context_sha256": "df4b25efa9ff05954b8c3954cecc9d87eaeec9b7b596ed2fe6834421d4bdd083",
+  "checked_at": "2026-10-28T12:27:31.390159+01:00",
+  "source_sha256": "e9c9ba222a8e71402aa1c26760fe988b32e44f43ea1089028a3b1f1b052195a6",
+  "context_sha256": "9c51c0958cc01de80d65c30046e454cc483fdb1fc41dabb11e843bac1e8f7296",
   "catalogs": {},
   "languages": {}
 }

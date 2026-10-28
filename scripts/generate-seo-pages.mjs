@@ -9,6 +9,10 @@ const pages = JSON.parse(fs.readFileSync(path.join(root, 'scripts/seo-content.js
   ...Object.fromEntries(['cards','sections','faqs','sources','related'].map(field => [field,page[field].map(row => Array.isArray(row) ? row : field==='sources'||field==='related' ? [row.label,row.url] : [row.heading,row.body])])),
   steps:page.steps.map(step => typeof step==='string' ? step : step.text)
 }));
+// Every newly published article requires a useful photographic/example bitmap.
+for(const p of pages.filter(p=>p.published>='2026-10-28')) {
+ if(!p.photoExample?.src || !p.photoExample.provenance || !p.i18n?.photo?.alt || !p.i18n?.photo?.caption || !fs.existsSync(path.join(root,p.photoExample.src.replace(/^\//,''))))throw new Error('Missing required article photo/example and provenance: '+p.slug);
+}
 execFileSync('python3',[path.join(root,'scripts/article_i18n.py'),'check'],{stdio:'inherit'});
 const products = JSON.parse(fs.readFileSync(path.join(root, 'scripts/tutorial-products.json'), 'utf8'));
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
@@ -17,6 +21,12 @@ const links = [['Guides','/guides/'],['Free tools','/tools/'],['Apps','/apps/'],
 function workflow(page) {
  const d=page.i18n.diagram;
  return '<div class="diagnostic-flow" role="group" aria-label="'+esc(page.figureAlt)+'">'+[['step-limit','limit-accounts','limit-total'],['step-copy','copy-details','copy-original'],['step-delivery','delivery-options','delivery-access']].map(keys=>'<div><h3>'+esc(d[keys[0]])+'</h3><p>'+esc(d[keys[1]])+'</p><p>'+esc(d[keys[2]])+'</p></div>').join('')+'</div>';
+}
+function photographicExample(page) {
+ if(!page.photoExample)return '';
+ const p=page.photoExample,t=page.i18n.photo;
+ const image=`<img src="${esc(p.src)}" width="${p.width}" height="${p.height}" alt="${esc(t.alt)}" fetchpriority="high" decoding="async">`;
+ return p.kind==='caption-comparison' ? `<figure class="article-photo"><div class="photo-comparison"><div><h3>${esc(t.before)}</h3><div class="caption-frame">${image}</div></div><div><h3>${esc(t.after)}</h3><div class="caption-frame">${image}<span class="example-subtitle">${esc(t.subtitle)}</span></div></div></div><figcaption>${esc(t.caption)}</figcaption></figure>` : `<figure class="article-photo">${image}<figcaption>${esc(t.caption)}</figcaption></figure>`;
 }
 function render(page) {
   const labels={jump:'In this guide',choose:'Choose the approach',steps:'Follow the checks',details:'Read the details',chooseHeading:'Choose the approach before changing the file',stepsHeading:'Three checks before you send',...page.i18n?.ui};
@@ -29,11 +39,12 @@ function render(page) {
 <title>${esc(page.title)} | Just Compress</title><meta name="description" content="${esc(page.description)}"><link rel="canonical" href="${url}">
 <meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.description)}"><meta property="og:type" content="article"><meta property="og:url" content="${url}"><meta property="og:image" content="${site}${page.figure}">
 <link rel="icon" href="/assets/icons/just-compress-icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261022"><link rel="stylesheet" href="/assets/legacy-guides.css?v=20261024">
-${page.workflowHtml?`<style>.diagnostic-flow{background:#eaf2fb;padding:16px;border-radius:18px;display:grid;gap:22px}.diagnostic-flow>div{background:white;border:1px solid #a7c3dd;border-radius:14px;padding:18px;position:relative}.diagnostic-flow h3{font-size:1.2rem;margin:0 0 10px}.diagnostic-flow p{font-size:1.05rem;line-height:1.5;margin:6px 0}.diagnostic-flow>div+div:before{content:"↓";position:absolute;top:-26px;left:48%;font-size:22px;color:#284f77}</style>`:""}${schema}</head><body class="guide-page"><div class="guide-shell">
+${page.workflowHtml?`<style>.diagnostic-flow{background:#eaf2fb;padding:16px;border-radius:18px;display:grid;gap:22px}.diagnostic-flow>div{background:white;border:1px solid #a7c3dd;border-radius:14px;padding:18px;position:relative}.diagnostic-flow h3{font-size:1.2rem;margin:0 0 10px}.diagnostic-flow p{font-size:1.05rem;line-height:1.5;margin:6px 0}.diagnostic-flow>div+div:before{content:"↓";position:absolute;top:-26px;left:48%;font-size:22px;color:#284f77}</style>`:""}${page.photoExample?`<style>.article-photo{margin:20px 0 32px!important}.article-photo img{display:block;width:100%;height:auto;border-radius:14px;aspect-ratio:3/2;object-fit:cover}.article-photo figcaption{font-size:.9rem;line-height:1.5;margin-top:10px;color:#535260}.photo-comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}.photo-comparison h3{font-size:1.08rem;margin:0 0 10px}.caption-frame{position:relative}.example-subtitle{position:absolute;bottom:8%;left:5%;right:5%;width:max-content;max-width:90%;margin:auto;background:#111e;color:#fff;border-radius:5px;padding:7px 10px;text-align:center;font-size:clamp(16px,2vw,23px);line-height:1.3;font-weight:700}.guide-page .guide-article{max-width:100%}@media(max-width:680px){.photo-comparison{grid-template-columns:1fr;gap:20px}}</style>`:''}${schema}</head><body class="guide-page"><div class="guide-shell">
 <nav class="guide-nav" aria-label="Main navigation"><a class="guide-brand" href="/">Just Compress</a><div>${links.map(([n,u])=>`<a href="${u}">${n}</a>`).join('')}</div></nav>
 <main><header class="guide-heading"><p class="guide-eyebrow">${esc(page.tag)} · REVIEWED <time datetime="${page.reviewed}">${page.reviewed}</time></p><h1>${esc(page.title)}</h1><p class="guide-lede">${esc(page.direct)}</p></header>
 <nav class="repair-jump" aria-label="${esc(labels.jump)}"><a href="#choose">${esc(labels.choose)}</a><a href="#steps">${esc(labels.steps)}</a><a href="#details">${esc(labels.details)}</a></nav>
 <article class="guide-article" data-maintained-article>
+${photographicExample(page)}
 <section id="choose"><h2>${esc(labels.chooseHeading)}</h2><div class="repair-cards">${page.cards.map(([h,b])=>`<div><h3>${esc(h)}</h3><p>${esc(b)}</p></div>`).join('')}</div>
 <figure id="workflow">${page.workflowHtml?workflow(page):`<img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}">`}<figcaption>${esc(page.figureCaption)}</figcaption></figure></section>
 <section id="steps"><h2>${esc(labels.stepsHeading)}</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>${page.workflowHtml?'':`<p><a class="guide-button" href="${page.primaryCta}">${esc(page.primaryCtaLabel||('Open the free '+(page.appId==='6769762323'?'PDF':'video')+' compressor'))} ↗</a></p>`}</section>
