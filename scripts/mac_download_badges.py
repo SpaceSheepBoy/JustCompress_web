@@ -11,12 +11,12 @@ def apply():
     for page in pages:
         soup=BeautifulSoup(page.read_text(),'html.parser')
         if not soup.select('.app-catalog'): continue
+        for old in soup.select('.mac-download-badge'): old.decompose()
         for card in soup.select('.app-card'):
             store=card.select_one('a[href*="apps.apple.com"]')
             if not store: continue
             app=next((a for a in data['apps'] if '/id'+a['id'] in store['href']),None)
             if not app: continue
-            for old in card.select('.mac-download-badge'): old.decompose()
             link=soup.new_tag('a',href=app['url'])
             link['class']='mac-download-badge catalog-store-badge'
             link['aria-label']='macOS: '+card.h2.get_text(' ',strip=True)

@@ -1,0 +1,173 @@
+{
+  "checked": "2026-10-28T17:40:42.838450+00:00",
+  "apps": [
+    {
+      "slug": "videofix",
+      "id": "6812821310",
+      "macVersions": [
+        {
+          "id": "ba54d396-9431-4993-a41d-09fd6fc6d624",
+          "versionString": "1.0.1",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        },
+        {
+          "id": "b486b9d1-b2e4-4b10-9513-2f13cc41dcde",
+          "versionString": "1.0.0",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        }
+      ],
+      "publicMacDesktop": true
+    },
+    {
+      "slug": "audio-compressor",
+      "id": "6769563659",
+      "macVersions": [
+        {
+          "id": "b9f43170-dcb9-401f-8e61-0470cd3712e5",
+          "versionString": "1.0.2",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        },
+        {
+          "id": "4027f280-313a-4b98-8393-20e7c8b3e929",
+          "versionString": "1.0.1",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        },
+        {
+          "id": "8d2e1480-8f35-4dda-aa80-183402a4c2e6",
+          "versionString": "1.0",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        }
+      ],
+      "publicMacDesktop": true
+    },
+    {
+      "slug": "collage-maker",
+      "id": "6810266264",
+      "macVersions": [
+        {
+          "id": "73b8299b-7cbe-44cc-95e1-5c516028b3c1",
+          "versionString": "1.2",
+          "appStoreState": "IN_REVIEW",
+          "appVersionState": "IN_REVIEW",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        },
+        {
+          "id": "166560dd-0786-4fd5-8a8e-0e4a1403a920",
+          "versionString": "1.1",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        },
+        {
+          "id": "7ed46904-0ad4-4b2f-9608-74510f4b5504",
+          "versionString": "1.0",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        }
+      ],
+      "publicMacDesktop": true
+    },
+    {
+      "slug": "pdf-compressor",
+      "id": "6769762323",
+      "macVersions": [
+        {
+          "id": "536a861d-9197-42ff-b79d-e40c0c3f8a4f",
+          "versionString": "1.0.1",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        },
+        {
+          "id": "a30815e3-f5e5-4d79-a305-4e627d53b458",
+          "versionString": "1.0",
+          "appStoreState": "READY_FOR_SALE",
+          "appVersionState": "READY_FOR_DISTRIBUTION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        }
+      ],
+      "publicMacDesktop": true
+    },
+    {
+      "slug": "pdf-watermarker",
+      "id": "6769761016",
+      "macVersions": [],
+      "publicMacDesktop": false
+    },
+    {
+      "slug": "glowpop",
+      "id": "6778131414",
+      "macVersions": [],
+      "publicMacDesktop": false
+    },
+    {
+      "slug": "just-captions",
+      "id": "6770354079",
+      "macVersions": [
+        {
+          "id": "da1faf5d-c42f-4edc-8625-4aa21548bf13",
+          "versionString": "1.0",
+          "appStoreState": "PREPARE_FOR_SUBMISSION",
+          "appVersionState": "PREPARE_FOR_SUBMISSION",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        }
+      ],
+      "publicMacDesktop": false
+    },
+    {
+      "slug": "dying-soon",
+      "id": "6758529772",
+      "macVersions": [],
+      "publicMacDesktop": false
+    },
+    {
+      "slug": "vidkit",
+      "id": "6769563339",
+      "macVersions": [
+        {
+          "id": "eb5a0133-3489-47e3-a7e9-b6b1e265bb93",
+          "versionString": "1.0",
+          "appStoreState": "IN_REVIEW",
+          "appVersionState": "IN_REVIEW",
+          "platform": "MAC_OS",
+          "earliestReleaseDate": null
+        }
+      ],
+      "publicMacDesktop": false
+    },
+    {
+      "slug": "photofix",
+      "id": "6816526877",
+      "macVersions": [],
+      "publicMacDesktop": false
+    },
+    {
+      "slug": "sober-wins",
+      "id": "6811067941",
+      "macVersions": [],
+      "publicMacDesktop": false
+    }
+  ]
+}
