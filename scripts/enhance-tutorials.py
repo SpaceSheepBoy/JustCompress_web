@@ -93,3 +93,6 @@ if not m.CAPTIONS and (ROOT/'locales/review.json').exists():
 # Articles use the same locale registry and reviewed Weblate exports.
 if not m.CAPTIONS and (ROOT/'locales/articles/config.json').exists():
  subprocess.run([sys.executable,str(ROOT/'scripts/article_i18n.py'),'build'],check=True)
+
+# Rebuild ID-bearing Weblate-enrolled original articles after legacy generation.
+subprocess.run(["node",str(ROOT/"scripts/generate-seo-pages.mjs")],check=True)

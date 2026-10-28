@@ -14,10 +14,14 @@ const products = JSON.parse(fs.readFileSync(path.join(root, 'scripts/tutorial-pr
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const ld = value => `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org', ...value}).replaceAll('</', '<\\/')}</script>`;
 const links = [['Guides','/guides/'],['Free tools','/tools/'],['Apps','/apps/'],['Blog','/blog/']];
+function workflow(page) {
+ const d=page.i18n.diagram;
+ return '<div class="diagnostic-flow" role="group" aria-label="'+esc(page.figureAlt)+'">'+[['step-limit','limit-accounts','limit-total'],['step-copy','copy-details','copy-original'],['step-delivery','delivery-options','delivery-access']].map(keys=>'<div><h3>'+esc(d[keys[0]])+'</h3><p>'+esc(d[keys[1]])+'</p><p>'+esc(d[keys[2]])+'</p></div>').join('')+'</div>';
+}
 function render(page) {
   const labels={jump:'In this guide',choose:'Choose the approach',steps:'Follow the checks',details:'Read the details',chooseHeading:'Choose the approach before changing the file',stepsHeading:'Three checks before you send',...page.i18n?.ui};
   const url = `${site}/${page.slug}/`, product = products[page.appId];
-  const schema = ld({'@type':'Article',headline:page.title,description:page.description,dateModified:page.reviewed,mainEntityOfPage:url,author:{'@type':'Organization',name:'Space Sheep Studio'},publisher:{'@type':'Organization',name:'Space Sheep Studio'}})
+  const schema = ld({'@type':'Article',headline:page.title,description:page.description,...(page.published?{datePublished:page.published}:{}),dateModified:page.reviewed,mainEntityOfPage:url,author:{'@type':'Organization',name:'Space Sheep Studio'},publisher:{'@type':'Organization',name:'Space Sheep Studio'}})
     + ld({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Just Compress',item:site+'/'},{'@type':'ListItem',position:2,name:'Guides',item:site+'/guides/'},{'@type':'ListItem',position:3,name:page.title,item:url}]})
     + ld({'@type':'FAQPage',mainEntity:page.faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))});
   return `<!doctype html>
@@ -25,17 +29,17 @@ function render(page) {
 <title>${esc(page.title)} | Just Compress</title><meta name="description" content="${esc(page.description)}"><link rel="canonical" href="${url}">
 <meta property="og:title" content="${esc(page.title)}"><meta property="og:description" content="${esc(page.description)}"><meta property="og:type" content="article"><meta property="og:url" content="${url}"><meta property="og:image" content="${site}${page.figure}">
 <link rel="icon" href="/assets/icons/just-compress-icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261022"><link rel="stylesheet" href="/assets/legacy-guides.css?v=20261024">
-${schema}</head><body class="guide-page"><div class="guide-shell">
+${page.workflowHtml?`<style>.diagnostic-flow{background:#eaf2fb;padding:16px;border-radius:18px;display:grid;gap:22px}.diagnostic-flow>div{background:white;border:1px solid #a7c3dd;border-radius:14px;padding:18px;position:relative}.diagnostic-flow h3{font-size:1.2rem;margin:0 0 10px}.diagnostic-flow p{font-size:1.05rem;line-height:1.5;margin:6px 0}.diagnostic-flow>div+div:before{content:"↓";position:absolute;top:-26px;left:48%;font-size:22px;color:#284f77}</style>`:""}${schema}</head><body class="guide-page"><div class="guide-shell">
 <nav class="guide-nav" aria-label="Main navigation"><a class="guide-brand" href="/">Just Compress</a><div>${links.map(([n,u])=>`<a href="${u}">${n}</a>`).join('')}</div></nav>
 <main><header class="guide-heading"><p class="guide-eyebrow">${esc(page.tag)} · REVIEWED <time datetime="${page.reviewed}">${page.reviewed}</time></p><h1>${esc(page.title)}</h1><p class="guide-lede">${esc(page.direct)}</p></header>
 <nav class="repair-jump" aria-label="${esc(labels.jump)}"><a href="#choose">${esc(labels.choose)}</a><a href="#steps">${esc(labels.steps)}</a><a href="#details">${esc(labels.details)}</a></nav>
 <article class="guide-article" data-maintained-article>
 <section id="choose"><h2>${esc(labels.chooseHeading)}</h2><div class="repair-cards">${page.cards.map(([h,b])=>`<div><h3>${esc(h)}</h3><p>${esc(b)}</p></div>`).join('')}</div>
-<figure id="workflow"><img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}"><figcaption>${esc(page.figureCaption)}</figcaption></figure></section>
-<section id="steps"><h2>${esc(labels.stepsHeading)}</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol><p><a class="guide-button" href="${page.primaryCta}">${esc(page.primaryCtaLabel||('Open the free '+(page.appId==='6769762323'?'PDF':'video')+' compressor'))} ↗</a></p></section>
+<figure id="workflow">${page.workflowHtml?workflow(page):`<img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}">`}<figcaption>${esc(page.figureCaption)}</figcaption></figure></section>
+<section id="steps"><h2>${esc(labels.stepsHeading)}</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>${page.workflowHtml?'':`<p><a class="guide-button" href="${page.primaryCta}">${esc(page.primaryCtaLabel||('Open the free '+(page.appId==='6769762323'?'PDF':'video')+' compressor'))} ↗</a></p>`}</section>
 <section id="details">${page.sections.map(([h,b])=>`<h2>${esc(h)}</h2><p>${esc(b)}</p>`).join('')}</section>
 <aside class="guide-cta"><div><strong>${esc(product.name)}</strong><p>Our App by Space Sheep Studio. See the App Store for current access and purchase options.</p></div><a class="guide-button" href="${esc(product.url)}">Get the iPhone app ↗</a></aside>
-<section class="guide-faq"><h2>Common questions</h2>${page.faqs.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>
+${page.faqs.length?`<section class="guide-faq"><h2>Common questions</h2>${page.faqs.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>`:''}
 <section><h2>Sources and scope</h2><p>Official help checked on ${page.reviewed}. Limits and interfaces may change. Read the relevant section for your platform and account.</p><ul>${page.sources.map(([n,u])=>`<li><a href="${esc(u)}">${esc(n)}</a></li>`).join('')}</ul></section>
 <section><h2>Related guides</h2><ul>${page.related.map(([n,u])=>`<li><a href="${u}">${esc(n)}</a></li>`).join('')}</ul></section>
 </article></main><footer class="guide-footer"><span>© 2026 Space Sheep Studio</span><a href="/guides/">Guides</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></footer></div></body></html>\n`;
@@ -64,3 +68,16 @@ if(fs.existsSync(llmsPath)){
 }
 console.log(`Generated ${pages.length} complete guides at their existing URLs`);
 execFileSync('python3',[path.join(root,'scripts/article_i18n.py'),'build'],{stdio:'inherit'});
+
+// Structured records own their discovery links, without inventing translations.
+const enrolled=pages.filter(p=>p.published);
+for(const [file, marker, items] of [['guides/index.html','structured-article-index',enrolled], ...enrolled.map(p=>[p.discoveryBacklink,'structured-article-backlink-'+p.i18n.id,[p]])]) {
+ if(!file)continue;
+ const filename=path.join(root,file); let html=fs.readFileSync(filename,'utf8');
+ const pattern=new RegExp('<section data-'+marker+'>[\\s\\S]*?</section>','g');html=html.replace(pattern,'');
+ const block='<section data-'+marker+'><h2>Related practical guides</h2><ul>'+items.map(p=>'<li><a href="/'+p.slug+'/">'+esc(p.title)+'</a></li>').join('')+'</ul></section>';
+ html=html.replace('</main>',block+'</main>');fs.writeFileSync(filename,html);
+}
+let currentMap=fs.readFileSync(sitemapPath,'utf8');
+for(const p of enrolled){const url=site+'/'+p.slug+'/';if(!currentMap.includes('<loc>'+url+'</loc>'))currentMap=currentMap.replace('</urlset>','<url><loc>'+url+'</loc><lastmod>'+p.reviewed+'</lastmod></url>\n</urlset>');}
+fs.writeFileSync(sitemapPath,currentMap);

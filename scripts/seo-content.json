@@ -646,5 +646,109 @@
         "/apps/audio-compressor/"
       ]
     ]
+  },
+  {
+    "slug": "iphone-video-not-playing-on-windows",
+    "tag": "IPHONE TO WINDOWS",
+    "title": "iPhone Video Not Playing on Windows? Start Here",
+    "description": "Find out whether an iPhone video needs HEVC support, a complete transfer or an H.264 copy before changing your recording settings.",
+    "reviewed": "2026-10-28",
+    "published": "2026-10-28",
+    "appId": "6812821310",
+    "direct": "If a video plays on your iPhone but not your PC, check the transfer and the player’s codec support first. Keep the original while you test a compatible copy.",
+    "figure": "/assets/windows-video-checks.svg",
+    "figureAlt": "Check the copied file, look for a codec error, then test an H.264 MP4 copy.",
+    "figureCaption": "Diagnostic illustration, not a Windows error screenshot or measured App result.",
+    "figureWidth": 640,
+    "figureHeight": 750,
+    "cards": [
+      {
+        "id": "transfer",
+        "heading": "Broken copy?",
+        "body": "Transfer the file again if its size or duration looks incomplete."
+      },
+      {
+        "id": "codec",
+        "heading": "HEVC error?",
+        "body": "Use the appropriate Microsoft Store extension or make an H.264 copy."
+      }
+    ],
+    "steps": [
+      {
+        "id": "original",
+        "text": "Play the original on iPhone. Keep it unchanged."
+      },
+      {
+        "id": "copy",
+        "text": "Check the transferred file and read the PC’s exact error."
+      },
+      {
+        "id": "test",
+        "text": "Test a compatible copy on the same PC, including sound and the last few seconds."
+      }
+    ],
+    "sections": [
+      {
+        "id": "existing",
+        "heading": "For the video you already have",
+        "body": "Microsoft says missing codecs can cause playback errors, but not every player error is a codec problem. For an HEVC file, check the official HEVC extension. Renaming .MOV to .MP4 does not change its codec."
+      },
+      {
+        "id": "convert",
+        "heading": "Need a compatible copy?",
+        "body": "On a Mac, QuickTime Player can export HEVC using Greater Compatibility (H.264). On iPhone, our VideoFix app converts HEVC to H.264 MP4 through its Convert HDR to SDR goal, including HEVC that is already SDR. Re-encoding can change quality; inspect the copy."
+      },
+      {
+        "id": "future",
+        "heading": "For future recordings",
+        "body": "Settings → Camera → Formats → Most Compatible records new videos as H.264. It does not convert old clips. Some recording modes have separate requirements."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "microsoft",
+        "label": "Microsoft: Codecs FAQ",
+        "url": "https://support.microsoft.com/en-us/windows/apps/windowsmediaplayer/codecs-faq"
+      },
+      {
+        "id": "apple",
+        "label": "Apple: using and converting HEVC media",
+        "url": "https://support.apple.com/en-gb/116944"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/id6812821310",
+    "primaryCtaLabel": "View VideoFix on the App Store",
+    "related": [
+      {
+        "id": "hevc",
+        "label": "Convert HEVC to H.264 on iPhone",
+        "url": "/guides/hevc-to-mp4-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "windows-video",
+      "ui": {
+        "chooseHeading": "Which check comes first?",
+        "stepsHeading": "Test one copy",
+        "choose": "Find the cause",
+        "steps": "Check the copy",
+        "details": "Choose a fix"
+      },
+      "diagram": {
+        "title": "Plays on iPhone, fails on PC?",
+        "step-limit": "1. Compare the copied file",
+        "limit-accounts": "Incomplete size or duration?",
+        "limit-total": "Transfer again before converting.",
+        "step-copy": "2. Read the player error",
+        "copy-details": "Missing HEVC support?",
+        "copy-original": "Check the official codec option.",
+        "step-delivery": "3. Test an H.264 MP4 copy",
+        "delivery-options": "Keep the original unchanged.",
+        "delivery-access": "Check picture, sound and ending."
+      }
+    },
+    "workflowHtml": true,
+    "discoveryBacklink": "guides/hevc-to-mp4-iphone/index.html"
   }
 ]
