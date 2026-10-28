@@ -25,7 +25,10 @@ def apply():
             img=soup.new_tag('img',src=artwork['src'],alt='Download on the Mac App Store',width=str(artwork['width']),height=str(artwork['height']))
             img['style']='width:auto;height:50px'
             link.append(img)
-            card.select_one('.actions').append(link)
+            actions=card.select_one('.actions')
+            copy=actions.select_one('button')
+            if copy: copy.insert_before(link)
+            else: actions.append(link)
         page.write_text(str(soup))
         changed.append(str(page.relative_to(ROOT)))
     return changed
