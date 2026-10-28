@@ -1,0 +1,82 @@
+{
+  "checked": "2026-10-28",
+  "apps": [
+    {
+      "slug": "videofix",
+      "id": "6812821310",
+      "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?platform=mac",
+      "requirement": "Requires macOS 14.0 or later.",
+      "source": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310"
+    },
+    {
+      "slug": "audio-compressor",
+      "id": "6769563659",
+      "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?platform=mac",
+      "requirement": "Requires macOS 14.0 or later.",
+      "source": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659"
+    },
+    {
+      "slug": "collage-maker",
+      "id": "6810266264",
+      "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?platform=mac",
+      "requirement": "Requires macOS 14.0 or later.",
+      "source": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264"
+    },
+    {
+      "slug": "pdf-compressor",
+      "id": "6769762323",
+      "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?platform=mac",
+      "requirement": "Requires macOS 14.0 or later.",
+      "source": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323"
+    },
+    {
+      "slug": "pdf-watermarker",
+      "id": "6769761016",
+      "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?platform=mac",
+      "requirement": "Requires macOS 14.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016"
+    },
+    {
+      "slug": "glowpop",
+      "id": "6778131414",
+      "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?platform=mac",
+      "requirement": "Requires macOS 15.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414"
+    },
+    {
+      "slug": "just-captions",
+      "id": "6770354079",
+      "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?platform=mac",
+      "requirement": "Requires macOS 14.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079"
+    },
+    {
+      "slug": "dying-soon",
+      "id": "6758529772",
+      "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?platform=mac",
+      "requirement": "Requires macOS 14.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772"
+    },
+    {
+      "slug": "vidkit",
+      "id": "6769563339",
+      "url": "https://apps.apple.com/us/app/video-compressor-mp4-convert/id6769563339?platform=mac",
+      "requirement": "Requires macOS 14.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/video-compressor-mp4-convert/id6769563339"
+    },
+    {
+      "slug": "photofix",
+      "id": "6816526877",
+      "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?platform=mac",
+      "requirement": "Requires macOS 15.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877"
+    },
+    {
+      "slug": "sober-wins",
+      "id": "6811067941",
+      "url": "https://apps.apple.com/us/app/sober-wins-quit-drinking/id6811067941?platform=mac",
+      "requirement": "Requires macOS 14.0 or later and a Mac with Apple M1 chip or later.",
+      "source": "https://apps.apple.com/us/app/sober-wins-quit-drinking/id6811067941"
+    }
+  ]
+}

@@ -248,3 +248,7 @@ def build():
 
 if __name__ == '__main__':
     build()
+
+# Keep verified Mac downloads on regenerated app directories.
+from mac_download_badges import apply as apply_mac_download_badges
+apply_mac_download_badges()

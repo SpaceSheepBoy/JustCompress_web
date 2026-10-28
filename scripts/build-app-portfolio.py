@@ -126,3 +126,7 @@ for folder in sorted((ROOT/'apps').iterdir()):
 body='<header class="product-heading"><h1>Privacy, terms and App support</h1><p>Find the document for the App you use. Retained support information does not establish current App Store availability.</p></header><section><h2>Website</h2><p><a href="/privacy/">Website privacy</a> · <a href="/terms/">Website terms</a> · <a href="/support/">Contact support</a></p><h2>App documents</h2><ul class="policy-directory">'+''.join(rows)+'</ul></section>'
 page('/legal/','Privacy, terms and App support','Find maintained privacy policies, terms and support information for Space Sheep Studio Apps and Just Compress browser tools.',body)
 print('Built',len(APPS),'verified product pages, 11 localized product URLs and the App directory')
+
+# Keep verified Mac downloads on regenerated app directories.
+from mac_download_badges import apply as apply_mac_download_badges
+apply_mac_download_badges()
