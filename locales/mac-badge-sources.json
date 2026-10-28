@@ -1,0 +1,82 @@
+{
+  "en": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/en.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "15111cd04380b58d95307dcb07f0b6b06304dbc7504c57fd9cdbf0a2f78e3a92",
+    "retrieved_at": "2026-10-28T17:34:58.564401+00:00"
+  },
+  "fr": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/fr-fr?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/fr.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "28c046d4b469e9a56547486fe9edb2a646279e45c361d80eb7c3cb0c34754976",
+    "retrieved_at": "2026-10-28T17:34:58.579240+00:00"
+  },
+  "ja": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/ja-jp?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/ja.svg",
+    "width": 140.18325,
+    "height": 40.0,
+    "sha256": "445f06e93bc7e4e3fbaf95d3667f17cd63304e7f404bc7911957ea3d96b3c42b",
+    "retrieved_at": "2026-10-28T17:34:58.453618+00:00"
+  },
+  "es": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/es-es?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/es.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "b23ac028bb078cb5a75039ba1f57b1a4a6a668276c84a1764440880aa2ced929",
+    "retrieved_at": "2026-10-28T17:34:58.807798+00:00"
+  },
+  "zh-Hans": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/zh-cn?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/zh-Hans.svg",
+    "width": 140.18325,
+    "height": 40.0,
+    "sha256": "41b614615f7ea665d538fe03513c4573765c04dd3b2611373e7280b2139cfb91",
+    "retrieved_at": "2026-10-28T17:34:59.049436+00:00"
+  },
+  "zh-Hant": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/zh-tw?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/zh-Hant.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "15111cd04380b58d95307dcb07f0b6b06304dbc7504c57fd9cdbf0a2f78e3a92",
+    "retrieved_at": "2026-10-28T17:34:58.991746+00:00"
+  },
+  "de": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/de-de?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/de.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "9847a40d54aed58c0a19ef87f262e9dde56da82960c1f09ada58a6ffb56dc33e",
+    "retrieved_at": "2026-10-28T17:34:58.827138+00:00"
+  },
+  "pt": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/pt-br?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/pt.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "c647f96fb12dfbec8b5dd7660990690760b146620d2fda7f06d6afd37f4a8f1d",
+    "retrieved_at": "2026-10-28T17:34:58.838659+00:00"
+  },
+  "it": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/it-it?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/it.svg",
+    "width": 156.10054,
+    "height": 40.0,
+    "sha256": "9d7bfb44ace53629ae11ab7412bbb9f7aaee82e7e7588c7ec2aea23f02bbd228",
+    "retrieved_at": "2026-10-28T17:34:58.639069+00:00"
+  },
+  "ko": {
+    "source_url": "https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/ko-kr?size=250x83",
+    "src": "/assets/brand/mac-app-store-badges/ko.svg",
+    "width": 161.01934,
+    "height": 40.0,
+    "sha256": "4de1f514253cb55cecd1b29c9143ccb19d97ca0a558540d28737b8050875bc8a",
+    "retrieved_at": "2026-10-28T17:34:58.622829+00:00"
+  }
+}

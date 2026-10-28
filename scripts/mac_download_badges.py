@@ -18,10 +18,13 @@ def apply():
             if not app: continue
             for old in card.select('.mac-download-badge'): old.decompose()
             link=soup.new_tag('a',href=app['url'])
-            link['class']='mac-download-badge portfolio-button'
+            link['class']='mac-download-badge catalog-store-badge'
             link['aria-label']='macOS: '+card.h2.get_text(' ',strip=True)
             link['title']=app['requirement']
-            link.string='macOS ↗'
+            artwork=json.loads((ROOT/'locales/mac-badge-sources.json').read_text())[soup.html.get('lang','en')]
+            img=soup.new_tag('img',src=artwork['src'],alt='Download on the Mac App Store',width=str(artwork['width']),height=str(artwork['height']))
+            img['style']='width:auto;height:50px'
+            link.append(img)
             card.select_one('.actions').append(link)
         page.write_text(str(soup))
         changed.append(str(page.relative_to(ROOT)))
