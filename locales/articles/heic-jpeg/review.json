@@ -1,9 +1,9 @@
 {
   "article": "heic-jpeg",
   "component": "article-heic-jpeg",
-  "checked_at": "2026-10-29T10:40:52.236754+01:00",
-  "source_sha256": "42672afb65a03ada8786a7f7682d470a400a46e79b5557e600ffa307a7a96aef",
-  "context_sha256": "cc5e9e3123b16070c4a8cfe179ceb3c16120f13fe5c1facae43a2f898d7cb42a",
+  "checked_at": "2026-10-29T12:13:12.811150+01:00",
+  "source_sha256": "2925025563271fe6f1579a12a26c5e19c14e22557b6b1bf08b7d66dbb6a9ae6b",
+  "context_sha256": "4ac6b0a267597cb454a87072fc47c4f34ea3e7d9239261aca6b2abf861acdbf9",
   "catalogs": {},
   "languages": {}
 }

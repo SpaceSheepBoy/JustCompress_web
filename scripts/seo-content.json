@@ -864,9 +864,13 @@
       },
       "photo": {
         "alt": "AI photo example of a red bicycle beside a blue bakery doorway.",
-        "caption": "AI illustration. A format change need not visibly change the scene. These are examples, not measured PhotoFix exports.",
-        "before": "Original photo: HEIC",
-        "after": "Compatible copy: JPEG"
+        "caption": "Illustrated example for a site that accepts JPG but not HEIC. The photo is AI-generated. This shows a compatibility change, not a picture-quality improvement or a measured PhotoFix export.",
+        "before": "A site asks for JPG",
+        "after": "Send a JPEG copy",
+        "blocked": "HEIC is not on its accepted list",
+        "originalFile": "IMG_1042.HEIC",
+        "compatibleFile": "IMG_1042.JPG",
+        "ready": "Matches the requested format"
       }
     },
     "workflowHtml": true,
@@ -875,7 +879,7 @@
       "src": "/assets/heic-jpeg-photo-example.webp",
       "width": 1536,
       "height": 1024,
-      "kind": "format-comparison",
+      "kind": "format-compatibility",
       "provenance": "Original AI photo generated with OpenAI image_gen on2026-10-29; not App output."
     },
     "omitWorkflow": true

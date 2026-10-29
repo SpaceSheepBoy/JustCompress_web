@@ -56,8 +56,12 @@
   "diagram.delivery-options": "Keep the original unchanged.",
   "diagram.delivery-access": "Check picture, sound and ending.",
   "photo.alt": "AI photo example of a red bicycle beside a blue bakery doorway.",
-  "photo.caption": "AI illustration. A format change need not visibly change the scene. These are examples, not measured PhotoFix exports.",
-  "photo.before": "Original photo: HEIC",
-  "photo.after": "Compatible copy: JPEG",
+  "photo.caption": "Illustrated example for a site that accepts JPG but not HEIC. The photo is AI-generated. This shows a compatibility change, not a picture-quality improvement or a measured PhotoFix export.",
+  "photo.before": "A site asks for JPG",
+  "photo.after": "Send a JPEG copy",
+  "photo.blocked": "HEIC is not on its accepted list",
+  "photo.originalFile": "IMG_1042.HEIC",
+  "photo.compatibleFile": "IMG_1042.JPG",
+  "photo.ready": "Matches the requested format",
   "primaryCtaLabel": "View the current App Store listing"
 }
