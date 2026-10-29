@@ -26,6 +26,7 @@ function photographicExample(page) {
  if(!page.photoExample)return '';
  const p=page.photoExample,t=page.i18n.photo;
  const image=`<img src="${esc(p.src)}" width="${p.width}" height="${p.height}" alt="${esc(t.alt)}" fetchpriority="high" decoding="async">`;
+ if(p.kind==='format-comparison'||p.kind==='clean-source-comparison')return `<figure class="article-photo"><div class="photo-comparison"><div><h3>${esc(t.before)}</h3><div class="caption-frame">${image}${p.kind==='clean-source-comparison'?`<span class="example-subtitle">${esc(t.subtitle)}</span>`:''}</div></div><div><h3>${esc(t.after)}</h3><div class="caption-frame">${image}</div></div></div><figcaption>${esc(t.caption)}</figcaption></figure>`;
  return p.kind==='caption-comparison' ? `<figure class="article-photo"><div class="photo-comparison"><div><h3>${esc(t.before)}</h3><div class="caption-frame">${image}</div></div><div><h3>${esc(t.after)}</h3><div class="caption-frame">${image}<span class="example-subtitle">${esc(t.subtitle)}</span></div></div></div><figcaption>${esc(t.caption)}</figcaption></figure>` : `<figure class="article-photo">${image}<figcaption>${esc(t.caption)}</figcaption></figure>`;
 }
 function render(page) {
@@ -46,7 +47,7 @@ ${page.workflowHtml?`<style>.diagnostic-flow{background:#eaf2fb;padding:16px;bor
 <article class="guide-article" data-maintained-article>
 ${photographicExample(page)}
 <section id="choose"><h2>${esc(labels.chooseHeading)}</h2><div class="repair-cards">${page.cards.map(([h,b])=>`<div><h3>${esc(h)}</h3><p>${esc(b)}</p></div>`).join('')}</div>
-<figure id="workflow">${page.workflowHtml?workflow(page):`<img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}">`}<figcaption>${esc(page.figureCaption)}</figcaption></figure></section>
+${page.omitWorkflow?'':`<figure id="workflow">${page.workflowHtml?workflow(page):`<img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}">`}<figcaption>${esc(page.figureCaption)}</figcaption></figure>`}</section>
 <section id="steps"><h2>${esc(labels.stepsHeading)}</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>${page.workflowHtml?'':`<p><a class="guide-button" href="${page.primaryCta}">${esc(page.primaryCtaLabel||('Open the free '+(page.appId==='6769762323'?'PDF':'video')+' compressor'))} ↗</a></p>`}</section>
 <section id="details">${page.sections.map(([h,b])=>`<h2>${esc(h)}</h2><p>${esc(b)}</p>`).join('')}</section>
 <aside class="guide-cta"><div><strong>${esc(product.name)}</strong><p>Our App by Space Sheep Studio. See the App Store for current access and purchase options.</p></div><a class="guide-button" href="${esc(product.url)}">Get the iPhone app ↗</a></aside>

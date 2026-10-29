@@ -18,6 +18,14 @@
       "locales": [],
       "translation_date": "2026-10-28",
       "publication_authorization": "Daily original English article. Additional language demand unverified; no translations generated."
+    },
+    {
+      "id": "heic-jpeg",
+      "slug": "convert-heic-to-jpg-iphone",
+      "component": "article-heic-jpeg",
+      "locales": [],
+      "translation_date": "2026-10-29",
+      "publication_authorization": "Daily original English article. Additional language demand unverified; no translations generated."
     }
   ]
 }
