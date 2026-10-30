@@ -883,5 +883,115 @@
       "provenance": "Original AI photo generated with OpenAI image_gen on2026-10-29; not App output."
     },
     "omitWorkflow": true
+  },
+  {
+    "slug": "guides/compress-audio-for-whatsapp",
+    "tag": "IPHONE WORKFLOW",
+    "title": "How to Compress Audio for WhatsApp on iPhone",
+    "description": "Need a smaller audio file to send in WhatsApp? Export a lower-bitrate MP3 or M4A copy, listen to it, then share that copy. If size is not a problem, try sending the original as a document first.",
+    "reviewed": "2026-10-30",
+    "published": "2026-10-30",
+    "appId": "6769563659",
+    "direct": "Need a smaller audio file to send in WhatsApp? Export a lower-bitrate MP3 or M4A copy, listen to it, then share that copy. If size is not a problem, try sending the original as a document first.",
+    "figure": "/assets/product-pages/audio-compressor/screen-compress.webp",
+    "figureAlt": "Audio Compressor compression screen with MP3 format and selectable quality presets.",
+    "figureCaption": "App-provided iPhone screen. The sizes shown belong to its example recording, not a measurement of your file. Lower bitrate trades detail for a smaller copy.",
+    "figureWidth": 640,
+    "figureHeight": 750,
+    "cards": [
+      {
+        "id": "document",
+        "heading": "Only need to attach the file?",
+        "body": "In WhatsApp, tap +, choose Document, then select the saved audio in Files. The official iPhone help lists a 2 GB document limit. This sends a file attachment, not a newly recorded voice message."
+      },
+      {
+        "id": "smaller",
+        "heading": "Need a smaller transfer?",
+        "body": "Compression is useful on a slow connection or when the recipient needs a smaller copy. Keep the original, especially for music or audio you plan to edit."
+      }
+    ],
+    "steps": [
+      {
+        "id": "import",
+        "text": "Open the saved recording in Audio Compressor MP3 Converter and choose Compress. Use MP3 or M4A for a smaller listening copy."
+      },
+      {
+        "id": "quality",
+        "text": "Start with Medium. For speech, try Small only if you still need fewer bytes. Preview quiet words and background sounds before accepting the quality loss."
+      },
+      {
+        "id": "send",
+        "text": "Export, check the actual saved file size, and share the copy to WhatsApp. Alternatively, save it to Files and attach it through + → Document."
+      }
+    ],
+    "sections": [
+      {
+        "id": "quality",
+        "heading": "Compare bytes and sound, not loudness",
+        "body": "File compression reduces storage size. It does not make a quiet recording louder. Converting an already compact file can produce little saving or even a larger copy; check the export rather than relying on its extension."
+      },
+      {
+        "id": "failure",
+        "heading": "Still cannot send it?",
+        "body": "Try a small known-good file. If that also fails, check the connection, available storage and WhatsApp permissions. A compressor cannot repair those problems. We do not apply a universal 16 MB rule to every WhatsApp attachment route."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "whatsapp-send",
+        "label": "WhatsApp: sending documents on iPhone",
+        "url": "https://faq.whatsapp.com/453914586839706/?cms_platform=iphone"
+      },
+      {
+        "id": "whatsapp-share",
+        "label": "WhatsApp: sharing audio from another iPhone app",
+        "url": "https://faq.whatsapp.com/425247423114725/?cms_platform=iphone"
+      },
+      {
+        "id": "apple",
+        "label": "Apple: Audio Compressor MP3 Converter",
+        "url": "https://apps.apple.com/us/app/id6769563659"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/id6769563659",
+    "primaryCtaLabel": "View the current App Store listing",
+    "related": [
+      {
+        "id": "bitrate",
+        "label": "Understand bitrate and file size",
+        "url": "/guides/audio-bitrate-file-size/"
+      },
+      {
+        "id": "voice",
+        "label": "Sending a long Voice Memo by email",
+        "url": "/guides/send-long-voice-memo-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "whatsapp-audio",
+      "ui": {
+        "chooseHeading": "Send the original or reduce it?",
+        "stepsHeading": "Make a smaller copy",
+        "choose": "Choose the route",
+        "steps": "Compress and share",
+        "details": "Check the result"
+      },
+      "photo": {
+        "alt": "Audio Compressor compression screen with MP3 format and selectable quality presets.",
+        "caption": "App-provided iPhone screen. The sizes shown belong to its example recording, not a measurement of your file. Lower bitrate trades detail for a smaller copy."
+      },
+      "diagram": {}
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/product-pages/audio-compressor/screen-compress.webp",
+      "width": 1206,
+      "height": 2622,
+      "kind": "app-screenshot",
+      "provenance": "Existing first-party source screenshot, pixel-identical WebP. assets/product-pages/audio-compressor/sources.json detail_screen. Official current store capability checked 2026-10-30."
+    },
+    "discoveryBacklink": "compress-audio-file-iphone/index.html"
   }
 ]

@@ -26,6 +26,14 @@
       "locales": [],
       "translation_date": "2026-10-29",
       "publication_authorization": "Daily original English article. Additional language demand unverified; no translations generated."
+    },
+    {
+      "id": "whatsapp-audio",
+      "slug": "guides/compress-audio-for-whatsapp",
+      "component": "article-whatsapp-audio",
+      "locales": [],
+      "translation_date": "2026-10-30",
+      "publication_authorization": "Existing daily English original authorization; no additional translation generated."
     }
   ]
 }

@@ -58,7 +58,7 @@ with tempfile.TemporaryDirectory() as temp:
     shutil.copy(root/'sitemap.xml',sandbox/'sitemap.xml')
     shutil.copytree(root/'guides',sandbox/'guides')
     for entry,page,_ in articles:
-        shutil.copytree(root/page['slug'],sandbox/page['slug'])
+        shutil.copytree(root/page['slug'],sandbox/page['slug'],dirs_exist_ok=True)
     def snapshots():
         return {str(p.relative_to(sandbox)):p.read_bytes() for p in sandbox.rglob('*') if p.is_file()}
     m.build(sandbox)
