@@ -34,6 +34,14 @@
       "locales": [],
       "translation_date": "2026-10-30",
       "publication_authorization": "Existing daily English original authorization; no additional translation generated."
+    },
+    {
+      "id": "discord-video",
+      "slug": "guides/compress-video-for-discord",
+      "component": "article-discord-video",
+      "locales": [],
+      "translation_date": "2026-10-31",
+      "publication_authorization": "Current user explicitly requested today’s completed English article; no additional translations."
     }
   ]
 }
