@@ -42,6 +42,14 @@
       "locales": [],
       "translation_date": "2026-10-31",
       "publication_authorization": "Current user explicitly requested today’s completed English article; no additional translations."
+    },
+    {
+      "id": "lut-types",
+      "slug": "guides/technical-vs-creative-luts",
+      "component": "article-lut-types",
+      "locales": [],
+      "translation_date": "2026-11-02",
+      "publication_authorization": "Existing daily English original authorization and owner knowledge-first VideoFix direction. No additional language created."
     }
   ]
 }

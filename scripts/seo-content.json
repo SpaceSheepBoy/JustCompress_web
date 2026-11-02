@@ -1097,5 +1097,110 @@
       "provenance": "Genuine first-party VideoFix capture, marketing/preview/raw/en-US/02-analysis.png; lossless WebP provenance in assets/product-pages/videofix/sources.json. No altered UI or claimed upload result."
     },
     "discoveryBacklink": "compress-video-for-whatsapp/index.html"
+  },
+  {
+    "slug": "guides/technical-vs-creative-luts",
+    "tag": "LUT INPUT & OUTPUT",
+    "title": "Technical vs Creative LUTs: Which Comes First?",
+    "description": "Understand conversion LUTs, creative looks and hybrid LUTs. Match input color spaces, avoid double conversion, and choose the right Apple Log LUT input in VideoFix.",
+    "reviewed": "2026-11-02",
+    "appId": "6812821310",
+    "direct": "A technical LUT maps a defined input to a defined output. A creative LUT adds a look. Convert first only when the look expects the converted image. A hybrid LUT can do both, so stacking another conversion may give the wrong result.",
+    "figure": "/assets/product-pages/videofix/standard-sdr.webp",
+    "figureAlt": "Matching source Apple ProRes Log and VideoFix Rec.709 SDR frames, showing normalization rather than a creative look.",
+    "figureCaption": "Matched 2.000-second frames from an Apple ProRes Log source and its VideoFix SDR conversion. This demonstrates normalization, not a custom LUT or creative grade.",
+    "figureWidth": 720,
+    "figureHeight": 1280,
+    "cards": [
+      {
+        "id": "technical",
+        "heading": "Technical: change the encoding",
+        "body": "Example: Apple Log to Rec.709. The expected camera curve and gamut matter. A Sony S-Log LUT does not become an Apple Log transform just because both images look flat."
+      },
+      {
+        "id": "creative",
+        "heading": "Creative: choose the appearance",
+        "body": "A look may alter contrast, hues or saturation. It still expects a specific input. “Cinematic” is a style label, not an input color space."
+      },
+      {
+        "id": "order",
+        "heading": "Read the LUT’s input before choosing an order",
+        "body": "For a look designed for Rec.709, the simple chain is Apple Log → matching conversion → Rec.709 look. A look designed for Log belongs at a different stage. Check its documentation instead of assuming every creative LUT comes last."
+      },
+      {
+        "id": "double-transform",
+        "heading": "Why can two LUTs look worse?",
+        "body": "Some LUTs combine normalization and a look. Feeding that hybrid LUT an already-converted image can exaggerate contrast or clip detail. An editor may also apply camera conversion automatically. Check both before adding another transform."
+      }
+    ],
+    "sections": [],
+    "steps": [
+      {
+        "id": "input",
+        "text": "In VideoFix: HDR Video Converter on iPhone, import Apple Log footage and open its Log preview. Import a compatible LUT. Select Original Log for an Apple Log-to-Rec.709 LUT; select Rec.709 when the LUT expects the normalized Rec.709 image."
+      },
+      {
+        "id": "compare",
+        "text": "Compare the same frame, especially bright clouds, skin and deep shadows. Export a short copy and play it back before processing a batch. A LUT is not a substitute for correcting an incorrectly exposed shot."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "apple-luts",
+        "label": "Apple: camera LUTs, custom looks and color-space choices",
+        "url": "https://support.apple.com/en-om/guide/final-cut-pro/ver24f966423/mac"
+      },
+      {
+        "id": "lut-principles",
+        "label": "Frame.io: LUT inputs, technical, creative and hybrid transforms",
+        "url": "https://blog.frame.io/2019/08/12/luts-101/"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/id6812821310",
+    "primaryCtaLabel": "Get VideoFix: HDR Video Converter",
+    "related": [
+      {
+        "id": "apple-log",
+        "label": "Convert Apple Log to Rec.709 on iPhone",
+        "url": "/guides/apple-log-to-rec709-iphone/"
+      },
+      {
+        "id": "hdr-sdr",
+        "label": "HDR vs SDR video",
+        "url": "/guides/hdr-vs-sdr-video/"
+      }
+    ],
+    "i18n": {
+      "id": "lut-types",
+      "ui": {
+        "chooseHeading": "Two jobs, different inputs",
+        "stepsHeading": "Try the input choice in VideoFix",
+        "choose": "Understand LUT types",
+        "steps": "Try VideoFix",
+        "details": "Sources and next reading",
+        "scope": "Source explanations checked on {date}. The App example is specific to Apple Log on iPhone; it is not a Sony or RED workflow."
+      },
+      "photo": {
+        "alt": "The supplied VideoFix Rec.709 SDR rendition of the matching rooftop frame.",
+        "beforeAlt": "The matching rooftop frame encoded as Apple ProRes Log.",
+        "before": "Before: Apple ProRes Log",
+        "after": "After: Rec.709 SDR",
+        "caption": "Matched 2.000-second frames from an Apple ProRes Log source and its VideoFix SDR conversion. This demonstrates normalization, not a custom LUT or creative grade."
+      },
+      "diagram": {}
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/product-pages/videofix/standard-sdr.webp",
+      "beforeSrc": "/assets/product-pages/videofix/apple-prores-log.webp",
+      "width": 720,
+      "height": 1280,
+      "kind": "source-output-comparison",
+      "provenance": "Matched 2.000-second source and supplied VideoFix conversion frames. Provenance and hashes in assets/product-pages/videofix/sources.json; original capture evidence in HEVCHDRVideoConverter/marketing/comparison/README.md. No new LUT export or creative treatment claimed."
+    },
+    "discoveryBacklink": "guides/apple-log-to-rec709-iphone/index.html",
+    "published": "2026-11-02"
   }
 ]
