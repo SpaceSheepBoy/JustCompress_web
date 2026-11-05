@@ -120,7 +120,7 @@ for folder in sorted((ROOT/'apps').iterdir()):
  policy=[(part,label) for part,label in [('privacy','Privacy'),('terms','Terms'),('support','Support')] if (folder/part/'index.html').exists()]
  if not policy:continue
  a=next((a for a in APPS if a['slug']==folder.name),None)
- name=a['name'] if a else {'audiofix':'Audio Fix','camrecorder':'CamRecorder','dpi':'DPI Changer','livephoto':'Live Photo to Video','talknice':'TalkNice','retrophone':'RetroPhone'}.get(folder.name,folder.name)
+ name=a['name'] if a else {'audiofix':'Audio Fix','camrecorder':'CamRecorder','dpi':'DPI Changer','livephoto':'Live Photo to Video','talknice':'TalkNice','retrophone':'Y2K Cam: CCD Digital Camera'}.get(folder.name,folder.name)
  row='<li><strong>'+E(name)+'</strong><div>'+''.join(f'<a href="/apps/{folder.name}/{part}/">{label}</a> ' for part,label in policy)+'</div></li>'
  rows.append(row)
 body='<header class="product-heading"><h1>Privacy, terms and App support</h1><p>Find the document for the App you use. Retained support information does not establish current App Store availability.</p></header><section><h2>Website</h2><p><a href="/privacy/">Website privacy</a> · <a href="/terms/">Website terms</a> · <a href="/support/">Contact support</a></p><h2>App documents</h2><ul class="policy-directory">'+''.join(rows)+'</ul></section>'
