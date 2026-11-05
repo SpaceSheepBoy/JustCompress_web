@@ -533,7 +533,7 @@
     {
       "id": "6769563339",
       "slug": "vidkit",
-      "name": "Video Compressor & MP4 Convert",
+      "name": "Phone Cleaner: Photo & Video",
       "benefit": "Compress videos and convert MP4, HEVC or MOV",
       "features": [
         "Convert HEVC to MP4/H.264 for a more compatible copy.",
@@ -549,7 +549,7 @@
       "release_date": "2026-10-12",
       "release_notes": "A clearer animated introduction to the app and an improved upgrade flow.",
       "checked": "2026-10-24",
-      "store_url": "https://apps.apple.com/us/app/video-compressor-mp4-convert/id6769563339",
+      "store_url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
       "icon": {
         "src": "/assets/apps/155f045b16cdc3ac53.jpg",
         "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/a5/55/f5a555b1-8efc-80e1-6d6e-6f7ecc1f780b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
@@ -667,7 +667,7 @@
     {
       "id": "6811067941",
       "slug": "sober-wins",
-      "name": "Sober Wins: Quit Drinking",
+      "name": "Sober Wins: Sobriety Tracker",
       "benefit": "Track alcohol-free days with Sober Wins",
       "features": [
         "Log alcohol-free days and review the local history.",
@@ -682,7 +682,7 @@
       "release_date": "2026-10-13",
       "release_notes": "Now available in 13 languages, including localized tracking, rewards, breathing, Health trends and poster sharing.",
       "checked": "2026-10-24",
-      "store_url": "https://apps.apple.com/us/app/sober-wins-quit-drinking/id6811067941",
+      "store_url": "https://apps.apple.com/us/app/sober-wins-sobriety-tracker/id6811067941?uo=4",
       "icon": {
         "src": "/assets/apps/ff105c0c592196426e.jpg",
         "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/ac/a9/51aca9ba-1dc6-3ad7-5f20-2e50bfae20ac/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
