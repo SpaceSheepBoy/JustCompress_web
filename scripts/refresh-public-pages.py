@@ -2,14 +2,14 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 from html import escape
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, parse_qsl, urlencode, urlunsplit
 import json,re
 ROOT=Path(__file__).resolve().parents[1];SITE='https://justcompress.online'
 APPS=json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps'];BY_ID={a['id']:a for a in APPS};BY_SLUG={a['slug']:a for a in APPS}
 NAMES={'Just PDF Compressor':BY_ID['6769762323']['name'],'Just PDF Watermark':BY_ID['6769761016']['name'],'Just Audio Compressor':BY_ID['6769563659']['name'],'Just Video Compressor':BY_ID['6769563339']['name'],'Homebrew Calculator: Brew Day':BY_ID['6811067941']['name']}
 ICONS={f'/assets/icons/app-{key}.png':BY_ID[appid]['icon']['src'] for key,appid in [('pdf','6769762323'),('watermark','6769761016'),('audio','6769563659'),('video','6769563339')]}
 FIXES=json.loads((ROOT/'scripts/public-copy-fixes.json').read_text())
-PENDING={'audiofix','dpi','livephoto','talknice','camrecorder','retrophone'}
+PENDING={'audiofix','dpi','livephoto','talknice','retrophone'}
 def clean(text):
  for old,new in ICONS.items():text=text.replace(old,new)
  for old,new in NAMES.items():text=text.replace(old,new)
@@ -127,7 +127,11 @@ for p in ROOT.rglob('*.html'):
    if appid in BY_ID:
     suffix=('?'+href.split('?',1)[1]) if '?' in href else ''
     # Localized product URLs keep their verified target storefront.
-    if not (len(rel.parts)>3 and rel.parts[:2]==('apps','collage-maker') and rel.parts[2] in ['zh-Hans','zh-Hant','fr','de','es','pt','ja','ko','ar','id','th']):link['href']=BY_ID[appid]['store_url']+suffix
+    if not (len(rel.parts)>3 and rel.parts[:2]==('apps','collage-maker') and rel.parts[2] in ['zh-Hans','zh-Hant','fr','de','es','pt','ja','ko','ar','id','th']):
+     target=urlsplit(BY_ID[appid]['store_url'])
+     query=dict(parse_qsl(urlsplit(href).query))
+     query.update(parse_qsl(target.query))
+     link['href']=urlunsplit(target._replace(query=urlencode(query)))
  # Refresh legacy App icons and screenshots from actual current store assets.
  counters={}
  for img in s.select('img[src]'):

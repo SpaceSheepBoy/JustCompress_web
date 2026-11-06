@@ -729,6 +729,65 @@
       "privacy": "https://justcompress.online/apps/sober-wins/privacy/",
       "website": "https://justcompress.online/apps/sober-wins/",
       "rating_count": 0
+    },
+    {
+      "id": "6820696330",
+      "slug": "camrecorder",
+      "name": "CamRecorder: Camera Recorder",
+      "platform": "macOS",
+      "benefit": "Record your screen and camera together on Mac",
+      "features": [
+        "Choose Camera, Window + Camera, or Full Screen + Camera.",
+        "Place the camera in any corner and adjust its size.",
+        "Mix computer audio and your microphone with separate volume controls and optional echo cancellation.",
+        "Choose export size and frame rate, including 720p, 1080p, 4K and custom dimensions.",
+        "Take JPG photos, save to your chosen folder, and start or stop recording from the menu bar."
+      ],
+      "access": "Free use includes a cumulative total of 60 minutes of video recording without Plus effects, plus ordinary photos. The allowance does not reset daily. CamRecorder Plus is a one-time purchase for unlimited recording, local background blur and Screen Light. Effects can be previewed for free. See the App Store for the current local price.",
+      "caveat": "Requires macOS 14 or later. Source quality and frame rate depend on your devices; resizing an export does not add source detail. Blur and echo cancellation depend on hardware and the recording environment. Screen Light color temperatures are approximate.",
+      "version": "1.0",
+      "minimum_os": "14.0",
+      "release_date": "2026-11-06",
+      "release_notes": "",
+      "checked": "2026-11-06",
+      "store_url": "https://apps.apple.com/us/app/camrecorder-camera-recorder/id6820696330?platform=mac",
+      "icon": {
+        "src": "/assets/apps/3aa532a1b710be1be1de.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/2a/4b/bc2a4b63-cf5d-b7e4-3662-e85fb4b4ffad/AppIcon-0-0-85-220-0-5-0-2x.png/512x512bb.png",
+        "sha256": "3aa532a1b710be1be1de809775b07d0317b368e8995aa0ec407f1bc1525a387d",
+        "bytes": 25729,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/screenshots/7e6a8d718d1c59787f86.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/93/a2/1293a2de-a03c-2a2c-6564-d97919fb4c50/01-record-save.png/800x500bb.jpg",
+          "sha256": "7e6a8d718d1c59787f86191e381090787c1859315e3f3063a1a8a6e859a36c63",
+          "bytes": 70058,
+          "width": 800,
+          "height": 500
+        },
+        {
+          "src": "/assets/apps/screenshots/ffc269e48f6b0610c65e.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/39/83/97398328-34cc-e2c0-37bb-b6f73a7a86da/02-blur-comparison.png/800x500bb.jpg",
+          "sha256": "ffc269e48f6b0610c65e6520afcdf642fed6060030d30a8d3269632a4e71ab95",
+          "bytes": 98614,
+          "width": 800,
+          "height": 500
+        },
+        {
+          "src": "/assets/apps/screenshots/8ee82eb64f84db79f53c.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/5b/64/195b6455-5688-e267-cb66-57e2eafa29fc/03-dual-screen-light.png/800x500bb.jpg",
+          "sha256": "8ee82eb64f84db79f53c83c03afb6333b1c83dc324a5dd61202fe18cfb760063",
+          "bytes": 80427,
+          "width": 800,
+          "height": 500
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/camrecorder/privacy/",
+      "website": "https://justcompress.online/apps/camrecorder/",
+      "rating_count": 0
     }
   ]
 }

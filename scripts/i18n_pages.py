@@ -84,7 +84,7 @@ def build():
     stores = load('store-snapshots.json')
     portfolio = json.loads((ROOT / 'scripts/app-portfolio.json').read_text())['apps']
     order = json.loads((ROOT / 'scripts/app-display-order.json').read_text())['app_ids']
-    apps = sorted(portfolio, key=lambda a: order.index(a['id']))
+    apps = sorted((a for a in portfolio if a.get('platform') != 'macOS'), key=lambda a: order.index(a['id']))
     baseline = load('source-baseline.json')
     for app in apps:
         fields = {k: app[k] for k in ('benefit', 'features', 'access', 'caveat')}
@@ -252,3 +252,6 @@ if __name__ == '__main__':
 # Keep verified Mac downloads on regenerated app directories.
 from mac_download_badges import apply as apply_mac_download_badges
 apply_mac_download_badges()
+
+from camrecorder_catalog import apply as apply_camrecorder_catalog
+apply_camrecorder_catalog()

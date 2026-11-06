@@ -55,7 +55,8 @@ for a in APPS:
   build_product_story(ROOT,a)
   continue
  locales='<nav class="product-languages" aria-label="Product language">'+''.join(f'<a href="{alternates[k]}" lang="{k}">{E(v["label"])}</a>' for k,v in LOCALES.items())+'</nav>' if a['slug']=='collage-maker' else ''
- body=f'<header class="product-heading"><div class="product-identity">{image(a["icon"],a["name"]+" icon","product-icon",False)}<div><p class="eyebrow">IPHONE APP</p><h1>{E(a["name"])}</h1></div></div><p class="product-lede">{E(a["benefit"])}</p><p class="product-version">US App Store version {E(a["version"])} · iOS {E(a["minimum_os"])} or later · Checked {DATA["checked"]}</p><a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a></header>{locales}'
+ platform=a.get('platform','iOS'); device='Mac' if platform=='macOS' else 'iPhone'
+ body=f'<header class="product-heading"><div class="product-identity">{image(a["icon"],a["name"]+" icon","product-icon",False)}<div><p class="eyebrow">{device.upper()} APP</p><h1>{E(a["name"])}</h1></div></div><p class="product-lede">{E(a["benefit"])}</p><p class="product-version">US App Store version {E(a["version"])} · {platform} {E(a["minimum_os"])} or later · Checked {a["checked"] if platform=="macOS" else DATA["checked"]}</p><a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a></header>{locales}'
  body+=screenshots(a['screenshots'],a['name'])
  body+='<section class="product-section"><h2>What you can do</h2><ul class="feature-list">'+''.join('<li>'+E(f)+'</li>' for f in a['features'])+'</ul></section>'
  body+=f'<section class="product-section"><h2>Access and purchases</h2><p>{E(a["access"])}</p><p>Prices and availability can differ by storefront. Apple shows the current local offer before purchase.</p></section><section class="product-section"><h2>Before you export or share</h2><p>{E(a["caveat"])}</p></section>'
@@ -71,9 +72,9 @@ for a in APPS:
   if match:related.append(('/iphone-video-tutorials/'+name+'/',name.split('-',1)[1].replace('-',' ').capitalize()))
  if a['slug']=='just-captions':related.append(('https://justcaptions.com/guides/','Just Captions guides for iPhone and Mac'))
  if related:body+='<section class="product-section"><h2>Practical guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in related)+'</ul></section>'
- body+=f'<aside class="product-download"><h2>{E(a["name"])}</h2><p>{E(a["benefit"])}. Review the current store listing for full details and compatibility.</p><a class="portfolio-button" href="{E(a["store_url"])}">Get the iPhone app ↗</a><p class="product-links">{policy_links(a)}</p></aside>'
- schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':'iOS '+a['minimum_os']+' or later','applicationCategory':'UtilitiesApplication','description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
- page(route,a['name']+' for iPhone',a['benefit']+'. Current features, App Store screenshots, version details and access options.',body,schema,alternates=alternates if a['slug']=='collage-maker' else None)
+ body+=f'<aside class="product-download"><h2>{E(a["name"])}</h2><p>{E(a["benefit"])}. Review the current store listing for full details and compatibility.</p><a class="portfolio-button" href="{E(a["store_url"])}">Get the {device} app ↗</a><p class="product-links">{policy_links(a)}</p></aside>'
+ schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':platform+' '+a['minimum_os']+' or later','applicationCategory':'UtilitiesApplication','description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
+ page(route,a['name']+' for '+device,a['benefit']+'. Current features, App Store screenshots, version details and access options.',body,schema,alternates=alternates if a['slug']=='collage-maker' else None)
 # Separate stable URLs replace a single document containing twelve language versions.
 labels={
  'zh-Hans':('功能与使用','App Store 截图','在 App Store 查看','隐私','条款'), 'zh-Hant':('功能與使用','App Store 截圖','在 App Store 查看','隱私','條款'),
@@ -106,13 +107,13 @@ cards=[]
 for a in ordered:
  gallery='<figure class="catalog-gallery"><div class="catalog-shots" aria-label="'+E(a["name"])+' App Store screenshots">'+''.join('<a href="'+E(a['store_url'])+'" aria-label="View '+E(a['name'])+' on the App Store, screenshot '+str(i)+'">'+image(shot,a["name"]+" official App Store screenshot "+str(i),"catalog-shot")+'</a>' for i,shot in enumerate(a["screenshots"][:3],1))+'</div></figure>'
  cards.append(f'<article class="app-card" id="{a["slug"]}" data-app="{a["id"]}"><a class="catalog-identity" href="/apps/{a["slug"]}/" aria-label="About {E(a["name"])}">{image(a["icon"],"","app-icon")}<div><h2>{E(a["name"])}</h2><p class="benefit">{E(a["benefit"])}</p></div></a>{gallery}<input id="name-{a["id"]}" type="hidden" value="{E(a["name"])}"><div class="actions"><a class="catalog-store-badge" data-store href="{E(a["store_url"])}" aria-label="Download {E(a["name"])} on the App Store"><img src="/assets/brand/download-on-the-app-store.svg" width="150" height="50" alt="Download on the App Store"></a><button type="button" data-copy="name-{a["id"]}" aria-label="Copy app name: {E(a["name"])}">Copy name</button></div><p><a href="/apps/{a["slug"]}/">App details and guides →</a></p></article>')
-body='<header class="catalog-heading"><h1>Find the app you saw.</h1><input id="find-app" type="search" aria-label="Search by app or task" placeholder="Search apps…" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog" aria-label="Available iPhone apps">'+''.join(cards)+'</section><p id="no-results" hidden>No matching app. Try “video”, “audio”, “photo” or “PDF”.</p><script defer src="/assets/find-app.js?v=20261024-portfolio"></script>'
-schema=ld({'@type':'CollectionPage','name':'Our iPhone apps','url':SITE+'/apps/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':a['name'],'url':SITE+'/apps/'+a['slug']+'/'} for i,a in enumerate(ordered)]}})
-page('/apps/','iPhone apps, current screenshots and practical guides','Find the app from our tutorials. Browse current App Store names, screenshots, published versions and practical guides from Space Sheep Studio.',body,schema)
+body='<header class="catalog-heading"><h1>Find the app you saw.</h1><input id="find-app" type="search" aria-label="Search by app or task" placeholder="Search apps…" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog" aria-label="Available iPhone and Mac apps">'+''.join(cards)+'</section><p id="no-results" hidden>No matching app. Try “video”, “audio”, “photo” or “PDF”.</p><script defer src="/assets/find-app.js?v=20261024-portfolio"></script>'
+schema=ld({'@type':'CollectionPage','name':'Our iPhone and Mac apps','url':SITE+'/apps/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':a['name'],'url':SITE+'/apps/'+a['slug']+'/'} for i,a in enumerate(ordered)]}})
+page('/apps/','iPhone and Mac apps, current screenshots and practical guides','Find the app from our tutorials. Browse current App Store names, screenshots, published versions and practical guides from Space Sheep Studio.',body,schema)
 # Support destinations remain local when a maintained local support page exists.
 support_cards=''.join(f'<a class="support-card" href="/apps/{a["slug"]}/support/">{image(a["icon"],"","app-icon")}<span>{E(a["name"])}</span></a>' for a in ordered if (ROOT/'apps'/a['slug']/'support/index.html').exists())
 body='<header class="product-heading"><h1>How can we help?</h1><p>Choose your App or email <a href="mailto:support@justcompress.online">support@justcompress.online</a>. Include the published app version, device and a short description. You do not need to send private media for general help.</p></header><section class="catalog-grid" aria-label="App support">'+support_cards+'</section><section class="product-section"><h2>Other product support</h2><p>Support information for additional or earlier products remains in the <a href="/legal/">App policy directory</a>.</p></section>'
-page('/support/','App support','Find help for our published iPhone Apps, current product information and support contact details.',body)
+page('/support/','App support','Find help for our published iPhone and Mac Apps, current product information and support contact details.',body)
 rows=[]
 for folder in sorted((ROOT/'apps').iterdir()):
  if not folder.is_dir():continue
@@ -130,3 +131,7 @@ print('Built',len(APPS),'verified product pages, 11 localized product URLs and t
 # Keep verified Mac downloads on regenerated app directories.
 from mac_download_badges import apply as apply_mac_download_badges
 apply_mac_download_badges()
+
+# Maintain the Mac-only release in every existing directory language.
+from camrecorder_catalog import apply as apply_camrecorder_catalog
+apply_camrecorder_catalog()
