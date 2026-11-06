@@ -96,3 +96,7 @@ if not m.CAPTIONS and (ROOT/'locales/articles/config.json').exists():
 
 # Rebuild ID-bearing Weblate-enrolled original articles after legacy generation.
 subprocess.run(["node",str(ROOT/"scripts/generate-seo-pages.mjs")],check=True)
+
+# Keep the expanded trim tutorial after legacy tutorial normalization.
+if not m.CAPTIONS:
+ subprocess.run([sys.executable,str(ROOT/'scripts/render-trim-tutorial.py')],check=True)
