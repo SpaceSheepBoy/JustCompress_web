@@ -135,3 +135,12 @@ apply_mac_download_badges()
 # Maintain the Mac-only release in every existing directory language.
 from camrecorder_catalog import apply as apply_camrecorder_catalog
 apply_camrecorder_catalog()
+
+# Targeted builds preserve the existing public-page and consent finalization.
+# Legal paths receive only the explicitly maintained mechanical repairs.
+import subprocess,sys
+finalize=['apps/camrecorder/index.html','apps/vidkit/index.html','apps/sober-wins/index.html',
+          'apps/mantra-counter/privacy/index.html','apps/talknice/privacy/index.html',
+          'apps/talknice/terms/index.html','apps/talknice/support/index.html']
+subprocess.run([sys.executable,str(ROOT/'scripts/refresh-public-pages.py'),'--only',*finalize],check=True)
+subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py'),'--only',*finalize],check=True)

@@ -3,8 +3,12 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from html import escape
 from urllib.parse import urlsplit, parse_qsl, urlencode, urlunsplit
-import json,re
+import argparse,json,re
 ROOT=Path(__file__).resolve().parents[1];SITE='https://justcompress.online'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--only',nargs='+',help='Normalize only these repository-relative HTML paths')
+args=parser.parse_args()
+pages=[ROOT/path for path in args.only] if args.only else ROOT.rglob('*.html')
 APPS=json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps'];BY_ID={a['id']:a for a in APPS};BY_SLUG={a['slug']:a for a in APPS}
 NAMES={'Just PDF Compressor':BY_ID['6769762323']['name'],'Just PDF Watermark':BY_ID['6769761016']['name'],'Just Audio Compressor':BY_ID['6769563659']['name'],'Just Video Compressor':BY_ID['6769563339']['name'],'Homebrew Calculator: Brew Day':BY_ID['6811067941']['name']}
 ICONS={f'/assets/icons/app-{key}.png':BY_ID[appid]['icon']['src'] for key,appid in [('pdf','6769762323'),('watermark','6769761016'),('audio','6769563659'),('video','6769563339')]}
@@ -38,10 +42,31 @@ def normalize_audio_mac_disclosure(s):
    for node in para.find_all(string=True):
     if 'Updated October 15, 2026.' in node:node.replace_with(str(node).replace('Updated October 15, 2026.','Updated October 26, 2026.'))
 
-for p in ROOT.rglob('*.html'):
+for p in pages:
+ if not p.resolve().is_relative_to(ROOT) or p.suffix!='.html':raise ValueError('Expected a site HTML path')
  rel=p.relative_to(ROOT)
  if any(x.startswith('.') or x in ['scripts','vendor','node_modules'] for x in rel.parts):continue
- raw=p.read_text();s=BeautifulSoup(raw,'html.parser')
+ raw=p.read_text()
+ # Retained legal copy is authoritative: repair only the authorized head tags
+ # or second-language heading, without normalizing its body, URLs or claims.
+ if str(rel)=='apps/mantra-counter/privacy/index.html':
+  text=raw
+  parsed=BeautifulSoup(raw,'html.parser')
+  if not parsed.select_one('meta[name="description"]'):
+   text=text.replace('</head>','<meta name="description" content="一座隐私政策：本地存储、可选 iCloud 同步和共修数据处理。Privacy policy for Mantra Counter &amp; Meditation."></head>',1)
+  if not parsed.select_one('link[rel="canonical"]'):
+   text=text.replace('</head>','<link rel="canonical" href="https://justcompress.online/apps/mantra-counter/privacy/"></head>',1)
+  if text!=raw:p.write_text(text);changed.append(str(rel))
+  continue
+ if str(rel) in {'apps/talknice/privacy/index.html','apps/talknice/terms/index.html','apps/talknice/support/index.html'}:
+  headings=list(re.finditer(r'<h1\b[^>]*>.*?</h1>',raw,re.S|re.I))
+  text=raw
+  for match in reversed(headings[1:]):
+   replacement=re.sub(r'(<\/?)h1\b',r'\1h2',match.group(0),flags=re.I)
+   text=text[:match.start()]+replacement+text[match.end():]
+  if text!=raw:p.write_text(text);changed.append(str(rel))
+  continue
+ s=BeautifulSoup(raw,'html.parser')
  if s.select_one('[data-site-redirect]'):continue
  if not s.html:continue
  if not s.head:

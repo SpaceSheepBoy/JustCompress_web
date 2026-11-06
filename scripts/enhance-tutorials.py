@@ -104,3 +104,7 @@ if not m.CAPTIONS:
 # Preserve the supported M4A conversion workflow after legacy generation.
 if not m.CAPTIONS:
  subprocess.run([sys.executable,str(ROOT/'scripts/render-m4a-tutorial.py')],check=True)
+
+# Renderers above can replace whole documents; attach the existing consent-only
+# analytics last. The installer's app legal/account/billing exclusions still apply.
+subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py')],check=True)
