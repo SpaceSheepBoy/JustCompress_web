@@ -62,6 +62,7 @@ for a in APPS:
  body+=f'<section class="product-section"><h2>Access and purchases</h2><p>{E(a["access"])}</p><p>Prices and availability can differ by storefront. Apple shows the current local offer before purchase.</p></section><section class="product-section"><h2>Before you export or share</h2><p>{E(a["caveat"])}</p></section>'
  if a.get('release_notes'):body+=f'<section class="product-section"><h2>Latest published update</h2><p class="product-version">Version {E(a["version"])} · released {E(a["release_date"])}</p><p>{E(a["release_notes"]).replace(chr(10),"<br>")}</p></section>'
  related={
+  '6820696330':[('/tutorials/record-screen-and-camera-mac/','How to record your screen and camera on Mac')],
   '6769563659':[('/compress-audio-file-iphone/','How to compress an audio file on iPhone')],
   '6769563339':[('/compress-video-for-whatsapp/','Video too big for WhatsApp: choose how to send it')],
   '6769762323':[('/sign-merge-compress-pdf-iphone-no-upload/','Sign, merge and compress a PDF on iPhone')]
@@ -73,6 +74,10 @@ for a in APPS:
  if a['slug']=='just-captions':related.append(('https://justcaptions.com/guides/','Just Captions guides for iPhone and Mac'))
  if related:body+='<section class="product-section"><h2>Practical guides</h2><ul>'+''.join(f'<li><a href="{u}">{E(t)}</a></li>' for u,t in related)+'</ul></section>'
  body+=f'<aside class="product-download"><h2>{E(a["name"])}</h2><p>{E(a["benefit"])}. Review the current store listing for full details and compatibility.</p><a class="portfolio-button" href="{E(a["store_url"])}">Get the {device} app ↗</a><p class="product-links">{policy_links(a)}</p></aside>'
+ if a['id']=='6820696330':
+  badge=f'<a class="catalog-store-badge" href="{E(a["store_url"])}" aria-label="Download CamRecorder on the Mac App Store"><img src="/assets/brand/mac-app-store-badges/en.svg" width="242" height="63" style="display:block;width:242px;max-width:100%;height:auto" alt="Download on the Mac App Store"></a>'
+  body=body.replace(f'<a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a>',badge)
+  body=body.replace(f'<a class="portfolio-button" href="{E(a["store_url"])}">Get the Mac app ↗</a>',badge)
  schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':platform+' '+a['minimum_os']+' or later','applicationCategory':'UtilitiesApplication','description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
  page(route,a['name']+' for '+device,a['benefit']+'. Current features, App Store screenshots, version details and access options.',body,schema,alternates=alternates if a['slug']=='collage-maker' else None)
 # Separate stable URLs replace a single document containing twelve language versions.
