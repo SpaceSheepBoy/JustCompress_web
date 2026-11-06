@@ -100,3 +100,7 @@ subprocess.run(["node",str(ROOT/"scripts/generate-seo-pages.mjs")],check=True)
 # Keep the expanded trim tutorial after legacy tutorial normalization.
 if not m.CAPTIONS:
  subprocess.run([sys.executable,str(ROOT/'scripts/render-trim-tutorial.py')],check=True)
+
+# Preserve the supported M4A conversion workflow after legacy generation.
+if not m.CAPTIONS:
+ subprocess.run([sys.executable,str(ROOT/'scripts/render-m4a-tutorial.py')],check=True)

@@ -2,3 +2,6 @@
 
 .guide-cta .guide-button{margin-left:0;flex-shrink:0}
 .guide-store-shot{margin:30px 0}.guide-store-shot img{display:block;width:min(100%,280px);height:auto;margin:auto;border-radius:12px}.guide-store-shot figcaption{font-size:14px;color:#655d6e;line-height:1.6;margin-top:14px}.guide-page{padding-bottom:64px}.guide-nav{flex-wrap:wrap}.guide-nav div{justify-content:flex-start}.guide-page h1,.guide-cta strong{overflow-wrap:anywhere}
+
+/* App download actions stay distinct from ordinary guide/navigation links. */
+.guide-download{max-width:800px;margin:28px auto}.guide-download .guide-app-download{width:100%;min-height:84px;margin:0;padding:20px 24px;background:#17151b;border:2px solid #17151b;border-radius:14px;font-size:clamp(20px,3.5vw,26px);font-weight:800;line-height:1.25;gap:14px}.guide-download .guide-app-download:hover{background:#36313e;border-color:#36313e}.guide-download .guide-app-download:focus-visible{outline:3px solid #8562b6;outline-offset:4px}
