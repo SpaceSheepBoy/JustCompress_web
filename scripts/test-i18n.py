@@ -13,6 +13,9 @@ import i18n_pages as build
 
 ROOT = Path(__file__).resolve().parents[1]
 apps = json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps']
+localized_apps = [a for a in apps if a.get('platform') != 'macOS']
+mac_apps = [a for a in apps if a.get('platform') == 'macOS']
+directory_intro = build.load('directory-platform.json')
 stores = build.load('store-snapshots.json')
 source = build.load('en.json')
 review = build.load('review.json')
@@ -31,7 +34,7 @@ for lang in build.TARGETS:
             expected = Counter(re.findall(r'\d+',text))
             actual = Counter(re.findall(r'\d+',catalog[key]))
             assert not expected-actual, (lang,key,'lost numeric fact')
-    for slug in ['',*[a['slug'] for a in apps]]:
+    for slug in ['',*[a['slug'] for a in localized_apps]]:
         route = build.route(slug,lang)
         raw = (ROOT/route.strip('/')/'index.html').read_text()
         assert not re.search(r'jiali\s+liang',raw,re.I), route
@@ -45,7 +48,17 @@ for lang in build.TARGETS:
         assert soup.select_one('script[src^="/assets/i18n-ui.js"]')
         assert soup.select_one('script[src^="/assets/posthog-init.js"]')
         badges=soup.select('a.localized-store-badge img.official-app-store-badge')
-        assert len(badges)==(1 if slug else len(apps)), (route,'missing official download badge')
+        assert len(badges)==(1 if slug else len(localized_apps)), (route,'missing official iPhone download badge')
+        if not slug:
+            assert soup.select_one('.catalog-heading p').get_text() == directory_intro[lang],route
+            assert soup.select_one('meta[name="description"]')['content'] == directory_intro[lang],route
+            assert 'iPhone' in directory_intro[lang] and 'Mac' in directory_intro[lang],route
+            for app in mac_apps:
+                card=soup.select_one('[data-app="'+app['id']+'"]')
+                assert card and card.select_one('input'),(route,'missing searchable Mac card')
+                assert card.select_one('a[href="'+app['store_url']+'"]'),(route,'missing Mac download')
+                assert card.select_one('a[lang="en"][href="/apps/'+app['slug']+'/"]'),(route,'unlabelled English fallback')
+                assert not (ROOT/('apps/'+app['slug']+'/'+lang+'/index.html')).exists(),(route,'unreviewed Mac localization')
         artwork=build.load('badge-sources.json')[lang]
         for badge in badges:
             assert badge['src']==artwork['src'], (route,'wrong language badge')
@@ -78,7 +91,7 @@ for lang in build.TARGETS:
 for locale,artwork in build.load('badge-sources.json').items():
     assert build.hashlib.sha256((ROOT/artwork['src'].lstrip('/')).read_bytes()).hexdigest()==artwork['sha256'],(locale,'official Apple SVG was modified')
 # Every alternate in every affected cluster must return the identical reciprocal set.
-for slug in ['',*[a['slug'] for a in apps]]:
+for slug in ['',*[a['slug'] for a in localized_apps]]:
     expected={k:build.SITE+v for k,v in build.alternatives(slug).items()}
     for code,route in build.alternatives(slug).items():
         soup=BeautifulSoup((ROOT/route.strip('/')/'index.html').read_text(),'html.parser')

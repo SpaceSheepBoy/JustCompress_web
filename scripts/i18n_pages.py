@@ -97,13 +97,19 @@ def build():
             raise ValueError('Missing or extra translations: '+lang)
         if reviewed['source_sha256'] != digest(source) or reviewed['catalogs'].get(lang) != digest(texts):
             raise ValueError('Catalog differs from reviewed Weblate export: '+lang)
+    # Release-scoped directory copy is maintained separately from unchanged
+    # Weblate exports; it does not rewrite their approval hashes or product facts.
+    directory_intro = load('directory-platform.json')
+    if set(directory_intro) != set(LOCALES) or any(
+            not isinstance(text, str) or not text.strip() for text in directory_intro.values()):
+        raise ValueError('Incomplete platform-aware directory copy')
     ui = {lang:{k.removeprefix('common.'):v for k,v in load(lang+'.json').items() if k.startswith('common.')} for lang in LOCALES}
     asset_version=hashlib.sha256((ROOT/'assets/i18n.css').read_bytes()+json.dumps(ui,ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
     written = []
     changed = set()
     for lang,texts in catalogs.items():
         def t(key):
-            return E(texts[key])
+            return E(directory_intro[lang] if key == 'common.directory_intro' else texts[key])
         def shell(slug, title, description, body, schema):
             url = SITE + route(slug, lang)
             html = (f'<!doctype html><html lang="{lang}" dir="ltr"><head><meta charset="utf-8">'
@@ -191,7 +197,7 @@ def build():
         body = '<header class="catalog-heading"><h1>'+t('common.directory_title')+'</h1><p>'+t('common.directory_intro')+'</p><input id="find-app" type="search" aria-label="'+t('common.search_label')+'" placeholder="'+t('common.search_placeholder')+'" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog">'+''.join(cards)+'</section><p id="no-results" hidden>'+t('common.no_results')+'</p><script defer src="/assets/find-app.js?v=20261027-i18n"></script>'
         schema = ld({'@type':'CollectionPage','name':texts['common.directory_title'],'url':SITE+route('',lang),'inLanguage':lang,
                      'mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':stores[a['slug']][lang]['trackName'],'url':SITE+route(a['slug'],lang)} for i,a in enumerate(apps)]}})
-        shell('',texts['common.directory_title'],texts['common.directory_intro'],body,schema)
+        shell('',texts['common.directory_title'],directory_intro[lang],body,schema)
     (ROOT/'assets/i18n-ui.js').write_text('window.spaceSheepI18n = '+json.dumps(ui,ensure_ascii=False).replace('</','<\\/')+';\n')
     # Add language links to source pages without rewriting their prose or scripts.
     for slug in ['', *[a['slug'] for a in apps]]:

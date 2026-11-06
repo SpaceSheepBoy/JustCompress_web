@@ -6,12 +6,18 @@ from urllib.parse import urlsplit,unquote
 import json,re,subprocess,tempfile,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1]
 apps=json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps']
-assert len(apps)==11
+display_order=json.loads((ROOT/'scripts/app-display-order.json').read_text())['app_ids']
+assert len(apps)==len({a['id'] for a in apps})
+assert len(display_order)==len(set(display_order)) and set(display_order)=={a['id'] for a in apps}
 # The website must never render Apple lookup's 221x480 thumbnail assets as store screenshots.
-shot_records=[s for a in apps for s in a['screenshots']]
-shot_records += [s for locale in json.loads((ROOT/'scripts/collage-localizations.json').read_text()).values() for s in locale['screenshots']]
-for shot in shot_records:
- assert shot['width']>=1000 and shot['height']>=2000,(shot['src'],'low-resolution screenshot')
+shot_records=[(s,a.get('platform','iOS')) for a in apps for s in a['screenshots']]
+shot_records += [(s,'iOS') for locale in json.loads((ROOT/'scripts/collage-localizations.json').read_text()).values() for s in locale['screenshots']]
+for shot,platform in shot_records:
+ if platform=='macOS':
+  assert shot['width']>=2000 and shot['height']>=1000,(shot['src'],'low-resolution Mac screenshot')
+  assert shot['source'].endswith('/0x0ss.png'),(shot['src'],'Mac screenshot must use native Apple source')
+ else:
+  assert shot['width']>=1000 and shot['height']>=2000,(shot['src'],'low-resolution iPhone screenshot')
  with Image.open(ROOT/shot['src'].lstrip('/')) as pixels:
   assert pixels.size==(shot['width'],shot['height']),(shot['src'],'incorrect intrinsic dimensions')
 paths=[];errors=[];scripts=0
@@ -23,7 +29,8 @@ for p in ROOT.rglob('*.html'):
  for pattern in ['jiali liang','tibetan mantra counter','paris ciné','6758589823','6758589915']:
   assert pattern not in raw.lower(),(rel,pattern)
  assert len(s.select('h1'))==1,(rel,'h1')
- assert s.select_one('meta[name="description"]')['content'].strip(),rel
+ description=s.select_one('meta[name="description"]')
+ assert description and description.get('content','').strip(),(rel,'missing meta description')
  redirect=s.select_one('[data-site-redirect]')
  expected=redirect['data-site-redirect'] if redirect else route
  assert s.select_one('link[rel="canonical"]')['href']=='https://justcompress.online'+expected,(rel,'canonical')
@@ -46,16 +53,25 @@ for p in ROOT.rglob('*.html'):
    assert r.returncode==0,(rel,r.stderr)
    scripts+=1
 catalog=BeautifulSoup((ROOT/'apps/index.html').read_text(),'html.parser')
-assert len(catalog.select('[data-app]'))==11
+assert len(catalog.select('[data-app]'))==len(apps)
+assert {el['data-app'] for el in catalog.select('[data-app]')}=={a['id'] for a in apps}
 for a in apps:
  s=BeautifulSoup((ROOT/'apps'/a['slug']/'index.html').read_text(),'html.parser')
- assert (a['name'] in s.h1.get_text() or a['name'] in s.title.get_text()) and a['version'] in s.get_text()
+ assert (a['name'] in s.h1.get_text() or a['name'] in s.title.get_text()) and a['version'] in s.get_text(),(a['slug'],'published name/version differs from portfolio snapshot')
  assert s.select_one(f'a[href="{a["store_url"]}"]'),a['slug']
+ if a.get('platform')=='macOS':
+  assert 'for Mac' in s.title.get_text() and 'macOS' in s.get_text(),a['slug']
+  assert 'platform=mac' in a['store_url'],a['slug']
+  schema=[json.loads(n.string) for n in s.select('script[type="application/ld+json"]')]
+  assert any(n.get('@type')=='SoftwareApplication' and n.get('operatingSystem','').startswith('macOS') for n in schema),a['slug']
  for shot in s.select('img'):assert shot.get('width') and shot.get('height') and shot.get('alt'),a['slug']
- locales=['','zh-Hans/','zh-Hant/','fr/','de/','es/','pt/','ja/','ko/','ar/','id/','th/']
- for locale in locales:
+ languages=set(json.loads((ROOT/'locales/config.json').read_text())) | set(json.loads((ROOT/'scripts/collage-localizations.json').read_text()))
+ for language in languages:
+  locale='' if language=='en' else language+'/'
   s=BeautifulSoup((ROOT/'apps/collage-maker'/locale/'index.html').read_text(),'html.parser')
-  assert len(s.select('link[hreflang]'))==13,(locale,'language alternatives')
+  alternatives=s.select('link[hreflang]')
+  assert len(alternatives)==len(languages)+1,(locale,'language alternatives')
+  assert {node['hreflang'] for node in alternatives}==languages|{'x-default'},(locale,'missing language alternatives')
 site=ET.parse(ROOT/'sitemap.xml').getroot();ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 urls=[x.text for x in site.findall('s:url/s:loc',ns)]
 assert len(urls)==len(set(urls))

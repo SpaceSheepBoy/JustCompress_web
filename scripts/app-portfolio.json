@@ -761,28 +761,37 @@
       },
       "screenshots": [
         {
-          "src": "/assets/apps/screenshots/7e6a8d718d1c59787f86.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/93/a2/1293a2de-a03c-2a2c-6564-d97919fb4c50/01-record-save.png/800x500bb.jpg",
-          "sha256": "7e6a8d718d1c59787f86191e381090787c1859315e3f3063a1a8a6e859a36c63",
-          "bytes": 70058,
-          "width": 800,
-          "height": 500
+          "src": "/assets/apps/screenshots/0a703636cda891f06179.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/93/a2/1293a2de-a03c-2a2c-6564-d97919fb4c50/01-record-save.png/0x0ss.png",
+          "sha256": "0a703636cda891f061794b0dca8ec61d1cea38e948edf89d9db38504c9112bda",
+          "bytes": 1647520,
+          "width": 2560,
+          "height": 1600,
+          "original_sha256": "9e08bf194296d4da1f67b2083c14f848e2d680fc91b8737acae610de774ddd1d",
+          "original_bytes": 2703219,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/screenshots/ffc269e48f6b0610c65e.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/39/83/97398328-34cc-e2c0-37bb-b6f73a7a86da/02-blur-comparison.png/800x500bb.jpg",
-          "sha256": "ffc269e48f6b0610c65e6520afcdf642fed6060030d30a8d3269632a4e71ab95",
-          "bytes": 98614,
-          "width": 800,
-          "height": 500
+          "src": "/assets/apps/screenshots/d634f3c12c86734c1bc2.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/39/83/97398328-34cc-e2c0-37bb-b6f73a7a86da/02-blur-comparison.png/0x0ss.png",
+          "sha256": "d634f3c12c86734c1bc2ff8adeaf63ebd2cd1ede369b5232eb3ffc619f77fa9b",
+          "bytes": 2411140,
+          "width": 2560,
+          "height": 1600,
+          "original_sha256": "cc792e12bfc0b150e00596c47ff627c0179d2dc50d00ad005e5dd13e302d95ea",
+          "original_bytes": 3716759,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         },
         {
-          "src": "/assets/apps/screenshots/8ee82eb64f84db79f53c.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/5b/64/195b6455-5688-e267-cb66-57e2eafa29fc/03-dual-screen-light.png/800x500bb.jpg",
-          "sha256": "8ee82eb64f84db79f53c83c03afb6333b1c83dc324a5dd61202fe18cfb760063",
-          "bytes": 80427,
-          "width": 800,
-          "height": 500
+          "src": "/assets/apps/screenshots/8a04976b6574193ec4ee.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/5b/64/195b6455-5688-e267-cb66-57e2eafa29fc/03-dual-screen-light.png/0x0ss.png",
+          "sha256": "8a04976b6574193ec4eefd4c1dce3d9ca6c4e1f0c0c9a2efafcb3f59d57df155",
+          "bytes": 2111616,
+          "width": 2560,
+          "height": 1600,
+          "original_sha256": "c40ccee0c5a7d87acfd223c3531df35561dd8e93c60dd647f05ddbb5375e26b4",
+          "original_bytes": 3391715,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling"
         }
       ],
       "privacy": "https://justcompress.online/apps/camrecorder/privacy/",

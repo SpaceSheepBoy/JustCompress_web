@@ -19,11 +19,12 @@ def original_url(url):
     return url.rsplit('/', 1)[0] + '/0x0ss.png'
 
 
-def download(url):
+def download(url, platform='iOS'):
     original = subprocess.check_output(['curl', '-fLsS', '--retry', '2', '--max-time', '60', url])
     image = Image.open(io.BytesIO(original))
     image.load()
-    if image.width < 1000 or image.height < 2000:
+    minimum = (2000, 1000) if platform == 'macOS' else (1000, 2000)
+    if image.width < minimum[0] or image.height < minimum[1]:
         raise ValueError(f'Apple original is too small: {image.size} for {url}')
     pixels = image.convert('RGBA')
     encoded = io.BytesIO()
@@ -52,8 +53,10 @@ def main():
     entries = [s for a in portfolio['apps'] for s in a['screenshots']]
     entries += [s for locale in locales.values() for s in locale.get('screenshots', [])]
     urls = sorted({original_url(s['source']) for s in entries})
+    platforms = {original_url(s['source']): a.get('platform', 'iOS')
+                 for a in portfolio['apps'] for s in a['screenshots']}
     with ThreadPoolExecutor(max_workers=4) as pool:
-        results = dict(zip(urls, pool.map(download, urls)))
+        results = dict(zip(urls, pool.map(lambda url: download(url, platforms.get(url, 'iOS')), urls)))
     # Do not mutate maintained sources until every download and pixel check succeeds.
     output = ROOT / 'assets/apps/screenshots'
     output.mkdir(parents=True, exist_ok=True)

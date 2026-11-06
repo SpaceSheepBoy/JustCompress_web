@@ -50,6 +50,17 @@ def apply():
         catalog = soup.select_one('.app-catalog')
         if not catalog:
             continue
+        intro = json.loads((ROOT/'locales/directory-platform.json').read_text())[lang]
+        heading = soup.select_one('.catalog-heading')
+        paragraph = heading.find('p', recursive=False)
+        if paragraph:
+            paragraph.string = intro
+        else:
+            paragraph = soup.new_tag('p')
+            paragraph.string = intro
+            heading.h1.insert_after(paragraph)
+        for meta in soup.select('meta[name="description"],meta[property="og:description"]'):
+            meta['content'] = intro
         for card in catalog.select('.app-card'):
             if card.select_one('a[href*="id6820696330"]'):
                 card.decompose()
