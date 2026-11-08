@@ -13,8 +13,8 @@ def render():
     product = products['6769563659']
     cta = ('<aside class="guide-cta guide-download"><div><strong>' + escape(product['name'])
            + '</strong><p>Free download · In-app purchases.</p></div>'
-           + '<a class="guide-button guide-app-download" href="' + escape(product['url'], quote=True)
-           + '">Download on the App&nbsp;Store <span aria-hidden="true">↗</span></a></aside>')
+           + '<a class="guide-store-badge" href="' + escape(product['url'], quote=True)
+           + '"><img src="/assets/brand/app-store-badges/en.svg" width="240" height="80" alt="Download on the App Store"></a></aside>')
     title = 'How to Convert M4A to MP3 on iPhone'
     description = 'Create an MP3 copy of an M4A recording on iPhone. Choose MP3 in Convert, save and play the result, then check the receiving format and size limits.'
     body = (ROOT / 'scripts/guide-layouts/m4a-to-mp3-iphone.html').read_text()
@@ -30,7 +30,7 @@ def render():
 <title>{escape(title)} | Just Compress</title><meta name="description" content="{escape(description, quote=True)}">
 <link rel="canonical" href="https://justcompress.online{PATH}">
 <meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:url" content="https://justcompress.online{PATH}"><meta property="og:type" content="article"><meta property="og:image" content="https://justcompress.online/assets/m4a-mp3-guide/01.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="/assets/home.css?v=20261002"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261106-cta">
+<link rel="stylesheet" href="/assets/home.css?v=20261002"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261108-badges">
 <script type="application/ld+json">{structured}</script></head>
 <body class="guide-page"><div class="guide-shell"><nav class="guide-nav" aria-label="Main navigation"><a class="guide-brand" href="/">Just Compress</a><div><a href="/guides/">Guides</a><a href="/videos/">Videos</a><a href="/apps/">Apps</a><a href="/tools/">Free tools</a></div></nav>
 <main>{body}</main><footer class="guide-footer"><span>© 2026 Space Sheep Studio</span><a href="/guides/">Guides</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></footer></div></body></html>

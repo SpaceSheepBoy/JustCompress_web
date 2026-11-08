@@ -17,11 +17,14 @@ def ld(value):
 
 def cta(app):
  p=PRODUCTS[app]
+ if app!='mac' and not (ROOT/'assets/brand/app-store-badges/en.svg').is_file():
+  raise ValueError('Official English App Store badge asset is required before generating tutorial pages')
  url=p['url']+('?utm_source='+('justcaptions' if CAPTIONS else 'justcompress')+'&utm_medium=guide&utm_campaign=tutorial-library' if app!='mac' else '')
- label='Download for Mac' if app=='mac' else 'Download on the App&nbsp;Store'
- button_class='guide-button' if app=='mac' else 'guide-button guide-app-download'
+ label='Download for Mac <span aria-hidden="true">↗</span>' if app=='mac' else '<img src="/assets/brand/app-store-badges/en.svg" width="240" height="80" alt="Download on the App Store">'
+ button_class='guide-button' if app=='mac' else 'guide-store-badge'
+ # English tutorial output uses the shared official English badge asset.
  note='macOS 14 or later. Website edition.' if app=='mac' else ('First 3 conversions free. Paid plans available.' if app in ['6812821310','6816526877'] else 'One free export. Paid plans available.' if app=='6810266264' else 'See the App Store for current access and purchase options.')
- return f'<aside class="guide-cta guide-download"><div><strong>{E(p["name"])}</strong><p>{E(note)}</p></div><a class="{button_class}" href="{E(url)}">{label} <span aria-hidden="true">↗</span></a></aside>'
+ return f'<aside class="guide-cta guide-download"><div><strong>{E(p["name"])}</strong><p>{E(note)}</p></div><a class="{button_class}" href="{E(url)}">{label}</a></aside>'
 
 def video(i):
  v=VIDEOS[i]
@@ -39,7 +42,7 @@ def page(path,title,description,body,schema=''):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)} | {BRAND}</title><meta name="description" content="{E(description)}"><link rel="canonical" href="{url}">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url}"><meta property="og:type" content="{'website' if path in ('/guides/','/videos/') else 'article'}"><meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{css}"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261106-cta">{schema}</head>
+<link rel="stylesheet" href="{css}"><link rel="stylesheet" href="/assets/tutorial-guides.css?v=20261108-badges">{schema}</head>
 <body class="guide-page {'guide-captions' if CAPTIONS else ''}"><div class="guide-shell"><nav class="guide-nav" aria-label="Main navigation"><a class="guide-brand" href="/">{BRAND}</a><div><a href="/guides/">Guides</a><a href="/videos/">Videos</a><a href="{'/mac/' if CAPTIONS else '/apps/'}">{'Download' if CAPTIONS else 'Apps'}</a><a href="{'/blog/' if CAPTIONS else '/tools/'}">{'Blog' if CAPTIONS else 'Free tools'}</a></div></nav>
 <main>{body}</main><footer class="guide-footer"><span>© 2026 Space Sheep Studio</span><a href="/guides/">Guides</a><a href="/videos/">Videos</a><a href="/privacy/">Privacy</a><a href="{'/mac/terms/' if CAPTIONS else '/terms/'}">Terms</a><a href="{'https://spacesheepboy.github.io/JustCaptions-legal/support/' if CAPTIONS else '/support/'}">Support</a></footer></div></body></html>'''
 
