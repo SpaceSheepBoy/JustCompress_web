@@ -11,7 +11,7 @@ STORE = "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id67695636
 def render():
     if not (ROOT / BADGE.lstrip("/")).is_file():
         raise ValueError("Official Apple badge asset is required")
-    soup = BeautifulSoup(PAGE.read_text(), "html.parser")
+    soup = BeautifulSoup(PAGE.read_text(encoding="utf-8"), "html.parser")
     top = soup.select_one("[data-tutorial-library] .guide-cta a")
     bottom = soup.select_one(".tutorial-app-download a[href*='apps.apple.com']")
     if top is None or bottom is None:
@@ -30,7 +30,7 @@ def render():
     if css is None:
         raise ValueError("Shared responsive badge stylesheet is required")
     css["href"] = "/assets/tutorial-guides.css?v=20261108-badges"
-    PAGE.write_text(str(soup))
+    PAGE.write_text(str(soup), encoding="utf-8")
 
 
 if __name__ == "__main__":

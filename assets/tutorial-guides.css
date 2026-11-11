@@ -8,3 +8,6 @@
 
 /* Preserve the official Apple artwork and its intrinsic aspect ratio. */
 .guide-cta .guide-store-badge{display:inline-block;width:min(100%,300px);flex-shrink:0;margin:14px 0 0}.guide-store-badge img{display:block;width:100%;height:auto}
+
+/* Keep the split tutorial badge intact inside the legacy download grid. */
+.tutorial-app-download .guide-store-badge{grid-column:1/-1;justify-self:start;display:block;width:min(100%,240px)}.tutorial-app-download .guide-store-badge img{width:100%;height:auto}
