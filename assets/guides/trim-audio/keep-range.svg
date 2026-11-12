@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="350" viewBox="0 0 360 350" role="img" aria-labelledby="title description">
+  <title id="title">Start at 49 seconds and end at 86 seconds to keep 37 seconds</title>
+  <desc id="description">The recorded example runs 2 minutes 45 seconds. Start at 0:49 and end at 1:26 to keep a 37-second section; keep the original.</desc>
+  <rect width="360" height="350" rx="12" fill="#fff"/>
+  <g font-family="system-ui,-apple-system,sans-serif" fill="#282431">
+    <text x="20" y="34" font-size="24" font-weight="750">Keep the middle 37 seconds</text>
+    <text x="20" y="68" font-size="20">Original: 2 minutes 45 seconds</text>
+    <rect x="20" y="122" width="320" height="42" rx="7" fill="#e6e1ec"/>
+    <rect x="115.03" y="122" width="71.76" height="42" fill="#583b7d"/>
+    <path d="M115.03 113v61M186.79 113v61" stroke="#282431" stroke-width="3"/>
+    <text x="20" y="101" font-size="20" font-weight="700">Start 0:49</text><path d="M82 106L115.03 118" stroke="#282431" stroke-width="1.5"/>
+    <text x="340" y="101" text-anchor="end" font-size="20" font-weight="700">End 1:26</text><path d="M292 106L186.79 118" stroke="#282431" stroke-width="1.5"/>
+    <text x="150.91" y="150" text-anchor="middle" fill="#fff" font-size="21" font-weight="700">KEEP</text>
+    <text x="20" y="194" font-size="20">0:00</text>
+    <text x="340" y="194" text-anchor="end" font-size="20">2:45</text>
+    <text x="20" y="237" font-size="22" font-weight="750">1:26 − 0:49 = 0:37 kept</text>
+    <rect x="20" y="255" width="71.76" height="20" rx="6" fill="#583b7d"/>
+    <text x="20" y="311" font-size="20">Save a copy. Keep the original.</text>
+    <text x="20" y="338" font-size="17" fill="#655d6e">Illustration, not an App screenshot.</text>
+  </g>
+</svg>

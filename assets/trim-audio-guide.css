@@ -1,0 +1,6 @@
+.trim-range-figure{margin:28px 0;background:#fff;border:1px solid #dcd0ec;border-radius:18px;padding:16px}
+.trim-range-figure img{display:block;width:100%;max-width:520px;height:auto;margin:auto}
+.trim-range-figure figcaption{font-size:15px;line-height:1.5;color:#655d6e;margin-top:14px}
+@media(max-width:520px){.trim-range-figure{padding:10px}}
+
+.trim-recorded-frame{margin:28px 0}.trim-recorded-frame img{display:block;width:min(100%,400px);height:auto;margin:auto;border-radius:12px}.trim-recorded-frame figcaption{font-size:15px;line-height:1.5;color:#655d6e;margin-top:14px}
