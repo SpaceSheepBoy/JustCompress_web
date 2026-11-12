@@ -148,4 +148,6 @@ finalize=['apps/camrecorder/index.html','apps/vidkit/index.html','apps/sober-win
           'apps/mantra-counter/privacy/index.html','apps/talknice/privacy/index.html',
           'apps/talknice/terms/index.html','apps/talknice/support/index.html']
 subprocess.run([sys.executable,str(ROOT/'scripts/refresh-public-pages.py'),'--only',*finalize],check=True)
-subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py'),'--only',*finalize],check=True)
+# The App directory is the social-bio landing page; its consented analytics went missing
+# after the 2026-10-24 rebuild, so keep reattaching it here.
+subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py'),'--only',*finalize,'apps/index.html'],check=True)
