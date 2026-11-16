@@ -36,6 +36,7 @@ function photographicExample(page) {
  return p.kind==='caption-comparison' ? `<figure class="article-photo"><div class="photo-comparison"><div><h3>${esc(t.before)}</h3><div class="caption-frame">${image}</div></div><div><h3>${esc(t.after)}</h3><div class="caption-frame">${image}<span class="example-subtitle">${esc(t.subtitle)}</span></div></div></div><figcaption>${esc(t.caption)}</figcaption></figure>` : `<figure class="article-photo${p.kind==='app-screenshot'?' screenshot':''}">${image}<figcaption>${esc(t.caption)}</figcaption></figure>`;
 }
 function render(page) {
+  if (page.video && (!/^[A-Za-z0-9_-]{11}$/.test(page.video.id) || !/^\/assets\/guides\/[a-z0-9-]+\.jpg$/.test(page.video.poster))) throw new Error('Invalid tutorial video reference');
   const labels={jump:'In this guide',choose:'Choose the approach',steps:'Follow the checks',details:'Read the details',chooseHeading:'Choose the approach before changing the file',stepsHeading:'Three checks before you send',...page.i18n?.ui};
   const url = `${site}/${page.slug}/`, product = products[page.appId];
   if (!fs.existsSync(path.join(root, 'assets/brand/app-store-badges/en.svg'))) throw new Error('Official English App Store badge is required');
@@ -55,6 +56,7 @@ ${page.workflowHtml?`<style>.diagnostic-flow{background:#eaf2fb;padding:16px;bor
 <nav class="repair-jump" aria-label="${esc(labels.jump)}"><a href="#choose">${esc(labels.choose)}</a><a href="#steps">${esc(labels.steps)}</a><a href="#details">${esc(labels.details)}</a></nav>
 <article class="guide-article" data-maintained-article>
 ${photographicExample(page)}
+${page.video?`<section aria-label="Related video"><h2>${esc(page.video.title)}</h2><a href="https://www.youtube.com/watch?v=${page.video.id}"><img style="display:block;width:100%;height:auto;border-radius:14px" src="${esc(page.video.poster)}" width="480" height="360" alt="${esc(page.video.title)} video preview" loading="lazy"><p>▶ Watch on YouTube</p></a></section>`:''}
 <section id="choose"><h2>${esc(labels.chooseHeading)}</h2><div class="repair-cards">${page.cards.map(([h,b])=>`<div><h3>${esc(h)}</h3><p>${esc(b)}</p></div>`).join('')}</div>
 ${page.omitWorkflow?'':`<figure id="workflow">${page.workflowHtml?workflow(page):`<img src="${page.figure}" alt="${esc(page.figureAlt)}" width="${page.figureWidth||640}" height="${page.figureHeight||580}">`}<figcaption>${esc(page.figureCaption)}</figcaption></figure>`}</section>
 <section id="steps"><h2>${esc(labels.stepsHeading)}</h2><ol>${page.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>${page.workflowHtml?'':`<p><a class="guide-button" href="${page.primaryCta}">${esc(page.primaryCtaLabel||('Open the free '+(page.appId==='6769762323'?'PDF':'video')+' compressor'))} ↗</a></p>`}</section>
@@ -95,7 +97,7 @@ const enrolled=pages.filter(p=>p.published);
 for(const [file, marker, items] of [['guides/index.html','structured-article-index',enrolled], ...enrolled.map(p=>[p.discoveryBacklink,'structured-article-backlink-'+p.i18n.id,[p]])]) {
  if(!file)continue;
  const filename=path.join(root,file); let html=fs.readFileSync(filename,'utf8');
- const pattern=new RegExp('<section data-'+marker+'>[\\s\\S]*?</section>','g');html=html.replace(pattern,'');
+ const pattern=new RegExp('<section data-'+marker+'(?:="")?>[\\s\\S]*?</section>','g');html=html.replace(pattern,'');
  const block='<section data-'+marker+'><h2>Related practical guides</h2><ul>'+items.map(p=>'<li><a href="/'+p.slug+'/">'+esc(p.title)+'</a></li>').join('')+'</ul></section>';
  html=html.replace('</main>',block+'</main>');fs.writeFileSync(filename,html);
 }
