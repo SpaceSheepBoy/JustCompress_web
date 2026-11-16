@@ -20,7 +20,7 @@ export function visualPage(html,slug){
  if(!tool)html=html.replace(/<article class="prose"([^>]*)>([\s\S]*?)<\/article>/, '<details class="visual-guide" id="full-guide" open><summary>Steps, answers & details</summary><article class="prose"$1>$2</article></details>');
  if(!tool){
  const product=products.find(p=>p.name===a.name);
- const storeLink=product ? `<a class="official-store-badge" style="display:block;width:min(100%,240px);padding:0;margin:24px 0 0;background:transparent;border:0;border-radius:0" href="${esc(product.url)}"><img src="/assets/brand/app-store-badges/en.svg" width="240" height="80" alt="Download on the App Store" style="display:block;width:100%;height:auto;border-radius:0"></a>` : `<a href="/apps/${esc(a.slug)}/">See the app ↗</a>`;
+ const storeLink=product ? `<a class="official-store-badge" style="display:block;width:min(100%,240px);max-width:240px;flex:0 1 240px;padding:0;margin:24px 0 0;background:transparent;border:0;border-radius:0" href="${esc(product.url)}"><img src="/assets/brand/app-store-badges/en.svg" width="240" height="80" alt="Download on the App Store" style="display:block;width:100%;height:auto;border-radius:0"></a>` : `<a href="/apps/${esc(a.slug)}/">See the app ↗</a>`;
  const cta=`<aside class="visual-app" style="padding:24px;gap:24px"><img src="${esc(a.icon)}" width="48" height="48" alt=""><div><b>${esc(a.name)}</b><p>Our App by Space Sheep Studio. See the store for current purchase options.</p></div>${storeLink}</aside>`;
  html=html.replace('</article></details>', '</article></details>'+cta);
  }
