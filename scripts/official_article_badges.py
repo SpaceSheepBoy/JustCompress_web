@@ -45,6 +45,14 @@ def normalize(raw, relative):
             if aside and aside.select_one('strong'):
                 aside.select_one('strong').string = 'Audio Compressor MP3 Converter'
         changed |= str(link) != before
+    # App guides without a header download also expose the official CTA near the answer.
+    if (relative.parts[0] == 'apps' and 'guides' in relative.parts
+            and not soup.select('header a.guide-store-badge')):
+        head = soup.select_one('header.article-head')
+        badge = soup.select_one('a.guide-store-badge')
+        if head and badge:
+            head.append(BeautifulSoup(str(badge), 'html.parser').a)
+            changed = True
     return str(soup) if changed else raw
 
 
