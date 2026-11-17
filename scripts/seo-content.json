@@ -1318,5 +1318,106 @@
       "title": "Watch: convert an M4A recording to MP3 on iPhone",
       "poster": "/assets/guides/aac-mp3-tutorial.jpg"
     }
+  },
+  {
+    "slug": "guides/rec-709-vs-rec-2020",
+    "tag": "VIDEO COLOR SPACES",
+    "title": "Rec.709 vs Rec.2020: Color Gamut Is Not HDR",
+    "description": "Rec.2020 covers a wider color gamut than Rec.709, but does not automatically mean HDR. Learn what to check before exporting an SDR sharing copy on iPhone.",
+    "reviewed": "2026-11-17",
+    "published": "2026-11-17",
+    "appId": "6812821310",
+    "direct": "Rec.2020 defines a wider color gamut than Rec.709. That means it can represent a broader palette of colors, not that every Rec.2020 video is HDR. Choose an export for the receiving workflow, and check both its color primaries and transfer function.",
+    "figure": "/assets/product-pages/videofix/standard-sdr.webp",
+    "figureAlt": "A rooftop scene from a supplied VideoFix Rec.709 SDR export.",
+    "figureCaption": "Actual frame from a supplied VideoFix Rec.709 SDR conversion. This single web image is not a Rec.709 versus Rec.2020 gamut comparison or an HDR display test.",
+    "figureWidth": 720,
+    "figureHeight": 1280,
+    "cards": [
+      {
+        "id": "gamut",
+        "heading": "A bigger palette, not more pixels",
+        "body": "Rec.709 is the standard-gamut HDTV reference. Rec.2020 uses wider-gamut red, green and blue primaries. These color definitions are separate from your export resolution: selecting 4K alone does not tell you how its colors are encoded."
+      },
+      {
+        "id": "hdr",
+        "heading": "Why Rec.2020 does not automatically mean HDR",
+        "body": "Color gamut describes the palette; dynamic range describes the span of brightness. Rec.2020 primaries also appear in Rec.2100 HDR systems using PQ or HLG transfer functions. A primaries label alone is not enough to identify the brightness encoding."
+      }
+    ],
+    "sections": [
+      {
+        "id": "choice",
+        "heading": "Which should you export?",
+        "body": "Use Rec.709 SDR when the recipient or editor requests standard SDR delivery. Keep a supported wide-gamut HDR workflow when HDR delivery is required. Converting to a smaller gamut can change colors outside that gamut. Changing a metadata label is not a substitute for color conversion, and exporting Rec.709 footage as Rec.2020 cannot recover colors never captured."
+      }
+    ],
+    "steps": [
+      {
+        "id": "import",
+        "text": "For a Rec.709 SDR sharing copy of supported iPhone HDR footage, import the video into our VideoFix: HDR Video Converter and choose Convert HDR to SDR. The published App supports H.264 MP4 output with Rec.709 SDR color."
+      },
+      {
+        "id": "check",
+        "text": "Keep the original for editing. Export a short copy and check bright areas, saturated objects and playback in the receiving app. Conversion re-encodes the video. The first three conversions are free; unlimited conversions require a purchase."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "apple",
+        "label": "Apple: HDR and wide color gamut, July 2023",
+        "url": "https://www.apple.com/final-cut-pro/docs/HDR_WideColor.pdf"
+      },
+      {
+        "id": "icc2020",
+        "label": "ICC: BT.2020 encoding characteristics",
+        "url": "https://registry.color.org/rgb-registry/bt2020"
+      },
+      {
+        "id": "icc2100",
+        "label": "ICC: BT.2100 primaries and PQ/HLG transfer functions",
+        "url": "https://registry.color.org/rgb-registry/bt2100"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/id6812821310",
+    "primaryCtaLabel": "Open VideoFix: HDR Video Converter on the App Store",
+    "related": [
+      {
+        "id": "hdr-sdr",
+        "label": "HDR vs SDR video",
+        "url": "/guides/hdr-vs-sdr-video/"
+      },
+      {
+        "id": "convert",
+        "label": "Convert HDR to SDR on iPhone",
+        "url": "/guides/hdr-to-sdr-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "rec-gamuts",
+      "ui": {
+        "chooseHeading": "Separate gamut from brightness",
+        "stepsHeading": "Make a Rec.709 SDR copy on iPhone",
+        "choose": "Understand the difference",
+        "steps": "Try an SDR copy",
+        "details": "Choose an export"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Rooftops, trees and sky in a supplied VideoFix SDR export frame.",
+        "caption": "Actual frame from a supplied VideoFix Rec.709 SDR conversion. This single web image is not a Rec.709 versus Rec.2020 gamut comparison or an HDR display test."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/product-pages/videofix/standard-sdr.webp",
+      "width": 720,
+      "height": 1280,
+      "kind": "export-frame",
+      "provenance": "Reused first-party supplied VideoFix SDR export frame; original source and SHA256 recorded in assets/product-pages/videofix/sources.json. No new export or gamut comparison claimed."
+    },
+    "discoveryBacklink": "guides/hdr-vs-sdr-video/index.html"
   }
 ]

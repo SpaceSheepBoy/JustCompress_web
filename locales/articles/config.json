@@ -58,6 +58,14 @@
       "locales": [],
       "translation_date": "2026-11-16",
       "publication_authorization": "User-authorized Codex daily English original; no translations."
+    },
+    {
+      "id": "rec-gamuts",
+      "slug": "guides/rec-709-vs-rec-2020",
+      "component": "article-rec-gamuts",
+      "locales": [],
+      "translation_date": "2026-11-17",
+      "publication_authorization": "Authorized daily English original; no translation."
     }
   ]
 }
