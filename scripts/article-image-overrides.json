@@ -503,6 +503,16 @@
       "tool": "built-in imagegen",
       "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
       "remove_sources": []
+    },
+    "apps/collage-maker/guides/combine-screenshots/index.html": {
+      "src": "/assets/guides/editorial/combine-screenshots.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Illustrated screenshot cards arranged as one long image in reading order, with checks for sequence and final text size.",
+      "caption": "AI-generated concept illustration, not an App screen or an actual exported screenshot.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with built-in imagegen on2026-11-17; original and prompt in growth/output/seo-agent/2026-11-17/all-article-images/generated-images.json. Lossless WebP has identical decoded pixels.",
+      "remove_sources": []
     }
   }
 }

@@ -19,7 +19,7 @@ def normalize(raw, relative):
     for link in soup.select('a[href*="apps.apple.com/"]'):
         text = link.get_text(' ', strip=True)
         # References such as "official listing" remain normal inline source links.
-        action = bool(set(link.get('class', [])) & {'guide-button', 'guide-store-badge', 'official-store-badge', 'localized-store-badge', 'appstore'}) or bool(re.match(r'^(Get |Download |Open .+ (on|from) the App Store)', text))
+        action = bool(set(link.get('class', [])) & {'guide-button', 'guide-store-badge', 'official-store-badge', 'localized-store-badge', 'appstore', 'story-button'}) or bool(re.match(r'^(Get |Download |Open .+ (on|from) the App Store)', text))
         if not action:
             continue
         images = link.select('img')
@@ -31,13 +31,13 @@ def normalize(raw, relative):
         if not (ROOT / asset.lstrip('/')).exists():
             raise ValueError('Missing official badge: ' + asset)
         label = next((i.get('alt') for i in images if i.get('alt') and 'store' in i.get('alt', '').lower()), 'Download on the App Store')
-        classes = [c for c in link.get('class', []) if c not in {'guide-button', 'btn-primary', 'button', 'btn'}]
+        classes = [c for c in link.get('class', []) if c not in {'guide-button', 'btn-primary', 'button', 'btn', 'story-button'}]
         classes = list(dict.fromkeys(classes + ['guide-store-badge']))
         before = str(link)
         link['class'] = classes
-        link['style'] = STYLE
+        link['style'] = STYLE if not link.find_parent('nav') else STYLE.replace('240px','144px').replace('margin:24px 0','margin:0')
         link.clear()
-        link.append(soup.new_tag('img', src=asset, width='240', height='80', alt=label, style=IMAGE_STYLE))
+        link.append(soup.new_tag('img', src=asset, width='240', height='80', alt=label, style=IMAGE_STYLE if not link.find_parent('nav') else IMAGE_STYLE.replace('240px','144px')))
         # Correct the original voice-memo tutorial's misplaced PDF CTA.
         if relative.as_posix() == 'iphone-video-tutorials/08-how-to-compress-a-voice-memo-on-iphone/index.html' and 'id6769762323' in link['href']:
             link['href'] = 'https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659'
@@ -52,7 +52,7 @@ def apply(root=ROOT):
     changed = []
     for file in root.rglob('index.html'):
         relative = file.relative_to(root)
-        if any(part.startswith('.') or part in {'assets','scripts','vendor','node_modules','apps','privacy','terms','support','legal'} for part in relative.parts):
+        if (relative.parts[0] == 'apps' and not (len(relative.parts) == 5 and relative.parts[2] == 'guides')) or any(part.startswith('.') or part in {'assets','scripts','vendor','node_modules','privacy','terms','support','legal'} for part in relative.parts):
             continue
         raw = file.read_text()
         updated = normalize(raw, relative)

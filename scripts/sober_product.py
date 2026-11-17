@@ -79,6 +79,9 @@ def document(root, route, title, description, body, app, schema='', social='trac
         html = html.replace('<link rel="stylesheet" href="/assets/sitewide.css?v=20261024">', '<link rel="stylesheet" href="/assets/sitewide.css?v=20261024">' + depth.resources('sober-wins'))
     p = root / route.strip('/') / 'index.html'
     p.parent.mkdir(parents=True, exist_ok=True)
+    if '/guides/' in route:
+        from official_article_badges import normalize
+        html = normalize(html, p.relative_to(root))
     p.write_text(html)
 
 
