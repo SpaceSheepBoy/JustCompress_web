@@ -56,7 +56,7 @@ else:
  # Keep the existing fifteen tutorial URLs and their videos. Refresh app identity and CTA.
  for p in (ROOT/'iphone-video-tutorials').glob('*/index.html'):
   rel=str(p.relative_to(ROOT));s=read(rel)
-  if 'audio' in str(p) or 'm4a' in str(p):app='6769563659';old='Just Audio Compressor'
+  if 'audio' in str(p) or 'm4a' in str(p) or 'voice-memo' in str(p):app='6769563659';old='Just Audio Compressor'
   elif 'watermark' in str(p):app='6769761016';old='Just PDF Watermark'
   else:app='6769762323';old='Just PDF Compressor'
   for text in s.find_all(string=True):
@@ -112,3 +112,8 @@ if not m.CAPTIONS:
 # Renderers above can replace whole documents; attach the existing consent-only
 # analytics last. The installer's app legal/account/billing exclusions still apply.
 subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py')],check=True)
+
+# Final article download artwork pass, including retained legacy article bodies.
+if not m.CAPTIONS:
+ from official_article_badges import apply
+ print("Updated official article badges:",len(apply()))

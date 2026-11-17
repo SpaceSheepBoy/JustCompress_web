@@ -3,8 +3,8 @@
   "title": "Rec.709 vs Rec.2020: Color Gamut Is Not HDR",
   "description": "Rec.2020 covers a wider color gamut than Rec.709, but does not automatically mean HDR. Learn what to check before exporting an SDR sharing copy on iPhone.",
   "direct": "Rec.2020 defines a wider color gamut than Rec.709. That means it can represent a broader palette of colors, not that every Rec.2020 video is HDR. Choose an export for the receiving workflow, and check both its color primaries and transfer function.",
-  "figureAlt": "A rooftop scene from a supplied VideoFix Rec.709 SDR export.",
-  "figureCaption": "Actual frame from a supplied VideoFix Rec.709 SDR conversion. This single web image is not a Rec.709 versus Rec.2020 gamut comparison or an HDR display test.",
+  "figureAlt": "Colorful flower, fabric, leaf and ceramic above nested schematic Rec.709 and Rec.2020 gamut triangles.",
+  "figureCaption": "AI-generated illustration: Rec.709 is inside the wider Rec.2020 gamut. Triangle shapes and displayed colors are schematic. An ordinary web image cannot demonstrate the full Rec.2020 palette; this is not an App export comparison.",
   "cards.gamut.heading": "A bigger palette, not more pixels",
   "cards.gamut.body": "Rec.709 is the standard-gamut HDTV reference. Rec.2020 uses wider-gamut red, green and blue primaries. These color definitions are separate from your export resolution: selecting 4K alone does not tell you how its colors are encoded.",
   "cards.hdr.heading": "Why Rec.2020 does not automatically mean HDR",
@@ -42,7 +42,7 @@
   "ui.privacy": "Privacy (English)",
   "ui.terms": "Terms (English)",
   "ui.support": "Support (English)",
-  "photo.alt": "Rooftops, trees and sky in a supplied VideoFix SDR export frame.",
-  "photo.caption": "Actual frame from a supplied VideoFix Rec.709 SDR conversion. This single web image is not a Rec.709 versus Rec.2020 gamut comparison or an HDR display test.",
+  "photo.alt": "Colorful flower, fabric, leaf and ceramic above nested schematic Rec.709 and Rec.2020 gamut triangles.",
+  "photo.caption": "AI-generated illustration: Rec.709 is inside the wider Rec.2020 gamut. Triangle shapes and displayed colors are schematic. An ordinary web image cannot demonstrate the full Rec.2020 palette; this is not an App export comparison.",
   "primaryCtaLabel": "Open VideoFix: HDR Video Converter on the App Store"
 }
