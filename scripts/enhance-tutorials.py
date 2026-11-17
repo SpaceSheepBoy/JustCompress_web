@@ -117,3 +117,8 @@ subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py')],check=Tru
 if not m.CAPTIONS:
  from official_article_badges import apply
  print("Updated official article badges:",len(apply()))
+
+# Topic-specific imagegen illustrations are applied after all article renderers.
+if not m.CAPTIONS:
+ from article_image_overrides import apply as apply_article_images
+ print("Updated topic-specific article illustrations:",len(apply_article_images()))

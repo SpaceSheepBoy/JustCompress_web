@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "instruction": "User 2026-11-17: all replacement illustrations use built-in imagegen; preserve verified real workflow evidence.",
+  "articles": {
+    "why-private-file-tools/index.html": {
+      "src": "/assets/guides/editorial/local-vs-cloud.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A device-local file-processing route beside a separate upload-to-cloud route.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "best-private-file-tools/index.html": {
+      "src": "/assets/guides/editorial/local-vs-cloud.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A device-local file-processing route beside a separate upload-to-cloud route.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "compare-file-tools/index.html": {
+      "src": "/assets/guides/editorial/local-vs-cloud.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A device-local file-processing route beside a separate upload-to-cloud route.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/local-file-tool-vs-cloud-tool/index.html": {
+      "src": "/assets/guides/editorial/local-vs-cloud.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A device-local file-processing route beside a separate upload-to-cloud route.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/files-stay-on-your-device-meaning/index.html": {
+      "src": "/assets/guides/editorial/local-vs-cloud.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A device-local file-processing route beside a separate upload-to-cloud route.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/compress-pdf-without-uploading/index.html": {
+      "src": "/assets/guides/editorial/pdf-local-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "PDF originals and separate processed copies stay in the device workspace; cloud transfer is a separate choice.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/is-my-pdf-uploaded-compress-online/index.html": {
+      "src": "/assets/guides/editorial/pdf-local-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "PDF originals and separate processed copies stay in the device workspace; cloud transfer is a separate choice.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "sign-merge-compress-pdf-iphone-no-upload/index.html": {
+      "src": "/assets/guides/editorial/pdf-local-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "PDF originals and separate processed copies stay in the device workspace; cloud transfer is a separate choice.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/are-online-pdf-tools-safe-private-documents/index.html": {
+      "src": "/assets/guides/editorial/private-pdf-documents.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Sensitive contracts and financial documents require an explicit decision before uploading to another service.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/are-free-pdf-compressors-free-private/index.html": {
+      "src": "/assets/guides/editorial/free-tools-privacy.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Price and upload behavior are separate choices: free or paid does not establish privacy.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/free-online-pdf-tools-vs-no-upload-pdf-apps/index.html": {
+      "src": "/assets/guides/editorial/free-tools-privacy.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Price and upload behavior are separate choices: free or paid does not establish privacy.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/upload-pdf-to-chatgpt-privacy-risks/index.html": {
+      "src": "/assets/guides/editorial/pdf-ai-upload.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A PDF is reviewed for sensitive content and permission before sending a copy to a cloud AI service.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/is-it-safe-compress-voice-memo-online/index.html": {
+      "src": "/assets/guides/editorial/audio-local-privacy.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A private recording is processed on the device; sending a copy to another service is a separate action.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/compress-audio-without-uploading/index.html": {
+      "src": "/assets/guides/editorial/audio-local-privacy.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A private recording is processed on the device; sending a copy to another service is a separate action.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/is-it-safe-compress-videos-online/index.html": {
+      "src": "/assets/guides/editorial/video-local-privacy.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A private video is converted locally while a distinct route represents cloud upload.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "blog/make-video-smaller-without-cloud/index.html": {
+      "src": "/assets/guides/editorial/video-local-privacy.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A private video is converted locally while a distinct route represents cloud upload.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "compress-pdf-for-email/index.html": {
+      "src": "/assets/guides/editorial/pdf-email.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An email PDF needs three checks: attachment size, readable text and a permitted sharing route.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "compress-pdf-for-email/fr/index.html": {
+      "src": "/assets/guides/editorial/pdf-email-fr.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Un PDF destiné à un e-mail nécessite de vérifier sa taille, sa lisibilité et le mode de partage autorisé.",
+      "caption": "Illustration pédagogique générée par IA, pas une capture de l’app ni un résultat d’export mesuré.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "compress-video-for-whatsapp/index.html": {
+      "src": "/assets/guides/editorial/video-sharing-size.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Keep a video original and choose a checked smaller sharing copy that fits the actual destination requirements.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "guides/compress-video-iphone/index.html": {
+      "src": "/assets/guides/editorial/video-sharing-size.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Keep a video original and choose a checked smaller sharing copy that fits the actual destination requirements.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/screenshots/38c5d909fb2bc401d1a7.webp"
+      ]
+    },
+    "guides/send-long-voice-memo-iphone/index.html": {
+      "src": "/assets/guides/editorial/voice-memo-delivery.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A long voice memo can use nearby sharing, an approved email link or a checked smaller audio copy.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "compress-audio-file-iphone/index.html": {
+      "src": "/assets/guides/editorial/audio-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An entire recording becomes a separate smaller sharing copy while its original is retained.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/local-file-processing.svg"
+      ]
+    },
+    "iphone-video-tutorials/08-how-to-compress-a-voice-memo-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/audio-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An entire recording becomes a separate smaller sharing copy while its original is retained.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/11-how-to-compress-an-audio-file-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/audio-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An entire recording becomes a separate smaller sharing copy while its original is retained.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/12-how-to-compress-multiple-audio-files-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/audio-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An entire recording becomes a separate smaller sharing copy while its original is retained.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "guides/audio-bitrate-file-size/index.html": {
+      "src": "/assets/guides/editorial/audio-bitrate.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "For ten minutes of constant-bitrate audio, 64, 128 and 256 kbps correspond to approximately 4.8, 9.6 and 19.2 MB before overhead.",
+      "caption": "AI-generated illustration of calculated constant-bitrate examples. File headers and metadata add overhead; these are not measured App exports.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "guides/hdr-vs-sdr-video/index.html": {
+      "src": "/assets/guides/editorial/hdr-brightness.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A bright window scene and brightness ranges explain HDR-to-SDR tone mapping without pretending this webpage displays HDR.",
+      "caption": "AI-generated explanation of brightness ranges and tone mapping. This ordinary webpage is not a true HDR display comparison or an App export test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/guides/hdr-sdr/simulated-color-mismatch.jpg"
+      ]
+    },
+    "guides/hdr-to-sdr-iphone/index.html": {
+      "src": "/assets/guides/editorial/hdr-brightness.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A bright window scene and brightness ranges explain HDR-to-SDR tone mapping without pretending this webpage displays HDR.",
+      "caption": "AI-generated explanation of brightness ranges and tone mapping. This ordinary webpage is not a true HDR display comparison or an App export test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/90b9def57ec24b0d9a.jpg"
+      ]
+    },
+    "guides/hdr-photos-to-sdr-iphone/index.html": {
+      "src": "/assets/guides/editorial/hdr-brightness.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A bright window scene and brightness ranges explain HDR-to-SDR tone mapping without pretending this webpage displays HDR.",
+      "caption": "AI-generated explanation of brightness ranges and tone mapping. This ordinary webpage is not a true HDR display comparison or an App export test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/screenshots/ec4ebafb683ec664a056.webp"
+      ]
+    },
+    "guides/batch-resize-videos-iphone/index.html": {
+      "src": "/assets/guides/editorial/batch-video-workflows.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Several source clips receive shared output settings and become separate video copies rather than one merged movie.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/90b9def57ec24b0d9a.jpg"
+      ]
+    },
+    "guides/batch-convert-hdr-videos-iphone/index.html": {
+      "src": "/assets/guides/editorial/batch-video-workflows.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Several source clips receive shared output settings and become separate video copies rather than one merged movie.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/90b9def57ec24b0d9a.jpg"
+      ]
+    },
+    "guides/hevc-to-mp4-iphone/index.html": {
+      "src": "/assets/guides/editorial/video-codec-container.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An MP4 container, HEVC or H.264 picture encoding, and HDR or SDR brightness handling are separate video properties.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/90b9def57ec24b0d9a.jpg"
+      ]
+    },
+    "guides/hdr-vs-hevc-vs-mp4/index.html": {
+      "src": "/assets/guides/editorial/video-codec-container.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "An MP4 container, HEVC or H.264 picture encoding, and HDR or SDR brightness handling are separate video properties.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "guides/change-video-frame-rate-iphone/index.html": {
+      "src": "/assets/guides/editorial/frame-rate.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Different frame rates sample a second of video at different intervals; a higher output number alone does not recover missing movement.",
+      "caption": "AI-generated sampling illustration, not a measured motion test or a promise of new captured detail.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/90b9def57ec24b0d9a.jpg"
+      ]
+    },
+    "guides/apple-log-to-rec709-iphone/index.html": {
+      "src": "/assets/guides/editorial/log-normalization.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Log-encoded footage needs a matching transform to produce a standard Rec.709 sharing copy.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": [
+        "/assets/apps/90b9def57ec24b0d9a.jpg"
+      ]
+    },
+    "guides/technical-vs-creative-luts/index.html": {
+      "src": "/assets/guides/editorial/lut-input-and-look.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "LUT input matching, technical conversion and a creative look are distinct decisions; the documented input determines the order.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/03-how-to-make-a-pdf-from-photos-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/photos-to-pdf.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Several photos become ordered pages in one PDF document.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/01-how-to-convert-pdf-to-jpg-or-jpeg-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/pdf-to-jpg.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "PDF pages become separate JPEG image copies.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/04-how-to-compress-multiple-pdf-files-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/pdf-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "PDF originals become smaller independent copies that still need their text and page count checked.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/05-how-to-compress-pdf-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/pdf-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "PDF originals become smaller independent copies that still need their text and page count checked.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/06-how-to-merge-pdf-files-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/merge-pdf.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Multiple PDFs join into one document with a chosen page order.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/07-how-to-sign-a-pdf-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/sign-pdf.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A signature is placed in the intended document field without implying password protection or a legal guarantee.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/02-how-to-add-a-watermark-to-a-pdf-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/watermark-pdf.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "A visible watermark is placed on a document while its body text remains readable.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/14-how-to-split-an-audio-file-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/split-audio.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Split points divide one continuous audio recording into several separate clips.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    },
+    "iphone-video-tutorials/13-how-to-speed-up-or-slow-down-audio-on-iphone/index.html": {
+      "src": "/assets/guides/editorial/audio-speed.webp",
+      "width": 1536,
+      "height": 1024,
+      "alt": "Changing playback speed changes an audio clip’s duration; this illustration makes no pitch-preservation claim.",
+      "caption": "AI-generated teaching illustration, not an App screen, measured export or display test.",
+      "tool": "built-in imagegen",
+      "provenance": "Generated with the built-in imagegen tool on 2026-11-17. Prompt and original generation result are retained in growth/output/seo-agent/2026-11-17/all-article-images/. Conceptual educational artwork, not measured App behavior.",
+      "remove_sources": []
+    }
+  }
+}
