@@ -1419,5 +1419,1007 @@
       "provenance": "Built-in imagegen generated 2026-11-17; photoreal illustrative still life and schematic nested gamuts. Not measured chromaticity geometry, real HDR output or App export. Original generated image saved in Codex generated_images; prompt retained in growth output/seo-agent/2026-11-17/visual-cta-revision/image-generation.json."
     },
     "discoveryBacklink": "guides/hdr-vs-sdr-video/index.html"
+  },
+  {
+    "slug": "guides/pitch-vs-tempo-music-practice",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Pitch vs Tempo: What to Change for Music Practice",
+    "description": "Pitch changes how high or low notes sound; tempo changes how fast the beat moves.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6769563659",
+    "direct": "Pitch changes how high or low notes sound; tempo changes how fast the beat moves. For music practice, change pitch to suit a comfortable key and tempo to give yourself more time to learn a passage. Neither operation guarantees an artifact-free recording.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Choose the change you need",
+        "body": "A song that is too high calls for a pitch adjustment. A passage that is too fast calls for a tempo adjustment. Changing one does not mean the other must change."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Import a local recording you have permission to use into Audio Compressor MP3 Converter."
+      },
+      {
+        "id": "step-2",
+        "text": "Use its pitch or tempo tool for the practice problem you identified. Start with a small adjustment and listen to a demanding passage."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a separate practice copy. Compare vocals, sustained notes and rhythm with the original before using the whole track."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Why voices can sound unnatural",
+        "body": "A mixed recording contains voices, instruments and transients together. Processing the complete mix can change vocal character or introduce audible artifacts. A pitch tool is not proof of formant correction, vocal separation or studio-quality transposition. Those advanced capabilities are not claimed here."
+      },
+      {
+        "id": "practice",
+        "heading": "Keep a useful reference",
+        "body": "Our app, developed by Space Sheep Studio, lists pitch and tempo changes for practice in its current iPhone release. Export tools require Pro. Use a normal-speed original alongside the practice copy so you can check the intended rhythm. Streaming-service playback is not the same as an importable audio file; use an accessible local source."
+      }
+    ],
+    "figure": "/assets/guides/pitch-vs-tempo-music-practice.webp",
+    "figureAlt": "Guitar and metronome distinguish pitch, or note height, from tempo, or beat speed.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Audacity: pitch and tempo concepts",
+        "url": "https://manual.audacityteam.org/man/change_pitch.html"
+      },
+      {
+        "id": "store",
+        "label": "Audio Compressor MP3 Converter 1.2.1: current iPhone features",
+        "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/audio-speed-changer/"
+      }
+    ],
+    "i18n": {
+      "id": "pitch-vs-tempo-music-practice",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Guitar and metronome distinguish pitch, or note height, from tempo, or beat speed.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/pitch-vs-tempo-music-practice.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "audio-speed-changer/index.html"
+  },
+  {
+    "slug": "guides/hlg-vs-pq-hdr-video",
+    "tag": "PRACTICAL GUIDE",
+    "title": "HLG vs PQ: Two Ways to Encode HDR Video",
+    "description": "HLG and PQ are two HDR transfer-function systems.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6812821310",
+    "direct": "HLG and PQ are two HDR transfer-function systems. They describe how encoded signal values relate to light, rather than a video codec or file extension. Identify the source correctly before converting it for an SDR destination.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Same HDR family, different interpretation",
+        "body": "The ICC BT.2100 registry identifies both PQ and HLG transfer functions. A .mov or .mp4 extension does not tell you which system the picture uses."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check the source color information in a trusted editor or media inspector; keep the original tags and file."
+      },
+      {
+        "id": "step-2",
+        "text": "If the recipient needs SDR, use VideoFix: HDR Video Converter to create a Rec.709 SDR sharing copy."
+      },
+      {
+        "id": "step-3",
+        "text": "Play the result in the intended player and inspect faces, bright lights and shadows before sending it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Why switching a label is not conversion",
+        "body": "HLG is designed around a relative scene-based signal, while PQ describes an absolute display-light relationship. Reading one as the other can produce an incorrect image. Changing a filename, selecting H.264 or attaching a color label does not by itself perform the required transformation. Follow the source interpretation and destination color pipeline."
+      },
+      {
+        "id": "practice",
+        "heading": "When an SDR copy is useful",
+        "body": "For a destination that requests standard Rec.709 SDR, our iPhone app provides HDR-to-SDR conversion with an H.264 MP4 output. Conversion re-encodes the video and changes the highlight presentation; it is not lossless restoration. Space Sheep Studio develops VideoFix. Its first three conversions are free; further conversions require a purchase. Keep HDR originals for future HDR workflows. No HLG-to-PQ conversion control is claimed."
+      }
+    ],
+    "figure": "/assets/guides/hlg-vs-pq-hdr-video.webp",
+    "figureAlt": "HLG relative and PQ absolute HDR systems lead to a Rec.709 SDR sharing copy after source interpretation.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export. The sunset is illustrative; this web image does not demonstrate HDR brightness. Arrows describe an SDR delivery choice.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "BBC: HLG and PQ explained",
+        "url": "https://downloads.bbc.co.uk/rd/pubs/papers/HDR/BBC_HDRTV_FAQ.pdf"
+      },
+      {
+        "id": "store",
+        "label": "VideoFix: HDR Video Converter 1.0.9: current iPhone features",
+        "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/rec-709-vs-rec-2020/"
+      }
+    ],
+    "i18n": {
+      "id": "hlg-vs-pq-hdr-video",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "HLG relative and PQ absolute HDR systems lead to a Rec.709 SDR sharing copy after source interpretation.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export. The sunset is illustrative; this web image does not demonstrate HDR brightness. Arrows describe an SDR delivery choice."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/hlg-vs-pq-hdr-video.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "guides/rec-709-vs-rec-2020/index.html"
+  },
+  {
+    "slug": "guides/why-photo-collage-looks-blurry",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Why Does My Photo Collage Look Blurry?",
+    "description": "A collage can look blurry because each photo gets only part of the final image’s pixels.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6810266264",
+    "direct": "A collage can look blurry because each photo gets only part of the final image’s pixels. Check the saved file at its actual size, use original photos and choose fewer cells when fine detail matters. Enlarging a low-resolution source cannot restore missing detail.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Count pixels per cell",
+        "body": "In a 3000-pixel-wide image with three equal columns, each cell has about 1000 pixels before borders and gaps. A detailed screenshot in that cell cannot retain the full width of its original."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Import original photos rather than screenshots of previews into Combine Photos: Stitch & Grid."
+      },
+      {
+        "id": "step-2",
+        "text": "Choose a layout with enough room for the details that matter. Adjust each image position and zoom while checking the crop."
+      },
+      {
+        "id": "step-3",
+        "text": "Export JPEG or PNG, then open the saved file and inspect faces or lettering. Test the destination separately."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Separate export from sharing",
+        "body": "A sharp saved collage can become softer after another app resizes it. Inspect the file in Photos or Files before blaming the layout. Share the exported file directly instead of taking a screenshot of the collage preview. If the saved image is already too small, reduce the number of columns or make separate collages."
+      },
+      {
+        "id": "practice",
+        "heading": "What the app can provide",
+        "body": "Our iPhone app combines 2–30 photos in 11 layouts and saves JPEG or PNG images up to 3000 pixels wide. That is an upper bound, not a promise of 3000 pixels per photo or recovered focus. One export is free; unlimited exports require Pro. Space Sheep Studio develops the app. For exact format tradeoffs, see the related JPEG/PNG guide."
+      }
+    ],
+    "figure": "/assets/guides/why-photo-collage-looks-blurry.webp",
+    "figureAlt": "A 3000-pixel-wide three-column collage gives each photo about 1000 pixels before gaps.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export. Equal columns get approximately one third of the total width before gaps.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Adobe: pixels and image resolution",
+        "url": "https://helpx.adobe.com/photoshop/using/image-size-resolution.html"
+      },
+      {
+        "id": "store",
+        "label": "Combine Photos: Stitch & Grid 1.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/collage-maker/guides/jpeg-or-png/"
+      }
+    ],
+    "i18n": {
+      "id": "why-photo-collage-looks-blurry",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A 3000-pixel-wide three-column collage gives each photo about 1000 pixels before gaps.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export. Equal columns get approximately one third of the total width before gaps."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/why-photo-collage-looks-blurry.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "apps/collage-maker/guides/jpeg-or-png/index.html"
+  },
+  {
+    "slug": "guides/draft-watermark-pdf-readable",
+    "tag": "PRACTICAL GUIDE",
+    "title": "PDF Watermark Opacity: Keep the Mark and Text Readable",
+    "description": "Use a light, readable DRAFT watermark on a separate PDF copy, then inspect every page.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6769761016",
+    "direct": "Use a light, readable DRAFT watermark on a separate PDF copy, then inspect every page. The mark communicates that the document is unfinished; it does not prevent copying, editing or redistribution.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Make status clear",
+        "body": "Use a short status word rather than a paragraph of instructions. A mark that obscures figures or footnotes makes review harder and can defeat the purpose of sending the draft."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the PDF from Files in PDF Watermark & Stamp and enter DRAFT as the watermark text."
+      },
+      {
+        "id": "step-2",
+        "text": "Choose repeated diagonal marks or one centered mark. Adjust opacity, size and color while previewing both dense and sparse pages."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a new PDF. Open it outside the app, inspect every page and give the copy a filename that identifies its draft status."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Opacity needs a page check",
+        "body": "There is no universal opacity that works for every PDF. A mark over a dark photograph may be hard to see; the same mark over small black text may interfere with reading. Inspect tables, totals, signatures and fine print. Keep the unmarked source for your own editing and future final versions. If the copy will be printed, test one page on the target printer: a light screen preview does not guarantee the same printed appearance."
+      },
+      {
+        "id": "practice",
+        "heading": "Visible marking has limits",
+        "body": "The current iPhone app creates text watermarks on device and leaves the original untouched. It does not turn a watermark into encryption, redaction or a digital signature. Ask the recipient whether a marked copy is acceptable when their submission rules matter. Space Sheep Studio develops this app; exports require Pro. This guide covers document labeling rather than legal protection."
+      }
+    ],
+    "figure": "/assets/guides/draft-watermark-pdf-readable.webp",
+    "figureAlt": "Three fictional project pages carry light DRAFT watermarks while the paragraph remains readable.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Adobe: PDF watermark appearance",
+        "url": "https://helpx.adobe.com/acrobat/desktop/edit-documents/add-backgrounds-and-watermarks/add-watermarks.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Watermark & Stamp 1.4.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/iphone-video-tutorials/02-how-to-add-a-watermark-to-a-pdf-on-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "draft-watermark-pdf-readable",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Three fictional project pages carry light DRAFT watermarks while the paragraph remains readable.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/draft-watermark-pdf-readable.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "iphone-video-tutorials/02-how-to-add-a-watermark-to-a-pdf-on-iphone/index.html"
+  },
+  {
+    "slug": "guides/convert-raw-to-jpeg-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Convert RAW to JPEG on iPhone: Keep the Editable Original",
+    "description": "Convert a device-compatible RAW photo to a separate JPEG copy when the recipient needs a widely supported image.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6816526877",
+    "direct": "Convert a device-compatible RAW photo to a separate JPEG copy when the recipient needs a widely supported image. Keep the RAW original for later editing: a JPEG is a rendered, compressed picture rather than a replacement for the original RAW data.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Check compatibility first",
+        "body": "RAW is a family of camera formats. A phone supporting one camera’s files does not establish support for every RAW file. Try a representative original before starting a large batch."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Select a compatible RAW original in PhotoFix: HDR to Normal Photos on iPhone."
+      },
+      {
+        "id": "step-2",
+        "text": "Choose RAW-to-JPEG conversion and decide whether to retain capture date and location. Review the rendered photo."
+      },
+      {
+        "id": "step-3",
+        "text": "Export the JPEG copy and open it in the receiving app. Keep the RAW file and check actual dimensions and appearance."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "A conversion is a rendering decision",
+        "body": "Apple explains that ProRAW provides flexibility for exposure, color and white-balance editing. Once rendered to JPEG, those decisions are represented in pixels with less editing latitude. The JPEG may look different from another RAW preview because rendering differs; that alone is not evidence of damage or improvement."
+      },
+      {
+        "id": "practice",
+        "heading": "Know the limits before batching",
+        "body": "Our app lists device-compatible RAW inputs up to 60 megapixels and batch conversion. It does not promise every camera decoder or identical rendering to a desktop editor. The first three successful photo conversions are free, and each image in a batch counts; further conversions require purchase. Space Sheep Studio develops PhotoFix. Keep originals, especially if you expect to revisit exposure or color."
+      }
+    ],
+    "figure": "/assets/guides/convert-raw-to-jpeg-iphone.webp",
+    "figureAlt": "A RAW original stays archived while a separate JPEG picture is shared.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: about ProRAW",
+        "url": "https://support.apple.com/en-us/119916"
+      },
+      {
+        "id": "store",
+        "label": "PhotoFix: HDR to Normal Photos 1.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/convert-heic-to-jpg-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "convert-raw-to-jpeg-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A RAW original stays archived while a separate JPEG picture is shared.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/convert-raw-to-jpeg-iphone.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "convert-heic-to-jpg-iphone/index.html"
+  },
+  {
+    "slug": "guides/make-video-gif-smaller-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Make a Video GIF Smaller on iPhone",
+    "description": "To make a video GIF smaller, shorten the clip, reduce its width or choose a lower frame rate.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6769563339",
+    "direct": "To make a video GIF smaller, shorten the clip, reduce its width or choose a lower frame rate. A GIF is not automatically smaller than an MP4, and it carries no audio. Check the exported file against the actual destination limit.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Frame count adds up",
+        "body": "A three-second loop at 10 FPS has 30 frames; at 20 FPS it has 60. Twice as many frames does not guarantee exactly twice the bytes, because image content and compression also matter."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Choose a short source clip in Phone Cleaner: Photo & Video and select GIF export."
+      },
+      {
+        "id": "step-2",
+        "text": "Keep the useful moment within the supported 15-second maximum. Choose width and 10, 15 or 20 FPS according to the motion."
+      },
+      {
+        "id": "step-3",
+        "text": "Export and inspect the loop, dimensions and actual file size. Reduce one setting at a time if it remains too large."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Choose what to sacrifice",
+        "body": "For a mostly static reaction, fewer frames may be acceptable. For quick hand movements, a smaller width with smoother motion may be easier to follow. Leave important text large enough to read. Do not promise a fixed compression percentage from settings alone; a noisy scene and a simple background compress differently."
+      },
+      {
+        "id": "practice",
+        "heading": "When video is the better format",
+        "body": "Use MP4 when the destination accepts video and sound matters, or when a GIF still exceeds the size limit. Our iPhone app supports GIF creation with Pro as well as video conversion. Processing happens on device. Space Sheep Studio develops the app. Check the public listing for current purchase options, and retain the video original for a different export later."
+      }
+    ],
+    "figure": "/assets/guides/make-video-gif-smaller-iphone.webp",
+    "figureAlt": "A three-second loop contains 30 frames at 10 FPS or 60 frames at 20 FPS.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "store",
+        "label": "Phone Cleaner: Photo & Video 1.3.3: current iPhone features",
+        "url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/vidkit/"
+      }
+    ],
+    "i18n": {
+      "id": "make-video-gif-smaller-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A three-second loop contains 30 frames at 10 FPS or 60 frames at 20 FPS.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/make-video-gif-smaller-iphone.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "apps/vidkit/index.html"
+  },
+  {
+    "slug": "guides/4x6-photo-pixels-300-dpi",
+    "tag": "PRACTICAL GUIDE",
+    "title": "4 × 6 Photo at 300 DPI: Start with 1200 × 1800 Pixels",
+    "description": "A borderless 4 × 6 inch photo at 300 pixels per inch needs 1200 × 1800 pixels.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6822865782",
+    "direct": "A borderless 4 × 6 inch photo at 300 pixels per inch needs 1200 × 1800 pixels. Multiply each dimension in inches by 300. Changing the DPI tag alone does not create those pixels or add detail to a small image.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Check shape as well as pixels",
+        "body": "A 4 × 6 print has a 2:3 aspect ratio. A differently shaped original needs cropping or borders. Inspect faces near the edges before accepting a crop."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In DPI: Photo Print Prep, choose a 4 × 6 inch target and 300 DPI; decide whether you need white borders."
+      },
+      {
+        "id": "step-2",
+        "text": "Review the crop and pixel sufficiency. Keep pixels, lower the target DPI or resample according to the print requirement."
+      },
+      {
+        "id": "step-3",
+        "text": "Export and read back the actual dimensions and both DPI axes. Inspect the file and confirm the print service’s scaling settings."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Work the numbers",
+        "body": "4 × 300 = 1200 and 6 × 300 = 1800. The same 1200 × 1800 pixels at 200 pixels per inch describe a 6 × 9 inch image. The pixel data has not gained detail merely because the physical-size metadata changed. The app uses DPI terminology; image sampling is more precisely pixels per inch."
+      },
+      {
+        "id": "practice",
+        "heading": "Proof before a large order",
+        "body": "Our iPhone app supports print-size fitting, crop confirmation and export verification, plus a 4 × 6 PDF proof with a 100 mm ruler. Print the proof at 100%; printer settings can still change the result. Basic single-photo DPI edits are free. Print-size fitting is an advanced export, with three successful advanced exports free before Pro. Space Sheep Studio develops the app. Resampling enlarges the pixel grid but cannot recreate missing captured detail."
+      }
+    ],
+    "figure": "/assets/guides/4x6-photo-pixels-300-dpi.webp",
+    "figureAlt": "A 4 by 6 inch photo at 300 pixels per inch requires 1200 by 1800 pixels.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Adobe: image size and resolution",
+        "url": "https://helpx.adobe.com/photoshop/using/image-size-resolution.html"
+      },
+      {
+        "id": "store",
+        "label": "DPI: Photo Print Prep 1.0.1: current iPhone features",
+        "url": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/dpi/"
+      }
+    ],
+    "i18n": {
+      "id": "4x6-photo-pixels-300-dpi",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A 4 by 6 inch photo at 300 pixels per inch requires 1200 by 1800 pixels.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/4x6-photo-pixels-300-dpi.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "apps/dpi/index.html"
+  },
+  {
+    "slug": "guides/export-srt-subtitles-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Export SRT Subtitles on iPhone for an Editable Caption Track",
+    "description": "Export SRT when you need subtitles as an editable timed-text file separate from the video.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6770354079",
+    "direct": "Export SRT when you need subtitles as an editable timed-text file separate from the video. Generate captions, correct the words and timing, then save the SRT with its matching video. Export a captioned MP4 or MOV when you need the text permanently visible instead.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "SRT is a sidecar",
+        "body": "An SRT contains caption text and start/end times. It does not contain your video. YouTube supports basic UTF-8 SRT but does not recognize styling markup, so do not expect animated word highlights to transfer."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Import the spoken video into Subtitle Maker: Just Captions and generate captions on iPhone."
+      },
+      {
+        "id": "step-2",
+        "text": "Review names, punctuation and timing against the video. Complete any video trims before the final caption check."
+      },
+      {
+        "id": "step-3",
+        "text": "Choose SRT export and save the file beside the matching video. Import both into the receiving editor or platform and preview the beginning and end."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Check synchronization after editing",
+        "body": "A subtitle file can be correct for one cut and wrong for another. Removing an introduction, changing playback speed or moving a scene can shift later captions. Keep a clear shared filename for the video and subtitle version. Check several points through a long clip rather than only the first line."
+      },
+      {
+        "id": "practice",
+        "heading": "Choose the right export",
+        "body": "Our app offers SRT text and captioned MP4/MOV exports. Core caption generation can run on device; optional online AI text tools require consent. A separate SRT lets the destination render captions, while a captioned video carries their visible appearance. Free single-video exports include a Just Captions watermark; Pro unlocks further features. Space Sheep Studio develops the app. This is caption creation from speech, not removal or extraction of already burned-in text."
+      }
+    ],
+    "figure": "/assets/guides/export-srt-subtitles-iphone.webp",
+    "figureAlt": "A video and a separate SRT file with timed caption text.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "YouTube: SRT format and styling limits",
+        "url": "https://support.google.com/youtube/answer/2734698?hl=en"
+      },
+      {
+        "id": "store",
+        "label": "Subtitle Maker: Just Captions 2.9: current iPhone features",
+        "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/just-captions/"
+      }
+    ],
+    "i18n": {
+      "id": "export-srt-subtitles-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A video and a separate SRT file with timed caption text.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/export-srt-subtitles-iphone.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "apps/just-captions/index.html"
+  },
+  {
+    "slug": "guides/compress-scanned-pdf-readable",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Compress a Scanned PDF While Keeping Small Text Readable",
+    "description": "Compress a separate scanned-PDF copy, then inspect the smallest text before accepting the smaller file.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6769762323",
+    "direct": "Compress a separate scanned-PDF copy, then inspect the smallest text before accepting the smaller file. Stop reducing quality as soon as the copy meets the receiving limit. Compression cannot reliably restore letters that were already blurred in the original scan.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Scanned pages are images",
+        "body": "A scan can store the entire page as a picture. Reducing that image’s resolution or quality can damage small lettering even when the page looks fine at fit-to-screen size."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check the original scan, receiving size limit and required pages. If the source is unreadable, rescan it with better focus and even lighting."
+      },
+      {
+        "id": "step-2",
+        "text": "Use PDF Compressor: Sign & Merge on iPhone to compress a separate copy. Check actual bytes rather than assuming a percentage."
+      },
+      {
+        "id": "step-3",
+        "text": "Open the exported PDF and inspect fine print, numbers and diagrams at reading zoom. Check page count and compare with the original."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Find the smallest acceptable change",
+        "body": "If only a small reduction is required, prefer the clearest output that passes. Repeatedly compressing the already reduced copy can compound image damage, so return to the original for another attempt. Searchability is a separate property: a small PDF is not automatically OCR-processed, and no OCR feature is claimed for this app here."
+      },
+      {
+        "id": "practice",
+        "heading": "When compression is not enough",
+        "body": "A strict limit may be incompatible with a long, detailed scan. Ask whether fewer pages or an approved sharing link is acceptable instead of sending an unreadable file. Our iPhone app provides PDF compression and related document tools; try one export tool once free, with further exports requiring Pro. Space Sheep Studio develops it. Do not alter a digitally signed original without checking the receiving requirements."
+      }
+    ],
+    "figure": "/assets/guides/compress-scanned-pdf-readable.webp",
+    "figureAlt": "A magnifier helps check small lettering in a scanned document before accepting its compressed copy.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Adobe: scanned-PDF image quality",
+        "url": "https://helpx.adobe.com/nz/acrobat/desktop/create-documents/scan-documents-to-pdfs/scanned-pdf-settings.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Compressor: Sign & Merge 1.3.3: current iPhone features",
+        "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/compress-pdf-for-email/"
+      }
+    ],
+    "i18n": {
+      "id": "compress-scanned-pdf-readable",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A magnifier helps check small lettering in a scanned document before accepting its compressed copy.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/compress-scanned-pdf-readable.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "compress-pdf-for-email/index.html"
+  },
+  {
+    "slug": "guides/screen-fill-light-selfies",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Use Screen Fill Light for Selfies in a Dim Room",
+    "description": "Screen fill light uses the phone’s display to illuminate your face while using the front camera.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6778131414",
+    "direct": "Screen fill light uses the phone’s display to illuminate your face while using the front camera. In a dim room, start with a neutral light color, adjust brightness and keep the phone close enough to help without making highlights uncomfortable or washed out.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Light the face first",
+        "body": "A bright window behind you can leave your face dark. Turn toward soft room light when possible. Screen fill is a nearby light source, not a replacement for lighting an entire room."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open GlowPop: Selfie Glow Camera and use its front-camera mirror preview."
+      },
+      {
+        "id": "step-2",
+        "text": "Choose a neutral screen color and adjust brightness. Move the phone slightly and inspect reflections, eye comfort and facial highlights."
+      },
+      {
+        "id": "step-3",
+        "text": "Take a photo, then inspect the saved result rather than judging only the live preview. Adjust the setup before taking more."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Color is a creative choice",
+        "body": "Colored light can intentionally tint skin and nearby surfaces. Use white light when you want a neutral starting point, then experiment with color for a particular look. Avoid describing a colored preview as accurate skin-color reproduction. Glasses may reflect the screen; a small angle change can move that reflection."
+      },
+      {
+        "id": "practice",
+        "heading": "What GlowPop provides",
+        "body": "Our iPhone app keeps adjustable screen color and brightness available with the camera open. The first five photos, including white-light photos, are free; Pro unlocks unlimited photos and video recording. New photos save to the app album and Photos by default. Space Sheep Studio develops GlowPop. Screen brightness, distance, ambient light and device camera processing all affect the result; this guide promises no measured brightness gain or automatic repair."
+      }
+    ],
+    "figure": "/assets/guides/screen-fill-light-selfies.webp",
+    "figureAlt": "The phone screen lights an adult face at close range in a dim room.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "store",
+        "label": "GlowPop: Selfie Glow Camera 1.0.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/glowpop/"
+      }
+    ],
+    "i18n": {
+      "id": "screen-fill-light-selfies",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "The phone screen lights an adult face at close range in a dim room.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/screen-fill-light-selfies.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "apps/glowpop/index.html"
+  },
+  {
+    "slug": "guides/block-apps-at-bedtime-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Block Distracting Apps at Bedtime on iPhone",
+    "description": "Use a recurring app-blocking schedule to restrict selected distractions at bedtime.",
+    "reviewed": "2026-11-18",
+    "published": "2026-11-18",
+    "appId": "6758529772",
+    "direct": "Use a recurring app-blocking schedule to restrict selected distractions at bedtime. A daily usage allowance answers a different question: how long you can use an app, rather than which hours it should be unavailable.",
+    "cards": [
+      {
+        "id": "choice",
+        "heading": "Start with one routine",
+        "body": "Choose the apps that keep you scrolling and a realistic bedtime window. Keep essential communication and any overnight tasks in mind before selecting what to restrict."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In Dying Soon: Screen Time Limit, grant the requested Apple Screen Time access and choose the distracting apps."
+      },
+      {
+        "id": "step-2",
+        "text": "Create a recurring schedule for your bedtime routine. Check its selected days and start/end times."
+      },
+      {
+        "id": "step-3",
+        "text": "Test the selected apps during the window and review the next morning. Adjust the routine if it blocks something you need."
+      }
+    ],
+    "sections": [
+      {
+        "id": "explain",
+        "heading": "Understand the available exits",
+        "body": "The app offers temporary unlocks of 5, 15 or 30 minutes. A schedule is therefore a practical friction tool, not a claim that every bypass is impossible. Its separate Block Now feature starts a 30-minute focus session; use that for a one-off break rather than treating it as the nightly recurring rule."
+      },
+      {
+        "id": "practice",
+        "heading": "Native option and app limits",
+        "body": "Apple Screen Time also offers scheduled Downtime; check its blocking setting rather than assuming a reminder prevents continued use. Our iPhone app includes one scheduled rule and unlimited Block Now sessions free; Pro adds unlimited scheduled rules. Space Sheep Studio develops Dying Soon. Its optional life grid uses your chosen birthday and lifespan setting for reflection, not a health forecast. Notifications are optional and are not needed to define this bedtime routine."
+      }
+    ],
+    "figure": "/assets/guides/block-apps-at-bedtime-iphone.webp",
+    "figureAlt": "A face-down phone, book and bedside clock illustrate a scheduled overnight break.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: scheduled Screen Time",
+        "url": "https://support.apple.com/en-mo/guide/iphone/iphb0c7313c9/ios"
+      },
+      {
+        "id": "store",
+        "label": "Dying Soon: Screen Time Limit 2.3.4: current iPhone features",
+        "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/dying-soon/"
+      }
+    ],
+    "i18n": {
+      "id": "block-apps-at-bedtime-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A face-down phone, book and bedside clock illustrate a scheduled overnight break.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot, measured result or real export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/block-apps-at-bedtime-iphone.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-18. Original and full prompt retained in growth/output/seo-agent/2026-11-18/."
+    },
+    "discoveryBacklink": "apps/dying-soon/index.html"
   }
 ]

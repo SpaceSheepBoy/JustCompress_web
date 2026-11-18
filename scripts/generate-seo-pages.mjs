@@ -44,7 +44,7 @@ function render(page) {
   const download = `<aside class="guide-cta" style="padding:24px;gap:24px"><div><strong>${esc(product.name)}</strong><p>Our App by Space Sheep Studio. See the App Store for current access and purchase options.</p></div><a class="guide-store-badge" style="width:min(100%,240px);margin:24px 0 0" href="${esc(product.url)}"><img src="/assets/brand/app-store-badges/en.svg" width="240" height="80" alt="Download on the App Store"></a></aside>`;
   const schema = ld({'@type':'Article',headline:page.title,description:page.description,...(page.published?{datePublished:page.published}:{}),dateModified:page.reviewed,mainEntityOfPage:url,author:{'@type':'Organization',name:'Space Sheep Studio'},publisher:{'@type':'Organization',name:'Space Sheep Studio'}})
     + ld({'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Just Compress',item:site+'/'},{'@type':'ListItem',position:2,name:'Guides',item:site+'/guides/'},{'@type':'ListItem',position:3,name:page.title,item:url}]})
-    + ld({'@type':'FAQPage',mainEntity:page.faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))});
+    + (page.faqs.length ? ld({'@type':'FAQPage',mainEntity:page.faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}) : '');
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(page.title)} | Just Compress</title><meta name="description" content="${esc(page.description)}"><link rel="canonical" href="${url}">

@@ -66,6 +66,94 @@
       "locales": [],
       "translation_date": "2026-11-17",
       "publication_authorization": "Authorized daily English original; no translation."
+    },
+    {
+      "id": "pitch-vs-tempo-music-practice",
+      "slug": "guides/pitch-vs-tempo-music-practice",
+      "component": "article-pitch-vs-tempo-music-practice",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "hlg-vs-pq-hdr-video",
+      "slug": "guides/hlg-vs-pq-hdr-video",
+      "component": "article-hlg-vs-pq-hdr-video",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "why-photo-collage-looks-blurry",
+      "slug": "guides/why-photo-collage-looks-blurry",
+      "component": "article-why-photo-collage-looks-blurry",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "draft-watermark-pdf-readable",
+      "slug": "guides/draft-watermark-pdf-readable",
+      "component": "article-draft-watermark-pdf-readable",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "convert-raw-to-jpeg-iphone",
+      "slug": "guides/convert-raw-to-jpeg-iphone",
+      "component": "article-convert-raw-to-jpeg-iphone",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "make-video-gif-smaller-iphone",
+      "slug": "guides/make-video-gif-smaller-iphone",
+      "component": "article-make-video-gif-smaller-iphone",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "4x6-photo-pixels-300-dpi",
+      "slug": "guides/4x6-photo-pixels-300-dpi",
+      "component": "article-4x6-photo-pixels-300-dpi",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "export-srt-subtitles-iphone",
+      "slug": "guides/export-srt-subtitles-iphone",
+      "component": "article-export-srt-subtitles-iphone",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "compress-scanned-pdf-readable",
+      "slug": "guides/compress-scanned-pdf-readable",
+      "component": "article-compress-scanned-pdf-readable",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "screen-fill-light-selfies",
+      "slug": "guides/screen-fill-light-selfies",
+      "component": "article-screen-fill-light-selfies",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "block-apps-at-bedtime-iphone",
+      "slug": "guides/block-apps-at-bedtime-iphone",
+      "component": "article-block-apps-at-bedtime-iphone",
+      "locales": [],
+      "translation_date": "2026-11-18",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }
