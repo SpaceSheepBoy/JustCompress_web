@@ -71,7 +71,7 @@
 <a class="back" href="../">Back to Just Captions</a>
 <article>
 <h1>Privacy Policy</h1>
-<p class="date">Last updated October 16, 2026</p>
+<p class="date">Last updated November 18, 2026</p>
 <p>Just Captions is designed for adding captions to videos on your device. The app does not require an account and does not include advertising or tracking SDKs.</p>
 <h2>Videos, Audio, and Captions</h2>
 <p>Videos you import, audio extracted for transcription, generated captions, project files, and exported videos are processed locally on your device for the core caption workflow.</p>
@@ -85,8 +85,8 @@
 <p>For app versions with the updated AI consent, AI Correct, AI Translate, Auto Edit and Emoji send caption text, nearby context, glossary terms and language choices through our backend to DeepInfra, with Groq as a backup. Video files, video frames and audio are not sent for these text features. Processing starts only after you agree to the in-app disclosure.</p>
 <p>Do not use AI Correct or AI Translate on confidential transcript text that you do not want processed by a third-party AI service or its model provider.</p>
 <h2>Face Data</h2>
-<p>Just Captions does not collect, detect, measure, analyze, identify, extract, or store face data, facial geometry, or biometric identifiers.</p>
-<p>Videos that you choose to caption may incidentally contain a person's face, but the app does not use face detection or face recognition features to run its caption workflow. The app's core caption generation works from the video's audio and timing on your device.</p>
+<p>When automatic reframing is used, Just Captions can detect face positions in video frames on your device to keep people in the crop. Framing coordinates may be saved with the project on your device. The app does not identify people or create biometric identifiers, and it does not upload video frames or face positions.</p>
+<p>Caption generation itself uses speech and timing. It does not need face detection.</p>
 <p>Optional AI Correct and AI Translate do not send face imagery, video frames, or audio recordings to our AI service. They send caption text only, with limited text context needed to improve or translate subtitle wording.</p>
 <h2>Speech Processing</h2>
 <p>The app transcribes audio from videos you select so it can create captions. Core caption generation is intended to run on device and does not require an account.</p>
@@ -106,12 +106,13 @@
 <p>We do not sell your audio or transcript text. We share them only with the providers needed to return the transcription, correction, translation, or emoji result you requested.</p>
 <h2>Storage and Retention</h2>
 <p>We do not intentionally store your source videos, audio, exported videos, or transcript text on our own servers after AI processing completes. On our backend, audio and transcript text are handled in transit to complete the request.</p>
+<p>AI providers may retain submitted data under their own policies. For example, when a disclosed Cloud Recognition route uses ElevenLabs, it can retain the extracted audio according to its <a href="https://elevenlabs.io/privacy-policy">privacy policy</a>.</p>
 <p>We retain a short-lived anti-replay security nonce for about 6 minutes to protect the AI endpoint from abuse. Backend logs are intended to record operational events such as request counts, provider status, latency, and errors, not the transcript text itself.</p>
 <p>On your device, your videos, captions, projects, and exports remain until you delete them or remove the app.</p>
 <h2>Purchases</h2>
 <p>Pro purchases, subscriptions, renewals, restores, cancellations, taxes, and refunds are handled by Apple through the App Store. We do not receive or store your payment card details.</p>
 <h2>Data Collection and Tracking</h2>
-<p>Just Captions does not track you across apps or websites. We do not sell personal data. App Store privacy answers should reflect optional AI transcript processing, support messages you choose to send, and Apple-provided diagnostics, purchase status, and analytics according to your settings.</p>
+<p>Just Captions does not track you across apps or websites. We do not sell personal data. Optional Cloud Recognition and AI text tools handle audio and captions as described above. If you contact support, we receive the information you choose to send. Apple may share diagnostics, purchase status, and analytics according to your settings.</p>
 <h2>Contact</h2>
 <p>For privacy questions, email <a href="mailto:support@justcompress.online">support@justcompress.online</a>.</p>
 <p>Published by Space Sheep Studio.</p>
