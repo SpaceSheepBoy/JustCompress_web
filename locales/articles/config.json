@@ -154,6 +154,94 @@
       "locales": [],
       "translation_date": "2026-11-18",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "wav-to-mp3-editing-copy",
+      "slug": "guides/wav-to-mp3-editing-copy",
+      "component": "article-wav-to-mp3-editing-copy",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "hdr-tone-mapping-highlights",
+      "slug": "guides/hdr-tone-mapping-highlights",
+      "component": "article-hdr-tone-mapping-highlights",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "photo-collage-crop-faces",
+      "slug": "guides/photo-collage-crop-faces",
+      "component": "article-photo-collage-crop-faces",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "pdf-watermark-not-redaction",
+      "slug": "guides/pdf-watermark-not-redaction",
+      "component": "article-pdf-watermark-not-redaction",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "remove-photo-location-export",
+      "slug": "guides/remove-photo-location-export",
+      "component": "article-remove-photo-location-export",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "h264-to-hevc-smaller-copy",
+      "slug": "guides/h264-to-hevc-smaller-copy",
+      "component": "article-h264-to-hevc-smaller-copy",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "5x7-photo-crop-ratio",
+      "slug": "guides/5x7-photo-crop-ratio",
+      "component": "article-5x7-photo-crop-ratio",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "burn-captions-into-video-iphone",
+      "slug": "guides/burn-captions-into-video-iphone",
+      "component": "article-burn-captions-into-video-iphone",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "pdf-pages-to-jpg-iphone",
+      "slug": "guides/pdf-pages-to-jpg-iphone",
+      "component": "article-pdf-pages-to-jpg-iphone",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "selfie-glasses-screen-reflections",
+      "slug": "guides/selfie-glasses-screen-reflections",
+      "component": "article-selfie-glasses-screen-reflections",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "block-apps-study-session",
+      "slug": "guides/block-apps-study-session",
+      "component": "article-block-apps-study-session",
+      "locales": [],
+      "translation_date": "2026-11-19",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }
