@@ -37,7 +37,18 @@ python3 scripts/install-posthog.py
 node scripts/test-posthog.cjs
 ```
 
+After a standalone HTML generator, finalize search metadata and X cards with `python3 scripts/seo_metadata.py`, then run `python3 scripts/optimize-web-images.py` to create same-size web copies of oversized images. Page-specific search copy lives in `scripts/seo-metadata-copy.json`. Localized product descriptions reuse approved feature copy. Run both commands with `--check` before publishing.
+
 Review generated pages at desktop and 390px width. Update sitemap entries only for genuinely changed or added pages. Check internal links, canonical URLs, JSON-LD, product availability and prohibited personal names before deploying. Keep deployment, search indexing and analytics ingestion evidence separate.
+
+After the Pages deployment succeeds and the public pages match the deployed commit, notify IndexNow in the same release workflow:
+
+```sh
+python3 scripts/submit-indexnow.py --base "$previous_live_commit" --target "$deployed_commit" \
+  --submit --receipt "$release_evidence_dir/indexnow.json"
+```
+
+Use the previous live commit so the batch includes the whole release. Omit `--submit` to preview the URL list, or add `--urls-from` with verified outstanding URLs, one per line. The local receipt records the notification outcome. Check a failed or uncertain receipt before resubmitting. Confirm and record search indexing separately.
 
 The curated portfolio and all-page verification workflow are documented in [the portfolio maintenance notes](docs/seo-portfolio-2026-10-24.md). The current directory includes the original 11 iPhone apps and CamRecorder for Mac. Run the final public-page normalizer after content generation and analytics installation after that. The public portfolio is explicitly curated; a developer account lookup must never automatically add every App to this website.
 

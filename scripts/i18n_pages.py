@@ -9,6 +9,8 @@ from html import escape as E
 import json
 from pathlib import Path
 import re
+import subprocess
+import sys
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 
@@ -261,3 +263,8 @@ apply_mac_download_badges()
 
 from camrecorder_catalog import apply as apply_camrecorder_catalog
 apply_camrecorder_catalog()
+
+if __name__ == '__main__':
+    from seo_metadata import apply as apply_seo_metadata
+    apply_seo_metadata((ROOT/'apps').rglob('index.html'))
+    subprocess.run([sys.executable, str(ROOT/'scripts/optimize-web-images.py')], check=True)

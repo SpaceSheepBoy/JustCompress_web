@@ -122,3 +122,5 @@ if not m.CAPTIONS:
 if not m.CAPTIONS:
  from article_image_overrides import apply as apply_article_images
  print("Updated topic-specific article illustrations:",len(apply_article_images()))
+ subprocess.run([sys.executable,str(ROOT/'scripts/seo_metadata.py')],check=True)
+ subprocess.run([sys.executable,str(ROOT/'scripts/optimize-web-images.py')],check=True)

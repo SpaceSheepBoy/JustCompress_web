@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
 from PIL import Image
 from datetime import datetime, timezone
-import argparse, hashlib, io, json, re, subprocess
+import argparse, hashlib, io, json, re, subprocess, sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -71,14 +71,22 @@ def main():
     locales_path.write_text(json.dumps(locales, ensure_ascii=False, indent=2) + '\n')
     changed_pages = []
     dimensions = {s['src']: s for s in replacements.values()}
+    page_replacements = {}
+    for old, asset in replacements.items():
+        if old == asset['src']:
+            continue
+        source = ROOT / old.lstrip('/')
+        page_replacements[old] = asset['src']
+        for copy in source.parent.glob(f'{source.stem}-web-*.webp'):
+            page_replacements['/' + copy.relative_to(ROOT).as_posix()] = asset['src']
     for page in ROOT.rglob('*.html'):
         relative = page.relative_to(ROOT)
         if any(part.startswith('.') or part in ('scripts', 'vendor', 'node_modules') for part in relative.parts):
             continue
         before = page.read_text()
         after = before
-        for old, asset in replacements.items():
-            after = after.replace(old, asset['src'])
+        for old, new in page_replacements.items():
+            after = after.replace(old, new)
         if after == before:
             continue
         def sized(match):
@@ -92,6 +100,7 @@ def main():
         after = re.sub(r'<img\b[^>]*>', sized, after)
         page.write_text(after)
         changed_pages.append(str(relative))
+    subprocess.run([sys.executable, str(ROOT / 'scripts/optimize-web-images.py')], check=True)
     receipt = {'checked_at': datetime.now(timezone.utc).isoformat(), 'entries': len(entries),
                'unique_sources': len(urls), 'unique_assets': len({asset['src'] for asset, _ in results.values()}),
                'pages': changed_pages, 'assets': [asset for asset, _ in results.values()],

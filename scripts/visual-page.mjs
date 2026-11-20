@@ -8,6 +8,7 @@ function subject(slug){return /watermark/.test(slug)?'watermark':/photo/.test(sl
 export function visualPage(html,slug){
  if(html.includes('seo-visual'))return html;
  if(!/<header[^>]*class="[^"]*hero/.test(html))return html;
+ const guideArticle=/<article class="prose"([^>]*)>([\s\S]*?)<\/article>/;
  const kind=subject(slug),a=assets[kind], tool=/id="tool"/.test(html);
  html=html.replace(/<body class="([^"]*)"/,`<body class="$1 seo-visual ${tool?'tool-first':'guide-first'}"`);
  html=html.replace('</head>','<link rel="stylesheet" href="/assets/seo-visual.css?v=20261024"></head>');
@@ -15,9 +16,9 @@ export function visualPage(html,slug){
  const title=(header.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)||[])[1]||'Private file tools';
  const reviewed=(header.match(/<time[^>]*>[\s\S]*?<\/time>/)||[])[0]||'';
  const lead=tool?'Free in your browser. No account. Your files stay on your device.':(header.match(/<p[^>]*class="[^"]*lede[^"]*"[^>]*>([\s\S]*?)<\/p>/)||[])[1]||'Choose the approach that fits your file and device.';
- return `<header class="measure hero"><div class="visual-intro"><span class="kicker">${tool?'FREE BROWSER TOOL':'QUICK GUIDE'}${reviewed?' · REVIEWED '+reviewed:''}</span><h1>${title}</h1><p class="lede">${lead}</p>${tool?'':`<div class="visual-links"><a href="#full-guide" onclick="document.getElementById('full-guide').open=true">Read the guide ↓</a></div>`}</div></header>`;
+ return `<header class="measure hero"><div class="visual-intro"><span class="kicker">${tool?'FREE BROWSER TOOL':'QUICK GUIDE'}${reviewed?' · REVIEWED '+reviewed:''}</span><h1>${title}</h1><p class="lede">${lead}</p>${tool||!guideArticle.test(html)?'':`<div class="visual-links"><a href="#full-guide" onclick="document.getElementById('full-guide').open=true">Read the guide ↓</a></div>`}</div></header>`;
  });
- if(!tool)html=html.replace(/<article class="prose"([^>]*)>([\s\S]*?)<\/article>/, '<details class="visual-guide" id="full-guide" open><summary>Steps, answers & details</summary><article class="prose"$1>$2</article></details>');
+ if(!tool)html=html.replace(guideArticle, '<details class="visual-guide" id="full-guide" open><summary>Steps, answers & details</summary><article class="prose"$1>$2</article></details>');
  if(!tool){
  const product=products.find(p=>p.name===a.name);
  const storeLink=product ? `<a class="official-store-badge" style="display:block;width:min(100%,240px);max-width:240px;flex:0 1 240px;padding:0;margin:24px 0 0;background:transparent;border:0;border-radius:0" href="${esc(product.url)}"><img src="/assets/brand/app-store-badges/en.svg" width="240" height="80" alt="Download on the App Store" style="display:block;width:100%;height:auto;border-radius:0"></a>` : `<a href="/apps/${esc(a.slug)}/">See the app ↗</a>`;

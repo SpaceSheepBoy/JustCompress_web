@@ -160,13 +160,17 @@ def render(entry, page, text, lang, root=ROOT):
 
 
 def build(root=ROOT):
+    from seo_metadata import normalize as normalize_seo_metadata
+
     articles = validate(root)  # All review gates run before any page writes.
     writes = {}
     config = load(root/'locales/config.json')
     for entry,page,source in articles:
         for lang in entry['locales']:
             text = load(root/'locales/articles'/entry['id']/(lang+'.json'))
-            writes[root/route(page,lang).strip('/')/'index.html'] = render(entry,page,text,lang,root)
+            localized_route = route(page,lang)
+            html = render(entry,page,text,lang,root)
+            writes[root/localized_route.strip('/')/'index.html'] = normalize_seo_metadata(html, localized_route, root)
         english = root/page['slug']/'index.html'
         soup = BeautifulSoup(english.read_text(),'html.parser')
         for old in soup.select('[data-article-language],link[rel="alternate"][hreflang]'):
@@ -176,7 +180,7 @@ def build(root=ROOT):
         if not soup.select_one('link[href^="/assets/i18n.css"]'):
             soup.head.append(BeautifulSoup('<link rel="stylesheet" href="/assets/i18n.css">','html.parser'))
         soup.select_one('main').insert(0,BeautifulSoup(nav,'html.parser'))
-        writes[english] = str(soup)
+        writes[english] = normalize_seo_metadata(str(soup), route(page,'en'), root)
     # Stage complete render results before committing any output to disk.
     for path,html in writes.items():
         path.parent.mkdir(parents=True,exist_ok=True)

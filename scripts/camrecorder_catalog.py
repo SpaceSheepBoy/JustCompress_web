@@ -7,6 +7,7 @@ from pathlib import Path
 from html import escape as E
 import json
 from bs4 import BeautifulSoup
+from seo_metadata import COPY as SEO_COPY
 
 ROOT = Path(__file__).resolve().parents[1]
 # Short directory labels, not new translated articles or product pages.
@@ -59,8 +60,10 @@ def apply():
             paragraph = soup.new_tag('p')
             paragraph.string = intro
             heading.h1.insert_after(paragraph)
+        route = '/apps/' if lang == 'en' else f'/apps/{lang}/'
+        description = SEO_COPY['descriptions'].get(route, intro)
         for meta in soup.select('meta[name="description"],meta[property="og:description"]'):
-            meta['content'] = intro
+            meta['content'] = description
         for card in catalog.select('.app-card'):
             if card.select_one('a[href*="id6820696330"]'):
                 card.decompose()

@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from PIL import Image
 import i18n_pages as build
+from seo_metadata import COPY as SEO_COPY
 
 ROOT = Path(__file__).resolve().parents[1]
 apps = json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps']
@@ -51,7 +52,7 @@ for lang in build.TARGETS:
         assert len(badges)==(1 if slug else len(localized_apps)), (route,'missing official iPhone download badge')
         if not slug:
             assert soup.select_one('.catalog-heading p').get_text() == directory_intro[lang],route
-            assert soup.select_one('meta[name="description"]')['content'] == directory_intro[lang],route
+            assert soup.select_one('meta[name="description"]')['content'] == SEO_COPY['descriptions'].get(route, directory_intro[lang]),route
             assert 'iPhone' in directory_intro[lang] and 'Mac' in directory_intro[lang],route
             for app in mac_apps:
                 card=soup.select_one('[data-app="'+app['id']+'"]')

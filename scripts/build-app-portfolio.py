@@ -151,3 +151,7 @@ subprocess.run([sys.executable,str(ROOT/'scripts/refresh-public-pages.py'),'--on
 # The App directory is the social-bio landing page; its consented analytics went missing
 # after the 2026-10-24 rebuild, so keep reattaching it here.
 subprocess.run([sys.executable,str(ROOT/'scripts/install-posthog.py'),'--only',*finalize,'apps/index.html'],check=True)
+
+from seo_metadata import apply as apply_seo_metadata
+apply_seo_metadata([*(ROOT/'apps').rglob('index.html'), ROOT/'legal/index.html'])
+subprocess.run([sys.executable, str(ROOT/'scripts/optimize-web-images.py')], check=True)

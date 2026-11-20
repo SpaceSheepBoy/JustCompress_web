@@ -104,3 +104,5 @@ for(const [file, marker, items] of [['guides/index.html','structured-article-ind
 let currentMap=fs.readFileSync(sitemapPath,'utf8');
 for(const p of enrolled){const url=site+'/'+p.slug+'/';if(!currentMap.includes('<loc>'+url+'</loc>'))currentMap=currentMap.replace('</urlset>','<url><loc>'+url+'</loc><lastmod>'+p.reviewed+'</lastmod></url>\n</urlset>');}
 fs.writeFileSync(sitemapPath,currentMap);
+execFileSync('python3',[path.join(root,'scripts/seo_metadata.py'),...pages.map(page=>page.slug+'/index.html')],{stdio:'inherit'});
+execFileSync('python3',[path.join(root,'scripts/optimize-web-images.py')],{stdio:'inherit'});
