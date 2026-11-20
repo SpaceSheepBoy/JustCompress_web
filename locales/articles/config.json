@@ -242,6 +242,94 @@
       "locales": [],
       "translation_date": "2026-11-19",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "metronome-first-practice",
+      "slug": "guides/metronome-first-practice",
+      "component": "article-metronome-first-practice",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "video-banding-bit-depth",
+      "slug": "guides/video-banding-bit-depth",
+      "component": "article-video-banding-bit-depth",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "twenty-photo-collage-iphone",
+      "slug": "guides/twenty-photo-collage-iphone",
+      "component": "article-twenty-photo-collage-iphone",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "pdf-watermark-missing-pages",
+      "slug": "guides/pdf-watermark-missing-pages",
+      "component": "article-pdf-watermark-missing-pages",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "png-transparency-white-jpeg",
+      "slug": "guides/png-transparency-white-jpeg",
+      "component": "article-png-transparency-white-jpeg",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "video-compression-storage-copy",
+      "slug": "guides/video-compression-storage-copy",
+      "component": "article-video-compression-storage-copy",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "change-72-to-300-dpi",
+      "slug": "guides/change-72-to-300-dpi",
+      "component": "article-change-72-to-300-dpi",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "fix-caption-names-iphone",
+      "slug": "guides/fix-caption-names-iphone",
+      "component": "article-fix-caption-names-iphone",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "pdf-signature-certificate-check",
+      "slug": "guides/pdf-signature-certificate-check",
+      "component": "article-pdf-signature-certificate-check",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "selfie-yellow-screen-light",
+      "slug": "guides/selfie-yellow-screen-light",
+      "component": "article-selfie-yellow-screen-light",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "app-blocker-short-break",
+      "slug": "guides/app-blocker-short-break",
+      "component": "article-app-blocker-short-break",
+      "locales": [],
+      "translation_date": "2026-11-20",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }
