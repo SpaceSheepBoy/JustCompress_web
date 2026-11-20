@@ -83,11 +83,12 @@ def submit(plan, sitemap, receipt_path):
     name, content = ownership_file(target)
     key_location = f"{SITE}/{name}"
     opener = build_opener(NoRedirect())
+    read_headers = {"User-Agent": "Mozilla/5.0", "Cache-Control": "no-cache"}
     try:
-        with opener.open(f"{SITE}/sitemap.xml?revision={target}", timeout=20) as response:
+        with opener.open(Request(f"{SITE}/sitemap.xml?revision={target}", headers=read_headers), timeout=20) as response:
             if response.read() != sitemap:
                 raise ValueError("Public sitemap differs from the target commit")
-        with opener.open(key_location, timeout=20) as response:
+        with opener.open(Request(key_location, headers=read_headers), timeout=20) as response:
             if response.read().strip() != content.strip():
                 raise ValueError("Public IndexNow verification file does not match")
     except (HTTPError, URLError, OSError) as error:
