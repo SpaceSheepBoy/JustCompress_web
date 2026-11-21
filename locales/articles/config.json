@@ -330,6 +330,94 @@
       "locales": [],
       "translation_date": "2026-11-20",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "metronome-six-eight-beat",
+      "slug": "guides/metronome-six-eight-beat",
+      "component": "article-metronome-six-eight-beat",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "rec709-quicktime-gamma-difference",
+      "slug": "guides/rec709-quicktime-gamma-difference",
+      "component": "article-rec709-quicktime-gamma-difference",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "before-after-photo-order",
+      "slug": "guides/before-after-photo-order",
+      "component": "article-before-after-photo-order",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "pdf-purpose-watermark-text",
+      "slug": "guides/pdf-purpose-watermark-text",
+      "component": "article-pdf-purpose-watermark-text",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "live-photo-sdr-keep-motion",
+      "slug": "guides/live-photo-sdr-keep-motion",
+      "component": "article-live-photo-sdr-keep-motion",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "compressed-video-larger-output",
+      "slug": "guides/compressed-video-larger-output",
+      "component": "article-compressed-video-larger-output",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "photo-proof-print-scale",
+      "slug": "guides/photo-proof-print-scale",
+      "component": "article-photo-proof-print-scale",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "translate-video-captions-iphone",
+      "slug": "guides/translate-video-captions-iphone",
+      "component": "article-translate-video-captions-iphone",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "merge-pdf-section-order",
+      "slug": "guides/merge-pdf-section-order",
+      "component": "article-merge-pdf-section-order",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "check-makeup-two-light-settings",
+      "slug": "guides/check-makeup-two-light-settings",
+      "component": "article-check-makeup-two-light-settings",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "block-work-apps-after-hours",
+      "slug": "guides/block-work-apps-after-hours",
+      "component": "article-block-work-apps-after-hours",
+      "locales": [],
+      "translation_date": "2026-11-21",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }
