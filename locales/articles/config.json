@@ -418,6 +418,94 @@
       "locales": [],
       "translation_date": "2026-11-21",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "mp3-to-wav-compatible-copy",
+      "slug": "guides/mp3-to-wav-compatible-copy",
+      "component": "article-mp3-to-wav-compatible-copy",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "log-noise-after-rec709",
+      "slug": "guides/log-noise-after-rec709",
+      "component": "article-log-noise-after-rec709",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "collage-vs-carousel",
+      "slug": "guides/collage-vs-carousel",
+      "component": "article-collage-vs-carousel",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "pdf-repeated-centered-watermark",
+      "slug": "guides/pdf-repeated-centered-watermark",
+      "component": "article-pdf-repeated-centered-watermark",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "heic-to-jpeg-file-size",
+      "slug": "guides/heic-to-jpeg-file-size",
+      "component": "article-heic-to-jpeg-file-size",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "review-duplicate-videos",
+      "slug": "guides/review-duplicate-videos",
+      "component": "article-review-duplicate-videos",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "photo-white-border-mm",
+      "slug": "guides/photo-white-border-mm",
+      "component": "article-photo-white-border-mm",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "caption-punctuation-meaning",
+      "slug": "guides/caption-punctuation-meaning",
+      "component": "article-caption-punctuation-meaning",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "scan-receipt-pdf-iphone",
+      "slug": "guides/scan-receipt-pdf-iphone",
+      "component": "article-scan-receipt-pdf-iphone",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "selfie-video-screen-light",
+      "slug": "guides/selfie-video-screen-light",
+      "component": "article-selfie-video-screen-light",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "life-grid-chosen-lifespan",
+      "slug": "guides/life-grid-chosen-lifespan",
+      "component": "article-life-grid-chosen-lifespan",
+      "locales": [],
+      "translation_date": "2026-11-22",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }
