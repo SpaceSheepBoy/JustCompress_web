@@ -506,6 +506,94 @@
       "locales": [],
       "translation_date": "2026-11-22",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "audio-file-vs-volume-compression",
+      "slug": "guides/audio-file-vs-volume-compression",
+      "component": "article-audio-file-vs-volume-compression",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "preview-lut-vs-recorded-log",
+      "slug": "guides/preview-lut-vs-recorded-log",
+      "component": "article-preview-lut-vs-recorded-log",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "find-saved-collage-iphone",
+      "slug": "guides/find-saved-collage-iphone",
+      "component": "article-find-saved-collage-iphone",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "watermark-mixed-page-orientations",
+      "slug": "guides/watermark-mixed-page-orientations",
+      "component": "article-watermark-mixed-page-orientations",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "keep-capture-date-photo-conversion",
+      "slug": "guides/keep-capture-date-photo-conversion",
+      "component": "article-keep-capture-date-photo-conversion",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "video-speed-vs-frame-rate",
+      "slug": "guides/video-speed-vs-frame-rate",
+      "component": "article-video-speed-vs-frame-rate",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "photo-horizontal-vertical-dpi",
+      "slug": "guides/photo-horizontal-vertical-dpi",
+      "component": "article-photo-horizontal-vertical-dpi",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "emoji-captions-keep-words",
+      "slug": "guides/emoji-captions-keep-words",
+      "component": "article-emoji-captions-keep-words",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "zip-vs-pdf-compression-iphone",
+      "slug": "guides/zip-vs-pdf-compression-iphone",
+      "component": "article-zip-vs-pdf-compression-iphone",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "selfie-camera-distance-perspective",
+      "slug": "guides/selfie-camera-distance-perspective",
+      "component": "article-selfie-camera-distance-perspective",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "app-blocker-without-reminders",
+      "slug": "guides/app-blocker-without-reminders",
+      "component": "article-app-blocker-without-reminders",
+      "locales": [],
+      "translation_date": "2026-11-23",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }

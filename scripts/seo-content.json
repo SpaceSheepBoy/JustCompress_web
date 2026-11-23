@@ -6414,5 +6414,1027 @@
       "provenance": "Built-in imagegen, 2026-11-22. Original and full prompt retained in growth/output/seo-agent/2026-11-22/."
     },
     "discoveryBacklink": "guides/block-apps-study-session/index.html"
+  },
+  {
+    "slug": "guides/audio-file-vs-volume-compression",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Smaller Audio or More Even Volume? Choose the Right Compression",
+    "description": "Choose between smaller audio files and more even listening levels. Learn which type of compression fits your recording and what to check on iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6769563659",
+    "direct": "Use file compression when an audio attachment is too large; use dynamic-range processing when loud and quiet passages need balancing. They solve different problems, even though both are called audio compression.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the distinction",
+        "body": "A lecture that will not fit in an upload needs a smaller encoded copy. A lecture whose speaker alternates between whispers and loud speech needs an audio-level editing workflow. Identify which obstacle you have before choosing a tool."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the original recording. Check whether the problem is measured in megabytes, inconsistent listening volume, or both."
+      },
+      {
+        "id": "step-2",
+        "text": "For a smaller file on iPhone, open the recording in Audio Compressor MP3 Converter and use its compression or format-conversion tools. Choose an available export suitable for the receiving app."
+      },
+      {
+        "id": "step-3",
+        "text": "Save a separate copy, compare its actual file size, and listen to quiet speech and busy passages. Confirm playback in the destination before sending the complete recording."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Why a smaller file may sound just as uneven",
+        "body": "MP3 and AAC encoding aim to represent audio using less data. Dynamic-range compression instead changes the relationship between louder and softer passages. Lowering an export bitrate does not establish that a distant speaker will become easier to hear. Conversely, applying a volume effect and saving an uncompressed WAV can leave a large attachment."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Choose the next tool honestly",
+        "body": "Space Sheep Studio develops Audio Compressor for iPhone. Its current listing offers file compression, conversion and trimming; it does not promise a mastering compressor or automatic loudness leveling. Export tools require Pro. If uneven volume is the actual obstacle, an editor with a documented compressor, such as Audacity, is the appropriate separate workflow. Make your small delivery copy after that editing is finished."
+      }
+    ],
+    "figure": "/assets/guides/audio-file-vs-volume-compression.webp",
+    "figureAlt": "Audio recorder, storage drive and mixing fader distinguish file size from listening levels.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: manual.audacityteam.org",
+        "url": "https://manual.audacityteam.org/man/digital_audio.html"
+      },
+      {
+        "id": "extra-reference",
+        "label": "Audacity: dynamic-range compressor",
+        "url": "https://manual.audacityteam.org/man/legacy_compressor.html"
+      },
+      {
+        "id": "store",
+        "label": "Audio Compressor MP3 Converter 1.2.1: current iPhone features",
+        "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/audio-bitrate-file-size/"
+      }
+    ],
+    "i18n": {
+      "id": "audio-file-vs-volume-compression",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Audio recorder, storage drive and mixing fader distinguish file size from listening levels.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/audio-file-vs-volume-compression.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/audio-bitrate-file-size/index.html"
+  },
+  {
+    "slug": "guides/preview-lut-vs-recorded-log",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Preview LUT or Baked Look? Check What the Camera Recorded",
+    "description": "Understand the difference between a preview LUT, recorded Log and a baked look. Check the saved source before making a Rec.709 delivery copy on iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6812821310",
+    "direct": "A preview LUT changes the monitored view; a baked look changes the recorded or exported picture. Seeing normal contrast while filming does not, by itself, tell you which version the camera saved.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the distinction",
+        "body": "A camera app may show a pleasing Rec.709 view while retaining Log footage for later processing. Apple’s Final Cut Camera documentation describes a separate Preview with LUT option. Other camera apps can also offer recording options, so inspect the actual setting and saved clip."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the untouched recording and note the camera app, recording profile and whether a look was set to preview only or recorded into the clip."
+      },
+      {
+        "id": "step-2",
+        "text": "Open a short saved clip in the intended editor. Check for an automatically applied camera transform before deciding that a flat or contrasty picture is the recorded appearance."
+      },
+      {
+        "id": "step-3",
+        "text": "If you have supported Apple ProRes Log footage and need a standard-color sharing file, export a separate Rec.709 SDR H.264 MP4 with VideoFix. Inspect that saved copy in the destination player."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Stored pixels and viewing choices differ",
+        "body": "An editor can interpret Log and apply a viewing transform on import. Turning that transform off changes the preview without rewriting the source. A look already rendered into picture pixels cannot generally be removed by toggling a viewer LUT. Retaining the Log original keeps options open; do not judge the file solely by a thumbnail."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Make a deliberate delivery copy",
+        "body": "Space Sheep Studio develops VideoFix for iPhone. Its current public listing supports Apple ProRes Log to Rec.709 conversion, with three conversions free before an unlock is required. This guide does not establish support for Apple Log 2, ProRes RAW or arbitrary camera profiles. Conversion makes a new delivery file; it does not reverse a previously baked grade."
+      }
+    ],
+    "figure": "/assets/guides/preview-lut-vs-recorded-log.webp",
+    "figureAlt": "Camera monitoring and a saved recording are separate things to check.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/guide/final-cut-camera/set-the-video-format-dev14d309a3f/2.4/ios/26.6"
+      },
+      {
+        "id": "store",
+        "label": "VideoFix: HDR Video Converter 1.0.11: current iPhone features",
+        "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/technical-vs-creative-luts/"
+      }
+    ],
+    "i18n": {
+      "id": "preview-lut-vs-recorded-log",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Camera monitoring and a saved recording are separate things to check.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/preview-lut-vs-recorded-log.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/technical-vs-creative-luts/index.html"
+  },
+  {
+    "slug": "guides/find-saved-collage-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Saved a Collage but Cannot Find It? Check Photos and Files",
+    "description": "Find an exported iPhone collage by checking whether you saved to Photos, Files or another app. Locate the existing image before recreating it.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6810266264",
+    "direct": "If a saved collage is missing from Photos, check whether you exported it to Files instead. These are separate destinations; an image in a chosen Files folder does not automatically become a photo-library item.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "An export preview, a completed save and sharing to another app are different steps. Before recreating the collage or paying for another export, identify the destination you chose and look for the existing JPEG or PNG."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "If you chose Photos, open Photos and inspect recently saved items. If the app showed a save error or a permission request, resolve that specific message rather than assuming an export exists."
+      },
+      {
+        "id": "step-2",
+        "text": "If you chose Files, open Files, use Browse and check the folder under On My iPhone, iCloud Drive or the provider you selected. Search by the filename if you remember it."
+      },
+      {
+        "id": "step-3",
+        "text": "Open the found image and verify the arrangement. To make a photo-library copy from a supported image in Files, use its share options and Save Image when offered. Keep the file you already found."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Avoid guessing an album or filename",
+        "body": "Apple’s Files guidance distinguishes device storage, iCloud Drive and other providers. Downloads is not the destination for every save. A share action can also hand an image to another app without placing it in the folder you expected. Note the exact destination on your next export and open that copy immediately."
+      },
+      {
+        "id": "detail-1",
+        "heading": "What Combine Photos saves",
+        "body": "Space Sheep Studio develops Combine Photos: Stitch & Grid for iPhone. It combines 2 to 30 images and exports JPEG or PNG to Photos, Files or another app. One export is free, with Pro required for further exports. No automatic recovery of an unsaved composition or universal collage album is promised. Once you locate the image, inspect its crop and readability before sharing it."
+      }
+    ],
+    "figure": "/assets/guides/find-saved-collage-iphone.webp",
+    "figureAlt": "A collage print beside a file folder and photo album illustrates two different save destinations.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/en-au/102570"
+      },
+      {
+        "id": "store",
+        "label": "Combine Photos: Stitch & Grid 1.7: current iPhone features",
+        "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/combine-photos-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "find-saved-collage-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A collage print beside a file folder and photo album illustrates two different save destinations.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/find-saved-collage-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/combine-photos-iphone/index.html"
+  },
+  {
+    "slug": "guides/watermark-mixed-page-orientations",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Watermarking Mixed PDF Pages? Check Portrait and Landscape",
+    "description": "Check watermark placement, direction and readability on portrait and landscape PDF pages before sharing a new marked copy from your iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6769761016",
+    "direct": "When a PDF mixes portrait and landscape pages, inspect the watermark on both shapes before sharing. A mark that fits one page can cover important text or appear differently on another.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "Page shape and page rotation are related but different. A PDF reader can display a rotated page upright while its internal coordinates differ. Do not assume a preview of the first page proves every later stamp is correctly placed."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the original. Open a copy in PDF Watermark & Stamp, enter the intended wording, and choose the supported repeated diagonal or centered style."
+      },
+      {
+        "id": "step-2",
+        "text": "Review a portrait page, a landscape page and any scanned or unusually sized page. Adjust available text size and opacity to keep tables, headings and signatures readable."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a new PDF, reopen it outside the app and check those pages again. Confirm that the mark is present, readable and oriented usefully in the file you will send."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Check direction as well as presence",
+        "body": "A watermark can exist on every page yet be difficult to read or badly placed on a wide table. Adobe’s watermark documentation treats scale, rotation and position as distinct appearance choices. That is a general PDF principle, not a claim that our app offers every Acrobat control or independent settings for each page."
+      },
+      {
+        "id": "detail-1",
+        "heading": "If the saved placement is wrong",
+        "body": "Return to the original and try a shorter phrase or a different supported watermark style. If a page still exports incorrectly, preserve the original and the affected copy for support; do not send an unchecked document. Space Sheep Studio develops this on-device iPhone app. It supports per-page previews and separate marked exports, but this article promises no repair of malformed rotation metadata. A visible watermark is not redaction or copy protection."
+      }
+    ],
+    "figure": "/assets/guides/watermark-mixed-page-orientations.webp",
+    "figureAlt": "Portrait and landscape document sheets need separate watermark-placement checks.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: helpx.adobe.com",
+        "url": "https://helpx.adobe.com/acrobat/desktop/edit-documents/add-backgrounds-and-watermarks/add-watermarks.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Watermark & Stamp 1.4.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/pdf-watermark-missing-pages/"
+      }
+    ],
+    "i18n": {
+      "id": "watermark-mixed-page-orientations",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Portrait and landscape document sheets need separate watermark-placement checks.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/watermark-mixed-page-orientations.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/pdf-watermark-missing-pages/index.html"
+  },
+  {
+    "slug": "guides/keep-capture-date-photo-conversion",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Converted Photos Sorted as Today? Check the Capture Date",
+    "description": "Keep capture dates when converting photos on iPhone. Distinguish photo chronology from file creation and recent-save order before a batch export.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6816526877",
+    "direct": "To keep converted photos in their original chronology, preserve the capture date and check the saved copy’s photo information. A new file’s creation date or a recently saved view can differ from when the picture was taken.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "Converting a holiday album today should not make every scene appear to have been photographed today. First distinguish missing capture metadata from an app that is simply sorting by import or save order."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open an original in Photos and inspect its date information. Choose a picture with a known capture date before testing a batch."
+      },
+      {
+        "id": "step-2",
+        "text": "In PhotoFix: HDR to Normal Photos, choose the needed conversion and enable keeping the capture date in the export options. Decide separately whether retaining location is appropriate."
+      },
+      {
+        "id": "step-3",
+        "text": "Export one photo and inspect the saved result’s information, not just its position in a recent-items view. Check the receiving photo app’s sort order before converting more files."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Three dates can describe different events",
+        "body": "The camera capture time records the photographed moment. File creation or modification can describe when a new copy was written. Library import time describes when the item arrived. A recipient may use a different field or fall back to a file date when capture information is absent. Renaming the file does not prove its embedded date was preserved."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Preservation has limits",
+        "body": "Space Sheep Studio develops PhotoFix for iPhone. Its public version offers capture-date and location choices, batch conversion and unchanged originals. The first three successful photo conversions are free, with each batch item using one. Preservation cannot reconstruct a timestamp missing from the source, and the listing does not promise every camera metadata tag. If a test copy loses its known date, keep the originals and investigate that export before replacing an album."
+      }
+    ],
+    "figure": "/assets/guides/keep-capture-date-photo-conversion.webp",
+    "figureAlt": "One photo can have an older capture date and a newer saved-file date.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/ios"
+      },
+      {
+        "id": "store",
+        "label": "PhotoFix: HDR to Normal Photos 1.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/remove-photo-location-export/"
+      }
+    ],
+    "i18n": {
+      "id": "keep-capture-date-photo-conversion",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "One photo can have an older capture date and a newer saved-file date.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/keep-capture-date-photo-conversion.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/remove-photo-location-export/index.html"
+  },
+  {
+    "slug": "guides/video-speed-vs-frame-rate",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Want a Faster Video? Playback Speed and FPS Do Different Jobs",
+    "description": "Learn why playback speed and output FPS do different jobs. Check duration, motion and sound when making a faster or slower video copy on iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6769563339",
+    "direct": "Change playback speed when you want an action to finish sooner or take longer. Changing the output frame rate alone can leave the duration unchanged, because FPS describes how many frames represent each second.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the distinction",
+        "body": "A normal-speed conversion can drop or repeat frames while keeping the same timeline. Reinterpreting recorded frames at another rate is a different operation that can create slow motion. Decide whether you need a new pace or a delivery-rate requirement."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the original and note its duration. Choose one clear goal: faster action, slower action, or the same action at a requested FPS."
+      },
+      {
+        "id": "step-2",
+        "text": "For an actual pace change in Phone Cleaner: Photo & Video, use the Pro video-speed tool. Select an available speed and export a separate copy."
+      },
+      {
+        "id": "step-3",
+        "text": "Check the saved duration, moving subjects and sound. Listen for voice changes and inspect synchronization before sharing. Use a milder speed if motion or speech becomes difficult to follow."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "A simple timing example",
+        "body": "For a uniform 2× speed change, a ten-second action occupies five seconds. This is arithmetic, not a measured app export. By contrast, converting a ten-second clip from 60 to 30 FPS can still produce ten seconds of normal-speed action. The exact motion appearance depends on how the conversion samples frames; more FPS alone does not create a faster story."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Check audio separately",
+        "body": "Apple’s iMovie guide treats video speed and pitch behavior as separate choices. That does not establish a matching pitch switch in our app. Space Sheep Studio develops Phone Cleaner for iPhone; its current listing includes Pro speed changes plus format and frame-rate controls. No optical-flow slow-motion generation, pitch-preservation option or fixed speed range is claimed here. Re-encoding cannot reveal movement the camera never captured."
+      }
+    ],
+    "figure": "/assets/guides/video-speed-vs-frame-rate.webp",
+    "figureAlt": "A toy-car timing example shows ten seconds becoming five at twice the speed.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export. The times are a calculated uniform-speed example.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/guide/imovie-iphone/adjust-video-speed-kna47ca84b07/ios"
+      },
+      {
+        "id": "store",
+        "label": "Phone Cleaner: Photo & Video 1.3.3: current iPhone features",
+        "url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/change-video-frame-rate-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "video-speed-vs-frame-rate",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A toy-car timing example shows ten seconds becoming five at twice the speed.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export. The times are a calculated uniform-speed example."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/video-speed-vs-frame-rate.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/change-video-frame-rate-iphone/index.html"
+  },
+  {
+    "slug": "guides/photo-horizontal-vertical-dpi",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Why Does a Photo Have Horizontal and Vertical DPI?",
+    "description": "Read horizontal and vertical photo DPI with their units and pixel dimensions. Check both axes and the intended physical print size on iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6822865782",
+    "direct": "Horizontal and vertical DPI describe density along two image axes. Read both values with their units and pixel dimensions; one number cannot fully describe a file whose two density tags disagree.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the distinction",
+        "body": "For ordinary photo printing, matching densities normally describe square image samples at the intended print size. Different values can suggest inconsistent metadata or an intentionally unusual interpretation. A browser may ignore those tags, so an on-screen preview is not a print-size test."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In DPI: Photo Print Prep, choose the intended paper size and DPI. Keep the original and check whether the available pixels suit the target."
+      },
+      {
+        "id": "step-2",
+        "text": "Export a test copy and read the app’s verification report: pixel width and height, both DPI axes and physical size. Confirm the units rather than comparing bare numbers."
+      },
+      {
+        "id": "step-3",
+        "text": "Check the file in the print workflow and make a proof if the dimensions matter. Fix inconsistent settings before preparing the rest of the order."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Work through both axes",
+        "body": "A 1200 × 1800-pixel image at 300 pixels per inch on both axes describes a 4 × 6-inch image. If the vertical density were instead 150, that axis would imply 12 inches while the horizontal one still implied four. Those are calculated metadata interpretations, not a recommendation to stretch a photograph. The TIFF specification defines separate X and Y resolution fields and a resolution unit."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Use the report as a check",
+        "body": "Space Sheep Studio develops our iPhone print-preparation app, which accepts JPEG, PNG and HEIC. Basic single-photo DPI edits are free; advanced exports have a three-export free allowance before Pro. The reference specification explains the concept, not TIFF input support in the app. Changing a density tag does not add real image detail, and a printer can still apply its own scaling."
+      }
+    ],
+    "figure": "/assets/guides/photo-horizontal-vertical-dpi.webp",
+    "figureAlt": "A calculated 1200 by 1800 pixel photo at 300 DPI on both axes describes a four by six inch image.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export. The dimensions are a calculated example.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: www.itu.int",
+        "url": "https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf"
+      },
+      {
+        "id": "store",
+        "label": "DPI: Photo Print Prep 1.0.1: current iPhone features",
+        "url": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/change-72-to-300-dpi/"
+      }
+    ],
+    "i18n": {
+      "id": "photo-horizontal-vertical-dpi",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A calculated 1200 by 1800 pixel photo at 300 DPI on both axes describes a four by six inch image.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export. The dimensions are a calculated example."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/photo-horizontal-vertical-dpi.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/change-72-to-300-dpi/index.html"
+  },
+  {
+    "slug": "guides/emoji-captions-keep-words",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Using Emoji Captions? Keep the Spoken Words Readable",
+    "description": "Add emoji captions without losing spoken words. Review meaning, readability and the saved video when styling captions on an iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6770354079",
+    "direct": "Use emoji to support a caption’s meaning, while keeping the spoken words readable. An icon can suggest a topic or tone, but it may not communicate the same meaning as the word it replaces.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "Creative captions can be useful and enjoyable, yet decoration competes with reading. Caption-user research on TikTok identifies both expressive value and problems with non-verbatim substitutions. Preview your own video without sound before deciding how much styling it needs."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Generate captions in Subtitle Maker: Just Captions and correct the transcript first. Preserve the actual spoken wording before choosing an Emoji or word-highlight style."
+      },
+      {
+        "id": "step-2",
+        "text": "Watch a short passage at ordinary phone size with audio muted. Check that each word remains easy to follow and that the emoji matches the context rather than changing the meaning."
+      },
+      {
+        "id": "step-3",
+        "text": "If the effect competes with a name, instruction or serious statement, try a clean style. Export the captioned video and check the saved file again, including fast speech and scene cuts."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Words carry the message",
+        "body": "A tea icon can reinforce a sentence about tea. Replacing a key verb or name with a symbol asks viewers to interpret a new message. Likewise, an amused icon can suggest a tone that the speaker did not intend. Section 508 guidance emphasizes accurate captions and meaningful audio information; a decorative style alone does not establish accessible delivery."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Know the styling options",
+        "body": "Space Sheep Studio develops Just Captions for iPhone. The current release includes editable transcripts, emoji styles, word highlights and clean subtitles. One single-video Emoji export can be tried free; further Emoji exports require Pro. Optional AI emoji matching sends caption text online only after consent and has an on-device fallback. Always review the result; automatic matching is not proof that every emoji fits."
+      }
+    ],
+    "figure": "/assets/guides/emoji-captions-keep-words.webp",
+    "figureAlt": "A complete sentence about tea remains readable beside a supporting tea emoji.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: www.section508.gov",
+        "url": "https://www.section508.gov/create/captions-transcripts/"
+      },
+      {
+        "id": "caption-user-research",
+        "label": "CHI 2024: caption-user research",
+        "url": "https://makeabilitylab.cs.washington.edu/media/publications/McDonnell_CaptionItInAnAccessibleWayThatIsAlsoEnjoyableCharacterizingUserDrivenCaptioningPracticesOnTiktok_CHI2024.pdf"
+      },
+      {
+        "id": "store",
+        "label": "Subtitle Maker: Just Captions 2.9: current iPhone features",
+        "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/caption-punctuation-meaning/"
+      }
+    ],
+    "i18n": {
+      "id": "emoji-captions-keep-words",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A complete sentence about tea remains readable beside a supporting tea emoji.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/emoji-captions-keep-words.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/caption-punctuation-meaning/index.html"
+  },
+  {
+    "slug": "guides/zip-vs-pdf-compression-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "ZIP Barely Shrinks Your PDF? Optimize the Document Itself",
+    "description": "Understand why ZIP may barely shrink a PDF on iPhone. Compress the document itself, then compare actual size, page count and readability.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6769762323",
+    "direct": "If zipping a PDF barely reduces its size, try PDF-specific compression on a separate copy. A ZIP archive packages the existing file; it does not necessarily make the pictures inside that PDF less demanding.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "Many PDFs already contain compressed image data and document streams. An archive compressor may find little remaining redundancy. A portal that requires PDF may also reject ZIP, even when the archive is slightly smaller."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the source PDF. Check whether the recipient accepts PDF or ZIP and note the actual size limit before changing the document."
+      },
+      {
+        "id": "step-2",
+        "text": "Open the PDF in PDF Compressor: Sign & Merge and use its compression tool. Export a new PDF rather than merely placing the old one inside an archive."
+      },
+      {
+        "id": "step-3",
+        "text": "Compare the saved size, page count, small print and images with the original. Open the exact output in the receiving workflow. Stop reducing quality if essential details become unclear."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Packaging and optimization differ",
+        "body": "ZIP is useful for grouping files and can compress some content efficiently. PDF optimization works on the document’s own representation. Adobe’s optimization guidance distinguishes elements such as images and fonts, but our app does not promise every Acrobat optimization control. An image-heavy scan and an already compact text document can respond very differently."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Use the smaller useful copy",
+        "body": "Space Sheep Studio develops this iPhone PDF toolkit. Its current listing offers compression, batch compression and saved or shared exports. One export-tool use is free; further exports require Pro. No fixed percentage or exact size is guaranteed. Keep signed originals and follow the recipient’s requirements before modifying certified documents. If compression does not produce an acceptable readable PDF, an approved sharing method may be more appropriate than repeatedly compressing the same copy."
+      }
+    ],
+    "figure": "/assets/guides/zip-vs-pdf-compression-iphone.webp",
+    "figureAlt": "Putting a PDF into an archive packages the document rather than directly changing its embedded picture.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: helpx.adobe.com",
+        "url": "https://helpx.adobe.com/acrobat/desktop/create-documents/optimize-pdfs/advance-size-reduction.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Compressor: Sign & Merge 1.3.3: current iPhone features",
+        "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/compress-scanned-pdf-readable/"
+      }
+    ],
+    "i18n": {
+      "id": "zip-vs-pdf-compression-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Putting a PDF into an archive packages the document rather than directly changing its embedded picture.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/zip-vs-pdf-compression-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/compress-scanned-pdf-readable/index.html"
+  },
+  {
+    "slug": "guides/selfie-camera-distance-perspective",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Selfie Proportions Look Different? Check Camera Distance",
+    "description": "See why close camera distance changes selfie perspective. Test viewpoint and screen fill light separately before judging the saved photo.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6778131414",
+    "direct": "A selfie taken very close to your face can show different proportions from one taken farther away. Check camera distance before blaming screen-light color or looking for a face-correction filter.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "Perspective depends on the camera’s position relative to the subject. At close range, features nearer the lens occupy more of the picture relative to features farther back. Lighting changes visibility and shadows; it does not move the camera viewpoint."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Start with a comfortable amount of room light. In GlowPop: Selfie Glow Camera, use the front-camera preview with a neutral screen-light color."
+      },
+      {
+        "id": "step-2",
+        "text": "Keep your head angle steady and move the phone modestly farther away. Reframe with your position, then adjust available brightness while checking comfort and facial highlights."
+      },
+      {
+        "id": "step-3",
+        "text": "Take a test photo and inspect the saved result. Compare framing and light separately. Keep whichever viewpoint suits your purpose, without treating one image as a verdict on how you look."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Distance creates a lighting tradeoff",
+        "body": "Moving the phone farther away changes the viewpoint and usually reduces how much its screen illuminates the face. Add suitable room light rather than bringing the phone extremely close solely for brightness. Nikon’s lens guide explains the relationship between subject distance and perspective. The illustration shows a simulated viewpoint comparison, not a measured optical test or a GlowPop export."
+      },
+      {
+        "id": "detail-1",
+        "heading": "What our camera provides",
+        "body": "Space Sheep Studio develops GlowPop for iPhone. It combines a front-camera preview with adjustable screen color and brightness. The first five photos are free; Pro unlocks unlimited photos and video recording. No lens switching, face reshaping or automatic perspective repair is promised. Keep the phone at a comfortable distance and judge the actual saved photo, because camera processing and ambient light also affect its appearance."
+      }
+    ],
+    "figure": "/assets/guides/selfie-camera-distance-perspective.webp",
+    "figureAlt": "Simulated matched portraits illustrate how changing camera distance can change perspective.",
+    "figureCaption": "AI-generated camera-distance simulation, not a face correction, optical test or GlowPop export.",
+    "figureWidth": 1024,
+    "figureHeight": 1536,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: www.nikonusa.com",
+        "url": "https://www.nikonusa.com/fileuploads/pdfs/Nikkor%20lens%20Broch_061017.pdf"
+      },
+      {
+        "id": "store",
+        "label": "GlowPop: Selfie Glow Camera 1.0.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/screen-fill-light-selfies/"
+      }
+    ],
+    "i18n": {
+      "id": "selfie-camera-distance-perspective",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Simulated matched portraits illustrate how changing camera distance can change perspective.",
+        "caption": "AI-generated camera-distance simulation, not a face correction, optical test or GlowPop export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/selfie-camera-distance-perspective.webp",
+      "width": 1024,
+      "height": 1536,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/screen-fill-light-selfies/index.html"
+  },
+  {
+    "slug": "guides/app-blocker-without-reminders",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Focus Reminders Distracting You? Use Blocking Without Alerts",
+    "description": "Use Dying Soon app blocking without optional reminder alerts. Choose zero notifications while keeping your selected focus routine on iPhone.",
+    "reviewed": "2026-11-23",
+    "published": "2026-11-23",
+    "appId": "6758529772",
+    "direct": "You can use Dying Soon’s app blocking without its optional daily reminders. Choose zero reminders if motivational alerts keep drawing your attention back to the phone.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the decision",
+        "body": "A blocking rule limits access to selected distracting apps; a reminder asks for your attention. You may find the first useful and the second unnecessary. Treat them as separate choices rather than enabling every notification to start a focus routine."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In Dying Soon: Screen Time Limit, set optional daily reminders to zero if you want a quiet setup. Keep the Screen Time authorization needed for the blocking features you use."
+      },
+      {
+        "id": "step-2",
+        "text": "Choose distracting apps and use one scheduled rule or a thirty-minute Block Now session. Leave essential communication tools out of the selected set when access to them matters."
+      },
+      {
+        "id": "step-3",
+        "text": "Test during a short, low-stakes session. Check that the selected app is blocked as intended, then review whether your reminder choice makes the routine easier to ignore until you need it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0",
+        "heading": "Zero reminders is a valid choice",
+        "body": "The public listing allows zero to ten reminders per day and explicitly permits using the app without notifications. Reducing reminders does not mean deleting your goals or turning the life grid into a performance score. Choose a single concrete activity for the time you want to protect, such as reading a chapter or practicing an instrument."
+      },
+      {
+        "id": "detail-1",
+        "heading": "Know what this setting covers",
+        "body": "Space Sheep Studio develops Dying Soon for iPhone. One scheduled rule and unlimited thirty-minute Block Now sessions are free; Pro adds scheduled rules. This article concerns reminders sent by Dying Soon. It does not claim to change notifications from other apps, deliver emergency alerts or replace their settings. Your Screen Time selections and the app’s optional motivational messages serve different purposes, so verify the behavior you actually need."
+      }
+    ],
+    "figure": "/assets/guides/app-blocker-without-reminders.webp",
+    "figureAlt": "A quiet reading setup illustrates choosing zero optional reminders.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: apps.apple.com",
+        "url": "https://apps.apple.com/us/app/id6758529772"
+      },
+      {
+        "id": "store",
+        "label": "Dying Soon: Screen Time Limit 2.3.4: current iPhone features",
+        "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/block-apps-study-session/"
+      }
+    ],
+    "i18n": {
+      "id": "app-blocker-without-reminders",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A quiet reading setup illustrates choosing zero optional reminders.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/app-blocker-without-reminders.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
+    },
+    "discoveryBacklink": "guides/block-apps-study-session/index.html"
   }
 ]
