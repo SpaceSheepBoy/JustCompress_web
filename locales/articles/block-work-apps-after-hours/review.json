@@ -1,9 +1,9 @@
 {
   "article": "block-work-apps-after-hours",
   "component": "article-block-work-apps-after-hours",
-  "checked_at": "2026-11-21T10:42:47.872888+01:00",
-  "source_sha256": "2cd77365652eda0e055e311a057cb9707c13cb7d53e7223412285dc14a6511c2",
-  "context_sha256": "416fe16cae28751dfaff00bf62348a003407261504c3797c196f4c8576a1b78a",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "c407defc035877d731a3b05c05bd91f18c82d9688b9d4a99b0173cd3b43ae0ba",
+  "context_sha256": "15e323f1c522b02f240a92910ad24013a454b5e09707ad81a43ff5f45df089fe",
   "catalogs": {},
   "languages": {}
 }

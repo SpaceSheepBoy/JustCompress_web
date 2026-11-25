@@ -1,9 +1,9 @@
 {
   "article": "log-noise-after-rec709",
   "component": "article-log-noise-after-rec709",
-  "checked_at": "2026-11-22T11:49:59.667305+01:00",
-  "source_sha256": "aacd24aed0cef7a20d8f871ac90f9361dec350d136cc009b5bfcf43c5ce79c4b",
-  "context_sha256": "cdb05c13d2d3dd8d6e9c9c2a5b957a556744c60c3e5946a039a2d732efaa5279",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "d449cceb2f3a56848d33eb7734e86121e99bbd079bdadab0da63e35be4555fa5",
+  "context_sha256": "0d385e5f617682651037ea766b59d40efa646b44e0f952ed60b215be48cd5581",
   "catalogs": {},
   "languages": {}
 }

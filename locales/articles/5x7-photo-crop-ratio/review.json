@@ -1,9 +1,9 @@
 {
   "article": "5x7-photo-crop-ratio",
   "component": "article-5x7-photo-crop-ratio",
-  "checked_at": "2026-11-19T10:53:17.655618+01:00",
-  "source_sha256": "a4b1f6edbf79ef74dd0db0d3e4b1b04270e13628c6b84768da3534c4c6550e71",
-  "context_sha256": "6a92d9710901c080bc8af87592b69ff6531758339b8f549db1dc6a462efd58c8",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "ecb8cdd8536d36f3475daeec688f1e1e30819efc78fd86e54aaba5d5b67e5dd6",
+  "context_sha256": "8c1da34c300525314cd5a9b13e071fa63f979c66195fa9f39c36d9a743f5d95d",
   "catalogs": {},
   "languages": {}
 }

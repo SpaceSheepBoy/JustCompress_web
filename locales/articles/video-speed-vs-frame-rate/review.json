@@ -1,9 +1,9 @@
 {
   "article": "video-speed-vs-frame-rate",
   "component": "article-video-speed-vs-frame-rate",
-  "checked_at": "2026-11-23T10:49:20.900808+01:00",
-  "source_sha256": "a75e091ca2ff7a3ee031beecf7fcfb6d337863926dfba7fcea1b766cfeaca1a3",
-  "context_sha256": "328de48ed5196a6e29630ff7ecfdb9809ddbb33023f5370a3ebe1083a3816321",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "8434a7d084c7cf2ca0dc966f2282d1d5805fb5849ef924fb74a5ad12ac4d98df",
+  "context_sha256": "47295d2e96a46a1190adaa67a44aaf0ec30e39bd806a31435fad6707e1189f20",
   "catalogs": {},
   "languages": {}
 }

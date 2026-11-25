@@ -1,9 +1,9 @@
 {
   "article": "change-72-to-300-dpi",
   "component": "article-change-72-to-300-dpi",
-  "checked_at": "2026-11-20T10:57:03.529102+01:00",
-  "source_sha256": "1863e53305afaef66e5aedc31b5e0ae134ba5ca03ec121d862ab1649ae05bf0c",
-  "context_sha256": "4b8637c5d3de8f4c38e1b30a1884cf5215dd9c935a829942ce42e24befcaf5a3",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "d5514b173221153603bc1df4f7cee56f8579157531bdce74be2f72a294828bb5",
+  "context_sha256": "588d0f3f6a069c8b7b683451324063506421be2b0d5635689beb88840a264c0c",
   "catalogs": {},
   "languages": {}
 }

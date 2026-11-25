@@ -1,9 +1,9 @@
 {
   "article": "emoji-captions-keep-words",
   "component": "article-emoji-captions-keep-words",
-  "checked_at": "2026-11-23T10:49:20.901833+01:00",
-  "source_sha256": "b7e896bbfbab4b2e232247992bae63e826f46563806944f18b149177a899942b",
-  "context_sha256": "526caf561363b336841441fb0f188ded7a7cab698a6ccefe56f3a51bff8c25a3",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "37b111c8bb6e387bce444899c7cb6cb96892a5bc822f68901ddab2d47637a4f7",
+  "context_sha256": "c973ca4ea7da862e9d2c601d2132c86cdc451870e2daf9845ecf80b2469144ce",
   "catalogs": {},
   "languages": {}
 }

@@ -1,9 +1,9 @@
 {
   "article": "preview-lut-vs-recorded-log",
   "component": "article-preview-lut-vs-recorded-log",
-  "checked_at": "2026-11-23T10:49:20.898508+01:00",
-  "source_sha256": "07f1e2b5bc71d068033198c435dc17f5d4d74329325c95b3234d86abf003e244",
-  "context_sha256": "f88e86c73797a0130c40806e4f808dabe112553553322fcafd470d1b381942f9",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "f1ffc05f791c62ac1f44c26589b61bda196bc08a5d797877b978111e90f42dad",
+  "context_sha256": "8e18fbde99d92b71c84c8920dad6dd607ffc1d61fc4201d810626fa9ade8c4f2",
   "catalogs": {},
   "languages": {}
 }

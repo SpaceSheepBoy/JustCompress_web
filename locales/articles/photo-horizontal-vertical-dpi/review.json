@@ -1,9 +1,9 @@
 {
   "article": "photo-horizontal-vertical-dpi",
   "component": "article-photo-horizontal-vertical-dpi",
-  "checked_at": "2026-11-23T10:49:20.901309+01:00",
-  "source_sha256": "c61a9e1b693d461509bc8007d46e7780cc93ebf248f31128b8d2e587b2440591",
-  "context_sha256": "e9a5d660b1321a49213f70119b5e6bcc4798b9e40da43acdc98600f28175e908",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "e2a7b9532ebd136d8f375316bbad6592eabf4dbdaf2d0bbad9890b01911ce5a2",
+  "context_sha256": "89ee326041bf15895daff0eb8b3c52998de302202e9edfe54831a90703c1d14b",
   "catalogs": {},
   "languages": {}
 }

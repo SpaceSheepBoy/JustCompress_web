@@ -1,9 +1,9 @@
 {
   "article": "rec709-quicktime-gamma-difference",
   "component": "article-rec709-quicktime-gamma-difference",
-  "checked_at": "2026-11-21T10:42:47.867794+01:00",
-  "source_sha256": "fbbc7065fe40ac797d7adb264ff0db5b146bd54a9fe669f0537a120c9167be4f",
-  "context_sha256": "953b062997c910b812dceb36c6214265b8fad1186d244a6a995308319095d879",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "0cb6d5a9572359c18972d46ea772b55e7c7c3b9eb89227e9e5ece6a1f5cb1956",
+  "context_sha256": "ece34b18090d1792c16f3a0c429587b8d25f39d0faa29148522a47ffc319722f",
   "catalogs": {},
   "languages": {}
 }

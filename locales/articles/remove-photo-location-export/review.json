@@ -1,9 +1,9 @@
 {
   "article": "remove-photo-location-export",
   "component": "article-remove-photo-location-export",
-  "checked_at": "2026-11-19T10:53:17.654106+01:00",
-  "source_sha256": "3859d4672c6e03442590d47fc7b8509a85055c271f7eb488f58f1cec0a3495da",
-  "context_sha256": "ca09eb8e04c4e72d1b897e9638d31ce138c10a57e49476d4bed43adb3561d0a7",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "b066e112956814536d25fb41ea394c0118e6532fdf788330f0808df3e3a342af",
+  "context_sha256": "7747d8995ee1cd52c244e778b24ca49a6d50e66970900e9fbcfc14b3ea692587",
   "catalogs": {},
   "languages": {}
 }

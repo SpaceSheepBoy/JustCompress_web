@@ -1,8 +1,8 @@
 {
   "article": "batch-compress-separate-pdfs",
   "component": "article-batch-compress-separate-pdfs",
-  "checked_at": "2026-11-25T10:54:55.208497+01:00",
-  "source_sha256": "d48f06eca290804f3d604b6f70a1beb5c1caeb2db805fa2d951e7fc88683f0c4",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "15cf456c0fa83eee0f0dcb597ed2d4bb9ef9797214397a58aa62dc2578197861",
   "context_sha256": "a46bb25b5fa8bf5d49bdc9004b35dcd933b737e9402adcb91e8c45f76e28daa8",
   "catalogs": {},
   "languages": {}

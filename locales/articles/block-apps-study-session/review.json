@@ -1,9 +1,9 @@
 {
   "article": "block-apps-study-session",
   "component": "article-block-apps-study-session",
-  "checked_at": "2026-11-19T10:53:17.660238+01:00",
-  "source_sha256": "892c1f98b4d2fa9ccae7d05c600583756d49b82eebda36eae551fb35d134babb",
-  "context_sha256": "67fa0aa9a5fa1b602a26731365edc546c057045eaef6515c95071dfa7875f977",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "d619a2368807dd4fc237a53415e5af4aa63c341741591d4e1ac71ae042308b60",
+  "context_sha256": "79782b71ee69efc5997259d3aa2a82fbb48af3da40821ec0ed1dd2608d9c3478",
   "catalogs": {},
   "languages": {}
 }

@@ -1,9 +1,9 @@
 {
   "article": "translate-video-captions-iphone",
   "component": "article-translate-video-captions-iphone",
-  "checked_at": "2026-11-21T10:42:47.871279+01:00",
-  "source_sha256": "5c53efff66046cdc5ef64f7ca4190134511e9b53e4d839a614c17b3bded1953a",
-  "context_sha256": "4a3a203d3cd89858309c4f33b42bb5167f6cb257d964e4e98984be8afd824e86",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "7adae1f9d3d1076a9299a39a2a11c3faca38cb02c29604e3065e8d06fa997fd8",
+  "context_sha256": "7865d30067290628924ea5e08e427f26cf512d0f88b26af72617d8f31214e54e",
   "catalogs": {},
   "languages": {}
 }

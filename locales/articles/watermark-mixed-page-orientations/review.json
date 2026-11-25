@@ -1,9 +1,9 @@
 {
   "article": "watermark-mixed-page-orientations",
   "component": "article-watermark-mixed-page-orientations",
-  "checked_at": "2026-11-23T10:49:20.899776+01:00",
-  "source_sha256": "48398791223d0541bd715086bb50ee78dbf3ef649bff7b5e7e59db2d20cacb9a",
-  "context_sha256": "c2554fa2edeb38a669912769b687404111e8a3b98bd36df568869b8c52b90968",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "270a3352a58d320a6951b0979e4dd1337bcddd009ba0231cf8452e6c086e0998",
+  "context_sha256": "05f53c501eb0e6744787f471f2642401102936fcb6a17beb324bfa7a36af6eb7",
   "catalogs": {},
   "languages": {}
 }

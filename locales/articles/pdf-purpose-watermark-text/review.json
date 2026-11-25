@@ -1,9 +1,9 @@
 {
   "article": "pdf-purpose-watermark-text",
   "component": "article-pdf-purpose-watermark-text",
-  "checked_at": "2026-11-21T10:42:47.869259+01:00",
-  "source_sha256": "4f7f5cc4b297b227de2e5bf8985e552de2afa350fd62e9c6d212a38ba9cf7fdc",
-  "context_sha256": "b27a7dc9ebcb3cf8ed1a677d8b330e0a36bfb0d6f7cee2eb01b361ccbcd61b0d",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "2267ba3caef31a898bdbf93fc3c65f8b7503ccc7965f7d0384fa9a72dc5c20b4",
+  "context_sha256": "cfdac4ab1298eeaf17969b46fa4a7968c9efb67c85670d916ae8a66f76c243b9",
   "catalogs": {},
   "languages": {}
 }

@@ -1,9 +1,9 @@
 {
   "article": "merge-pdf-section-order",
   "component": "article-merge-pdf-section-order",
-  "checked_at": "2026-11-21T10:42:47.871775+01:00",
-  "source_sha256": "8c6ce036b8b554d3cde0eb2889b0c7d26d62b195567f62562f42df3b54cf9f42",
-  "context_sha256": "0140d7127190f94b0902436292a3a074ef9b9a454b78b3ffed19621478d2d084",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "9ffc0ee63ca83b13352bf31bf6af51a8cc8c9cdfca2f3a7febb4de74fcc7514f",
+  "context_sha256": "b52db4610f965c2e060eb3706dcea70304fabfa97a33c2a2574557d1fd015456",
   "catalogs": {},
   "languages": {}
 }

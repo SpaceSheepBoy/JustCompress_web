@@ -1,9 +1,9 @@
 {
   "article": "live-photo-sdr-keep-motion",
   "component": "article-live-photo-sdr-keep-motion",
-  "checked_at": "2026-11-21T10:42:47.869770+01:00",
-  "source_sha256": "7ca7dd2e84d725688520d70eca7bf12ebbfc4b8f1f0d65ef25dd066a22275316",
-  "context_sha256": "de405ebf517ab647c1285a91bdce51b8edbec902531b28a33106d3fd7ce71b30",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "f7527bff9c492f7f76f3ce9223d5b426706228047489e78acbf74b2051f74ef1",
+  "context_sha256": "9f8e7589b6045af8e1c365ccad26a8eeb6b11ef3ad09802d3157e208d85edc08",
   "catalogs": {},
   "languages": {}
 }

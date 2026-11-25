@@ -1,9 +1,9 @@
 {
   "article": "video-banding-bit-depth",
   "component": "article-video-banding-bit-depth",
-  "checked_at": "2026-11-20T10:57:03.526689+01:00",
-  "source_sha256": "7eb0523fa2ef5529b23723e403f520e50cd851b0cab95661a5f140adbb54943c",
-  "context_sha256": "1959aea255a2de7e4e10de2cf2b81018736336cc0a37e877bad1689d4db59768",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "a7cea9f8be97e9b4b50dd61baac726220c3ee4777c5e708e2d10306af2c1c8be",
+  "context_sha256": "b7ddf025e1216eba9e984673c44c71cc29abd260aa2aca999918c2fdeae63c35",
   "catalogs": {},
   "languages": {}
 }

@@ -1,9 +1,9 @@
 {
   "article": "app-blocker-short-break",
   "component": "article-app-blocker-short-break",
-  "checked_at": "2026-11-20T10:57:03.532133+01:00",
-  "source_sha256": "0a235d02ffabea92dbaa129138784628f8ea4f1decb1b916b5bf2f0e0056b16d",
-  "context_sha256": "a0cb0dab545a9bf34934c9b2bd0e656628de93221e1d50759566c4362359f57a",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "9afe912f89c50bed28208fb03db0d1dabed0a12d45ca0daebbaedcd787119677",
+  "context_sha256": "f08b8c632dca544e0d2e1a3bb319473be36ef2137bf5fab8c7140084f402e864",
   "catalogs": {},
   "languages": {}
 }

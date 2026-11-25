@@ -1,9 +1,9 @@
 {
   "article": "photo-collage-crop-faces",
   "component": "article-photo-collage-crop-faces",
-  "checked_at": "2026-11-19T10:53:17.652635+01:00",
-  "source_sha256": "83320e39cdc3ff3f20c929eab4b460938439ae57406e2e9e93d21fec734ebae6",
-  "context_sha256": "b7abf743eec0db14c7649aa346b891fcc248a92e2e867f4419e6c4cbec711c8e",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "2ee86480265287c9cb1e1e1a59e0d02bdc3e3abb9f5f96561b27394f65446ac3",
+  "context_sha256": "17877c4ed29e515cfb7a2358c3823984712fa8e650b74b743e6f72d1943e72ce",
   "catalogs": {},
   "languages": {}
 }

@@ -1,9 +1,9 @@
 {
   "article": "hdr-tone-mapping-highlights",
   "component": "article-hdr-tone-mapping-highlights",
-  "checked_at": "2026-11-19T10:53:17.651933+01:00",
-  "source_sha256": "61e2bf7fd64447af4cb607196b45b5a8779c466d7c79cde19afac9b27013d3c2",
-  "context_sha256": "6d7e3367d95486db56ed0e07b370c5eba76845fc0c491a9e4848dede7d18c902",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "a90a74218529291d61515bb4109f271a449de0540446028f9cb7677fed092023",
+  "context_sha256": "51203bb3d8f7bbd35c36aabcc248338619d0268b06d3e4e4f0a4a897b14de864",
   "catalogs": {},
   "languages": {}
 }

@@ -1,9 +1,9 @@
 {
   "article": "audio-file-vs-volume-compression",
   "component": "article-audio-file-vs-volume-compression",
-  "checked_at": "2026-11-23T10:49:20.897801+01:00",
-  "source_sha256": "9b569bc5a74cbeb5b6f0b0e2165c434bf018f6d8eaf62dbc592225735f85b5ba",
-  "context_sha256": "0985f9de475ef0a75df3f14b7dbca6ec313963bd8b760399c17ae58b73d5fa2f",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "1d12f68c1512e9f032ecf9b84308ed69ae6e1bd733747345355992e9812db438",
+  "context_sha256": "a2c68d1b95889549a7c37dec43d91985bb49639126d5b326717ea6904cf05d9e",
   "catalogs": {},
   "languages": {}
 }

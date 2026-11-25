@@ -1,9 +1,9 @@
 {
   "article": "app-blocker-without-reminders",
   "component": "article-app-blocker-without-reminders",
-  "checked_at": "2026-11-23T10:49:20.903601+01:00",
-  "source_sha256": "944892fd0c12135877f085359551d918899daaad5735ed482aecc858bfbff5b6",
-  "context_sha256": "cfc1cf70605ae62087abc04146b317e202c79bff4b21d22050e64dc2a7b91d94",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "befbc9a1d474474867ac50124eef5044c995921277bd8a7fece47b690f709ee8",
+  "context_sha256": "f57cd819f83f8ece2ff49d245c818707650032047f5a616a7e7c173577896815",
   "catalogs": {},
   "languages": {}
 }

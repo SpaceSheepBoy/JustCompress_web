@@ -1,9 +1,9 @@
 {
   "article": "video-compression-storage-copy",
   "component": "article-video-compression-storage-copy",
-  "checked_at": "2026-11-20T10:57:03.528631+01:00",
-  "source_sha256": "f53b22d5bf6163f8184243e457670c4fa56c5571fee1ca10eb71640349d4967d",
-  "context_sha256": "41548a24e5be9ce99cf5d1cd514490f9d5237a29f1f5f1216aeed6a341538ca2",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "5be39dc89595e76abcb04fd873e9df84f2199cc9241632a7dd59214487bccc7a",
+  "context_sha256": "cc43044d820e48bf0d21fb0dfb00c774e3e83e09f1314cbb8b352b4ff79d676b",
   "catalogs": {},
   "languages": {}
 }

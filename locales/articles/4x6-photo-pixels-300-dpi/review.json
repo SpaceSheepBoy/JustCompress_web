@@ -1,9 +1,9 @@
 {
   "article": "4x6-photo-pixels-300-dpi",
   "component": "article-4x6-photo-pixels-300-dpi",
-  "checked_at": "2026-11-18T10:43:32.396512+01:00",
-  "source_sha256": "c04b2d3227276b224580b793782b079739d78febc0742ce667d79d79d4453278",
-  "context_sha256": "c6509d69d67ac01563c14b5bc885a84e6a049fd884d2755a1393d34a4dcef90c",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "e559dca94c6ef282a04e45a90081a3b9af93ba3a504a42c94abb8ce2b509fa94",
+  "context_sha256": "77e9f7e1398b20ea3538215d31f8678fe1754c306e3b6e8e3e7021a9cff1869d",
   "catalogs": {},
   "languages": {}
 }

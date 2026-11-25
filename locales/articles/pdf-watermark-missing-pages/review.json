@@ -1,9 +1,9 @@
 {
   "article": "pdf-watermark-missing-pages",
   "component": "article-pdf-watermark-missing-pages",
-  "checked_at": "2026-11-20T10:57:03.527690+01:00",
-  "source_sha256": "4d59eada4531532e5435bae6d8f27e9e2ee337f0d96c6f4f0cca3fa12a4109a3",
-  "context_sha256": "fdcee33313c68e35416efe2c908fbc9ae0daa4486ce016edc32621cc2dcc1a57",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "349543d8012524ad408092ce1b7599d2f3e4817ded85b7900d4c31c005513e03",
+  "context_sha256": "b3395ca0de47fc7d282bd016db13047a2f0e899d62c2559996e6ae348181ea2a",
   "catalogs": {},
   "languages": {}
 }

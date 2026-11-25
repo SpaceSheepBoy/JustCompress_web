@@ -1,9 +1,9 @@
 {
   "article": "rec-gamuts",
   "component": "article-rec-gamuts",
-  "checked_at": "2026-11-17T14:03:23.441058+00:00",
-  "source_sha256": "80c9ca11298a6b5ae1c46e1b2710044b1acea29bf87ef099315e259554f664c3",
-  "context_sha256": "73feebfb702791e1198dc465e83b723189ffc3ef52c21099482d1fad4e6bf1ce",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "38220dd68c016c2f079a605c5d107265de06e547eedbe511b4b8c95fd5b9542a",
+  "context_sha256": "5ac1db365a0f371f1ec1c3cca0d5bba393dc3c60c9f8379249f517cbc4eeae69",
   "catalogs": {},
   "languages": {}
 }

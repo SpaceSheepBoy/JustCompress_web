@@ -1,9 +1,9 @@
 {
   "article": "selfie-yellow-screen-light",
   "component": "article-selfie-yellow-screen-light",
-  "checked_at": "2026-11-20T10:57:03.531080+01:00",
-  "source_sha256": "35e6324f356647257c0354d4c0d6163c9e4001cb7ec2f1545c26106a094ef891",
-  "context_sha256": "c5f8675f64ee00cb39bd6b9e855f170d492fad5da83690723d3dd27fb641c9b0",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "c31c0dacd4dd088c96f310dd6c81fd067d31761ff2ec04e4d234e3c7fb634805",
+  "context_sha256": "99494e71c564421d813a7d0433fd4b2ca9c840e960d0174300e5cdf62f14fe5c",
   "catalogs": {},
   "languages": {}
 }

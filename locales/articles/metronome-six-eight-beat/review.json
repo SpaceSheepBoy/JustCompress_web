@@ -1,9 +1,9 @@
 {
   "article": "metronome-six-eight-beat",
   "component": "article-metronome-six-eight-beat",
-  "checked_at": "2026-11-21T10:42:47.866479+01:00",
-  "source_sha256": "22b364f822995f91a1d2e713f2e3dbb55f94ac58367bcfb69a4502dcc8847c1d",
-  "context_sha256": "d2904becd76bb9b6ee9120415d36533b8d1ca4dd520dccfa46ef0bd6907aec3e",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "06ccbb3b467b4f576bf45bce916dc598b4c25891bcec9d39db7ba61a554367f6",
+  "context_sha256": "9691ae29ffc2f8621cfcbd9c58e8dc6ce9826131387d25d952a0cf8b5bd6d325",
   "catalogs": {},
   "languages": {}
 }

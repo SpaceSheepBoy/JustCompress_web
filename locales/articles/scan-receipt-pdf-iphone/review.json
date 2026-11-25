@@ -1,9 +1,9 @@
 {
   "article": "scan-receipt-pdf-iphone",
   "component": "article-scan-receipt-pdf-iphone",
-  "checked_at": "2026-11-22T11:49:59.670996+01:00",
-  "source_sha256": "2ee24995d822f1e462ee8ffc849375454042755ed020b57cc69faa383160f141",
-  "context_sha256": "1981845ff0fa1d8fa991056dcc762a3b457b66cc8023df3b1a24b2050fa331af",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "cee8283d40b55988c8ceec93a3d22ff912f273d1f8c6f7419f78db88a08be16c",
+  "context_sha256": "25295ed5e5d54a3b3014be79c6ad24847f72352db52a3ca155fc429ba7c4afbf",
   "catalogs": {},
   "languages": {}
 }

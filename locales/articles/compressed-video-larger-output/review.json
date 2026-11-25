@@ -1,9 +1,9 @@
 {
   "article": "compressed-video-larger-output",
   "component": "article-compressed-video-larger-output",
-  "checked_at": "2026-11-21T10:42:47.870260+01:00",
-  "source_sha256": "80acab9d53381382b8c0b96f581c6229e922a609a813c80199a4902be9084641",
-  "context_sha256": "8a1a95bb7e59ce0d6d3cb9183723d5a5d94b0a852fbeeceda14a0d8b0fac2379",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "46cc8b3ae17e5e80d1e099a09f7a3546904001c963192f55321287aa81d5ace2",
+  "context_sha256": "fd860695ac8ce4b8328ba535565b74f8b76911aa506ed3c5c47cc15b05f2eabd",
   "catalogs": {},
   "languages": {}
 }

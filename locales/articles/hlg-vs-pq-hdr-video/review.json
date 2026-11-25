@@ -1,9 +1,9 @@
 {
   "article": "hlg-vs-pq-hdr-video",
   "component": "article-hlg-vs-pq-hdr-video",
-  "checked_at": "2026-11-18T10:43:32.395526+01:00",
-  "source_sha256": "2b7e080bd37427c04eb9b099f87d0cd46c659573c29d73b5f0e0fd5e7b52abd2",
-  "context_sha256": "47b86bfdab409b9b5d8a73b9fb663aa1d88a75ce253d8a75fcb87b1d9b1898ed",
+  "checked_at": "2026-11-25T12:52:58.437656+01:00",
+  "source_sha256": "bbbfeb46a3703a7c2d19e9d6948a5ee20651fc4604f06d0be229f9f08f4a59c5",
+  "context_sha256": "3cb6fbbd6a1759880ff43d511882d36680b0050ca3910fcb30fb71d8410ef465",
   "catalogs": {},
   "languages": {}
 }
