@@ -594,6 +594,94 @@
       "locales": [],
       "translation_date": "2026-11-23",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "aac-vs-m4a-file-extension",
+      "slug": "guides/aac-vs-m4a-file-extension",
+      "component": "article-aac-vs-m4a-file-extension",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "apple-log-vs-hdr-delivery",
+      "slug": "guides/apple-log-vs-hdr-delivery",
+      "component": "article-apple-log-vs-hdr-delivery",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "room-mood-board-photo-collage",
+      "slug": "guides/room-mood-board-photo-collage",
+      "component": "article-room-mood-board-photo-collage",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "watermarked-pdf-file-size",
+      "slug": "guides/watermarked-pdf-file-size",
+      "component": "article-watermarked-pdf-file-size",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "png-hdr-or-sdr-photo",
+      "slug": "guides/png-hdr-or-sdr-photo",
+      "component": "article-png-hdr-or-sdr-photo",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "find-large-videos-iphone",
+      "slug": "guides/find-large-videos-iphone",
+      "component": "article-find-large-videos-iphone",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "same-photo-multiple-print-sizes",
+      "slug": "guides/same-photo-multiple-print-sizes",
+      "component": "article-same-photo-multiple-print-sizes",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "captions-bright-background-contrast",
+      "slug": "guides/captions-bright-background-contrast",
+      "component": "article-captions-bright-background-contrast",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "batch-compress-separate-pdfs",
+      "slug": "guides/batch-compress-separate-pdfs",
+      "component": "article-batch-compress-separate-pdfs",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "colored-screen-light-selfie",
+      "slug": "guides/colored-screen-light-selfie",
+      "component": "article-colored-screen-light-selfie",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "focus-mode-vs-app-blocking",
+      "slug": "guides/focus-mode-vs-app-blocking",
+      "component": "article-focus-mode-vs-app-blocking",
+      "locales": [],
+      "translation_date": "2026-11-25",
+      "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
     }
   ]
 }

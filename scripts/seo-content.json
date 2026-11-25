@@ -7436,5 +7436,1092 @@
       "provenance": "Built-in imagegen, 2026-11-23. Original and full prompt retained in growth/output/seo-agent/2026-11-23/."
     },
     "discoveryBacklink": "guides/block-apps-study-session/index.html"
+  },
+  {
+    "slug": "guides/aac-vs-m4a-file-extension",
+    "tag": "PRACTICAL GUIDE",
+    "title": "AAC Export Became M4A? Check the Codec and Container",
+    "description": "Understand why AAC audio can be saved as M4A, check the actual codec, and choose a compatible sharing copy on iPhone without renaming the file.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6769563659",
+    "direct": "An AAC export can correctly have an .m4a extension. AAC describes the encoded audio, while M4A identifies an audio-oriented MPEG-4 container. The extension alone does not prove which codec is inside.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "If you asked for AAC and received M4A, first check the audio information in a trusted player or editor. Do not rename the file merely to make the letters match: a filename change does not convert the contents."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check what the recipient actually requires: AAC audio in M4A, an MP3 file, or a specific raw AAC stream. These are different requirements."
+      },
+      {
+        "id": "step-2",
+        "text": "For an ordinary sharing copy, use the available conversion format in Audio Compressor MP3 Converter. Keep the source and export a separate file."
+      },
+      {
+        "id": "step-3",
+        "text": "Open the saved copy in the receiving app. Confirm playback, duration and the reported encoding. If a specialist system demands raw AAC, do not assume that an M4A export meets that requirement."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "One extension, more than one codec",
+        "body": "The UK National Archives identifies AAC-based M4A and notes that the extension is also used by Apple Lossless files. An M4A name therefore does not establish whether the audio is lossy. Likewise, selecting another container does not restore detail that an earlier lossy encode discarded."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Choose compatibility before converting",
+        "body": "Space Sheep Studio develops our iPhone audio app. Its current listing includes audio conversion and MP3, M4A, WAV and AAC handling. Export tools require Pro."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "This guide does not promise raw AAC/ADTS export or a lossless rewrap option. If the existing file plays correctly and the recipient accepts it, another conversion may be unnecessary. When MP3 is explicitly required, use a real MP3 conversion and check that new file rather than renaming the M4A."
+      }
+    ],
+    "figure": "/assets/guides/aac-vs-m4a-file-extension.webp",
+    "figureAlt": "A card marked AAC sits inside an M4A sleeve, illustrating audio encoding inside a file container.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: pronom.nationalarchives.gov.uk",
+        "url": "https://pronom.nationalarchives.gov.uk/fmt/2094"
+      },
+      {
+        "id": "store",
+        "label": "Audio Compressor MP3 Converter 1.2.1: current iPhone features",
+        "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/aac-vs-mp3/"
+      }
+    ],
+    "i18n": {
+      "id": "aac-vs-m4a-file-extension",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A card marked AAC sits inside an M4A sleeve, illustrating audio encoding inside a file container.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/aac-vs-m4a-file-extension.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/aac-vs-mp3/index.html"
+  },
+  {
+    "slug": "guides/apple-log-vs-hdr-delivery",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Is Apple Log HDR? Separate the Recording from Delivery",
+    "description": "Identify Apple Log versus HLG HDR before converting an iPhone clip. Separate camera recording from SDR or HDR delivery and keep the original.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6812821310",
+    "direct": "Apple Log is a recording encoding for later color processing; HDR is also a delivery choice. Log footage can be processed for an SDR or HDR output. A clip tagged HLG is not automatically Apple Log.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "A pale preview is a symptom, not an identification method. Applying an Apple Log transform to ordinary HLG footage because both look unfamiliar can introduce another color error."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check the camera recording setting and the original file’s color information in a trusted editor. Keep the original tags. A MOV extension or ProRes label alone does not identify the transfer function."
+      },
+      {
+        "id": "step-2",
+        "text": "For verified Apple ProRes Log that needs standard SDR delivery, use the supported Log-to-Rec.709 conversion in VideoFix: HDR Video Converter. For HDR input, use its HDR-to-SDR workflow instead."
+      },
+      {
+        "id": "step-3",
+        "text": "Inspect the saved H.264 MP4 in the intended SDR player. Check faces, highlights and shadows. Do not apply the same Log conversion again to an already converted Rec.709 copy."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Recording and viewing are separate decisions",
+        "body": "Apple’s Final Cut Camera guide separates standard, HDR, Log and RAW workflows. Log preserves a different starting representation for color work; the editor’s output settings determine the delivery. A normal-looking, color-managed preview does not prove that the source has already been permanently converted."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Match the supported source",
+        "body": "Space Sheep Studio develops VideoFix for iPhone. Its public listing supports Apple ProRes Log and HDR conversion into Rec.709 SDR, with three free conversions before a purchase is needed. It does not establish Apple Log 2, HEVC Log, arbitrary camera profiles or HDR output here."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "If source identification is uncertain, resolve it before batch conversion. Keep the camera original when you may want a different grade or HDR delivery later."
+      }
+    ],
+    "figure": "/assets/guides/apple-log-vs-hdr-delivery.webp",
+    "figureAlt": "A Log recording card beside separate SDR and HDR delivery envelopes illustrates different stages of a color workflow.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export. The envelopes show possible delivery goals in a color-managed workflow, not VideoFix HDR output.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/en-me/guide/final-cut-camera/dev8637f6692/ios"
+      },
+      {
+        "id": "store",
+        "label": "VideoFix: HDR Video Converter 1.0.11: current iPhone features",
+        "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/apple-log-to-rec709-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "apple-log-vs-hdr-delivery",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A Log recording card beside separate SDR and HDR delivery envelopes illustrates different stages of a color workflow.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export. The envelopes show possible delivery goals in a color-managed workflow, not VideoFix HDR output."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/apple-log-vs-hdr-delivery.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/apple-log-to-rec709-iphone/index.html"
+  },
+  {
+    "slug": "guides/room-mood-board-photo-collage",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Make a Simple Room Mood Board from Photos on iPhone",
+    "description": "Build a simple room mood board from photos on iPhone. Compare furniture and materials in one image, then check real samples and room dimensions.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6810266264",
+    "direct": "A simple room mood board can be one image containing your room photo, furniture references and material samples. Use it to compare a visual direction, then check physical size and real samples separately.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "Start with one room and one decision, such as whether a rug works with an existing sofa. A board full of unrelated rooms can hide the choice you actually need to make."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Collect your own reference photos or images you have permission to use. Include the existing room, one main furniture piece and a few relevant fabric, wood or paint samples."
+      },
+      {
+        "id": "step-2",
+        "text": "Import the references into Combine Photos: Stitch & Grid. Choose a layout, position each image and adjust zoom so the material or furniture feature remains visible."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a JPEG or PNG and view the complete board at phone size. Remove weak references if the important details become too small. Share the exported image when asking someone to compare the direction."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Treat the board as a shortlist",
+        "body": "Photograph physical samples under similar light when practical. Supplier photos, room lighting and display settings can change how a color appears. Keep product links, dimensions and prices in a separate note; the collage itself is not a shopping database or proof that furniture fits."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Know the layout boundary",
+        "body": "Space Sheep Studio develops our iPhone collage app. It combines 2 to 30 photos or screenshots using 11 layouts and exports images up to 3000 pixels wide. One export is free; further exports require Pro."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "This workflow uses a photo grid, with no claim of background removal, text editing or a realistic room simulation. Before buying, measure the room and inspect material samples in the actual space. A mood board helps organize choices; it cannot certify paint matching or spatial clearance."
+      }
+    ],
+    "figure": "/assets/guides/room-mood-board-photo-collage.webp",
+    "figureAlt": "A six-photo room mood board groups an existing room, furniture and material references.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: apps.apple.com",
+        "url": "https://apps.apple.com/us/app/id6810266264"
+      },
+      {
+        "id": "store",
+        "label": "Combine Photos: Stitch & Grid 1.7: current iPhone features",
+        "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/combine-photos-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "room-mood-board-photo-collage",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A six-photo room mood board groups an existing room, furniture and material references.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/room-mood-board-photo-collage.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/combine-photos-iphone/index.html"
+  },
+  {
+    "slug": "guides/watermarked-pdf-file-size",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Watermarked PDF Got Larger? Check the Saved File Size",
+    "description": "Check why a watermarked PDF can grow in size. Export one marked copy on iPhone, inspect its pages and verify the final attachment before sharing.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6769761016",
+    "direct": "A watermarked PDF can be larger because export may add page content, fonts or other resources. The visible length of the watermark is not a reliable measure of the saved document’s size.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "A short DRAFT label does not mean only a few bytes were added. How the exporter stores repeated resources and rewrites the PDF also matters. A size increase alone does not prove that pages were duplicated."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep an untouched source and note its file size and page count. Check the recipient’s actual attachment limit before making a marked copy."
+      },
+      {
+        "id": "step-2",
+        "text": "In PDF Watermark & Stamp, add the text mark, adjust readability and preview the pages. Export once from the original rather than repeatedly watermarking earlier marked copies."
+      },
+      {
+        "id": "step-3",
+        "text": "In Files, check the saved PDF’s size. Open it and inspect page count, the watermark and small text. Send the checked output, not the source with the same-looking filename."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Opacity is a visibility setting",
+        "body": "Making a watermark paler can help reading, but does not guarantee a smaller PDF. Adobe’s optimization guidance treats images and fonts as separate contributors to document size. That explains why judging only the visible stamp can miss the larger resources in the file."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Handle the limit after checking",
+        "body": "Space Sheep Studio develops this on-device iPhone watermark app. It creates a separate marked PDF and retains the original; export tools require Pro. It is not presented here as a PDF compressor, and no fixed overhead or size reduction is promised."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "If the result exceeds a limit, use an approved compression or delivery method and check that the watermark and document remain readable afterward. Keep certificate-signed originals unchanged and follow the issuer’s workflow before editing them."
+      }
+    ],
+    "figure": "/assets/guides/watermarked-pdf-file-size.webp",
+    "figureAlt": "A marked document, type blocks and photo print illustrate resources that can contribute to PDF file size.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: helpx.adobe.com",
+        "url": "https://helpx.adobe.com/acrobat/desktop/create-documents/optimize-pdfs/advance-size-reduction.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Watermark & Stamp 1.4.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/draft-watermark-pdf-readable/"
+      }
+    ],
+    "i18n": {
+      "id": "watermarked-pdf-file-size",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A marked document, type blocks and photo print illustrate resources that can contribute to PDF file size.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/watermarked-pdf-file-size.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/draft-watermark-pdf-readable/index.html"
+  },
+  {
+    "slug": "guides/png-hdr-or-sdr-photo",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Can a PNG Be HDR? Choose the Photo Export Goal",
+    "description": "PNG can hold SDR or HDR image information. Choose your photo export goal on iPhone separately from transparency, compression and the file extension.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6816526877",
+    "direct": "A PNG can carry HDR image information. The .png extension tells you the format, not whether the picture is SDR or HDR. Choose the dynamic-range export goal separately from transparency and file type.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "An unexpectedly bright PNG is not necessarily a display fault. The current PNG specification includes color signaling and HDR-related metadata. The image, viewing app and display must work together to determine its appearance."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Decide whether you need a standard SDR sharing copy or an intentional HDR image. Check the destination’s requirements instead of selecting PNG solely because you associate it with screenshots."
+      },
+      {
+        "id": "step-2",
+        "text": "In PhotoFix: HDR to Normal Photos, choose HDR to normal photo for SDR delivery, then select PNG when you need that format or transparency. Keep the original."
+      },
+      {
+        "id": "step-3",
+        "text": "Inspect the saved file in the intended app and on the target display when possible. If you choose a creative HDR export instead, verify its appearance on a compatible HDR display."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Three properties can vary independently",
+        "body": "PNG’s lossless compression describes how its encoded image data is stored. Transparency describes whether pixels can reveal a background. Dynamic range describes a different aspect of the represented light."
+      },
+      {
+        "id": "detail-0-1",
+        "heading": "Limits and final checks",
+        "body": "Preserving transparency does not make an HDR source into SDR, and lossless compression does not mean a color conversion is reversible."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Choose the intended result",
+        "body": "Space Sheep Studio develops PhotoFix for iPhone. Its public version offers normal and HDR workflows, including PNG export. The first three successful photo conversions are free; each batch photo counts separately."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "The app’s normal-to-HDR mode is a creative brightness effect and cannot recover lost scene detail. This guide does not claim which exact PNG metadata chunks the app writes or promise identical brightness across viewers. The illustration explains format versus export intent, rather than demonstrating actual HDR light output."
+      }
+    ],
+    "figure": "/assets/guides/png-hdr-or-sdr-photo.webp",
+    "figureAlt": "One PNG format envelope with SDR and HDR goal cards separates file type from dynamic range.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export. This ordinary web image does not demonstrate HDR display brightness.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: www.w3.org",
+        "url": "https://www.w3.org/TR/png-3/"
+      },
+      {
+        "id": "store",
+        "label": "PhotoFix: HDR to Normal Photos 1.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/hdr-photos-to-sdr-iphone/"
+      }
+    ],
+    "i18n": {
+      "id": "png-hdr-or-sdr-photo",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "One PNG format envelope with SDR and HDR goal cards separates file type from dynamic range.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export. This ordinary web image does not demonstrate HDR display brightness."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/png-hdr-or-sdr-photo.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/hdr-photos-to-sdr-iphone/index.html"
+  },
+  {
+    "slug": "guides/find-large-videos-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Find Large iPhone Videos Before Choosing What to Compress",
+    "description": "Find large videos on iPhone before choosing which to compress. Review the source, check a smaller copy and understand what actually frees storage.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6769563339",
+    "direct": "Find the large videos first, then decide which are worth compressing. A long clip is not always the largest: duration, resolution and encoding settings all affect file size.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "Start in Settings, General, iPhone Storage to see whether Photos is a major contributor. The device’s recommendations can vary. Avoid deleting unrelated apps if the main problem is a small group of large recordings."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open Storage Clean in Phone Cleaner: Photo & Video and review the large videos it finds. Identify the event, duration and visible contents before choosing a candidate."
+      },
+      {
+        "id": "step-2",
+        "text": "For a video you want to keep, create a compressed sharing copy with suitable settings. Keep the original while you compare the saved file sizes."
+      },
+      {
+        "id": "step-3",
+        "text": "Play the output from beginning to end, or inspect representative sections in a long recording. Check sound, orientation and important detail before deciding what to retain."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "File review comes before deletion",
+        "body": "A large file may be an important original rather than waste. Several unrelated large videos are also a different problem from duplicate copies. Make a short review list and work through it; do not assume that the first large result is safe to remove."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Check what actually changes storage",
+        "body": "Space Sheep Studio develops this iPhone app. Its public listing includes large-media discovery, local compression and original-versus-export size comparison; Pro unlocks export tools. Saving a smaller copy adds another file until you make a separate retention decision."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "If iCloud Photos is enabled, Apple warns that deleting a photo or video also deletes it from other devices using that library. Keep a verified independent copy when needed. The app does not promise a particular number of gigabytes reclaimed or automatic safe deletion of every large recording."
+      }
+    ],
+    "figure": "/assets/guides/find-large-videos-iphone.webp",
+    "figureAlt": "Different video subjects form a review shortlist before checking file sizes and choosing what to compress.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/en-us/108429"
+      },
+      {
+        "id": "store",
+        "label": "Phone Cleaner: Photo & Video 1.3.3: current iPhone features",
+        "url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/video-compression-storage-copy/"
+      }
+    ],
+    "i18n": {
+      "id": "find-large-videos-iphone",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Different video subjects form a review shortlist before checking file sizes and choosing what to compress.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/find-large-videos-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/video-compression-storage-copy/index.html"
+  },
+  {
+    "slug": "guides/same-photo-multiple-print-sizes",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Prepare One Photo for Several Print Sizes on iPhone",
+    "description": "Prepare one photo for up to three print sizes on iPhone. Approve each crop and share the separate files with an actual dimensions and DPI report.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6822865782",
+    "direct": "Prepare a separate checked file for each print size. One photo can serve several sizes, but each target needs its own crop approval and pixel check before you send the package to a printer.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "For example, a school portrait may be needed for a small album, a desk frame and a larger wall frame. The same central face can fit all three while hands or background edges need different treatment."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In DPI: Photo Print Prep, choose up to three print sizes for the original. Set the requested paper dimensions, DPI and any white borders for each target."
+      },
+      {
+        "id": "step-2",
+        "text": "Review and confirm each crop independently. Check pixel sufficiency after the crop. Do not assume that approving the smallest print also approves the larger one."
+      },
+      {
+        "id": "step-3",
+        "text": "Export the files and verification report together in one ZIP. Open the package, match each file to its intended size and read its actual pixels, both DPI axes and physical dimensions."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "A package is more than one stretched file",
+        "body": "Different paper shapes can remove different edges. Resampling can increase pixel dimensions, but it cannot create captured texture. If a larger version lacks detail, choose a smaller print, a lower suitable density or a better original rather than treating a high DPI label as proof of quality."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Confirm the printer’s job",
+        "body": "Space Sheep Studio develops our on-device iPhone print-preparation app. Basic single-photo DPI edits are free. Multi-size fitting and other advanced exports have three successful free uses before Pro."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "The app prepares files and a report; it does not order prints or control the lab. State the required quantity and size for each file when handing them over. Ask the printer about scaling and borderless cropping, and inspect a proof when exact dimensions or edge placement matter."
+      }
+    ],
+    "figure": "/assets/guides/same-photo-multiple-print-sizes.webp",
+    "figureAlt": "Three large flower crops retain the central bloom while changing the surrounding leaf area.",
+    "figureCaption": "AI-generated independent crop examples, not dimensioned proofs or App exports. Check the actual file dimensions in the export report.",
+    "figureWidth": 887,
+    "figureHeight": 1774,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: helpx.adobe.com",
+        "url": "https://helpx.adobe.com/photoshop/desktop/print/position-and-scale-images-for-printing.html"
+      },
+      {
+        "id": "store",
+        "label": "DPI: Photo Print Prep 1.0.1: current iPhone features",
+        "url": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/5x7-photo-crop-ratio/"
+      }
+    ],
+    "i18n": {
+      "id": "same-photo-multiple-print-sizes",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Three large flower crops retain the central bloom while changing the surrounding leaf area.",
+        "caption": "AI-generated independent crop examples, not dimensioned proofs or App exports. Check the actual file dimensions in the export report."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/same-photo-multiple-print-sizes.webp",
+      "width": 887,
+      "height": 1774,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/5x7-photo-crop-ratio/index.html"
+  },
+  {
+    "slug": "guides/captions-bright-background-contrast",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Captions Disappear on Bright Shots? Check Contrast in Motion",
+    "description": "Choose captions that stay readable across bright skies, windows and busy shots. Preview styles on iPhone and inspect the saved captioned video.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6770354079",
+    "direct": "Captions need separation from the picture behind them throughout the video. White letters that work over a dark shirt can disappear when the shot changes to a bright window or sky.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "Check moving footage, not only a paused title frame. Tree branches, patterned clothing and quick scene cuts can make a previously clear style difficult to read."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Generate captions in Subtitle Maker: Just Captions and correct the transcript. Start with a clear style before adding word highlights or decorative animation."
+      },
+      {
+        "id": "step-2",
+        "text": "Preview passages with the brightest and busiest backgrounds at normal phone size. Compare available styles and prefer one whose lettering stays distinct across those passages."
+      },
+      {
+        "id": "step-3",
+        "text": "Export the captioned video and watch the saved copy with sound muted. Check both fast speech and scene changes, then inspect the actual upload preview before publishing."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Contrast needs a stable edge",
+        "body": "The W3C’s media accessibility requirements identify thicker outlines or shadows as ways to improve contrast against video. A contrasting backing can also separate words from changing scenery. The figure demonstrates that typography principle; it is not a claim about a particular app style or a measured export."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Choose from the styles you have",
+        "body": "Space Sheep Studio develops Just Captions for iPhone. It includes clean subtitles, word highlights, animated styles and editable text. Some styles require Pro, and free single-video exports include the app watermark."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "This guide does not promise separate controls for every outline, shadow or background parameter. If a chosen style disappears in part of the scene, try another available style and repeat the preview. The task is styling your new captions, not removing or restyling text already burned into another video."
+      },
+      {
+        "id": "detail-1-2",
+        "heading": "Limits and final checks",
+        "body": "Readability checks alone do not certify accessibility compliance."
+      }
+    ],
+    "figure": "/assets/guides/captions-bright-background-contrast.webp",
+    "figureAlt": "The same bright scene uses white caption text first without a backing and then with a dark backing.",
+    "figureCaption": "AI-generated typography example. Only the caption backing changes; this is not an App screenshot or export comparison.",
+    "figureWidth": 1086,
+    "figureHeight": 1448,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: www.w3.org",
+        "url": "https://www.w3.org/TR/media-accessibility-reqs/"
+      },
+      {
+        "id": "store",
+        "label": "Subtitle Maker: Just Captions 2.9: current iPhone features",
+        "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/emoji-captions-keep-words/"
+      }
+    ],
+    "i18n": {
+      "id": "captions-bright-background-contrast",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "The same bright scene uses white caption text first without a backing and then with a dark backing.",
+        "caption": "AI-generated typography example. Only the caption backing changes; this is not an App screenshot or export comparison."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/captions-bright-background-contrast.webp",
+      "width": 1086,
+      "height": 1448,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/emoji-captions-keep-words/index.html"
+  },
+  {
+    "slug": "guides/batch-compress-separate-pdfs",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Compress Several PDFs While Keeping Each Document Separate",
+    "description": "Batch compress several PDFs on iPhone while keeping separate documents. Check every output, page count, file size and readable detail before sending.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6769762323",
+    "direct": "Use batch compression when several PDFs must stay separate. Merging creates one document; batch compression is the appropriate workflow when each original needs its own smaller delivery copy.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "Start with a small representative group, especially if some files contain scans and others contain mostly text. Similar filenames do not mean the documents will shrink by the same amount."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the originals together in a source folder. Note how many PDFs you selected and identify any signed or certified files that need a different approved workflow."
+      },
+      {
+        "id": "step-2",
+        "text": "Use batch compression in PDF Compressor: Sign & Merge, then save the output copies. Choose the batch tool rather than Merge when separate files are required."
+      },
+      {
+        "id": "step-3",
+        "text": "Check that every expected document has an output. Compare page counts and sizes for each pair, then inspect small text, images and the first and last page."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Review files individually",
+        "body": "One unreadable document should not be hidden by a successful result elsewhere in the group. If a particular output is missing or unsuitable, keep that original and handle it separately. Do not repeatedly compress the whole group merely because one file remains too large."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Set practical expectations",
+        "body": "Space Sheep Studio develops this iPhone PDF toolkit. Its current listing includes batch compression, saving and sharing. One export-tool use is free; later exports require Pro."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "It does not establish a maximum batch size or a fixed reduction percentage here. Adobe’s PDF guidance also treats reduced-size output as a new copy, so retain your sources while checking quality. Before sending, confirm the recipient accepts several files and verify the exact attachments."
+      },
+      {
+        "id": "detail-1-2",
+        "heading": "Limits and final checks",
+        "body": "A ZIP may help package them, but it does not replace the document-level checks or prove that each PDF meets a size limit."
+      }
+    ],
+    "figure": "/assets/guides/batch-compress-separate-pdfs.webp",
+    "figureAlt": "Three documents remain in separate folders, illustrating batch processing without merging their contents.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: helpx.adobe.com",
+        "url": "https://helpx.adobe.com/acrobat/desktop/create-documents/optimize-pdfs/reduce-file-size.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Compressor: Sign & Merge 1.3.3: current iPhone features",
+        "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/compress-scanned-pdf-readable/"
+      }
+    ],
+    "i18n": {
+      "id": "batch-compress-separate-pdfs",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Three documents remain in separate folders, illustrating batch processing without merging their contents.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/batch-compress-separate-pdfs.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/compress-scanned-pdf-readable/index.html"
+  },
+  {
+    "slug": "guides/colored-screen-light-selfie",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Use Colored Screen Light for a Deliberate Selfie Look",
+    "description": "Create a deliberate colored selfie with screen light on iPhone. Control competing room light, preview one tint and check the saved photo.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6778131414",
+    "direct": "For a deliberate colored selfie, light your face with the chosen color before taking the photo. Keep room light controlled so that it does not wash out the tint you are trying to create.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "This is a creative lighting choice. A blue or pink face is not intended to reproduce neutral skin color, and a single phone screen does not promise the two-sided look of a studio with multiple lights."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the front-camera preview in GlowPop: Selfie Glow Camera. Choose one screen-light color and use a comfortable brightness."
+      },
+      {
+        "id": "step-2",
+        "text": "Keep the framing steady while adjusting nearby lamps or your position. Compare the tint with and without strong competing room light. Leave enough light to see facial detail."
+      },
+      {
+        "id": "step-3",
+        "text": "Take a test photo and inspect the saved result. Adjust the color or brightness if highlights lose detail or the tint overwhelms the expression you want."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Light and a filter do different work",
+        "body": "Colored light falls on surfaces before capture, so face shape, nearby objects and shadows influence the result. A later color filter changes an already captured image. Nikon’s lighting lesson demonstrates color control with physical lights and gels; it does not establish that a phone screen has the output or precision of studio equipment."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Keep the experiment simple",
+        "body": "Space Sheep Studio develops GlowPop for iPhone. Its current release offers adjustable screen color and brightness while the camera stays open. All light colors can be previewed free, and the first five photos are free; Pro adds unlimited photos and video recording."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "No split-color mode, calibrated output or white-balance lock is claimed here. Ambient light, phone distance and camera processing all matter. Use the saved photo as your check, and choose a different setup if the screen alone cannot produce the look comfortably."
+      }
+    ],
+    "figure": "/assets/guides/colored-screen-light-selfie.webp",
+    "figureAlt": "A portrait uses a deliberate single-color pink fill rather than neutral lighting.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: www.nikonusa.com",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/photography-lighting-tutorial-part-1-control-of-color"
+      },
+      {
+        "id": "store",
+        "label": "GlowPop: Selfie Glow Camera 1.0.6: current iPhone features",
+        "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/screen-fill-light-selfies/"
+      }
+    ],
+    "i18n": {
+      "id": "colored-screen-light-selfie",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A portrait uses a deliberate single-color pink fill rather than neutral lighting.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/colored-screen-light-selfie.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/screen-fill-light-selfies/index.html"
+  },
+  {
+    "slug": "guides/focus-mode-vs-app-blocking",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Focus Is On but Apps Still Open? Add an App Block",
+    "description": "Focus silences notifications but can leave apps available. Add a separate iPhone app block, test access and keep essential communication available.",
+    "reviewed": "2026-11-25",
+    "published": "2026-11-25",
+    "appId": "6758529772",
+    "direct": "Focus can silence notifications without stopping you from opening an app. If you keep launching a distracting app by habit, add a separate Screen Time blocking rule and test access directly.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the first check",
+        "body": "Hiding a Home Screen page can reduce visible prompts, but it is a different action from restricting the selected app. Check what happens when you launch it, rather than judging only whether notifications arrive."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the Focus settings that manage the calls and alerts you want. Decide separately which distracting apps should be unavailable during the session."
+      },
+      {
+        "id": "step-2",
+        "text": "In Dying Soon: Screen Time Limit, authorize Screen Time, select those apps and start a thirty-minute Block Now session or set an available scheduled rule."
+      },
+      {
+        "id": "step-3",
+        "text": "While the block is active, try opening a selected app and check that the restriction appears. Confirm that essential communication remains available. Check again when the session ends."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-0-0",
+        "heading": "Two tools, two checks",
+        "body": "Apple describes Focus as a way to manage interruptions and Screen Time as the place for app-use restrictions. You can use both, but this guide does not claim they automatically activate each other. Notification silence and blocked access each need their own check."
+      },
+      {
+        "id": "detail-1-0",
+        "heading": "Use a realistic boundary",
+        "body": "Space Sheep Studio develops Dying Soon for iPhone. One scheduled rule and unlimited thirty-minute Block Now sessions are free; Pro adds scheduled rules. Temporary unlocks offer five, fifteen or thirty minutes."
+      },
+      {
+        "id": "detail-1-1",
+        "heading": "Limits and final checks",
+        "body": "The current listing does not promise a Focus automation, Mac blocking or domain-level website blocking. Another device or browser can remain a separate route to the same service. Choose a small, testable phone routine and keep the permissions and selected apps under review."
+      },
+      {
+        "id": "detail-1-2",
+        "heading": "Limits and final checks",
+        "body": "Optional motivational reminders can remain off if you prefer a quiet setup."
+      }
+    ],
+    "figure": "/assets/guides/focus-mode-vs-app-blocking.webp",
+    "figureAlt": "Separate alert and app-access cards illustrate notification silence versus access restrictions.",
+    "figureCaption": "AI-generated conceptual illustration, not an App screenshot or measured export.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference: support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/set-up-a-focus-iphd6288a67f/ios"
+      },
+      {
+        "id": "store",
+        "label": "Dying Soon: Screen Time Limit 2.3.4: current iPhone features",
+        "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/block-apps-study-session/"
+      }
+    ],
+    "i18n": {
+      "id": "focus-mode-vs-app-blocking",
+      "ui": {
+        "chooseHeading": "Choose the approach",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Separate alert and app-access cards illustrate notification silence versus access restrictions.",
+        "caption": "AI-generated conceptual illustration, not an App screenshot or measured export."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/focus-mode-vs-app-blocking.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
+    },
+    "discoveryBacklink": "guides/block-apps-study-session/index.html"
   }
 ]
