@@ -9619,5 +9619,1017 @@
       "provenance": "Built-in imagegen, 2026-11-25. Original and full prompt retained in growth/output/seo-agent/2026-11-25/."
     },
     "discoveryBacklink": "guides/block-apps-study-session/index.html"
+  },
+  {
+    "slug": "guides/screen-recording-to-audio-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Extract Audio from an iPhone Screen Recording",
+    "description": "Save the sound from an iPhone screen recording as a separate audio file. Check the original clip for sound and verify the saved copy before sharing.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6769563659",
+    "direct": "Open the screen recording in Photos and play it with sound. If you can hear what you need, extract an audio copy from the video and save that copy to Files.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Check which sound was captured",
+        "body": "A screen recording can contain app sound, microphone sound, both, or neither. Play the source through the section you need before exporting. Some apps restrict recording."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Find the original screen recording in Photos. Turn up playback volume and listen to the section you want. Keep the video so you can retry from the source."
+      },
+      {
+        "id": "step-2",
+        "text": "Open the video in Audio Compressor MP3 Converter and use the audio extraction tool. Choose an available audio format the recipient can open and save the output as a separate file."
+      },
+      {
+        "id": "step-3",
+        "text": "Play the exported audio from Files. Check the beginning, the end and any quiet sections that matter. Give the file a name that identifies the recording without opening it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "If the original is silent",
+        "body": "Check the video in another player and make sure audio playback is on. An extraction tool can save sound from an existing track. If your microphone or the app audio was never recorded, make a new recording when possible. Turn the microphone on before recording if you need your own narration."
+      },
+      {
+        "id": "detail-2",
+        "heading": "If you need just one passage",
+        "body": "Save the extracted audio first. Then use the audio trim tool on a copy. Leave a short margin before the first word and after the last one, then listen to both cuts. Space Sheep Studio develops this iPhone app. Export tools require Pro."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: screen recording on iPhone",
+        "url": "https://support.apple.com/en-us/102653"
+      },
+      {
+        "id": "store",
+        "label": "Audio Compressor MP3 Converter 1.2.1 on the App Store",
+        "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "How to extract audio from a video on iPhone",
+        "url": "/iphone-video-tutorials/10-how-to-extract-audio-from-video-on-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/screen-recording-to-audio-iphone.webp",
+    "figureAlt": "Illustration of a phone playing a screen recording next to a separate audio waveform.",
+    "figureCaption": "AI illustration of the source video and a separate audio copy. The waveform is illustrative.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "screen-recording-to-audio-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Illustration of a phone playing a screen recording next to a separate audio waveform.",
+        "caption": "AI illustration of the source video and a separate audio copy. The waveform is illustrative."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/screen-recording-to-audio-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "iphone-video-tutorials/10-how-to-extract-audio-from-video-on-iphone/index.html"
+  },
+  {
+    "slug": "guides/iphone-auto-fps-30-editing",
+    "tag": "PRACTICAL GUIDE",
+    "title": "iPhone Auto FPS in Low Light and 30 FPS Editing",
+    "description": "Learn why iPhone Auto FPS can change low-light capture and how to test a steady 30 FPS export before adding the footage to a 30 FPS edit.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6812821310",
+    "direct": "If an iPhone clip shot in low light behaves differently in a 30 FPS edit, check the original clip’s frame rate. If the editor needs a steady 30 FPS file, test one converted copy before processing the rest.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Check the clip you already have",
+        "body": "On supported iPhones, Auto FPS can reduce the capture rate in low light. The camera setting you see today does not tell you the timing of a clip you recorded yesterday."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check the clip’s video information and play a section with movement and clear speech. Keep the original as a reference."
+      },
+      {
+        "id": "step-2",
+        "text": "If your editor needs a steady 30 FPS input, select the 30 FPS frame-rate output in VideoFix: HDR Video Converter and export one copy."
+      },
+      {
+        "id": "step-3",
+        "text": "Import the copy into the same timeline. Check a moving subject and compare dialogue near the beginning and end. Check color if the source is HDR and the copy is SDR."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Decide if the extra export helps",
+        "body": "If the original plays correctly and your editor handles it as expected, you may be able to edit it directly. A 30 FPS output can repeat or discard frames. It cannot add moments the camera missed, and fast movement can still look uneven."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Separate capture from delivery",
+        "body": "For future recordings, review Auto FPS under Camera recording settings if you need more consistent capture. Try a short low-light test with your chosen setting. Space Sheep Studio develops VideoFix for iPhone. It offers steady frame-rate exports and keeps the source. See the App Store for current access options."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: video recording and Auto FPS",
+        "url": "https://support.apple.com/guide/iphone/iphc1827d32f/ios"
+      },
+      {
+        "id": "store",
+        "label": "VideoFix: HDR Video Converter 1.0.11 on the App Store",
+        "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/change-video-frame-rate-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/iphone-auto-fps-30-editing.webp",
+    "figureAlt": "A dim indoor camera setup and a strip of frames beside a laptop editing timeline.",
+    "figureCaption": "AI illustration of low-light capture and editing. It does not show measured frame timing.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "iphone-auto-fps-30-editing",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A dim indoor camera setup and a strip of frames beside a laptop editing timeline.",
+        "caption": "AI illustration of low-light capture and editing. It does not show measured frame timing."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/iphone-auto-fps-30-editing.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/change-video-frame-rate-iphone/index.html"
+  },
+  {
+    "slug": "guides/remove-repeated-seams-screenshot-stitch",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Crop Repeated Headers Before Stitching Screenshots",
+    "description": "Crop fixed headers and overlapping content before joining iPhone screenshots. Use one shared landmark to check that the join keeps every line once.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6810266264",
+    "direct": "Crop away the repeated header and use one shared line to decide where each screenshot ends. Then stack the cropped screenshots in reading order.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Pick a line you can find twice",
+        "body": "In two overlapping screenshots, find a distinctive sentence, message or list item. Keep it at the end of the first image. Start the second image just below it."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Duplicate the captures if you want separate working copies. In Photos, crop the fixed header or footer from each image where it repeats. Leave the first header if it tells the reader what the screen is about."
+      },
+      {
+        "id": "step-2",
+        "text": "Crop the join at a gap between two lines. Check that the first screenshot ends on the last complete line you want to keep and the second starts on the next one. Use the same left and right edges."
+      },
+      {
+        "id": "step-3",
+        "text": "Place the crops in order in the vertical layout in Combine Photos: Stitch & Grid. Export one image. Zoom in on the join and check that no line repeats or disappears."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Keep the next capture easy to join",
+        "body": "When you take new screenshots, scroll far enough to show new content but keep a few lines from the earlier image. Hold the phone orientation and text size steady. Choose an item that appears only once as your landmark."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check the shared copy",
+        "body": "Space Sheep Studio develops Combine Photos for iPhone. The app arranges screenshots in one image. The manual crops do the overlap removal. Check the final file at the size your reader will see and remove private information before sharing."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: take and edit screenshots",
+        "url": "https://support.apple.com/guide/iphone/iphc872c0115/ios"
+      },
+      {
+        "id": "store",
+        "label": "Combine Photos: Stitch & Grid 1.7 on the App Store",
+        "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/apps/collage-maker/guides/combine-screenshots/"
+      }
+    ],
+    "figure": "/assets/guides/remove-repeated-seams-screenshot-stitch.webp",
+    "figureAlt": "Two paper mockups of overlapping screen captures with crop marks where one repeated row should be removed.",
+    "figureCaption": "AI mockups show how to keep a shared row once at a join.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "remove-repeated-seams-screenshot-stitch",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Two paper mockups of overlapping screen captures with crop marks where one repeated row should be removed.",
+        "caption": "AI mockups show how to keep a shared row once at a join."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/remove-repeated-seams-screenshot-stitch.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "apps/collage-maker/guides/combine-screenshots/index.html"
+  },
+  {
+    "slug": "guides/block-selected-apps-before-eight-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Block Selected iPhone Apps Until 8 a.m.",
+    "description": "Set a fixed morning schedule for a short list of distracting iPhone apps. Check both ends of the block and keep essential apps available.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6758529772",
+    "direct": "Use a recurring rule with a fixed morning start and end to block only the apps you select. Set the end to 8 a.m. if that is when you want access again.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Use a clock window",
+        "body": "A daily usage allowance counts minutes. A morning schedule uses set times. If the problem starts when you first pick up the phone, choose a start time earlier than that pickup."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Write down the apps you want to avoid before 8 a.m. Keep your alarm, calls, maps and any other essentials outside the list."
+      },
+      {
+        "id": "step-2",
+        "text": "In Dying Soon: Screen Time Limit, grant the requested Screen Time access and select the distracting apps. Set a recurring rule for the chosen morning hours. Check the selected days before you save it."
+      },
+      {
+        "id": "step-3",
+        "text": "Test a temporary window during the day first. Try one selected app and one essential app. Then check that the selected app opens again when the window ends."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "If your wake time changes",
+        "body": "The rule uses a clock and the days you set. It does not know when you woke up. For a one-off session, Block Now runs for 30 minutes. If your routine varies by day, check each scheduled window separately."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Set a manageable first rule",
+        "body": "Space Sheep Studio develops Dying Soon for iPhone. One scheduled rule is free. Temporary unlocks of 5, 15 or 30 minutes are available. Start with the small list that causes the problem. If you also want to block the same apps at night, check what happens around midnight and when the morning rule ends."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: schedule Screen Time limits",
+        "url": "https://support.apple.com/guide/iphone/iphbfa595995/ios"
+      },
+      {
+        "id": "store",
+        "label": "Dying Soon: Screen Time Limit 2.3.4 on the App Store",
+        "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/block-apps-at-bedtime-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/block-selected-apps-before-eight-iphone.webp",
+    "figureAlt": "A nightstand with a phone face down beside a clock reading eight, in morning light.",
+    "figureCaption": "AI illustration of a fixed morning cutoff.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "block-selected-apps-before-eight-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A nightstand with a phone face down beside a clock reading eight, in morning light.",
+        "caption": "AI illustration of a fixed morning cutoff."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/block-selected-apps-before-eight-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/block-apps-at-bedtime-iphone/index.html"
+  },
+  {
+    "slug": "guides/sign-email-pdf-return-same-thread-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Sign a PDF and Reply in the Same Email on iPhone",
+    "description": "Save an email’s PDF to Files, sign a separate copy and attach the checked PDF to a reply in the original email thread on iPhone.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6769762323",
+    "direct": "Save the PDF attachment to Files, sign a separate copy, then attach that copy to a reply in the original email thread.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Keep the source and signed copy easy to tell apart",
+        "body": "Use the same folder for both files if that helps you find them. Give the new file a clear name such as Form-signed.pdf so you can select it with confidence in the reply."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the original email in Mail. Save the attached PDF to a folder you can find in Files. Leave the message in place."
+      },
+      {
+        "id": "step-2",
+        "text": "Open that PDF in PDF Compressor: Sign & Merge. If the recipient accepts a visible signature, use the signing tool and save a separate copy. Reopen it to check the signature and page count."
+      },
+      {
+        "id": "step-3",
+        "text": "Return to the original message and tap Reply. Use the attachment control to choose the signed PDF from Files. Check the filename and recipients before sending."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check the attachment field",
+        "body": "If the signed file is hard to find, open Files first and confirm its folder and name. Then return to the open reply. Avoid starting a new message from the PDF’s share sheet when the recipient expects a reply in the same thread. If Mail and Preview on your iPhone offer Apple’s direct PDF reply workflow, you can also return a signed copy through Preview."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Follow the requested signing process",
+        "body": "Space Sheep Studio develops PDF Compressor for iPhone. Its signing tool adds a visible mark. If the sender requires certificate signing or a specific portal, follow that process. Try any export tool once free. Further exports require Pro."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: add email attachments on iPhone",
+        "url": "https://support.apple.com/guide/iphone/iph8580f163b/ios"
+      },
+      {
+        "id": "apple-preview",
+        "label": "Apple’s Preview and Mail workflow",
+        "url": "https://support.apple.com/guide/iphone/reply-to-an-email-with-a-pdf-attachment-iph5be45d7f0/ios"
+      },
+      {
+        "id": "store",
+        "label": "PDF Compressor: Sign & Merge 1.3.3 on the App Store",
+        "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/pdf-signature-certificate-check/"
+      }
+    ],
+    "figure": "/assets/guides/sign-email-pdf-return-same-thread-iphone.webp",
+    "figureAlt": "A paper form, a labeled signed copy and an envelope on a desk.",
+    "figureCaption": "AI illustration of a signed copy going back to the original sender.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "sign-email-pdf-return-same-thread-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A paper form, a labeled signed copy and an envelope on a desk.",
+        "caption": "AI illustration of a signed copy going back to the original sender."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/sign-email-pdf-return-same-thread-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/pdf-signature-certificate-check/index.html"
+  },
+  {
+    "slug": "guides/jpeg-or-png-for-photo-lab",
+    "tag": "PRACTICAL GUIDE",
+    "title": "JPEG or PNG for a Photo Lab Upload?",
+    "description": "Use the photo lab’s accepted format and check the pixels left after cropping. Learn when a JPEG is the practical choice for a printed photo book.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6822865782",
+    "direct": "Start with the formats your photo lab accepts. If the lab asks for JPEG, export one JPEG from the best source you have and check its pixel dimensions after cropping.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Check format and dimensions separately",
+        "body": "A PNG can preserve its encoded pixels without lossy compression. It cannot add detail to a small source or recover detail lost when a JPEG was first made. A large file is not proof of a sharp print."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check the lab’s current upload rules for the book or print you want. Ask about accepted formats and recommended pixel dimensions for that product."
+      },
+      {
+        "id": "step-2",
+        "text": "In DPI: Photo Print Prep, set your target paper size and density. Review the crop and check whether the pixels remaining after the crop meet the lab’s recommendation."
+      },
+      {
+        "id": "step-3",
+        "text": "Export the prepared file. Confirm its format and read back its actual dimensions. Upload the file the lab needs and inspect the lab’s crop preview before placing the order."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Choose one output from the best source",
+        "body": "If you already have an accepted JPEG of sufficient size, you can often use it as it is. If you need a new crop or a format the lab accepts, start from the best original available. Keep that original for future exports."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check before ordering the full set",
+        "body": "Space Sheep Studio develops DPI for iPhone. It handles JPEG, PNG and HEIC and reads back the exported file. It prepares the file for delivery. The lab still controls how it scales and prints the image. Preview important edges and order a proof when the crop is critical."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Artifact Uprising: prepare photos for printing",
+        "url": "https://help.artifactuprising.com/hc/en-us/articles/360000290372-How-to-Prepare-Your-Photos-for-the-Best-Print-Quality"
+      },
+      {
+        "id": "store",
+        "label": "DPI: Photo Print Prep 1.0.1 on the App Store",
+        "url": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/same-photo-multiple-print-sizes/"
+      }
+    ],
+    "figure": "/assets/guides/jpeg-or-png-for-photo-lab.webp",
+    "figureAlt": "An open printed photo book and two large paper file labels reading JPEG and PNG.",
+    "figureCaption": "AI illustration of two possible source formats for a photo book. The photo is the same print example.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "jpeg-or-png-for-photo-lab",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "An open printed photo book and two large paper file labels reading JPEG and PNG.",
+        "caption": "AI illustration of two possible source formats for a photo book. The photo is the same print example."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/jpeg-or-png-for-photo-lab.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/same-photo-multiple-print-sizes/index.html"
+  },
+  {
+    "slug": "guides/edit-filler-words-auto-captions",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Edit Filler Words in Auto Captions?",
+    "description": "Decide which spoken hesitations belong in a caption. Check the surrounding sentence and correct transcript errors before you export from iPhone.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6770354079",
+    "direct": "Keep filler words when they carry meaning, show uncertainty or are required by the caption delivery rules. Remove a filler if the transcript added a word the speaker never said.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Listen before you delete",
+        "body": "“I might, um, need more time” can express hesitation. Cutting it to “I need more time” also removes uncertainty. Keep the words that affect what the speaker meant."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Generate captions in Subtitle Maker: Just Captions. Review the complete sentence with sound on, including the seconds before and after the filler."
+      },
+      {
+        "id": "step-2",
+        "text": "Open the transcript editor and correct any false words. For captions that must be verbatim, keep the spoken fillers. If the project allows light editing, use the same approach throughout and preserve intent and tone."
+      },
+      {
+        "id": "step-3",
+        "text": "Preview the result with sound on to check timing. Watch it once with sound off to check whether the line still makes sense, then export the captioned copy."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Match the project’s caption rules",
+        "body": "A casual, self-produced clip may allow light edits. An interview, quotation, classroom recording or commissioned project may call for a closer record of the speech. Ask for the delivery rules before tidying up someone else’s words."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Edit the words in the right place",
+        "body": "Space Sheep Studio develops Just Captions for iPhone. The transcript editor changes text. A filler you remove from a caption remains in the original audio. Use a separate video edit if you want to cut sound. Free single-video exports include a Just Captions watermark."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Section508.gov: captions and transcripts",
+        "url": "https://www.section508.gov/create/captions-transcripts/"
+      },
+      {
+        "id": "store",
+        "label": "Subtitle Maker: Just Captions 2.9 on the App Store",
+        "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/caption-punctuation-meaning/"
+      }
+    ],
+    "figure": "/assets/guides/edit-filler-words-auto-captions.webp",
+    "figureAlt": "Two handwritten caption cards beside a microphone, one with a marked hesitation.",
+    "figureCaption": "AI illustration of a transcript review. The example text is invented.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "edit-filler-words-auto-captions",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Two handwritten caption cards beside a microphone, one with a marked hesitation.",
+        "caption": "AI illustration of a transcript review. The example text is invented."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/edit-filler-words-auto-captions.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/caption-punctuation-meaning/index.html"
+  },
+  {
+    "slug": "guides/export-mp4-as-mov-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Export an MP4 as a MOV File on iPhone",
+    "description": "Make a separate MOV export from an MP4 on iPhone. Check the receiving app’s file and codec requirements before converting.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6769563339",
+    "direct": "If a recipient requires a MOV file, export a new MOV copy from the MP4 and keep the source. Changing the filename extension leaves the file contents as they were.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Ask what must be inside the file",
+        "body": "MOV is a container. It can hold video, audio and other tracks. A requirement for MOV may come with a separate codec, resolution or frame-rate requirement."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check the receiving app or upload form. Ask whether it needs MOV as a file type or a format such as ProRes inside that file."
+      },
+      {
+        "id": "step-2",
+        "text": "Open the MP4 in Phone Cleaner: Photo & Video. Choose its MOV export and review the available settings. Save a separate copy."
+      },
+      {
+        "id": "step-3",
+        "text": "Play the copy and check duration, audio and orientation. Inspect its format and codec with a trusted viewer if the recipient specifies both. Test the actual import before you delete any source."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "If the recipient already accepts MP4",
+        "body": "Try the original first. A different container can help meet a stated requirement. Another encode can take time or change quality, so keep the source if you expect further edits."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check the app’s export scope",
+        "body": "Space Sheep Studio develops Phone Cleaner for iPhone. Its listing includes MOV exports and local HD and 4K video compression. Pro unlocks export tools. A MOV export does not imply a ProRes codec, lossless conversion or unchanged metadata. Check the actual output against the recipient’s written requirements."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: QuickTime movie files",
+        "url": "https://developer.apple.com/documentation/quicktime-file-format/quicktime_movie_files"
+      },
+      {
+        "id": "store",
+        "label": "Phone Cleaner: Photo & Video 1.3.3 on the App Store",
+        "url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/h264-to-hevc-smaller-copy/"
+      }
+    ],
+    "figure": "/assets/guides/export-mp4-as-mov-iphone.webp",
+    "figureAlt": "A phone showing a paused coastal video beside separate large MP4 and MOV file cards.",
+    "figureCaption": "AI illustration of a source and a separate file copy. The picture does not compare encoding quality.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "export-mp4-as-mov-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A phone showing a paused coastal video beside separate large MP4 and MOV file cards.",
+        "caption": "AI illustration of a source and a separate file copy. The picture does not compare encoding quality."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/export-mp4-as-mov-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/h264-to-hevc-smaller-copy/index.html"
+  },
+  {
+    "slug": "guides/hdr-jpeg-gain-map-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Why an HDR JPEG Can Look Flat in Another Viewer",
+    "description": "Learn what an HDR gain map does in a JPEG. If your recipient sees a different result, test the shared file and make an SDR copy when needed.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6816526877",
+    "direct": "An HDR JPEG can contain a normal base image plus a gain map. If a viewer ignores that map, it may show only the base image. Check the saved file on the display that matters.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Follow the file through sharing",
+        "body": "A messaging app may create a new copy. A viewer may handle HDR information differently. Compare the original file and the received file before assuming that the image itself is broken."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the same original in the viewer you plan to use. Check that the display and viewer show HDR when expected."
+      },
+      {
+        "id": "step-2",
+        "text": "Send a test file through your actual sharing route and open the received copy. Decide whether you need HDR for that route or a regular SDR copy for easier viewing."
+      },
+      {
+        "id": "step-3",
+        "text": "For a supported HDR photo, use HDR to normal photo in PhotoFix: HDR to Normal Photos to make a separate SDR copy. Check the saved copy in the destination and keep the original."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "What the gain map does",
+        "body": "A gain map gives a compatible viewer instructions for adjusting the base image according to the display’s available brightness. Viewers can handle the same file differently. The .jpg extension alone cannot tell you whether those instructions are present or used."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Choose a copy for the destination",
+        "body": "Space Sheep Studio develops PhotoFix for iPhone. Its listing includes normal and HDR export and support for JPEG. Use the normal export when the destination needs SDR. The app does not guarantee how another viewer displays HDR or recover missing information from a shared copy."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Apple: HDR and gain maps",
+        "url": "https://developer.apple.com/videos/play/wwdc2024/10177/"
+      },
+      {
+        "id": "store",
+        "label": "PhotoFix: HDR to Normal Photos 1.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/png-hdr-or-sdr-photo/"
+      }
+    ],
+    "figure": "/assets/guides/hdr-jpeg-gain-map-iphone.webp",
+    "figureAlt": "A photographic base print with a separate translucent light-pattern overlay, beside a desk lamp.",
+    "figureCaption": "AI concept image. The separate sheet represents a gain map. This is not a display comparison.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "hdr-jpeg-gain-map-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A photographic base print with a separate translucent light-pattern overlay, beside a desk lamp.",
+        "caption": "AI concept image. The separate sheet represents a gain map. This is not a display comparison."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/hdr-jpeg-gain-map-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/png-hdr-or-sdr-photo/index.html"
+  },
+  {
+    "slug": "guides/use-iphone-as-lit-mirror-without-photo",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Use Your iPhone as a Lit Mirror Without a Photo",
+    "description": "Use the live front-camera view and adjustable screen light to check makeup on an iPhone. Keep the preview open without saving a photo.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6778131414",
+    "direct": "Open a live front-camera mirror with adjustable screen light. Set the light while you check your face, and leave the capture button untouched if you only need a preview.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Use the screen for a quick check",
+        "body": "A front camera helps you check a small area when a mirror or lamp is out of reach. Camera exposure and your screen can change the appearance, so use the view to check edges and placement."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open GlowPop: Selfie Glow Camera and grant camera access. Put the phone at a comfortable distance where you can see the live front-camera view."
+      },
+      {
+        "id": "step-2",
+        "text": "Begin with a neutral screen color and increase brightness in small steps. Tilt the phone slightly if you see glare. Check the area you want without tapping capture."
+      },
+      {
+        "id": "step-3",
+        "text": "Check the result in ordinary room light or a physical mirror when color or texture matters. Close the preview when you are finished."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Keep your hands free",
+        "body": "Rest the phone on a stand if you need both hands. Move the phone or turn your face for a better angle. If the light feels uncomfortable or you need to examine a precise shade, switch to a mirror in soft light."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Preview and capture are separate",
+        "body": "Space Sheep Studio develops GlowPop for iPhone. The current listing lets you adjust the screen light while the camera is open and preview every light color for free. If you later take a picture, new photos save to the app album and Photos by default. Pro covers unlimited photos and video recording."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "store",
+        "label": "GlowPop: Selfie Glow Camera 1.0.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/check-makeup-two-light-settings/"
+      }
+    ],
+    "figure": "/assets/guides/use-iphone-as-lit-mirror-without-photo.webp",
+    "figureAlt": "A phone on a stand casts soft neutral screen light as a person uses it as a makeup mirror.",
+    "figureCaption": "AI illustration of a hands-free mirror setup. No app controls are depicted.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "use-iphone-as-lit-mirror-without-photo",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A phone on a stand casts soft neutral screen light as a person uses it as a makeup mirror.",
+        "caption": "AI illustration of a hands-free mirror setup. No app controls are depicted."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/use-iphone-as-lit-mirror-without-photo.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/check-makeup-two-light-settings/index.html"
+  },
+  {
+    "slug": "guides/pdf-watermark-hidden-behind-text-boxes",
+    "tag": "PRACTICAL GUIDE",
+    "title": "PDF Watermark Hidden Behind White Text Boxes?",
+    "description": "Diagnose a PDF watermark that disappears behind white fields. Preview a new marked copy and verify both the stamp and the text before you share.",
+    "reviewed": "2026-11-26",
+    "published": "2026-11-26",
+    "appId": "6769761016",
+    "direct": "If a PDF watermark disappears exactly at the edge of white text boxes, check whether it sits behind the page content. Use a separate copy with the mark over the page, then check the text is still readable.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Notice where the mark stops",
+        "body": "A sharp cut along the same box edge suggests layering. A watermark that stays visible but looks pale over a bright area may need a stronger color or higher opacity instead."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Inspect one affected page and one page without the boxes. If possible, start with an unmarked source to avoid stacking two versions of the same mark."
+      },
+      {
+        "id": "step-2",
+        "text": "Open the source in PDF Watermark & Stamp. Add a short mark and preview the affected page. Adjust opacity and size so both the mark and the field text remain visible."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a separate PDF and reopen it in the viewer your recipient will use. Check the affected boxes, small text and any document features the recipient needs."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "When the field must remain fillable",
+        "body": "Keep an untouched source and test whether the saved copy still works as required. A page can look correct while its interactive behavior has changed. Follow the sender’s workflow when fields or existing signatures must stay valid."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Make a checked reading copy",
+        "body": "Space Sheep Studio develops PDF Watermark & Stamp for iPhone. Its preview lets you inspect the mark on individual pages before export. The export makes a separate marked PDF. Use it for a visible reading copy and check the final result."
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Adobe: add PDF watermarks",
+        "url": "https://helpx.adobe.com/acrobat/desktop/edit-documents/add-backgrounds-and-watermarks/add-watermarks.html"
+      },
+      {
+        "id": "store",
+        "label": "PDF Watermark & Stamp 1.4.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Related practical guide",
+        "url": "/guides/pdf-watermark-missing-pages/"
+      }
+    ],
+    "figure": "/assets/guides/pdf-watermark-hidden-behind-text-boxes.webp",
+    "figureAlt": "A paper page with an opaque white box crossing a diagonal DRAFT stamp and a translucent overlay held separately.",
+    "figureCaption": "AI illustration of paper layers. The paper box shows how a foreground area can cover a background mark.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "pdf-watermark-hidden-behind-text-boxes",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A paper page with an opaque white box crossing a diagonal DRAFT stamp and a translucent overlay held separately.",
+        "caption": "AI illustration of paper layers. The paper box shows how a foreground area can cover a background mark."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/pdf-watermark-hidden-behind-text-boxes.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
+    },
+    "discoveryBacklink": "guides/pdf-watermark-missing-pages/index.html"
   }
 ]

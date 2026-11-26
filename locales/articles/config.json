@@ -682,6 +682,94 @@
       "locales": [],
       "translation_date": "2026-11-25",
       "publication_authorization": "Authorized daily English original for verified paying public App; no translations."
+    },
+    {
+      "id": "screen-recording-to-audio-iphone",
+      "slug": "guides/screen-recording-to-audio-iphone",
+      "component": "article-screen-recording-to-audio-iphone",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "iphone-auto-fps-30-editing",
+      "slug": "guides/iphone-auto-fps-30-editing",
+      "component": "article-iphone-auto-fps-30-editing",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "remove-repeated-seams-screenshot-stitch",
+      "slug": "guides/remove-repeated-seams-screenshot-stitch",
+      "component": "article-remove-repeated-seams-screenshot-stitch",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "block-selected-apps-before-eight-iphone",
+      "slug": "guides/block-selected-apps-before-eight-iphone",
+      "component": "article-block-selected-apps-before-eight-iphone",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "sign-email-pdf-return-same-thread-iphone",
+      "slug": "guides/sign-email-pdf-return-same-thread-iphone",
+      "component": "article-sign-email-pdf-return-same-thread-iphone",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "jpeg-or-png-for-photo-lab",
+      "slug": "guides/jpeg-or-png-for-photo-lab",
+      "component": "article-jpeg-or-png-for-photo-lab",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "edit-filler-words-auto-captions",
+      "slug": "guides/edit-filler-words-auto-captions",
+      "component": "article-edit-filler-words-auto-captions",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "export-mp4-as-mov-iphone",
+      "slug": "guides/export-mp4-as-mov-iphone",
+      "component": "article-export-mp4-as-mov-iphone",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "hdr-jpeg-gain-map-iphone",
+      "slug": "guides/hdr-jpeg-gain-map-iphone",
+      "component": "article-hdr-jpeg-gain-map-iphone",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "use-iphone-as-lit-mirror-without-photo",
+      "slug": "guides/use-iphone-as-lit-mirror-without-photo",
+      "component": "article-use-iphone-as-lit-mirror-without-photo",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "pdf-watermark-hidden-behind-text-boxes",
+      "slug": "guides/pdf-watermark-hidden-behind-text-boxes",
+      "component": "article-pdf-watermark-hidden-behind-text-boxes",
+      "locales": [],
+      "translation_date": "2026-11-26",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
     }
   ]
 }
