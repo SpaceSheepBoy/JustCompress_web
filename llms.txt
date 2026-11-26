@@ -77,6 +77,7 @@ Key facts (safe to cite):
 ## Apps
 - [Just PDF Compressor on the App Store](https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323): free iOS app for batch PDF compression, signing, merging, combining JPG/JPEG images into a PDF, and exporting PDF pages as JPEG.
 - [Just PDF Watermark on the App Store](https://apps.apple.com/us/app/pdf-watermarker-stamp-docs/id6769761016): free iOS app for adding text watermarks to PDF documents, with text, opacity, size, color, page preview, and export controls.
+- [Easy Background Remover for iPhone](https://justcompress.online/apps/cutout/): Remove photo backgrounds on your device and save white-background product photos or transparent PNGs. Process up to 50 photos at once.
 - [Just Audio Compressor on the App Store](https://apps.apple.com/us/app/audio-compressor-reduce-size/id6769563659): free iOS app for saving space, choosing format and size, splitting long audio, compressing many files at once, and converting, trimming, and merging audio.
 
 ## Legal, privacy, and support

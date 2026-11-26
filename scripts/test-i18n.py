@@ -14,7 +14,8 @@ from seo_metadata import COPY as SEO_COPY
 
 ROOT = Path(__file__).resolve().parents[1]
 apps = json.loads((ROOT/'scripts/app-portfolio.json').read_text())['apps']
-localized_apps = [a for a in apps if a.get('platform') != 'macOS']
+localized_apps = [a for a in apps if a.get('platform') != 'macOS' and not a.get('directory_localizations')]
+directory_apps = [a for a in apps if a.get('directory_localizations')]
 mac_apps = [a for a in apps if a.get('platform') == 'macOS']
 directory_intro = build.load('directory-platform.json')
 stores = build.load('store-snapshots.json')
@@ -49,11 +50,19 @@ for lang in build.TARGETS:
         assert soup.select_one('script[src^="/assets/i18n-ui.js"]')
         assert soup.select_one('script[src^="/assets/posthog-init.js"]')
         badges=soup.select('a.localized-store-badge img.official-app-store-badge')
-        assert len(badges)==(1 if slug else len(localized_apps)), (route,'missing official iPhone download badge')
+        assert len(badges)==(1 if slug else len(localized_apps) + len(directory_apps)), (route,'missing official iPhone download badge')
         if not slug:
             assert soup.select_one('.catalog-heading p').get_text() == directory_intro[lang],route
             assert soup.select_one('meta[name="description"]')['content'] == SEO_COPY['descriptions'].get(route, directory_intro[lang]),route
             assert 'iPhone' in directory_intro[lang] and 'Mac' in directory_intro[lang],route
+            for app in directory_apps:
+                card = soup.select_one('[data-app="'+app['id']+'"]')
+                local = app['directory_localizations'][lang]
+                assert card and card.select_one('input')['value'] == local['name'], (route,'missing searchable app card')
+                assert card.select_one('a.localized-store-badge')['href'] == local['store_url'], (route,'incorrect storefront')
+                assert card.select_one('a[hreflang="en"]'), (route,'missing English product link')
+                if local.get('storefront_note'):
+                    assert card.select_one('.storefront-note').get_text() == catalog[local['storefront_note']], route
             for app in mac_apps:
                 card=soup.select_one('[data-app="'+app['id']+'"]')
                 assert card and card.select_one('input'),(route,'missing searchable Mac card')

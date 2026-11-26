@@ -86,7 +86,9 @@ def build():
     stores = load('store-snapshots.json')
     portfolio = json.loads((ROOT / 'scripts/app-portfolio.json').read_text())['apps']
     order = json.loads((ROOT / 'scripts/app-display-order.json').read_text())['app_ids']
-    apps = sorted((a for a in portfolio if a.get('platform') != 'macOS'), key=lambda a: order.index(a['id']))
+    ios_apps = sorted((a for a in portfolio if a.get('platform') != 'macOS'), key=lambda a: order.index(a['id']))
+    apps = [a for a in ios_apps if not a.get('directory_localizations')]
+    directory_apps = [a for a in ios_apps if a.get('directory_localizations')]
     baseline = load('source-baseline.json')
     for app in apps:
         fields = {k: app[k] for k in ('benefit', 'features', 'access', 'caveat')}
@@ -196,9 +198,29 @@ def build():
                 '<input id="name-'+app['id']+'" type="hidden" value="'+E(name)+'">'+
                 '<div class="actions"><a class="portfolio-button" href="'+route(slug,lang)+'">'+t('common.details')+'</a>'+
                 store_badge(store_url,lang,texts['common.store'])+'<button type="button" data-copy="name-'+app['id']+'">'+t('common.copy')+'</button></div></article>')
+        for app in directory_apps:
+            local = app['directory_localizations'][lang]
+            name = E(local['name'])
+            product_url = route(app['slug'], 'en')
+            gallery = ''.join(image(s, local['name'] + ': ' + texts['common.screenshot'], 'catalog-shot')
+                              for s in app['screenshots'][:3])
+            note = local.get('storefront_note')
+            cards.append(
+                f'<article class="app-card" id="{app["slug"]}" data-app="{app["id"]}">'
+                f'<a class="catalog-identity" href="{product_url}" hreflang="en">'
+                + image(app['icon'], '', 'app-icon') + f'<div><h2>{name}</h2>'
+                f'<p class="benefit">{E(local["benefit"])}</p></div></a>'
+                f'<figure class="catalog-gallery"><div class="catalog-shots">{gallery}</div></figure>'
+                f'<input id="name-{app["id"]}" type="hidden" value="{name}">'
+                '<div class="actions">' + store_badge(local['store_url'], lang, texts['common.store'])
+                + f'<button type="button" data-copy="name-{app["id"]}">{t("common.copy")}</button></div>'
+                + (f'<p class="storefront-note">{t(note)}</p>' if note else '')
+                + f'<p><a href="{product_url}" hreflang="en">{E(local["details"])}</a></p></article>')
         body = '<header class="catalog-heading"><h1>'+t('common.directory_title')+'</h1><p>'+t('common.directory_intro')+'</p><input id="find-app" type="search" aria-label="'+t('common.search_label')+'" placeholder="'+t('common.search_placeholder')+'" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog">'+''.join(cards)+'</section><p id="no-results" hidden>'+t('common.no_results')+'</p><script defer src="/assets/find-app.js?v=20261027-i18n"></script>'
+        entries = [(stores[a['slug']][lang]['trackName'], route(a['slug'], lang)) for a in apps]
+        entries += [(a['directory_localizations'][lang]['name'], route(a['slug'], 'en')) for a in directory_apps]
         schema = ld({'@type':'CollectionPage','name':texts['common.directory_title'],'url':SITE+route('',lang),'inLanguage':lang,
-                     'mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':stores[a['slug']][lang]['trackName'],'url':SITE+route(a['slug'],lang)} for i,a in enumerate(apps)]}})
+                     'mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'url':SITE+url} for i,(name,url) in enumerate(entries)]}})
         shell('',texts['common.directory_title'],directory_intro[lang],body,schema)
     (ROOT/'assets/i18n-ui.js').write_text('window.spaceSheepI18n = '+json.dumps(ui,ensure_ascii=False).replace('</','<\\/')+';\n')
     # Add language links to source pages without rewriting their prose or scripts.

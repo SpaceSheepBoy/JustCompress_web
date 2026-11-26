@@ -797,6 +797,157 @@
       "privacy": "https://justcompress.online/apps/camrecorder/privacy/",
       "website": "https://justcompress.online/apps/camrecorder/",
       "rating_count": 0
+    },
+    {
+      "id": "6839203184",
+      "slug": "cutout",
+      "name": "Easy Background Remover",
+      "benefit": "Remove photo backgrounds and save white-background product photos or transparent PNGs",
+      "features": [
+        "Remove photo backgrounds on your iPhone. Your photos stay on your device during processing.",
+        "Edit one photo or process up to 50 at once. The default batch export centers each subject on a 1200 × 1200 white canvas.",
+        "Choose a background color or use a transparent background. Save transparent PNGs or solid-background JPGs to Photos.",
+        "Choose a preset canvas size for a product listing or social post, or set your own dimensions.",
+        "Drag or pinch to position a subject. Refine its edges with the erase and restore brushes."
+      ],
+      "access": "The first three exports are free. A successful batch save counts as one export. A monthly subscription or a one-time purchase unlocks unlimited exports.",
+      "caveat": "Choose PNG when you need transparency. Choose JPG for a solid background. Preview the cutout edges and canvas size before saving.",
+      "version": "1.0",
+      "minimum_os": "17.0",
+      "release_date": "2026-11-25",
+      "checked": "2026-11-26",
+      "store_url": "https://apps.apple.com/us/app/easy-background-remover/id6839203184",
+      "icon": {
+        "src": "/assets/apps/57efa31f6e3ce1df49.jpg",
+        "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/e7/fb/23e7fb6e-40e0-e35b-72f8-5d68355aeac0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+        "sha256": "57efa31f6e3ce1df490c9684f57a2b3d30c2f2903b34b99f0540ef61b771ed6c",
+        "bytes": 39040,
+        "width": 512,
+        "height": 512
+      },
+      "screenshots": [
+        {
+          "src": "/assets/apps/screenshots/e86b9baf306a3a4e39a7.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/e0/74/62e074b7-2e09-433f-6613-19cc85cf0cc6/01-remove-background.png/0x0ss.png",
+          "sha256": "e86b9baf306a3a4e39a74063699597cca5cc1ebc0b0e0a65a6d47ed3de849ae4",
+          "bytes": 431120,
+          "width": 1320,
+          "height": 2868,
+          "original_sha256": "6410696e8a18e0d01dab7ce67ac563d498c2c991d93cab1a9964138de7c485ff",
+          "original_bytes": 779005,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling",
+          "alt": "Remove a photo background and preview the cutout"
+        },
+        {
+          "src": "/assets/apps/screenshots/aa220cee9687112233c4.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/15/a7/e715a764-1ea4-aecd-9c3f-91aa660c0380/02-batch-white.png/0x0ss.png",
+          "sha256": "aa220cee9687112233c43f88814a7d976a0505fea36c90dda2ccfd45e36928cd",
+          "bytes": 287732,
+          "width": 1320,
+          "height": 2868,
+          "original_sha256": "0fe258a339f5eb2660c1d0e7d0eaf69db6b7945f020481497e0cc728bc35e961",
+          "original_bytes": 625578,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling",
+          "alt": "Apply a white background to a batch of product photos"
+        },
+        {
+          "src": "/assets/apps/screenshots/227d8fd84913cd2ace4b.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/94/38/51/943851c4-bb41-df97-0c31-886905a8c734/03-background-color.png/0x0ss.png",
+          "sha256": "227d8fd84913cd2ace4bd01c246b9d02b0a43b96631fc6a89b24f203ea0e447c",
+          "bytes": 321372,
+          "width": 1320,
+          "height": 2868,
+          "original_sha256": "517c27447b77cd950e49ca700cb78036e337cfda9a1b4786d07c3c7fd2bfdfdf",
+          "original_bytes": 638538,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling",
+          "alt": "Choose a background color for a cutout"
+        },
+        {
+          "src": "/assets/apps/screenshots/b04d220292435c6845fd.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/28/f7/de28f761-704c-e617-0a2e-f5994c3cae46/04-platform-sizes.png/0x0ss.png",
+          "sha256": "b04d220292435c6845fdf42ccb77e40efce987d180494573048372d5ee75f48b",
+          "bytes": 240082,
+          "width": 1320,
+          "height": 2868,
+          "original_sha256": "a8db1d33707da38f3f39619d3a61912fe11d698032c36a5e79320d41ab7dbef3",
+          "original_bytes": 551688,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling",
+          "alt": "Set a canvas size for social posts or product listings"
+        },
+        {
+          "src": "/assets/apps/screenshots/c3f251de730a9be797de.webp",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/2e/a9/f52ea9e2-7ae4-bd06-f78d-ecfb9774af96/05-color-outline.png/0x0ss.png",
+          "sha256": "c3f251de730a9be797def8dc243d21f3146a6a4a345c0e3c185e9ccc727220ce",
+          "bytes": 304716,
+          "width": 1320,
+          "height": 2868,
+          "original_sha256": "ab0d78303dca0cfd4fedac9c9e93293893d9c164c0ea5e5eb430b75a54e18379",
+          "original_bytes": 607517,
+          "transformation": "Lossless WebP; native source dimensions; decoded RGBA pixels verified identical; no upscaling",
+          "alt": "Add a colored outline around a cutout"
+        }
+      ],
+      "privacy": "https://justcompress.online/apps/cutout/privacy/",
+      "website": "https://justcompress.online/apps/cutout/",
+      "rating_count": 0,
+      "application_category": "MultimediaApplication",
+      "directory_localizations": {
+        "fr": {
+          "name": "Effacer le fond photo : Cutout",
+          "benefit": "Supprimez le fond de vos photos et exportez-les sur fond blanc ou transparent",
+          "store_url": "https://apps.apple.com/fr/app/effacer-le-fond-photo-cutout/id6839203184",
+          "details": "Détails en anglais"
+        },
+        "ja": {
+          "name": "背景透過・背景削除 Cutout",
+          "benefit": "写真の背景を削除して、白背景や透過PNGで保存",
+          "store_url": "https://apps.apple.com/jp/app/%E8%83%8C%E6%99%AF%E9%80%8F%E9%81%8E-%E8%83%8C%E6%99%AF%E5%89%8A%E9%99%A4-cutout/id6839203184",
+          "details": "製品情報（英語）"
+        },
+        "es": {
+          "name": "Quitar fondo de fotos: Cutout",
+          "benefit": "Quita el fondo de tus fotos y guárdalas con fondo blanco o transparente",
+          "store_url": "https://apps.apple.com/es/app/quitar-fondo-de-fotos-cutout/id6839203184",
+          "details": "Detalles en inglés"
+        },
+        "zh-Hans": {
+          "name": "Easy Background Remover",
+          "benefit": "去除照片背景，批量保存白底图或导出透明 PNG",
+          "store_url": "https://apps.apple.com/sg/app/easy-background-remover/id6839203184",
+          "storefront_note": "common.singapore_store_note",
+          "details": "产品详情（英文）"
+        },
+        "zh-Hant": {
+          "name": "輕鬆去背 Cutout",
+          "benefit": "去除照片背景，批次儲存白底圖或輸出透明 PNG",
+          "store_url": "https://apps.apple.com/tw/app/%E8%BC%95%E9%AC%86%E5%8E%BB%E8%83%8C-cutout/id6839203184",
+          "details": "產品詳情（英文）"
+        },
+        "de": {
+          "name": "Hintergrund entfernen Cutout",
+          "benefit": "Fotohintergründe entfernen und Bilder mit weißem oder transparentem Hintergrund speichern",
+          "store_url": "https://apps.apple.com/de/app/hintergrund-entfernen-cutout/id6839203184",
+          "details": "Produktdetails auf Englisch"
+        },
+        "pt": {
+          "name": "Remover Fundo de Foto: Cutout",
+          "benefit": "Remova o fundo das fotos e salve com fundo branco ou transparente",
+          "store_url": "https://apps.apple.com/br/app/remover-fundo-de-foto-cutout/id6839203184",
+          "details": "Detalhes em inglês"
+        },
+        "it": {
+          "name": "Rimuovi Sfondo Foto: Cutout",
+          "benefit": "Rimuovi lo sfondo delle foto e salvale con sfondo bianco o trasparente",
+          "store_url": "https://apps.apple.com/it/app/rimuovi-sfondo-foto-cutout/id6839203184",
+          "details": "Dettagli in inglese"
+        },
+        "ko": {
+          "name": "사진 배경 제거 Cutout",
+          "benefit": "사진 배경을 제거하고 흰색 배경이나 투명 PNG로 저장",
+          "store_url": "https://apps.apple.com/kr/app/%EC%82%AC%EC%A7%84-%EB%B0%B0%EA%B2%BD-%EC%A0%9C%EA%B1%B0-cutout/id6839203184",
+          "details": "제품 정보(영어)"
+        }
+      }
     }
   ]
 }

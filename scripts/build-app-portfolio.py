@@ -28,7 +28,7 @@ def page(route,title,description,body,schema='',lang='en',alternates=None):
 def image(m,alt,klass='',lazy=True):
  return f'<img class="{klass}" src="{m["src"]}" width="{m["width"]}" height="{m["height"]}" alt="{E(alt)}"'+(' loading="lazy"' if lazy else '')+'>'
 def screenshots(items,name):
- return '<figure class="store-figure"><div class="store-shots" tabindex="0" aria-label="App Store screenshots">'+''.join(image(s,name+' official App Store screenshot '+str(i)) for i,s in enumerate(items,1))+'</div><figcaption>Official App Store screenshots. Swipe or scroll to inspect each image.</figcaption></figure>'
+ return '<figure class="store-figure"><div class="store-shots" tabindex="0" aria-label="App Store screenshots">'+''.join(image(s,s.get('alt',name+' official App Store screenshot '+str(i))) for i,s in enumerate(items,1))+'</div><figcaption>Official App Store screenshots. Swipe or scroll to inspect each image.</figcaption></figure>'
 def policy_links(a):
  links=[]
  for part,label in [('privacy','Privacy'),('terms','Terms'),('support','Support')]:
@@ -56,7 +56,7 @@ for a in APPS:
   continue
  locales='<nav class="product-languages" aria-label="Product language">'+''.join(f'<a href="{alternates[k]}" lang="{k}">{E(v["label"])}</a>' for k,v in LOCALES.items())+'</nav>' if a['slug']=='collage-maker' else ''
  platform=a.get('platform','iOS'); device='Mac' if platform=='macOS' else 'iPhone'
- body=f'<header class="product-heading"><div class="product-identity">{image(a["icon"],a["name"]+" icon","product-icon",False)}<div><p class="eyebrow">{device.upper()} APP</p><h1>{E(a["name"])}</h1></div></div><p class="product-lede">{E(a["benefit"])}</p><p class="product-version">US App Store version {E(a["version"])} · {platform} {E(a["minimum_os"])} or later · Checked {a["checked"] if platform=="macOS" else DATA["checked"]}</p><a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a></header>{locales}'
+ body=f'<header class="product-heading"><div class="product-identity">{image(a["icon"],a["name"]+" icon","product-icon",False)}<div><p class="eyebrow">{device.upper()} APP</p><h1>{E(a["name"])}</h1></div></div><p class="product-lede">{E(a["benefit"])}</p><p class="product-version">US App Store version {E(a["version"])} · {platform} {E(a["minimum_os"])} or later · Checked {a["checked"] if platform=="macOS" or a["slug"]=="cutout" else DATA["checked"]}</p><a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a></header>{locales}'
  body+=screenshots(a['screenshots'],a['name'])
  body+='<section class="product-section"><h2>What you can do</h2><ul class="feature-list">'+''.join('<li>'+E(f)+'</li>' for f in a['features'])+'</ul></section>'
  body+=f'<section class="product-section"><h2>Access and purchases</h2><p>{E(a["access"])}</p><p>Prices and availability can differ by storefront. Apple shows the current local offer before purchase.</p></section><section class="product-section"><h2>Before you export or share</h2><p>{E(a["caveat"])}</p></section>'
@@ -78,7 +78,11 @@ for a in APPS:
   badge=f'<a class="catalog-store-badge" href="{E(a["store_url"])}" aria-label="Download CamRecorder on the Mac App Store"><img src="/assets/brand/mac-app-store-badges/en.svg" width="242" height="63" style="display:block;width:242px;max-width:100%;height:auto" alt="Download on the Mac App Store"></a>'
   body=body.replace(f'<a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a>',badge)
   body=body.replace(f'<a class="portfolio-button" href="{E(a["store_url"])}">Get the Mac app ↗</a>',badge)
- schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':platform+' '+a['minimum_os']+' or later','applicationCategory':'UtilitiesApplication','description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
+ if a['slug']=='cutout':
+  badge=f'<a class="catalog-store-badge" href="{E(a["store_url"])}" aria-label="Download {E(a["name"])} on the App Store"><img src="/assets/brand/download-on-the-app-store.svg" width="150" height="50" alt="Download on the App Store"></a>'
+  body=body.replace(f'<a class="portfolio-button" href="{E(a["store_url"])}">View on the App Store ↗</a>',badge)
+  body=body.replace(f'<a class="portfolio-button" href="{E(a["store_url"])}">Get the iPhone app ↗</a>',badge)
+ schema=ld({'@type':'SoftwareApplication','name':a['name'],'url':SITE+route,'downloadUrl':a['store_url'],'softwareVersion':a['version'],'operatingSystem':platform+' '+a['minimum_os']+' or later','applicationCategory':a.get('application_category','UtilitiesApplication'),'description':a['benefit'],'image':absolute(a['icon']['src']),'screenshot':[absolute(s['src']) for s in a['screenshots']],'publisher':{'@type':'Organization','name':'Space Sheep Studio'}})+breadcrumbs(a,route)
  page(route,a['name']+' for '+device,a['benefit']+'. Current features, App Store screenshots, version details and access options.',body,schema,alternates=alternates if a['slug']=='collage-maker' else None)
 # Separate stable URLs replace a single document containing twelve language versions.
 labels={
@@ -111,7 +115,8 @@ ordered=sorted(APPS,key=lambda a:display_order.index(a['id']))
 cards=[]
 for a in ordered:
  gallery='<figure class="catalog-gallery"><div class="catalog-shots" aria-label="'+E(a["name"])+' App Store screenshots">'+''.join('<a href="'+E(a['store_url'])+'" aria-label="View '+E(a['name'])+' on the App Store, screenshot '+str(i)+'">'+image(shot,a["name"]+" official App Store screenshot "+str(i),"catalog-shot")+'</a>' for i,shot in enumerate(a["screenshots"][:3],1))+'</div></figure>'
- cards.append(f'<article class="app-card" id="{a["slug"]}" data-app="{a["id"]}"><a class="catalog-identity" href="/apps/{a["slug"]}/" aria-label="About {E(a["name"])}">{image(a["icon"],"","app-icon")}<div><h2>{E(a["name"])}</h2><p class="benefit">{E(a["benefit"])}</p></div></a>{gallery}<input id="name-{a["id"]}" type="hidden" value="{E(a["name"])}"><div class="actions"><a class="catalog-store-badge" data-store href="{E(a["store_url"])}" aria-label="Download {E(a["name"])} on the App Store"><img src="/assets/brand/download-on-the-app-store.svg" width="150" height="50" alt="Download on the App Store"></a><button type="button" data-copy="name-{a["id"]}" aria-label="Copy app name: {E(a["name"])}">Copy name</button></div><p><a href="/apps/{a["slug"]}/">App details and guides →</a></p></article>')
+ details='App details' if a.get('directory_localizations') else 'App details and guides'
+ cards.append(f'<article class="app-card" id="{a["slug"]}" data-app="{a["id"]}"><a class="catalog-identity" href="/apps/{a["slug"]}/" aria-label="About {E(a["name"])}">{image(a["icon"],"","app-icon")}<div><h2>{E(a["name"])}</h2><p class="benefit">{E(a["benefit"])}</p></div></a>{gallery}<input id="name-{a["id"]}" type="hidden" value="{E(a["name"])}"><div class="actions"><a class="catalog-store-badge" data-store href="{E(a["store_url"])}" aria-label="Download {E(a["name"])} on the App Store"><img src="/assets/brand/download-on-the-app-store.svg" width="150" height="50" alt="Download on the App Store"></a><button type="button" data-copy="name-{a["id"]}" aria-label="Copy app name: {E(a["name"])}">Copy name</button></div><p><a href="/apps/{a["slug"]}/">{details} →</a></p></article>')
 body='<header class="catalog-heading"><h1>Find the app you saw.</h1><input id="find-app" type="search" aria-label="Search by app or task" placeholder="Search apps…" autocomplete="off"></header><p id="status" role="status" aria-live="polite"></p><section class="catalog-grid app-catalog" aria-label="Available iPhone and Mac apps">'+''.join(cards)+'</section><p id="no-results" hidden>No matching app. Try “video”, “audio”, “photo” or “PDF”.</p><script defer src="/assets/find-app.js?v=20261024-portfolio"></script>'
 schema=ld({'@type':'CollectionPage','name':'Our iPhone and Mac apps','url':SITE+'/apps/','mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i+1,'name':a['name'],'url':SITE+'/apps/'+a['slug']+'/'} for i,a in enumerate(ordered)]}})
 page('/apps/','iPhone and Mac apps, current screenshots and practical guides','Find the app from our tutorials. Browse current App Store names, screenshots, published versions and practical guides from Space Sheep Studio.',body,schema)
@@ -145,7 +150,7 @@ apply_camrecorder_catalog()
 # Legal paths receive only the explicitly maintained mechanical repairs.
 import subprocess,sys
 finalize=['apps/camrecorder/index.html','apps/vidkit/index.html','apps/sober-wins/index.html',
-          'apps/mantra-counter/privacy/index.html','apps/talknice/privacy/index.html',
+          'apps/cutout/index.html','apps/mantra-counter/privacy/index.html','apps/talknice/privacy/index.html',
           'apps/talknice/terms/index.html','apps/talknice/support/index.html']
 subprocess.run([sys.executable,str(ROOT/'scripts/refresh-public-pages.py'),'--only',*finalize],check=True)
 # The App directory is the social-bio landing page; its consented analytics went missing
