@@ -10631,5 +10631,1198 @@
       "provenance": "Built-in imagegen, 2026-11-26. Original and full prompt retained in growth/output/seo-agent/2026-11-26/."
     },
     "discoveryBacklink": "guides/pdf-watermark-missing-pages/index.html"
+  },
+  {
+    "slug": "guides/trim-audio-30-second-ringtone-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "How to Trim Audio for an iPhone Ringtone",
+    "description": "Trim an audio excerpt to 30 seconds or less on iPhone. Check the cut, export a ringtone-ready copy, and use GarageBand to install it.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6769563659",
+    "direct": "Choose a clear excerpt, trim it to 30 seconds or less, and export a ringtone-ready copy. Then install that copy using GarageBand.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Cut the hook before installing it",
+        "body": "Start the clip where you want the sound to begin every time the phone rings. Leave enough room at the end for the musical phrase or spoken word to finish."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Save the audio you have permission to use in Files. Keep an untouched version so you can try another cut later."
+      },
+      {
+        "id": "step-2",
+        "text": "Open it in Audio Compressor MP3 Converter and select its trim tool. Preview the beginning and the end of the excerpt. Cut to 30 seconds or less for the Apple ringtone workflow."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a separate ringtone-ready copy. Open GarageBand, import the copy into an Audio Recorder project and follow Apple’s Share > Ringtone steps. Once exported, choose how to use the ringtone."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Make the first second useful",
+        "body": "A long lead-in or a very quiet start may make the ringtone hard to notice. Preview the excerpt from silence at normal phone volume. If the opening needs adjustment, return to the original recording for a new cut."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check the duration before you share",
+        "body": "GarageBand can shorten a long clip to fit. Making the trim yourself gives you control over the endpoint. Some protected music files cannot be imported. Start with a local file you are allowed to use. Check the current export access options in the app."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Can I keep two versions?",
+        "body": "Yes. Export each excerpt under a different name so you can tell them apart when you install them."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Do I need the whole song in GarageBand?",
+        "body": "You can import your prepared excerpt. Keep the longer recording separately for future edits."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/en-us/120692"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/iphone/comments/1uvwz01/help_with_making_a_ringtone/"
+      },
+      {
+        "id": "store",
+        "label": "Audio Compressor MP3 Converter 1.2.2 on the App Store",
+        "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "WAV vs MP3: Which Copy Should You Keep for Editing?",
+        "url": "/guides/wav-to-mp3-editing-copy/"
+      }
+    ],
+    "figure": "/assets/guides/trim-audio-30-second-ringtone-iphone.webp",
+    "figureAlt": "Audio waveform marked with a selection on a workbench",
+    "figureCaption": "AI-generated illustration. The marked passage illustrates choosing a short excerpt from a longer recording.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "trim-audio-30-second-ringtone-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Audio waveform marked with a selection on a workbench",
+        "caption": "AI-generated illustration. The marked passage illustrates choosing a short excerpt from a longer recording."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/trim-audio-30-second-ringtone-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/wav-to-mp3-editing-copy/index.html",
+    "video": {
+      "id": "TqwMvf3p_pQ",
+      "title": "See the trim controls in our Italian video",
+      "poster": "/assets/guides/trim-audio-ringtone-video-preview.jpg"
+    }
+  },
+  {
+    "slug": "guides/iphone-hdr-clips-in-sdr-timeline",
+    "tag": "PRACTICAL GUIDE",
+    "title": "How to Use iPhone HDR Clips in an SDR Timeline",
+    "description": "Use iPhone HDR footage in a Rec.709 SDR edit. Decide whether to tone-map the HDR source in the editor or make a separate SDR copy before import.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6812821310",
+    "direct": "For an SDR edit, tone-map the HDR clips once. Let a color-managed editor do it, or convert those clips to Rec.709 before import.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Choose where the color conversion happens",
+        "body": "An HDR phone clip and an SDR camera clip can sit side by side in an SDR timeline. Treat each file according to its source color and preview both before cutting."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Confirm the project is intended for SDR. Keep the HDR originals for future edits or delivery."
+      },
+      {
+        "id": "step-2",
+        "text": "If the editor handles HDR input in an SDR sequence, use its input color management. Check one representative clip with skin tones and bright highlights."
+      },
+      {
+        "id": "step-3",
+        "text": "For an editor that does not handle the source predictably, use Convert HDR to SDR in VideoFix: HDR Video Converter. Import that Rec.709 H.264 MP4 and check that the editor treats it as SDR."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Avoid mapping the same clip twice",
+        "body": "A converted SDR copy is already tone-mapped. Applying an HDR-to-SDR effect again can change its contrast. In an app that supports input color space settings, check that the source and the converted copy each use the correct interpretation."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check an export before you commit to a batch",
+        "body": "Export a short section containing both sources and play it back on the intended device. Compare faces and bright areas against your editor preview. Keep the original filenames distinct from the converted copies."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Should I convert the clips that are already SDR?",
+        "body": "Their color does not need HDR-to-SDR mapping. Leave them as they are if the editor already plays them correctly."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Does this workflow preserve HDR delivery?",
+        "body": "It creates SDR copies for the SDR timeline. Keep the HDR originals if you also need an HDR version."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from helpx.adobe.com",
+        "url": "https://helpx.adobe.com/premiere/desktop/correct-color/set-up-color-management/tone-mapping-in-premiere.html"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://community.adobe.com/questions-729/dropping-hdr-footage-into-an-sdr-timeline-1418114"
+      },
+      {
+        "id": "store",
+        "label": "VideoFix: HDR Video Converter 1.0.11 on the App Store",
+        "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Convert HDR Video to SDR on iPhone",
+        "url": "/guides/hdr-to-sdr-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/iphone-hdr-clips-in-sdr-timeline.webp",
+    "figureAlt": "Editing desk with one still of a person beside a bright window and two source film strips",
+    "figureCaption": "AI-generated illustration. The bright window is a useful place to inspect highlight detail. This conceptual image shows no conversion result.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "iphone-hdr-clips-in-sdr-timeline",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Editing desk with one still of a person beside a bright window and two source film strips",
+        "caption": "AI-generated illustration. The bright window is a useful place to inspect highlight detail. This conceptual image shows no conversion result."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/iphone-hdr-clips-in-sdr-timeline.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/hdr-to-sdr-iphone/index.html"
+  },
+  {
+    "slug": "guides/mix-portrait-landscape-photos-without-cropping",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Combine Portrait and Landscape Photos Without Cropping",
+    "description": "Combine a portrait and a landscape photo without cutting off important edges. Choose a row or column layout and give each image space to fit.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6810266264",
+    "direct": "Put the photos in one row or column and fit each image inside its space. Leave extra space around any image that cannot fill its space without losing edges.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make space for both shapes",
+        "body": "A portrait image is tall and a landscape image is wide. When both go into equal boxes, an edge-to-edge layout can cut one of them. Extra space lets more of the original image remain visible."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Select the two images in Combine Photos: Stitch & Grid and preview a row or a vertical layout."
+      },
+      {
+        "id": "step-2",
+        "text": "Move each photo within its space and zoom out enough to show the important edges. If a cell still crops an edge, try a different layout before exporting."
+      },
+      {
+        "id": "step-3",
+        "text": "Save a JPEG or PNG. Reopen the saved image and check the corners of each photo at the size the recipient will see."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Pick the arrangement that keeps details large",
+        "body": "In a wide row, the photos share the screen width. On a phone, a column may make each one easier to examine. Compare the saved results if the smallest detail matters, such as lettering at the edge of a sign."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Keep separate files if the recipient needs full resolution",
+        "body": "The app exports the combined image up to 3000 pixels wide. Keep the source files if the recipient needs all the original pixels. You can send the combined image as an overview and include individual originals separately."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "What if the layout crops a corner?",
+        "body": "Try a different layout and use the zoom and position controls before you save."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Can I get a print with zero margins and zero cropping?",
+        "body": "That depends on the shape of the paper and the images. Use space around the photo if the shapes differ and every edge must remain visible."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from justcompress.online",
+        "url": "https://justcompress.online/apps/collage-maker/"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/IPhoneApps/comments/12jh6bu"
+      },
+      {
+        "id": "store",
+        "label": "Combine Photos: Stitch & Grid 1.8 on the App Store",
+        "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Photo Collage Cutting Off Faces? Check Each Cell’s Crop",
+        "url": "/guides/photo-collage-crop-faces/"
+      }
+    ],
+    "figure": "/assets/guides/mix-portrait-landscape-photos-without-cropping.webp",
+    "figureAlt": "A landscape print and portrait print on the same sheet with both full frames visible",
+    "figureCaption": "AI-generated illustration. The margin around each paper print shows how two photo shapes can share a sheet without hiding their edges.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "mix-portrait-landscape-photos-without-cropping",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A landscape print and portrait print on the same sheet with both full frames visible",
+        "caption": "AI-generated illustration. The margin around each paper print shows how two photo shapes can share a sheet without hiding their edges."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/mix-portrait-landscape-photos-without-cropping.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/photo-collage-crop-faces/index.html"
+  },
+  {
+    "slug": "guides/pdf-watermark-missing-when-printed",
+    "tag": "PRACTICAL GUIDE",
+    "title": "PDF Watermark Missing When You Print From a Browser?",
+    "description": "If a PDF watermark goes missing when you print from a browser, check the saved file in another viewer and test a visible text mark on a fresh copy.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6769761016",
+    "direct": "Download the PDF and print one page from a dedicated PDF viewer. If the mark depends on a print-time feature, make a separate copy with a visible text watermark and proof that copy.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the exact file you print",
+        "body": "A watermark visible in an editing preview can differ from what was saved or sent to the printer. Check the exported file itself before changing the watermark or printer settings."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the exported PDF from Files and find a page where you expect the watermark. Check the filename and page number against the print preview."
+      },
+      {
+        "id": "step-2",
+        "text": "Print the page from a dedicated PDF viewer. A browser may handle features such as print-time document actions differently. Check whether you can see the mark in the downloaded file and in the print preview."
+      },
+      {
+        "id": "step-3",
+        "text": "If you need a new marked copy, open the original in PDF Watermark & Stamp. Add a short text mark, adjust color and opacity for legibility, then export and proof the new PDF."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check one dense page",
+        "body": "Fine print and shaded cells are useful checks. A pale watermark can be difficult to see on paper. Increase it just enough to make the mark apparent without hiding the content the reader needs."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check which path supplies the mark",
+        "body": "A watermark set in a printer dialog or generated by a document action can depend on that software. For a fixed label such as DRAFT, put the text in a marked PDF copy and test it in the viewer and printer the recipient will actually use."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Should I reprint the whole packet to test a change?",
+        "body": "Start with one page that has both a visible mark and small text."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Will a fixed watermark update with the date?",
+        "body": "Enter a new date and export another copy when you need it to change."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from helpx.adobe.com",
+        "url": "https://helpx.adobe.com/uk/acrobat/desktop/edit-documents/add-backgrounds-and-watermarks/add-watermarks.html"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://community.adobe.com/questions-9/watermark-not-printing-with-javascript-1262684"
+      },
+      {
+        "id": "store",
+        "label": "PDF Watermark & Stamp 1.4.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "PDF Watermark Missing on Some Pages? Check the Export",
+        "url": "/guides/pdf-watermark-missing-pages/"
+      }
+    ],
+    "figure": "/assets/guides/pdf-watermark-missing-when-printed.webp",
+    "figureAlt": "A laptop and printer proof sheet beside each other on an office desk",
+    "figureCaption": "AI-generated illustration. Compare the saved document with a single paper proof before sending the whole file to print.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "pdf-watermark-missing-when-printed",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A laptop and printer proof sheet beside each other on an office desk",
+        "caption": "AI-generated illustration. Compare the saved document with a single paper proof before sending the whole file to print."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/pdf-watermark-missing-when-printed.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/pdf-watermark-missing-pages/index.html"
+  },
+  {
+    "slug": "guides/append-jpg-to-existing-pdf-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Add a JPG as the Last Page of a PDF on iPhone",
+    "description": "Append a JPG to a PDF on iPhone. Convert the photo to one PDF page, merge it after the original, and verify the last page before sharing.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6769762323",
+    "direct": "Turn the JPG into a one-page PDF, then merge it after the original document. Open the result and check the last page before sending it.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Make the photo a page first",
+        "body": "A JPEG attached to a message remains its own file. Turn it into a page when the recipient needs one document with the supporting image in a known position."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Save the JPG and the original PDF in Files. Check that the image is upright and all relevant details are visible."
+      },
+      {
+        "id": "step-2",
+        "text": "In PDF Compressor: Sign & Merge, use JPG to PDF to create a one-page PDF from the image. Save it with a name you can recognize at merge time."
+      },
+      {
+        "id": "step-3",
+        "text": "Use Merge PDFs with the report first and the image page second. Save a separate merged file. Open it and check the total page count and the last page."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check the image at reading size",
+        "body": "A photo can look fine in a thumbnail while small writing is too soft to read on a PDF page. Zoom in to check the details the recipient needs, such as a timestamp or a label. If they are unreadable, make a better source image before merging again."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check special document requirements",
+        "body": "Merging can affect interactive fields or digital signature validation. If an original signature must remain valid, ask whether the recipient will accept the original and the photo as separate files."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Can I add two images at the end?",
+        "body": "Make a PDF of the images, check their sequence, then append it after the report."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Will merging improve photo quality?",
+        "body": "The detail comes from your original JPG. Use a clearer photo if the page is difficult to read."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/iphbf4977cff/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/PDFgear/comments/1i1aepd"
+      },
+      {
+        "id": "store",
+        "label": "PDF Compressor: Sign & Merge 1.3.3 on the App Store",
+        "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Merged PDF Sections in the Wrong Order? Check the Boundaries",
+        "url": "/guides/merge-pdf-section-order/"
+      }
+    ],
+    "figure": "/assets/guides/append-jpg-to-existing-pdf-iphone.webp",
+    "figureAlt": "A three-page paper packet with a photo-only last page",
+    "figureCaption": "AI-generated illustration. The image page belongs after the report in this example. The illustration shows page order.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "append-jpg-to-existing-pdf-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A three-page paper packet with a photo-only last page",
+        "caption": "AI-generated illustration. The image page belongs after the report in this example. The illustration shows page order."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/append-jpg-to-existing-pdf-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/merge-pdf-section-order/index.html"
+  },
+  {
+    "slug": "guides/8x10-print-crop-effective-ppi",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Check Photo Resolution After an 8 × 10 Crop",
+    "description": "Check print resolution after an 8 × 10 crop. Work out the remaining pixels per inch and compare the saved photo with your lab’s requirements.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6822865782",
+    "direct": "Crop a portrait photo to 4:5 first, then divide the remaining pixels by 8 and 10 inches. At 300 pixels per inch, you need at least 2400 × 3000 pixels after the crop.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Use the pixels left after cropping",
+        "body": "For an 8 × 10 print that fills the paper, the image needs the same shape. A file can look large enough before cropping and still fall below the lab’s target after you trim the edges."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Check your photo lab’s target and whether it adds any trim. Open the original in DPI: Photo Print Prep and choose 8 × 10 inches with the intended orientation."
+      },
+      {
+        "id": "step-2",
+        "text": "Confirm the crop with room for the subject’s edges. Check the resulting pixel dimensions against the lab target. For landscape, swap the width and height."
+      },
+      {
+        "id": "step-3",
+        "text": "Export a copy and read back its dimensions. If you need more captured detail, try a less aggressive crop with borders, a smaller print, or a higher-resolution original."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Work through a near-match",
+        "body": "A 3000 × 3736 portrait can be cropped to 2988 × 3735 pixels at 4:5. Divide 2988 by 8 and 3735 by 10. Both give 373.5 pixels per inch, before any further trim."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check whether the lab crops again",
+        "body": "A photo editor’s crop and a lab’s order preview can differ. Inspect both. Leave space near the edge where the lab warns that it may trim the print."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Can resampling add captured detail?",
+        "body": "Resampling creates pixels using existing data. Fine detail still depends on the source photo."
+      },
+      {
+        "id": "reader-2",
+        "heading": "What if I need to keep all edges?",
+        "body": "Use borders or choose a paper shape closer to the original."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from www.mpix.com",
+        "url": "https://www.mpix.com/help/topics?id=3"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/AskPhotography/comments/1aeqwyf"
+      },
+      {
+        "id": "store",
+        "label": "DPI: Photo Print Prep 1.0.1 on the App Store",
+        "url": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "4 × 6 Photo at 300 DPI: Start with 1200 × 1800 Pixels",
+        "url": "/guides/4x6-photo-pixels-300-dpi/"
+      }
+    ],
+    "figure": "/assets/guides/8x10-print-crop-effective-ppi.webp",
+    "figureAlt": "A portrait photograph beneath an open 4:5 print mat",
+    "figureCaption": "AI-generated illustration. The mat shows what the print keeps. The outer image shows what can fall outside the crop.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "8x10-print-crop-effective-ppi",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A portrait photograph beneath an open 4:5 print mat",
+        "caption": "AI-generated illustration. The mat shows what the print keeps. The outer image shows what can fall outside the crop."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/8x10-print-crop-effective-ppi.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/4x6-photo-pixels-300-dpi/index.html"
+  },
+  {
+    "slug": "guides/proof-srt-text-without-shifting-timing",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Correct SRT Text Without Moving the Caption Timing",
+    "description": "Fix words in an SRT subtitle file and keep the video cut unchanged. Check the cue times after export and preserve timing on a standalone file.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6770354079",
+    "direct": "Keep the video cut the same and change only the words that need correction. Compare the old and new cue times before you send the revised SRT.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Treat the words and cue times separately",
+        "body": "An SRT cue has a number, a start and end time, and subtitle text. A blank line separates it from the next cue. A spelling correction usually needs a text edit only."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "If the captions were made in Subtitle Maker: Just Captions, open the same video with its captions and edit the transcript before exporting a new SRT. Keep the first export to compare."
+      },
+      {
+        "id": "step-2",
+        "text": "Open both SRT files and compare the start and end values for the changed cues. Play them against the same video to check that the words still appear at the intended time."
+      },
+      {
+        "id": "step-3",
+        "text": "If you only have a standalone SRT, use a plain-text editor on a copy. Change the caption text and leave the numbers, timestamp lines and blank lines in place."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Avoid re-creating the captions for a small edit",
+        "body": "Generating the transcript again can introduce new cue boundaries. Make a local correction when the existing timing is already usable. Keep a separate version if you also need to retime a line."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Proof the lines around the correction",
+        "body": "A longer correction can take more time to read. Play the cue and its neighbors. Where the line becomes hard to read, review the wording and delivery requirements before you change its timing."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Can I keep the timing on a different cut of the video?",
+        "body": "Check against the new cut. Clips removed or inserted earlier can shift later cues out of sync."
+      },
+      {
+        "id": "reader-2",
+        "heading": "What if I only have the SRT file?",
+        "body": "Open a copy in a plain-text editor and leave the timestamp lines unchanged."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from www.loc.gov",
+        "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000569.shtml"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/editors/comments/eseyuj"
+      },
+      {
+        "id": "store",
+        "label": "Subtitle Maker: Just Captions 2.9 on the App Store",
+        "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Export SRT Subtitles on iPhone for an Editable Caption Track",
+        "url": "/guides/export-srt-subtitles-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/proof-srt-text-without-shifting-timing.webp",
+    "figureAlt": "Subtitle proof sheet under a pencil beside a film frame",
+    "figureCaption": "AI-generated illustration. The pencil points to the subtitle text area. The cue timing is a separate field above it.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "proof-srt-text-without-shifting-timing",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Subtitle proof sheet under a pencil beside a film frame",
+        "caption": "AI-generated illustration. The pencil points to the subtitle text area. The cue timing is a separate field above it."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/proof-srt-text-without-shifting-timing.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/export-srt-subtitles-iphone/index.html"
+  },
+  {
+    "slug": "guides/smaller-video-copy-before-airdrop",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Make a Smaller Video Copy Before AirDrop",
+    "description": "Make a smaller copy of a large iPhone video before AirDrop. Check the exported file size and playback, then share the copy and keep the original.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6769563339",
+    "direct": "Compress a separate viewing copy first, then AirDrop that file. Keep the original for editing or delivery when the recipient needs full quality.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Decide which copy the recipient needs",
+        "body": "The copy you send should match the task. A smaller preview can be enough for a quick review. A project handoff may need the original resolution, frame rate and detail."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the video in Phone Cleaner: Photo & Video and choose a smaller output preset. Keep the original in Photos."
+      },
+      {
+        "id": "step-2",
+        "text": "Save the export and compare the file sizes. Check sharpness, motion and sound, especially where the video contains small writing or fast movement."
+      },
+      {
+        "id": "step-3",
+        "text": "Share that specific export by AirDrop. Ask the recipient to open it and confirm it is the expected clip before you remove any files."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Use file size to check the result",
+        "body": "A different filename or container does not say how much data the file contains. Read the saved copy’s size. If the clip is still too large for your purpose, try a smaller quality preset on a fresh copy from the original."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check the connection separately",
+        "body": "Keep the devices near each other and confirm the recipient can receive via AirDrop. If a small known-good file also fails, troubleshoot discovery or use a cable for the original. Compression does not change AirDrop settings."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Is there a universal size to aim for?",
+        "body": "Choose a size that suits the recipient’s use and the detail they need. Compare the actual files."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Should I compress a video for an editor?",
+        "body": "Ask the editor which source properties they need. Keep the original available."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/iphcd8b9f0af/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/iphone/comments/1akqidc"
+      },
+      {
+        "id": "store",
+        "label": "Phone Cleaner: Photo & Video 1.3.3 on the App Store",
+        "url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Compress a Video on iPhone",
+        "url": "/guides/compress-video-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/smaller-video-copy-before-airdrop.webp",
+    "figureAlt": "Two phones near each other beside a card showing a single video frame",
+    "figureCaption": "AI-generated illustration. The scene illustrates transferring a chosen viewing copy between nearby devices.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "smaller-video-copy-before-airdrop",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Two phones near each other beside a card showing a single video frame",
+        "caption": "AI-generated illustration. The scene illustrates transferring a chosen viewing copy between nearby devices."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/smaller-video-copy-before-airdrop.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/compress-video-iphone/index.html"
+  },
+  {
+    "slug": "guides/turn-existing-sdr-photo-into-hdr-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Can You Turn an Old SDR Photo Into HDR on iPhone?",
+    "description": "Make an HDR copy from an existing SDR photo on iPhone. Check the effect in an HDR viewer and learn why conversion cannot recover clipped detail.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6816526877",
+    "direct": "Yes. You can make an HDR copy from an SDR photo as a creative brightness effect. Any detail that was already clipped in the source stays missing.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Choose a photo with useful highlight information",
+        "body": "A photo with visible detail in a lamp shade or reflection is a useful test. If an area is already solid white in the original, expanding brightness cannot reconstruct what was there."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Keep the SDR original. In PhotoFix: HDR to Normal Photos, choose Normal photo to HDR and select the intended still-image format."
+      },
+      {
+        "id": "step-2",
+        "text": "Export a separate copy. View both files in a viewer and on a display that support HDR. Keep the display brightness and viewing conditions steady."
+      },
+      {
+        "id": "step-3",
+        "text": "Share a test copy to the actual destination before converting a collection. Save or send the SDR original as an alternative when the destination does not retain HDR."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Separate a brighter presentation from captured detail",
+        "body": "HDR can give compatible displays more room to render highlights. The original still sets the limit on detail, including texture in bright areas and fine gradations. Compare the same area on the same display to judge whether you like the effect."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Check the delivery format and destination",
+        "body": "The app supports HDR still exports in HEIC, JPEG and PNG. Viewer support varies, so a normal-looking preview does not prove the copy has lost its HDR information. Check on a supported device before changing formats."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Can I keep Live Photo movement in the HDR copy?",
+        "body": "The app exports HDR as a still. Keep the original if you need its movement and sound."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Will every viewer show the same brightness?",
+        "body": "Display capabilities and viewer settings affect how the file looks."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from developer.apple.com",
+        "url": "https://developer.apple.com/videos/play/wwdc2024/10177/"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/Android/comments/1k4dc94"
+      },
+      {
+        "id": "store",
+        "label": "PhotoFix: HDR to Normal Photos 1.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Why an HDR JPEG Can Look Flat in Another Viewer",
+        "url": "/guides/hdr-jpeg-gain-map-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/turn-existing-sdr-photo-into-hdr-iphone.webp",
+    "figureAlt": "One photograph of a glowing lamp beside a white wall",
+    "figureCaption": "AI-generated illustration. The lamp gives you a place to look for existing highlight detail. This ordinary image illustrates the idea and displays no HDR result.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "turn-existing-sdr-photo-into-hdr-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "One photograph of a glowing lamp beside a white wall",
+        "caption": "AI-generated illustration. The lamp gives you a place to look for existing highlight detail. This ordinary image illustrates the idea and displays no HDR result."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/turn-existing-sdr-photo-into-hdr-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/hdr-jpeg-gain-map-iphone/index.html"
+  },
+  {
+    "slug": "guides/selfie-without-front-flash-burst",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Take a Low-Light Selfie Without a Front Flash Burst",
+    "description": "Use steady screen light for a low-light selfie instead of a burst of front flash. Set the brightness before framing and check a saved test photo.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6778131414",
+    "direct": "Use steady screen light in the front-camera preview. Set the brightness before you frame the picture and take the selfie while the light is already on.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Set a comfortable level while you compose",
+        "body": "Start with a low, neutral light. Raise it until you can see your face and expression clearly. Use a room lamp as well if the phone screen alone is too dim."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the front-camera preview in GlowPop: Selfie Glow Camera and set the screen light before you pose."
+      },
+      {
+        "id": "step-2",
+        "text": "Hold the phone at a comfortable distance. Adjust screen brightness while looking at the preview. If the light makes you squint, lower it or add light from the room."
+      },
+      {
+        "id": "step-3",
+        "text": "Hold still and take a test selfie. Check the saved photo for unwanted motion blur and uneven lighting before taking more."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Give the camera more usable light",
+        "body": "A steady screen helps you see the face before the shutter. In a very dim room it may still be insufficient. Turn toward a soft lamp, steady your elbows, and check a second photo at full size."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Use the camera that can keep the light on",
+        "body": "GlowPop provides its light in its own front-camera view. If you switch to another camera app, check that app’s own lighting settings. GlowPop does not change its flash behavior."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Should I use maximum screen brightness?",
+        "body": "Start low and increase the light until you can frame comfortably and see the face clearly."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Will steady light prevent every blurred photo?",
+        "body": "Movement and available light still matter. Check a saved test and add room light when needed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/take-a-selfie-iph1b88429a6/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/apple/comments/xmhim0"
+      },
+      {
+        "id": "store",
+        "label": "GlowPop: Selfie Glow Camera 1.0.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Use Screen Fill Light for Selfies in a Dim Room",
+        "url": "/guides/screen-fill-light-selfies/"
+      }
+    ],
+    "figure": "/assets/guides/selfie-without-front-flash-burst.webp",
+    "figureAlt": "A person framing a selfie with an even glow from a phone screen",
+    "figureCaption": "AI-generated illustration. The scene illustrates steady light from the phone while the subject composes the photo.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "selfie-without-front-flash-burst",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A person framing a selfie with an even glow from a phone screen",
+        "caption": "AI-generated illustration. The scene illustrates steady light from the phone while the subject composes the photo."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/selfie-without-front-flash-burst.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/screen-fill-light-selfies/index.html"
+  },
+  {
+    "slug": "guides/block-social-apps-weekend-mornings",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Block Social Apps on Weekend Mornings on iPhone",
+    "description": "Block selected social apps on Saturday and Sunday mornings on iPhone. Set one weekend schedule and confirm that the apps are available afterward.",
+    "reviewed": "2026-11-27",
+    "published": "2026-11-27",
+    "appId": "6758529772",
+    "direct": "Create a recurring rule for Saturday and Sunday only. Select the social apps you want to pause and set a clear start and end time.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Pick a block that fits your weekend",
+        "body": "If you want breakfast or the first hour of Saturday to stay free from scrolling, start with that window. Leave calls and any other essentials available."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open Dying Soon: Screen Time Limit, grant Screen Time access and select the social apps you want to pause."
+      },
+      {
+        "id": "step-2",
+        "text": "Create a recurring schedule and choose Saturday and Sunday. For example, set 8 a.m. to 10 a.m. on those days. Review the days and the time before saving."
+      },
+      {
+        "id": "step-3",
+        "text": "Test a selected app while the rule is active and after it ends. Check the weekday selection if you can still see the block on Monday."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Keep rules easy to check",
+        "body": "One scheduled rule is available on the free plan. If you want a distinct weekday routine as well, Pro supports multiple schedules. Check which rule is active before changing or removing one."
+      },
+      {
+        "id": "detail-2",
+        "heading": "Decide what should stay reachable",
+        "body": "Leave any route for urgent contact out of your selection. If you use the social service through a browser, blocking its app does not cover that route. Open the actual app you want to test."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "reader-1",
+        "heading": "Can I make it run on Saturday only?",
+        "body": "Choose Saturday as the scheduled day and check that Sunday is unselected."
+      },
+      {
+        "id": "reader-2",
+        "heading": "Can I test it before the weekend?",
+        "body": "Review the selected apps and schedule immediately. Check the rule itself during the first planned weekend slot."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/getdisciplined/comments/1cpgnmm/how_do_i_reduce_screentime_on_weekends_from_8/"
+      },
+      {
+        "id": "store",
+        "label": "Dying Soon: Screen Time Limit 2.3.4 on the App Store",
+        "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Block Selected iPhone Apps Until 8 a.m.",
+        "url": "/guides/block-selected-apps-before-eight-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/block-social-apps-weekend-mornings.webp",
+    "figureAlt": "A phone face down beside a weekend planner at breakfast",
+    "figureCaption": "AI-generated illustration. The planner shows the two mornings chosen for a weekend rule.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "block-social-apps-weekend-mornings",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A phone face down beside a weekend planner at breakfast",
+        "caption": "AI-generated illustration. The planner shows the two mornings chosen for a weekend rule."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/block-social-apps-weekend-mornings.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
+    },
+    "discoveryBacklink": "guides/block-selected-apps-before-eight-iphone/index.html"
   }
 ]

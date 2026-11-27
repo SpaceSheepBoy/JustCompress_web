@@ -770,6 +770,94 @@
       "locales": [],
       "translation_date": "2026-11-26",
       "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "trim-audio-30-second-ringtone-iphone",
+      "slug": "guides/trim-audio-30-second-ringtone-iphone",
+      "component": "article-trim-audio-30-second-ringtone-iphone",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "iphone-hdr-clips-in-sdr-timeline",
+      "slug": "guides/iphone-hdr-clips-in-sdr-timeline",
+      "component": "article-iphone-hdr-clips-in-sdr-timeline",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "mix-portrait-landscape-photos-without-cropping",
+      "slug": "guides/mix-portrait-landscape-photos-without-cropping",
+      "component": "article-mix-portrait-landscape-photos-without-cropping",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "pdf-watermark-missing-when-printed",
+      "slug": "guides/pdf-watermark-missing-when-printed",
+      "component": "article-pdf-watermark-missing-when-printed",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "append-jpg-to-existing-pdf-iphone",
+      "slug": "guides/append-jpg-to-existing-pdf-iphone",
+      "component": "article-append-jpg-to-existing-pdf-iphone",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "8x10-print-crop-effective-ppi",
+      "slug": "guides/8x10-print-crop-effective-ppi",
+      "component": "article-8x10-print-crop-effective-ppi",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "proof-srt-text-without-shifting-timing",
+      "slug": "guides/proof-srt-text-without-shifting-timing",
+      "component": "article-proof-srt-text-without-shifting-timing",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "smaller-video-copy-before-airdrop",
+      "slug": "guides/smaller-video-copy-before-airdrop",
+      "component": "article-smaller-video-copy-before-airdrop",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "turn-existing-sdr-photo-into-hdr-iphone",
+      "slug": "guides/turn-existing-sdr-photo-into-hdr-iphone",
+      "component": "article-turn-existing-sdr-photo-into-hdr-iphone",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "selfie-without-front-flash-burst",
+      "slug": "guides/selfie-without-front-flash-burst",
+      "component": "article-selfie-without-front-flash-burst",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "block-social-apps-weekend-mornings",
+      "slug": "guides/block-social-apps-weekend-mornings",
+      "component": "article-block-social-apps-weekend-mornings",
+      "locales": [],
+      "translation_date": "2026-11-27",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
     }
   ]
 }
