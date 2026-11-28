@@ -858,6 +858,94 @@
       "locales": [],
       "translation_date": "2026-11-27",
       "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "change-key-of-practice-track-iphone",
+      "slug": "guides/change-key-of-practice-track-iphone",
+      "component": "article-change-key-of-practice-track-iphone",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "iphone-video-audio-drifts-out-of-sync",
+      "slug": "guides/iphone-video-audio-drifts-out-of-sync",
+      "component": "article-iphone-video-audio-drifts-out-of-sync",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "share-long-text-thread-as-one-image",
+      "slug": "guides/share-long-text-thread-as-one-image",
+      "component": "article-share-long-text-thread-as-one-image",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "pdf-watermark-readable-in-grayscale",
+      "slug": "guides/pdf-watermark-readable-in-grayscale",
+      "component": "article-pdf-watermark-readable-in-grayscale",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "batch-convert-heic-to-jpeg-iphone",
+      "slug": "guides/batch-convert-heic-to-jpeg-iphone",
+      "component": "article-batch-convert-heic-to-jpeg-iphone",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "compress-4k-iphone-video-school-upload",
+      "slug": "guides/compress-4k-iphone-video-school-upload",
+      "component": "article-compress-4k-iphone-video-school-upload",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "batch-caption-short-videos-iphone",
+      "slug": "guides/batch-caption-short-videos-iphone",
+      "component": "article-batch-caption-short-videos-iphone",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "scan-several-paper-pages-one-pdf-iphone",
+      "slug": "guides/scan-several-paper-pages-one-pdf-iphone",
+      "component": "article-scan-several-paper-pages-one-pdf-iphone",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "block-social-apps-keep-calls-messages",
+      "slug": "guides/block-social-apps-keep-calls-messages",
+      "component": "article-block-social-apps-keep-calls-messages",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "printer-dpi-vs-photo-ppi",
+      "slug": "guides/printer-dpi-vs-photo-ppi",
+      "component": "article-printer-dpi-vs-photo-ppi",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
+    },
+    {
+      "id": "selfie-overhead-light-eye-shadows",
+      "slug": "guides/selfie-overhead-light-eye-shadows",
+      "component": "article-selfie-overhead-light-eye-shadows",
+      "locales": [],
+      "translation_date": "2026-11-28",
+      "publication_authorization": "Authorized daily English original for verified paying public App."
     }
   ]
 }

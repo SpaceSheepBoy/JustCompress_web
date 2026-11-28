@@ -11824,5 +11824,1193 @@
       "provenance": "Built-in imagegen, 2026-11-27. Original and full prompt retained in growth/output/seo-agent/2026-11-27/."
     },
     "discoveryBacklink": "guides/block-selected-apps-before-eight-iphone/index.html"
+  },
+  {
+    "slug": "guides/change-key-of-practice-track-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Change the Key of a Practice Track on iPhone",
+    "description": "Move a local backing track into a better singing range on iPhone. Count the semitones, keep the original tempo and check your new key.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6769563659",
+    "direct": "Count the semitones between the old and target keys, lower the pitch, then verify the song against a reference.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Find a key that fits",
+        "body": "To shift G major down to F major, count two semitones: G to F-sharp to F. The old G–C–D chords become F–B-flat–C. Sing the high phrase first, then the lowest phrase to check the whole range."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open a local copy in Audio Compressor MP3 Converter."
+      },
+      {
+        "id": "step-2",
+        "text": "Lower the pitch by two semitones if the control shows semitones. Leave tempo at its starting value."
+      },
+      {
+        "id": "step-3",
+        "text": "Check the first chord against a keyboard, then export and name your practice copy with the new key."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check the whole phrase",
+        "body": "Listen for the point where the key change feels most useful. A lead note can guide a quick pitch check, but the surrounding chords tell you whether the backing track fits the whole arrangement. Keep a normal-pitch copy for playing with the original recording."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Can I import a streaming download?",
+        "body": "Use a local audio file that other apps can open. Streaming apps may restrict access to their downloads."
+      },
+      {
+        "id": "second-question",
+        "heading": "Will voices sound identical?",
+        "body": "Pitch changes can affect the character of vocals and instruments. Listen to a short section before exporting the whole track."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from apps.apple.com",
+        "url": "https://apps.apple.com/us/app/id6769563659"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/GarageBand/comments/irog3i"
+      },
+      {
+        "id": "store",
+        "label": "Audio Compressor MP3 Converter 1.2.2 on the App Store",
+        "url": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/audio-compressor-mp3-converter/id6769563659?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/pitch-vs-tempo-music-practice/"
+      }
+    ],
+    "figure": "/assets/guides/change-key-of-practice-track-iphone.webp",
+    "figureAlt": "Rehearsal room with a guitarist and singer using a keyboard to check a reference note",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "change-key-of-practice-track-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Rehearsal room with a guitarist and singer using a keyboard to check a reference note",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/change-key-of-practice-track-iphone.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/pitch-vs-tempo-music-practice/index.html"
+  },
+  {
+    "slug": "guides/iphone-video-audio-drifts-out-of-sync",
+    "tag": "PRACTICAL GUIDE",
+    "title": "iPhone Video Audio Drifts Out of Sync After Import?",
+    "description": "Test for variable frame rate when iPhone video audio drifts out of sync after import. Compare early and late cues on one steady-rate copy.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6812821310",
+    "direct": "Compare the first and last visible sound cues. If only the editor drifts, test one constant-frame-rate export against both cues.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Check two audible events",
+        "body": "Look for a clap, a drum hit or a visible consonant near each end. If the original camera audio lines up early but drifts late, check how your editor handles the clip’s timestamps. Test with camera audio alone first."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Play the source in Photos and compare an early and a late cue."
+      },
+      {
+        "id": "step-2",
+        "text": "In VideoFix, make one steady frame-rate copy. Choose the frame rate appropriate for your timeline."
+      },
+      {
+        "id": "step-3",
+        "text": "Import both files into a fresh timeline. Compare both cues before processing the rest."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "If the clip came from an HDR recording",
+        "body": "Check color separately if the source is HDR. Use the clap to compare sync first. If your project needs HDR delivery, verify the color of any test export before you replace source media."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Will steady frame rate fix every sync issue?",
+        "body": "No. It tests one source of drift. If both files drift, check the editor settings or the source recording."
+      },
+      {
+        "id": "second-question",
+        "heading": "What if sound is late by the same amount throughout?",
+        "body": "That is a fixed offset. Align one clear cue and confirm a second cue before re-encoding."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from helpx.adobe.com",
+        "url": "https://helpx.adobe.com/premiere/desktop/get-started/preferences-and-settings/media-preferences.html"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/davinciresolve/comments/1pe63n7/"
+      },
+      {
+        "id": "store",
+        "label": "VideoFix: HDR Video Converter 1.0.11 on the App Store",
+        "url": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/videofix-hdr-video-converter/id6812821310?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/iphone-auto-fps-30-editing/"
+      }
+    ],
+    "figure": "/assets/guides/iphone-video-audio-drifts-out-of-sync.webp",
+    "figureAlt": "A film maker performing a hand clap in front of a tripod-mounted iPhone at a home studio desk",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "iphone-video-audio-drifts-out-of-sync",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "A film maker performing a hand clap in front of a tripod-mounted iPhone at a home studio desk",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/iphone-video-audio-drifts-out-of-sync.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/iphone-auto-fps-30-editing/index.html"
+  },
+  {
+    "slug": "guides/share-long-text-thread-as-one-image",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Share a Long Text Thread as One Image on iPhone",
+    "description": "Stitch a long iPhone text conversation into one image. Keep the messages in order, remove private details and check the saved image before sending.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6810266264",
+    "direct": "Choose the needed messages, preserve their order, and stitch successive screenshots into one image you can read at normal zoom.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Choose where the story starts",
+        "body": "Start with the first message that gives enough context. Stop after the exchange the recipient needs. If the thread changes subjects, two short images can be easier to read than one long image."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Take screenshots from top to bottom. Include one message of overlap before cropping."
+      },
+      {
+        "id": "step-2",
+        "text": "Crop private notifications, contact details and unrelated replies before you import."
+      },
+      {
+        "id": "step-3",
+        "text": "Stitch the screenshots vertically in Combine Photos: Stitch & Grid. Inspect the seams and open the saved image in Photos or Files."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check the image after sending",
+        "body": "Some chat apps compress long images. If the recipient cannot read individual messages at a useful zoom, share smaller sections or send the stitched image as a file where that option is available."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Can I take a full-page screenshot?",
+        "body": "Some iPhone views support full-page capture. Use separate screenshots if the conversation view offers no full-page option."
+      },
+      {
+        "id": "second-question",
+        "heading": "Does the image preserve every message?",
+        "body": "It shows what you captured. Keep the thread if you need the full record."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/take-a-screenshot-iphc872c0115/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/ios/comments/1f9e04l"
+      },
+      {
+        "id": "store",
+        "label": "Combine Photos: Stitch & Grid 1.8 on the App Store",
+        "url": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/combine-photos-stitch-grid/id6810266264?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/remove-repeated-seams-screenshot-stitch/"
+      }
+    ],
+    "figure": "/assets/guides/share-long-text-thread-as-one-image.webp",
+    "figureAlt": "Overhead desk with three narrow paper strips of abstract chat balloons, without text, arranged with one strip slightly overlapping the next",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1199,
+    "figureHeight": 1312,
+    "i18n": {
+      "id": "share-long-text-thread-as-one-image",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Overhead desk with three narrow paper strips of abstract chat balloons, without text, arranged with one strip slightly overlapping the next",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/share-long-text-thread-as-one-image.webp",
+      "width": 1199,
+      "height": 1312,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/remove-repeated-seams-screenshot-stitch/index.html"
+  },
+  {
+    "slug": "guides/pdf-watermark-readable-in-grayscale",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Make a PDF Watermark Readable in Grayscale",
+    "description": "Make a PDF text watermark easier to read in grayscale. Check one printed page and adjust color, size or opacity without hiding the document text.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6769761016",
+    "direct": "Try a neutral dark mark and proof one page in grayscale. Tune the weight until both the body and the mark read clearly.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Proof the page on paper",
+        "body": "A vivid watermark color can become pale gray in print. Choose one page with a busy background or small text. The mark and the document both need to remain readable at a normal reading distance."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the source in PDF Watermark & Stamp. Try neutral dark text and preview the page that has the most detail."
+      },
+      {
+        "id": "step-2",
+        "text": "Export a test copy and print that page in grayscale on the printer and paper you plan to use."
+      },
+      {
+        "id": "step-3",
+        "text": "Adjust one setting at a time. Darken or enlarge a faint mark. Lower opacity or try a centered stamp if it competes with the body text."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Save the settings that worked",
+        "body": "Record the watermark text, color and opacity for the other copies in the same set. Check any page with a different background before printing the full run."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "What if nothing prints?",
+        "body": "Reopen the exported file, check print preview and try another PDF viewer if the mark appears only on screen."
+      },
+      {
+        "id": "second-question",
+        "heading": "Will the mark survive a photocopy?",
+        "body": "That depends on the printer and copier settings. Proof an actual photocopy if you need that result."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from helpx.adobe.com",
+        "url": "https://helpx.adobe.com/ca/acrobat/desktop/print-documents/set-up-and-print-pdfs/print-settings.html"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://community.adobe.com/questions-652/help-with-making-watermark-that-appears-when-photocopied-or-scanned-826061"
+      },
+      {
+        "id": "store",
+        "label": "PDF Watermark & Stamp 1.4.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-watermark-stamp/id6769761016?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/pdf-watermark-missing-when-printed/"
+      }
+    ],
+    "figure": "/assets/guides/pdf-watermark-readable-in-grayscale.webp",
+    "figureAlt": "Photo of an office proof page just outside a small grayscale printer",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "pdf-watermark-readable-in-grayscale",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Photo of an office proof page just outside a small grayscale printer",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/pdf-watermark-readable-in-grayscale.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/pdf-watermark-missing-when-printed/index.html"
+  },
+  {
+    "slug": "guides/batch-convert-heic-to-jpeg-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Batch Convert HEIC Photos to JPEG on iPhone",
+    "description": "Convert several HEIC photos to JPEG in one batch on iPhone. Match the saved copies to the originals and check file format and capture dates.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6816526877",
+    "direct": "Convert several photos together and confirm that each selected original has a matching JPEG copy.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Test a few files first",
+        "body": "Start with two or three photos that you can easily tell apart. Include one with fine detail. Save the test copies together so you can compare them with the original selection."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Select the HEIC photos in PhotoFix and choose JPEG output. Review the options for the capture date and location."
+      },
+      {
+        "id": "step-2",
+        "text": "Check file details to confirm JPEG. Match the number and subject of the exported files to the originals."
+      },
+      {
+        "id": "step-3",
+        "text": "Send the checked JPEG copies and keep the HEIC files for future exports."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check dates in the saved copies",
+        "body": "Preserve the capture date if the receiving library needs it. A file browser can instead sort by the time of export. Open one saved example in the destination to see how that library sorts it."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Do two photos use one conversion?",
+        "body": "Each successful photo uses a conversion. The current listing includes three successful conversions before an unlimited plan is needed."
+      },
+      {
+        "id": "second-question",
+        "heading": "Could the JPEGs be bigger?",
+        "body": "Yes. Check saved sizes before using this workflow to meet an attachment limit."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from apps.apple.com",
+        "url": "https://apps.apple.com/us/app/id6816526877"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/ApplePhotos/comments/1qz6dhi/batch_converting_heic_to_jpg/"
+      },
+      {
+        "id": "store",
+        "label": "PhotoFix: HDR to Normal Photos 1.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/photofix-hdr-to-normal-photos/id6816526877?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/heic-to-jpeg-file-size/"
+      }
+    ],
+    "figure": "/assets/guides/batch-convert-heic-to-jpeg-iphone.webp",
+    "figureAlt": "Editorial still life of three distinct photo prints, showing a lighthouse, a yellow bicycle and market fruit, laid beside an open file envelope",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1199,
+    "figureHeight": 1312,
+    "i18n": {
+      "id": "batch-convert-heic-to-jpeg-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Editorial still life of three distinct photo prints, showing a lighthouse, a yellow bicycle and market fruit, laid beside an open file envelope",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/batch-convert-heic-to-jpeg-iphone.webp",
+      "width": 1199,
+      "height": 1312,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/heic-to-jpeg-file-size/index.html"
+  },
+  {
+    "slug": "guides/compress-4k-iphone-video-school-upload",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Make a 4K iPhone Video Smaller for a School Upload",
+    "description": "Compress an existing 4K iPhone recording for a school upload. Compare the file size with the portal limit and check small writing and speech.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6769563339",
+    "direct": "Export a smaller copy, compare its file size with the portal limit and play the portion with the smallest writing or quietest speech.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Read the assignment rules",
+        "body": "Write down the largest allowed file size and the allowed formats. If the portal asks for MP4, choose an MP4 export. Keep the source so each attempt can start with the full-quality file."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open the recording in Phone Cleaner: Photo & Video and choose a smaller quality preset."
+      },
+      {
+        "id": "step-2",
+        "text": "Compare the export size with the portal limit. Leave a little room below the limit if the portal does not explain how it calculates megabytes."
+      },
+      {
+        "id": "step-3",
+        "text": "Play the exported file. Pause on the smallest writing or chart label and listen to the quietest part before you upload it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "If the first copy misses the limit",
+        "body": "Try another preset from the original, then repeat the reading and audio checks. Ask whether two clips or a link are accepted if the only copy that fits has unreadable writing."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Can I change the camera setting after recording?",
+        "body": "Camera settings affect future recordings. Export a new copy to change this clip."
+      },
+      {
+        "id": "second-question",
+        "heading": "Should I delete the original?",
+        "body": "Keep it until you have checked playback and confirmed the upload."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from apps.apple.com",
+        "url": "https://apps.apple.com/us/app/id6769563339"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/iphonehelp/comments/1aveghi/how_do_i_reduce_video_quality_so_the_video_file/"
+      },
+      {
+        "id": "store",
+        "label": "Phone Cleaner: Photo & Video 1.3.3 on the App Store",
+        "url": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/phone-cleaner-photo-video/id6769563339?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/compress-video-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/compress-4k-iphone-video-school-upload.webp",
+    "figureAlt": "Realistic study desk with a student recording a worksheet from a phone stand",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "compress-4k-iphone-video-school-upload",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Realistic study desk with a student recording a worksheet from a phone stand",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/compress-4k-iphone-video-school-upload.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/compress-video-iphone/index.html"
+  },
+  {
+    "slug": "guides/batch-caption-short-videos-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Batch Caption Short Videos on iPhone",
+    "description": "Auto-caption several short videos on iPhone in one batch. Review each transcript and confirm one checked export for each source clip.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6770354079",
+    "direct": "Start a batch with the clips that share a style, review each transcript, and check one output per intended clip.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Group clips that share a style",
+        "body": "Keep clips with similar framing and caption needs in the same batch. A speaker close to the edge, a title at the bottom or a language change can call for a separate review."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In Just Captions, select your clips. Pro supports batches of up to twenty videos. Test a smaller group when trying a new style."
+      },
+      {
+        "id": "step-2",
+        "text": "Check each transcript against its own audio. Read names and numbers and play a section where the speaker or background changes."
+      },
+      {
+        "id": "step-3",
+        "text": "Export and count the saved videos. Check the first and last lines on each, at the size viewers will see."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check each output at its intended size",
+        "body": "Watch the final crop, including any existing titles near the bottom. A style that works on a wide clip can cover important content in a vertical one."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Does a batch combine the clips?",
+        "body": "This workflow captions the clips separately. Check that you receive one file for each selected clip."
+      },
+      {
+        "id": "second-question",
+        "heading": "Is Pro required?",
+        "body": "The current listing places batch captions in Pro. Single-video export terms differ."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from apps.apple.com",
+        "url": "https://apps.apple.com/us/app/id6770354079"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/software/comments/1vtu4mu/whisperer_free_opensource_batch_subtitle/"
+      },
+      {
+        "id": "store",
+        "label": "Subtitle Maker: Just Captions 2.9 on the App Store",
+        "url": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/subtitle-maker-just-captions/id6770354079?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/burn-captions-into-video-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/batch-caption-short-videos-iphone.webp",
+    "figureAlt": "Photo contact sheet showing three distinct vertical source clips laid across a creator desk: a craft step, a speaking presenter, an overhead cooking demonstration",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1199,
+    "figureHeight": 1312,
+    "i18n": {
+      "id": "batch-caption-short-videos-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Photo contact sheet showing three distinct vertical source clips laid across a creator desk: a craft step, a speaking presenter, an overhead cooking demonstration",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/batch-caption-short-videos-iphone.webp",
+      "width": 1199,
+      "height": 1312,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/burn-captions-into-video-iphone/index.html"
+  },
+  {
+    "slug": "guides/scan-several-paper-pages-one-pdf-iphone",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Scan Several Paper Pages Into One PDF on iPhone",
+    "description": "Scan several paper pages into one PDF on iPhone. Keep the scan open for all sheets and check the saved file before you attach it.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6769762323",
+    "direct": "Keep the scan session open until the last sheet, save one PDF, and reopen that exact file to confirm the page count.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Count the pages before scanning",
+        "body": "Put the sheets in reading order. Count the reverse side too if it has information. Keep the finished pages in a separate pile so you can see which sheets are left."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Use the scan tool in PDF Compressor: Sign & Merge. Check the edges of the first capture."
+      },
+      {
+        "id": "step-2",
+        "text": "Add the other pages before finishing the scan. If you already saved separate PDFs, merge them in the right order."
+      },
+      {
+        "id": "step-3",
+        "text": "Save the PDF to Files. Reopen that exact file, confirm the count and check the first, last and any retaken pages."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check the copy you send",
+        "body": "Open the attachment preview before sending. If it shows a count, compare it to the PDF you checked in Files. If there is a size limit, compress a copy and make sure the smallest text still reads."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Can I include both sides of one sheet?",
+        "body": "Yes. Scan each side as a separate page in the same session."
+      },
+      {
+        "id": "second-question",
+        "heading": "What exactly should I attach?",
+        "body": "Attach the saved PDF from Files. A shared preview could contain only the visible page."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/iphd81075862/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/MacOS/comments/1demtl2"
+      },
+      {
+        "id": "store",
+        "label": "PDF Compressor: Sign & Merge 1.3.3 on the App Store",
+        "url": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/pdf-compressor-sign-merge/id6769762323?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/scan-receipt-pdf-iphone/"
+      }
+    ],
+    "figure": "/assets/guides/scan-several-paper-pages-one-pdf-iphone.webp",
+    "figureAlt": "Top-down realistic document scanning with three distinct sheets in reading order, a phone hovering over the first sheet and a hand positioning the page",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1199,
+    "figureHeight": 1312,
+    "i18n": {
+      "id": "scan-several-paper-pages-one-pdf-iphone",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Top-down realistic document scanning with three distinct sheets in reading order, a phone hovering over the first sheet and a hand positioning the page",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/scan-several-paper-pages-one-pdf-iphone.webp",
+      "width": 1199,
+      "height": 1312,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/scan-receipt-pdf-iphone/index.html"
+  },
+  {
+    "slug": "guides/block-social-apps-keep-calls-messages",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Block Social Apps and Keep Calls and Messages Available",
+    "description": "Block distracting iPhone apps while keeping calls, messages and essential apps available. Test both blocked and allowed apps before setting a schedule.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6758529772",
+    "direct": "Select only the apps you intend to block, then test a distracting app and each essential app during a short session.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "List your essential apps",
+        "body": "Decide which apps you need during the block. Include Phone, Messages, transport or a work authenticator as applicable. Leave them out of the block. Check each member before selecting a whole category."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "In Dying Soon, choose the distracting apps individually."
+      },
+      {
+        "id": "step-2",
+        "text": "Start a thirty-minute Block Now session. Try one blocked app and each essential app. Make a test call or message if those need to work."
+      },
+      {
+        "id": "step-3",
+        "text": "Adjust the selection before relying on a recurring schedule. Test again if you change your routine or install an app that you need."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check what manages availability",
+        "body": "Keep your existing Focus preferences in mind during the test. If one app remains closed or silent after your test block ends, review other restrictions that were already active."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "What if an app opens but its alerts are gone?",
+        "body": "Review Focus and Screen Time separately. An available app can still have notifications silenced."
+      },
+      {
+        "id": "second-question",
+        "heading": "What if I block an app by mistake?",
+        "body": "Check temporary unlock options and correct the selection for the next session."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/guide/iphone/iphbfa595995/ios"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/productivity/comments/1m7agi4/looking_for_an_app_that_blocks_my_phone_but/"
+      },
+      {
+        "id": "store",
+        "label": "Dying Soon: Screen Time Limit 2.3.4 on the App Store",
+        "url": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dying-soon-screen-time-limit/id6758529772?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/focus-mode-vs-app-blocking/"
+      }
+    ],
+    "figure": "/assets/guides/block-social-apps-keep-calls-messages.webp",
+    "figureAlt": "Realistic photograph of a hand reaching for a face-down smartphone beside a notebook and work keys at a quiet home office desk",
+    "figureCaption": "AI illustration of the workflow.",
+    "figureWidth": 1199,
+    "figureHeight": 1312,
+    "i18n": {
+      "id": "block-social-apps-keep-calls-messages",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Realistic photograph of a hand reaching for a face-down smartphone beside a notebook and work keys at a quiet home office desk",
+        "caption": "AI illustration of the workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/block-social-apps-keep-calls-messages.webp",
+      "width": 1199,
+      "height": 1312,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/focus-mode-vs-app-blocking/index.html"
+  },
+  {
+    "slug": "guides/printer-dpi-vs-photo-ppi",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Does a 1200 DPI Printer Need a 1200 PPI Photo?",
+    "description": "Use a lab’s photo resolution requirement to prepare a print file. Learn how image pixels per inch differ from a printer’s advertised dots per inch.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6822865782",
+    "direct": "Use the file resolution specified by the lab or printer workflow. A printer’s ink-dot rating does not set the pixel density of the photo file.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Start with the lab’s input requirement",
+        "body": "If the lab asks for a 4 × 6 inch file at 300 pixels per inch, prepare a crop with 1200 × 1800 pixels. A printer can use multiple ink dots to represent colors. Its advertised dot count measures the output device, while PPI measures the image at the final size."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Set the intended paper size and the lab’s requested resolution in DPI: Photo Print Prep."
+      },
+      {
+        "id": "step-2",
+        "text": "Check the pixel count after cropping. Keep the pixels if the file already meets the requirements. Read back the actual dimensions of the export."
+      },
+      {
+        "id": "step-3",
+        "text": "If the source is too small, ask whether the lab accepts fewer pixels per inch or choose a smaller print. Resampling can satisfy a size rule but cannot add captured detail."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Check the lab preview",
+        "body": "A lab can crop to fill the paper or add borders to fit the whole photo. Confirm the crop in the order preview and recalculate available pixels if the lab trims beyond your planned crop."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Why does my lab call it 300 DPI?",
+        "body": "Many services use DPI informally for file resolution. Check whether the instruction refers to the image file or the printer."
+      },
+      {
+        "id": "second-question",
+        "heading": "Does a larger DPI tag make a print sharper?",
+        "body": "At a fixed print size, the available pixels matter. The tag can guide default sizing in some software."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from helpx.adobe.com",
+        "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printer-resolution.html"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://photo.stackexchange.com/questions/1715/how-do-i-generate-high-quality-prints-with-an-ink-jet-printer/3985"
+      },
+      {
+        "id": "store",
+        "label": "DPI: Photo Print Prep 1.0.1 on the App Store",
+        "url": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/dpi-photo-print-prep/id6822865782?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/photo-horizontal-vertical-dpi/"
+      }
+    ],
+    "figure": "/assets/guides/printer-dpi-vs-photo-ppi.webp",
+    "figureAlt": "Realistic macro photography of a small color landscape print emerging from a home inkjet printer with a photographer’s hand holding a magnifier above one tiny region",
+    "figureCaption": "AI illustration of a print workflow.",
+    "figureWidth": 1672,
+    "figureHeight": 941,
+    "i18n": {
+      "id": "printer-dpi-vs-photo-ppi",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Realistic macro photography of a small color landscape print emerging from a home inkjet printer with a photographer’s hand holding a magnifier above one tiny region",
+        "caption": "AI illustration of a print workflow."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/printer-dpi-vs-photo-ppi.webp",
+      "width": 1672,
+      "height": 941,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/photo-horizontal-vertical-dpi/index.html"
+  },
+  {
+    "slug": "guides/selfie-overhead-light-eye-shadows",
+    "tag": "PRACTICAL GUIDE",
+    "title": "Soften Overhead Shadows in an iPhone Selfie",
+    "description": "Use white screen fill near eye level to soften shadows from a ceiling light. Try a small adjustment in the preview and check the saved iPhone selfie.",
+    "reviewed": "2026-11-28",
+    "published": "2026-11-28",
+    "appId": "6778131414",
+    "direct": "When a ceiling lamp casts shadows under your eyes, move out from directly beneath it and try a small amount of white screen fill at eye level.",
+    "cards": [
+      {
+        "id": "decision",
+        "heading": "Move the light or move yourself",
+        "body": "A lamp above your head can light your forehead while your brow shades your eyes. Step slightly away from directly beneath the lamp. Keep the phone about eye level, then look at your face in the live preview."
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-1",
+        "text": "Open GlowPop: Selfie Glow Camera in the front camera view. Choose a white screen light and start with low brightness."
+      },
+      {
+        "id": "step-2",
+        "text": "Keep the distance steady while raising the screen brightness a little. Check whether you can see the eyes clearly without losing the highlights on the forehead."
+      },
+      {
+        "id": "step-3",
+        "text": "Take a test photo and check the saved copy. If the ceiling light still dominates, try a different position or turn it off if the room has enough other light."
+      }
+    ],
+    "sections": [
+      {
+        "id": "detail-1",
+        "heading": "Compare at the same distance",
+        "body": "Try one test with the screen light low and one with it slightly higher. Keep your position and framing the same. Inspect the saved photos at the same display brightness."
+      },
+      {
+        "id": "detail-2",
+        "heading": "About the app",
+        "body": "Space Sheep Studio develops this iPhone app. Check the App Store listing for current access and export options."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "first-question",
+        "heading": "Will the effect be the same in every room?",
+        "body": "The phone’s distance and the amount of other light matter. Adjust the setup for the room you are in."
+      },
+      {
+        "id": "second-question",
+        "heading": "Does this remove shadows from an existing photo?",
+        "body": "This is a lighting setup for a new photo. Use the live view to check it before capturing."
+      }
+    ],
+    "sources": [
+      {
+        "id": "reference",
+        "label": "Reference from support.apple.com",
+        "url": "https://support.apple.com/en-eg/guide/iphone/iph3dc593597/27/ios/27"
+      },
+      {
+        "id": "reader-question",
+        "label": "Public reader discussion",
+        "url": "https://www.reddit.com/r/beauty/comments/1fzyjln"
+      },
+      {
+        "id": "store",
+        "label": "GlowPop: Selfie Glow Camera 1.0.6 on the App Store",
+        "url": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4"
+      }
+    ],
+    "primaryCta": "https://apps.apple.com/us/app/glowpop-selfie-glow-camera/id6778131414?uo=4",
+    "primaryCtaLabel": "Download on the App Store",
+    "related": [
+      {
+        "id": "related",
+        "label": "Read the related guide",
+        "url": "/guides/screen-fill-light-selfies/"
+      }
+    ],
+    "figure": "/assets/guides/selfie-overhead-light-eye-shadows.webp",
+    "figureAlt": "Photorealistic side angle of a person seated at a dressing table holding an iPhone near eye level, a ceiling pendant has a warm pool of light slightly behind the person, faint cool white fill from the phone",
+    "figureCaption": "AI illustration of the position of the lights.",
+    "figureWidth": 1536,
+    "figureHeight": 1024,
+    "i18n": {
+      "id": "selfie-overhead-light-eye-shadows",
+      "ui": {
+        "chooseHeading": "Quick check",
+        "stepsHeading": "Try it on iPhone"
+      },
+      "diagram": {},
+      "photo": {
+        "alt": "Photorealistic side angle of a person seated at a dressing table holding an iPhone near eye level, a ceiling pendant has a warm pool of light slightly behind the person, faint cool white fill from the phone",
+        "caption": "AI illustration of the position of the lights."
+      }
+    },
+    "workflowHtml": true,
+    "omitWorkflow": true,
+    "photoExample": {
+      "src": "/assets/guides/selfie-overhead-light-eye-shadows.webp",
+      "width": 1536,
+      "height": 1024,
+      "kind": "educational-illustration",
+      "provenance": "Built-in imagegen, 2026-11-28. Original and full prompt retained in growth/output/seo-agent/2026-11-28/."
+    },
+    "discoveryBacklink": "guides/screen-fill-light-selfies/index.html"
   }
 ]
